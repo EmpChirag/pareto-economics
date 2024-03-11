@@ -1,24 +1,27 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="header flex">
-      <img
-        src="images/pareto-economics-logo.png"
-        alt="Pareto Economics"
-        width="244"
-              height="56"
-              className='w-full h-auto'
-      />
-      <div className="right">
+    <div className="header flex justify-between">
+      <Link>
+        <img
+          src="images/pareto-economics-logo.png"
+          alt="Pareto Economics"
+          width="244"
+          height="56"
+          className="w-full h-auto"
+        />
+      </Link>
+      <div className="right flex">
         <button>Start Now</button>
         <div className="Search-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             xmlnsXlink="http://www.w3.org/1999/xlink"
-            width="512"
-            height="512"
+            width="16"
+            height="16"
             x="0"
             y="0"
             viewBox="0 0 461.516 461.516"
