@@ -6,18 +6,20 @@ import { Suspense } from 'react';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
-    <Routes>
-      {routes.map((route, index) => (
-        <Route
-          key={index}
-          exact={route.exact}
-          path={route.path}
-          element={<Suspense fallback={'Loading...'}>{route.component}</Suspense>}
-        />
-      ))}
-    </Routes>
-  </BrowserRouter>
+    <Suspense>
+      <BrowserRouter basename="/">
+        <Routes>
+          {routes.map((route, index) => (
+            <Route
+              key={index}
+              exact={route.exact}
+              path={route.path}
+              element={route.component}
+            />
+          ))}
+        </Routes>
+      </BrowserRouter>
+    </Suspense>
   );
 }
 

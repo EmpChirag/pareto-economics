@@ -17,19 +17,19 @@ const ParetoThoughtLeadership = () => {
         </div>
       </div>
       <img
-        src="https://source.unsplash.com/random"
+        src="images/home/kisman-murati.png"
         alt="Pareto Thought Leadership In Action"
         height="492"
         width="1480"
-        className="object-cover w-full h-[592px] mt-10"
+        className=" w-full mt-10"
       />
       <div className="mt-8 flex max-md:flex-col gap-10 md:px-10">
         <div className="">
           <div className="uppercase font-extra text-2xl">Insights</div>
-          <h3 className="text-3xl my-4 md:my-5">
+          <a href="/" className="text-3xl my-4 md:my-5 inline-block">
             How is M&A impacted by China’s ‘Dual Circulation’ Development
             Strategy?
-          </h3>
+          </a>
           <p className="font-extra text-2xl">
             “We focus on three key bilateral relationships, including; US-China,
             EU- China and UK-China”
@@ -37,10 +37,10 @@ const ParetoThoughtLeadership = () => {
         </div>
         <div className="">
           <div className="uppercase font-extra text-2xl">PODCAST</div>
-          <h3 className="text-3xl my-4 md:my-5">
+          <a href="/" className="text-3xl my-4 md:my-5 inline-block">
             What Drives Political Action in the Real World | CEO Munich Security
             Conference, Benedikt Franke
-          </h3>
+          </a>
           <p className="font-extra text-2xl">
             This is a masterclass on the nature of politics and how to better
             understand your world.
@@ -48,10 +48,10 @@ const ParetoThoughtLeadership = () => {
         </div>
         <div className="">
           <div className="uppercase font-extra text-2xl">Insights</div>
-          <h3 className="text-3xl my-4 md:my-5">
+          <a href="/" className="text-3xl my-4 md:my-5 inline-block">
             A Beginner’s Guide to Geopolitical Risk, and How it’s Impacting
             Fintech
-          </h3>
+          </a>
           <p className="font-extra text-2xl">
             “Geopolitics is a phenomenon that is increasingly impacting the
             global fintech and financial services ecosystem. ”

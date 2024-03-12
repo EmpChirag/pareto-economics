@@ -16,11 +16,11 @@ const DiscoverPowerIndex = () => {
         </div>
         <div className="md:inline-block md:w-[55%] max-md:pt-10 md:pl-10 align-top">
           <img
-            src="https://source.unsplash.com/random"
+            src="images/home/global-power-analytics.png"
             alt="Global Power Analytics"
             height="200"
             width="400"
-            className="object-cover w-full h-[440px]"
+            className=" w-full "
           />
           <Link to="/global-power-index" className="btn2 mt-10 md:mt-14">
             Learn More
