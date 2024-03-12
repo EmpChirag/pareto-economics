@@ -40,6 +40,7 @@ const Home = () => {
       <DiscoverPowerIndex />
       <OurClients />
       <ParetoThoughtLeadership />
+
       <Footer />
     </div>
   );
