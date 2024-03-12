@@ -15,7 +15,7 @@ const Header = () => {
           />
         </Link>
         <div className="right flex">
-          <button className="btn">Start Now </button>
+          <Link to='/contact-us' className="btn">Start Now </Link>
           <div className="Search-icon border w-10 h-10 flex items-center pl-[12px] pr-[10px] border-black ml-7">
             <svg
               xmlns="http://www.w3.org/2000/svg"

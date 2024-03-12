@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import DiscoverPowerIndex from '../../components/DiscoverPowerIndex'
 import OurClients from '../../components/OurClients'
 import ParetoThoughtLeadership from '../../components/ParetoThoughtLeadership'
+import InTheNews from '../InTheNews'
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
         image="images/home/home-hero.png"
       />
       <CommonSection>
-        <h2 className="sticky top-5 text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
+        <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
           We harness the power of data analytics to map the future of global
           development
         </h2>
@@ -40,8 +41,8 @@ const Home = () => {
       <DiscoverPowerIndex />
       <OurClients />
       <ParetoThoughtLeadership />
-
-      <Footer />
+      <InTheNews />
+      <Footer demo />
     </div>
   );
 }
