@@ -17,7 +17,9 @@ const ContactUs = () => {
           </Link>
         </div>
         <div className="col-span-3">
-          <form></form>
+          <form>
+            <label></label>
+          </form>
         </div>
       </div>
     </div>
