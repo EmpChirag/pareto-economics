@@ -12,7 +12,6 @@ import MegaMenu from '../../components/MegaMenu'
 import InTheNewsComp from '../../components/InTheNewsComp'
 import homeHero from "../../assets/images/home/home-hero.png";
 
-
 const Home = () => {
   return (
     <>
