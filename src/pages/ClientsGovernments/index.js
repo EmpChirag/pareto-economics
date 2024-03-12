@@ -16,7 +16,7 @@ const ClientsGovernments = () => {
       <section className="mt-10 pb-10 border-b-2   border-[#000000]">
         <div className="flex  max-md:block">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[700px]">
+            <h2 className=" text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[700px]">
               We Drive Economic Prosperity through data-driven Policy Making
             </h2>
           </div>

@@ -2,6 +2,7 @@ import React, { lazy } from "react";
 import ThoughtLeadership from "./pages/ThoughtLeadership";
 import InTheNews from "./pages/InTheNews";
 import ContactUs from "./pages/ContactUs";
+import ServiceSpeaking from './pages/ServiceSpeaking';
 
 const Home = lazy(() => import("./pages/Home"));
 const AboutUs = lazy(() => import("./pages/AboutUs"));
@@ -52,12 +53,17 @@ const routes = [
   },
   {
     path: "/first-principles",
-    component: <FirstPrinciple/>,
+    component: <FirstPrinciple />,
     exact: true
   },
   {
     path: "/services-research",
-    component: <ServicesResearch/>,
+    component: <ServicesResearch />,
+    exact: true
+  },
+  {
+    path: "/services-speaking",
+    component: <ServiceSpeaking />,
     exact: true
   },
   {

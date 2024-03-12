@@ -18,3 +18,10 @@ img{
   width: 100%;
   height: auto;
 }
+.video-responsive{
+  width: 100%;
+}
+.video-responsive iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}

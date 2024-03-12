@@ -17,7 +17,7 @@ const ServicesResearch = () => {
 
         <section className="mt-10">
             <div className="flex justify-between items-center mt-8">
-                <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[550px]">
+                <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[550px]">
                     Why Commission Research?
                 </h2>
             </div>
@@ -52,7 +52,7 @@ const ServicesResearch = () => {
 
         <section className="mt-10">
             <div className="flex justify-between items-center mt-8">
-                <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[550px]">
+                <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[550px]">
                     Research Process
                 </h2>
             </div>
@@ -101,7 +101,7 @@ const ServicesResearch = () => {
 
         <section className="mt-10">
             <div className="flex justify-between items-center mt-8">
-                <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[550px]">
+                <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[550px]">
                     How Long Does Research Take?
                 </h2>
             </div>

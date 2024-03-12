@@ -6,10 +6,10 @@ import contentImg from "../../assets/images/latest-content.png";
 import newsImg from "../../assets/images/latest-news.png";
 const MegaMenu = () => {
   return (
-    <div className="megaMenu absolute top-0 px-5 left-0 w-full bg-black h-screen text-white">
-      <div className="header ">
+    <div className="megaMenu absolute top-0 px-5 left-0 w-full bg-black md:h-screen text-white pb-10">
+      <div className="header">
         <div className="flex justify-between items-center py-4">
-          <Link to='/'>
+          <Link to="/">
             <img
               src={Logo}
               alt="Pareto Economics"
@@ -21,7 +21,7 @@ const MegaMenu = () => {
           <div className="right flex">
             <Link
               to="/contact-us"
-              className="btn [&:after]:invert border-white hover:invert"
+              className="btn [&:after]:invert border-white hover:invert max-md:-ml-5 max-md:hidden"
             >
               Start Now{" "}
             </Link>
@@ -53,9 +53,9 @@ const MegaMenu = () => {
           </div>
         </div>
       </div>
-      <div className="menu grid grid-cols-3 gap-5 mt-5 ">
+      <div className="menu md:grid grid-cols-3 gap-10 md:mt-5">
         <div className="navigation pt-5 border-t">
-          <div className="uppercase text-base font-extra mb-5">Navigation </div>
+          <div className="uppercase text-base font-extra mb-3 md:mb-5">Navigation </div>
           <div className="navigation-links flex flex-col text-2xl ">
             <Link to="/about-us">About Us</Link>
             <Link to="/global-power-index">Global Power index</Link>
@@ -128,7 +128,7 @@ const MegaMenu = () => {
           </div>
         </div>
         <div className=" ">
-          <div className="latest-content pt-5 border-t">
+          <div className="latest-content pt-5 border-t max-md:mt-10">
             <div className=" mb-5 uppercase flex justify-between">
               <span className="text-base font-extra">Latest Content</span>
               <Link
@@ -140,7 +140,7 @@ const MegaMenu = () => {
             </div>
             <div className="w-2/3">
               <img src={contentImg} alt="" width={500} height={200} />
-              <p className="font-extra text-base mt-4">
+              <p className="text-lg mt-4">
                 How to understand the Changing World Order
               </p>
             </div>
@@ -157,14 +157,14 @@ const MegaMenu = () => {
             </div>
             <div className="w-2/3">
               <img src={newsImg} alt="news Image" width={500} height={200} />
-              <p className="font-extra text-base mt-4">
-                How to understand the Changing World Order
+              <p className="text-lg mt-4">
+                Global Business: UK economy sees recession to end 2023
               </p>
             </div>
           </div>
         </div>
         <div>
-          <div className="global-power pt-5 border-t">
+          <div className="global-power pt-5 border-t max-md:mt-10">
             <div className="mb-5 uppercase flex justify-between ">
               <span className="text-base font-extra">Global Power Index</span>
               <Link
@@ -174,13 +174,13 @@ const MegaMenu = () => {
                 Access &gt;
               </Link>
             </div>
-            <div className="font-extra max-w-[320px]">
+            <div className="text-lg max-w-[320px]">
               We’ve built a SAAS enabled platform so users can experience the
               full power of our index.
             </div>
           </div>
           <div className="global-power pt-5 border-t mt-10">
-            <div className="flex flex-col font-extra">
+            <div className="flex flex-col text-lg">
               <a href="/">LEGAL</a>
               <a href="/">Modern Slavery Statement</a>
               <a href="/">Cookies</a>

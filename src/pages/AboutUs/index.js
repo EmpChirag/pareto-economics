@@ -15,7 +15,7 @@ const AboutUs = () => {
       />
 
       <section>
-        <h2 className="max-w-[336px] text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[690px]">
+        <h2 className="max-w-[336px] text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[690px]">
           How Will the World be Changed and Challenged in the next 100 years?
         </h2>
         <div className="border-b border-slate-900 pb-[24px]">

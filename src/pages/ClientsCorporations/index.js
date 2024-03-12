@@ -17,7 +17,7 @@ const ClientsCorporations = () => {
       <section className="mt-10 pb-10 border-b-2   border-[#000000]">
         <div className="flex  max-md:block">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
+            <h2 className=" text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
               Long term thinking done right
             </h2>
           </div>
@@ -44,7 +44,7 @@ const ClientsCorporations = () => {
       <section className="mt-10">
         <div className="flex  max-md:block">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
+            <h2 className=" text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
               How We Serve
             </h2>
           </div>
@@ -105,7 +105,7 @@ const ClientsCorporations = () => {
       <section className="mt-10 py-10 border-b-2 border-t-2   border-[#000000]">
         <div className="flex  max-md:block">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
+            <h2 className=" text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
               Who We Serve
             </h2>
           </div>

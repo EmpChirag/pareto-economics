@@ -11,6 +11,7 @@ import ParetoThoughtLeadership from '../../components/ParetoThoughtLeadership'
 import MegaMenu from '../../components/MegaMenu'
 import InTheNewsComp from '../../components/InTheNewsComp'
 import homeHero from "../../assets/images/home/home-hero.png";
+import SearchBox from '../../components/SearchBox'
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
           image={homeHero}
         />
         <CommonSection>
-          <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
+          <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
             We harness the power of data analytics to map the future of global
             development
           </h2>
@@ -49,6 +50,7 @@ const Home = () => {
         <Footer demo />
       </div>
       <MegaMenu />
+      <SearchBox />
     </>
   );
 }

@@ -26,7 +26,7 @@ const GlobalPowerIndex = () => {
         </section>
         <section className="mt-10 py-10  w-full flex   max-md:block justify-between  border-t-2  border-b-2  border-[#EDE9DF]  ">
           <div className="w-full">
-            <h2 className="sticky top-5 text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] ">
+            <h2 className="sticky top-5 text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] ">
               Empowering Informed Global Strategies
             </h2>
           </div>
@@ -57,7 +57,7 @@ const GlobalPowerIndex = () => {
         <section className="mt-10 pb-10  border-b-2  border-[#EDE9DF] ">
           <div className="flex items-center justify-between  max-md:block">
             <div className="w-full">
-              <h2 className=" top-5 text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] ">
+              <h2 className=" top-5 text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] ">
                 We Map the World
               </h2>
               <div className="w-full items-center lg:max-w-[650px]">
@@ -78,7 +78,7 @@ const GlobalPowerIndex = () => {
         <section className="mt-10 pb-10  flex  max-md:block  border-b-2  border-[#EDE9DF] ">
           <div className="w-full">
             <div className="w-full lg:max-w-[650px]">
-              <h2 className="  text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3]  pb-4">
+              <h2 className="  text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3]  pb-4">
                 We Lead with an Intelligent Framework
               </h2>
               <div>
@@ -136,7 +136,7 @@ const GlobalPowerIndex = () => {
         </section>
         <section className="mt-10 pb-10 border-b-2   border-[#EDE9DF] flex  max-md:block  ">
           <div className="w-full">
-            <h2 className="  text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] pb-4">
+            <h2 className="  text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] pb-4">
               Analytics + Analysis
             </h2>
             <button className="border-2 py-2 px-4 mt-10">
