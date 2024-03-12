@@ -10,44 +10,45 @@ const ClientsCorporations = lazy(() => import("./pages/ClientsCorporations"));
 const FirstPrinciple = lazy(() => import("./pages/FirstPrinciple"));
 const ServicesResearch = lazy(() => import("./pages/ServicesResearch"));
 
+const ClientsGovernments = lazy(() => import("./pages/ClientsGovernments"));
 const routes = [
   {
     path: "/",
     component: <Home />,
-    exact: true,
+    exact: true
   },
   {
     path: "/about-us",
     component: <AboutUs />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/thought-leadership",
     component: <ThoughtLeadership />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/in-the-news",
     component: <InTheNews />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/contact-us",
     component: <ContactUs />,
-    exact: true,
+    exact: true
   },
   {
     path: "/global-power-index",
     component: <GlobalPowerIndex />,
-    exact: true,
+    exact: true
   },
   {
     path: "/clients-corporations",
     component: <ClientsCorporations />,
-    exact: true,
+    exact: true
   },
   {
     path: "/first-principles",
@@ -59,6 +60,11 @@ const routes = [
     component: <ServicesResearch/>,
     exact: true
   },
+  {
+    path: "/clients-governments",
+    component: <ClientsGovernments />,
+    exact: true
+  }
 ];
 
 export default routes;

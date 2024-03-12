@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footerdark = ({ demo, contact, ptext = '' }) => {
   return (
-    <footer className="pt-10 border-white border-t mt-20">
+    <footer className=" border-white border-t mt-20">
       {demo && (
         <div className="flex max-sm:flex-col max-sm gap-5 items-center justify-between mb-14 md:mb-20">
           <h3 className="text-3xl md:text-5xl">Request a Demo</h3>
@@ -23,7 +23,7 @@ const Footerdark = ({ demo, contact, ptext = '' }) => {
             </p>
             <Link
               to="/contact-us"
-              className="btn leading-[48px] h-[50px] px-10 border-white"
+              className="btn leading-[48px] h-[50px]  px-10 border-black"
             >
               Contact Us
             </Link>
