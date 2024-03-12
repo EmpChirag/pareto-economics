@@ -19,7 +19,10 @@ module.exports = {
         "max-sm": { max: "639px" }
       },
       fontFamily: {
-        'extra': "Montserrat, sans-serif"
+        extra: "Montserrat, sans-serif"
+      },
+      colors: {
+        black: "#1B2029"
       }
     }
   },
@@ -27,13 +30,13 @@ module.exports = {
     plugin(function ({ addBase }) {
       addBase({
         ".btn": {
-          border: "1px solid black",
+          border: "1px solid #1B2029",
           padding: "0 25px",
           height: "40px",
           display: "inline-block",
           position: "relative",
           textDecoration: "none !important",
-          lineHeight: '38px',
+          lineHeight: "38px",
           transitionDuration: "0.3s",
           "&:after": {
             content:
@@ -44,7 +47,7 @@ module.exports = {
             top: "2.5px"
           },
           "&:hover": {
-            backgroundColor: "black",
+            backgroundColor: "#1B2029",
             color: "white",
             "&:after": {
               filter: "invert(1)"
@@ -53,7 +56,7 @@ module.exports = {
         },
         ".btn2": {
           "text-transform": "uppercase",
-          "border-bottom": "1px solid black",
+          "border-bottom": "1px solid #1B2029",
           height: "50px",
           "font-size": "18px",
           padding: "10px 0",
@@ -62,7 +65,7 @@ module.exports = {
           display: "block",
           "&:after": {
             content:
-              "url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSIzNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGQ9Im00NTQuOTY1IDMxOS40MSA1Mi41NDEtNTIuNTQyYTE1LjM4OSAxNS4zODkgMCAwIDAgMC0yMS43MzdsLTUyLjU0LTUyLjU0MWExMi41MjUgMTIuNTI1IDAgMCAwIC0xNy43MTMgMTcuNzFsMzMuMTczIDMzLjE3M2gtNDU3LjkwMmExMi41MjQgMTIuNTI0IDAgMCAwIDAgMjUuMDQ4aDQ1Ny45bC0zMy4xNzEgMzMuMTc5YTEyLjUyNSAxMi41MjUgMCAwIDAgMTcuNzEyIDE3LjcxM3oiLz48L3N2Zz4=)",
+              "url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMzEiIHZpZXdCb3g9IjAgMCAyNCAzMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwLjg4OTIgMTguMzUyM0w4Ljk5NzE2IDI0LjQwOTFWMjIuMDQ1NUwxOC4xMTkzIDE3LjY1MDZMMTguMDQ1NSAxNy43OTgzVjE3LjQyOUwxOC4xMTkzIDE3LjU3NjdMOC45OTcxNiAxMy4xODE4VjEwLjgxODJMMjAuODg5MiAxNi44NzVWMTguMzUyM1oiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik05LjM0MDkxIDE2LjU3OTVWMTguNDU0NUgxLjcwNDU1VjE2LjU3OTVIOS4zNDA5MVoiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=)",
             "margin-left": "4px",
             transitionDuration: "0.3s",
             position: "absolute",
@@ -70,7 +73,7 @@ module.exports = {
             top: "9px"
           },
           "&:hover": {
-            backgroundColor: "black",
+            backgroundColor: "#1B2029",
             color: "white",
             padding: "10px",
             "&:after": {
@@ -86,7 +89,7 @@ module.exports = {
           display: "block",
           "&:after": {
             content:
-              "url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSIzNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGQ9Im00NTQuOTY1IDMxOS40MSA1Mi41NDEtNTIuNTQyYTE1LjM4OSAxNS4zODkgMCAwIDAgMC0yMS43MzdsLTUyLjU0LTUyLjU0MWExMi41MjUgMTIuNTI1IDAgMCAwIC0xNy43MTMgMTcuNzFsMzMuMTczIDMzLjE3M2gtNDU3LjkwMmExMi41MjQgMTIuNTI0IDAgMCAwIDAgMjUuMDQ4aDQ1Ny45bC0zMy4xNzEgMzMuMTc5YTEyLjUyNSAxMi41MjUgMCAwIDAgMTcuNzEyIDE3LjcxM3oiLz48L3N2Zz4=)",
+              "url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxNCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExLjc0ODYgMTAuMTY0OEw0Ljg4Nzc4IDEzLjY1OTFWMTIuMjk1NUwxMC4xNTA2IDkuNzU5OTRMMTAuMTA4IDkuODQ1MTdWOS42MzIxTDEwLjE1MDYgOS43MTczM0w0Ljg4Nzc4IDcuMTgxODJWNS44MTgxOEwxMS43NDg2IDkuMzEyNVYxMC4xNjQ4WiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTUuMDU5NjYgOS40Mzg5MlYxMC40NTQ1SDAuOTIzMjk1VjkuNDM4OTJINS4wNTk2NloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=)",
             "margin-left": "4px",
             transitionDuration: "0.3s",
             position: "absolute",
@@ -94,7 +97,7 @@ module.exports = {
             top: "7px"
           },
           "&:hover": {
-           textDecoration: "underline"
+            textDecoration: "underline"
           }
         },
         section: {
