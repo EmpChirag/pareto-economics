@@ -3,7 +3,6 @@ import ThoughtLeadershipImg from "../../assets/images/Thought-Leadership.png";
 import HeroSection from "../../components/HeroSection";
 import CommonTab from "../../components/CommonTab";
 import Header from "../../Layouts/Header";
-import Footer from "../../Layouts/Footer";
 
 const ThoughtLeadership = () => {
   const option = [
@@ -58,7 +57,6 @@ const ThoughtLeadership = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

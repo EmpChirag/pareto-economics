@@ -32,6 +32,8 @@ module.exports = {
           height: "40px",
           display: "inline-block",
           position: "relative",
+          textDecoration: "none !important",
+          lineHeight: '38px',
           transitionDuration: "0.3s",
           "&:after": {
             content:
@@ -96,7 +98,10 @@ module.exports = {
           }
         },
         section: {
-          marginTop: "96px"
+          marginTop: "96px",
+          "@media(max-width: 767px)": {
+            marginTop: "60px"
+          }
         },
         a: {
           transitionDuration: "0.3s",
