@@ -9,7 +9,7 @@ import OurClients from '../../components/OurClients'
 import ParetoThoughtLeadership from '../../components/ParetoThoughtLeadership'
 
 import MegaMenu from '../../components/MegaMenu'
-import InTheNewsComp from '../../components/InTheNews'
+import InTheNewsComp from '../../components/InTheNewsComp'
 
 const Home = () => {
   return (

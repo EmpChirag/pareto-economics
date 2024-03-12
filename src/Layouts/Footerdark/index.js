@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Footerdark = ({ demo, contact }) => {
+const Footerdark = ({ demo, contact, ptext = '' }) => {
   return (
     <footer className="pt-10 border-white border-t mt-20">
       {demo && (
@@ -17,8 +17,9 @@ const Footerdark = ({ demo, contact }) => {
           <h3 className="text-3xl md:text-5xl flex-1">Conact Us</h3>
           <div className="flex-[2] flex max-sm:flex-col items-start justify-between mt-8 md:mt-20">
             <p className="text-2xl sm:max-w-[60%] max-sm:mb-5">
-              Talk to us about gaining full access to the Global Power
-              dashboard.
+              {ptext !== '' && ptext}
+              {/* Talk to us about gaining full access to the Global Power
+              dashboard. */}
             </p>
             <Link
               to="/contact-us"

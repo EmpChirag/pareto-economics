@@ -179,7 +179,7 @@ const GlobalPowerIndex = () => {
             </div>
           </div>
         </section>
-        <Footerdark contact />
+        <Footerdark contact ptext="Talk to us about gaining full access to the Global Power dashboard." />
       </div>
     </div>
   );
