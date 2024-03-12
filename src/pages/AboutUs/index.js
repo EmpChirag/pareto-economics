@@ -3,7 +3,7 @@ import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
-
+import ourCore from '../../assets/images/aboutus/Our-Core.png'
 const AboutUs = () => {
   return (
     <div className="container max-width-[1480px] mx-auto">
@@ -11,7 +11,7 @@ const AboutUs = () => {
       <HeroSection
         className="hero-home"
         title="Our Core"
-        image="images/AboutUs/Our-Core.png"
+        image={ourCore}
       />
 
       <section>

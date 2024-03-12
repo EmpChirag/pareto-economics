@@ -1,4 +1,5 @@
 import React from 'react'
+import ParetoThought from "../../assets/images/home/kisman-murati.png";
 
 const ParetoThoughtLeadership = () => {
   return (
@@ -17,7 +18,7 @@ const ParetoThoughtLeadership = () => {
         </div>
       </div>
       <img
-        src="images/home/kisman-murati.png"
+        src={ParetoThought}
         alt="Pareto Thought Leadership In Action"
         height="492"
         width="1480"

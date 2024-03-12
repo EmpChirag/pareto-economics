@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Logo from "../../assets/images/pareto-logo.webp";
+import Arrow from "../../assets/images/arrow.svg";
+import contentImg from "../../assets/images/latest-content.png";
+import newsImg from "../../assets/images/latest-news.png";
 const MegaMenu = () => {
   return (
-    <div className="megaMenu absolute top-0 left-0 w-full">
-      <div className="header bg-black text-white px-5">
-        <div className=" flex justify-between items-center py-4">
-          <Link>
+    <div className="megaMenu absolute top-0 px-5 left-0 w-full bg-black h-screen text-white">
+      <div className="header ">
+        <div className="flex justify-between items-center py-4">
+          <Link to='/'>
             <img
-              src="images/pareto-logo.webp"
+              src={Logo}
               alt="Pareto Economics"
               width="244"
               height="56"
@@ -50,10 +53,143 @@ const MegaMenu = () => {
           </div>
         </div>
       </div>
-      <div className="menu grid grid-cols-3">
-        <div className='navigation'></div>
-        <div className='latest-content'></div>
-        <div className='global-power'></div>
+      <div className="menu grid grid-cols-3 gap-5 mt-5 ">
+        <div className="navigation pt-5 border-t">
+          <div className="uppercase text-base font-extra mb-5">Navigation </div>
+          <div className="navigation-links flex flex-col text-2xl ">
+            <Link to="/about-us">About Us</Link>
+            <Link to="/global-power-index">Global Power index</Link>
+            <Link to="/thought-leadership">Thought Leadership</Link>
+            <Link to="/first-principles">First Principles</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/services/speaking">
+              <img
+                src={Arrow}
+                width="14"
+                height="14"
+                alt="arrow"
+                className="inline-block w-4 mr-2 invert"
+              />
+              Speaking
+            </Link>
+            <Link to="/services/research">
+              <img
+                src={Arrow}
+                width="14"
+                height="14"
+                alt="arrow"
+                className="inline-block w-4 mr-2 invert"
+              />
+              Research
+            </Link>
+            <Link to="/services/executive-workshops">
+              <img
+                src={Arrow}
+                width="14"
+                height="14"
+                alt="arrow"
+                className="inline-block w-4 mr-2 invert"
+              />
+              Executive Workshops
+            </Link>
+            <Link to="/clients">Clients</Link>
+            <Link to="/clients/corporations">
+              <img
+                src={Arrow}
+                width="14"
+                height="14"
+                alt="arrow"
+                className="inline-block w-4 mr-2 invert"
+              />
+              Corporations
+            </Link>
+            <Link to="/clients/investors">
+              <img
+                src={Arrow}
+                width="14"
+                height="14"
+                alt="arrow"
+                className="inline-block w-4 mr-2 invert"
+              />
+              Investors
+            </Link>
+            <Link to="/clients/governments">
+              <img
+                src={Arrow}
+                width="14"
+                height="14"
+                alt="arrow"
+                className="inline-block w-4 mr-2 invert"
+              />
+              Governments
+            </Link>
+            <Link to="/newsroom">Newsroom</Link>
+            <Link to="/contact">Contact </Link>
+          </div>
+        </div>
+        <div className=" ">
+          <div className="latest-content pt-5 border-t">
+            <div className=" mb-5 uppercase flex justify-between">
+              <span className="text-base font-extra">Latest Content</span>
+              <Link
+                to="/"
+                className="text-sm font-bold underline hover:no-underline"
+              >
+                See More &gt;
+              </Link>
+            </div>
+            <div className="w-2/3">
+              <img src={contentImg} alt="" width={500} height={200} />
+              <p className="font-extra text-base mt-4">
+                How to understand the Changing World Order
+              </p>
+            </div>
+          </div>
+          <div className="latest-content mt-10 pt-5 border-t">
+            <div className=" mb-5 uppercase flex justify-between">
+              <span className="text-base font-extra">Latest Content</span>
+              <Link
+                to="/"
+                className="text-sm font-bold underline hover:no-underline"
+              >
+                See More &gt;
+              </Link>
+            </div>
+            <div className="w-2/3">
+              <img src={newsImg} alt="news Image" width={500} height={200} />
+              <p className="font-extra text-base mt-4">
+                How to understand the Changing World Order
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="global-power pt-5 border-t">
+            <div className="mb-5 uppercase flex justify-between ">
+              <span className="text-base font-extra">Global Power Index</span>
+              <Link
+                to="/"
+                className="text-sm font-bold underline hover:no-underline"
+              >
+                Access &gt;
+              </Link>
+            </div>
+            <div className="font-extra max-w-[320px]">
+              We’ve built a SAAS enabled platform so users can experience the
+              full power of our index.
+            </div>
+          </div>
+          <div className="global-power pt-5 border-t mt-10">
+            <div className="flex flex-col font-extra">
+              <a href="/">LEGAL</a>
+              <a href="/">Modern Slavery Statement</a>
+              <a href="/">Cookies</a>
+              <a href="/">Privacy and Security Statement</a>
+              <a href="/">Terms of Use</a>
+              <a href="/">Site Map</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import FirstPrinciple from '../../pages/FirstPrinciple';
+import Youtube from "../../assets/images/icons/youtube.svg";
+import Twitter from "../../assets/images/icons/twitter.svg";
+import Linkedin from "../../assets/images/icons/linkedin.svg";
 
 const Footer = ({ demo, contact, ptext = '' }) => {
   return (
@@ -18,7 +20,7 @@ const Footer = ({ demo, contact, ptext = '' }) => {
           <h3 className="text-3xl md:text-5xl flex-1">Conact Us</h3>
           <div className="flex-[2] flex max-sm:flex-col items-start justify-between mt-8 md:mt-20">
             <p className="text-2xl sm:max-w-[60%] max-sm:mb-5">
-              {ptext !== '' && ptext}
+              {ptext !== "" && ptext}
               {/* Talk to us about gaining full access to the Global Power
               dashboard. */}
             </p>
@@ -34,7 +36,7 @@ const Footer = ({ demo, contact, ptext = '' }) => {
       <div className="social flex gap-1">
         <a href="youtube.com" target="_blank">
           <img
-            src="images/icons/youtube.svg"
+            src={Youtube}
             alt="youtube"
             height="40"
             width="40"
@@ -43,7 +45,7 @@ const Footer = ({ demo, contact, ptext = '' }) => {
         </a>
         <a href="x.com" target="_blank">
           <img
-            src="images/icons/twitter.svg"
+            src={Twitter}
             alt="X"
             height="40"
             width="40"
@@ -52,7 +54,7 @@ const Footer = ({ demo, contact, ptext = '' }) => {
         </a>
         <a href="linkedin.com" target="_blank">
           <img
-            src="images/icons/linkedin.svg"
+            src={Linkedin}
             alt="Linkedin"
             height="40"
             width="40"

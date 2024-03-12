@@ -10,6 +10,8 @@ import ParetoThoughtLeadership from '../../components/ParetoThoughtLeadership'
 
 import MegaMenu from '../../components/MegaMenu'
 import InTheNewsComp from '../../components/InTheNewsComp'
+import homeHero from "../../assets/images/home/home-hero.png";
+
 
 const Home = () => {
   return (
@@ -19,7 +21,7 @@ const Home = () => {
         <HeroSection
           className="hero-home"
           title="Thinking That Moves Markets"
-          image="images/home/home-hero.png"
+          image={homeHero}
         />
         <CommonSection>
           <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">

@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-
+import Logo from "../../assets/images/pareto-logo.webp";
 const Header = () => {
   return (
     <header>
       <div className="header">
         <div className=" flex justify-between items-center pt-2">
-          <Link>
+          <Link to='/'>
             <img
-              src="images/pareto-logo.webp"
+              src={Logo}
               alt="Pareto Economics"
               width="244"
               height="56"
@@ -61,7 +61,6 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      
     </header>
   );
 };
