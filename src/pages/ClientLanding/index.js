@@ -13,7 +13,7 @@ const ClientLanding = () => {
               Clients
             </h1>
             <div className="flex  col-span-1">
-              <h2 className="text-3xl max-w-[337px]">
+              <h2 className="text-3xl max-w-[287px]">
                 Pareto segments its clients into three broad categories.{" "}
               </h2>
               <br />

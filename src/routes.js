@@ -44,12 +44,12 @@ const routes = [
     exact: true,
   },
   {
-    path: "/service-landing",
+    path: "/service",
     component: <ServicesLanding />,
     exact: true,
   },
   {
-    path: "/client-landing",
+    path: "/client",
     component: <ClientLanding />,
     exact: true,
   },
