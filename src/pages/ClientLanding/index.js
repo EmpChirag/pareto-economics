@@ -20,7 +20,7 @@ const ClientLanding = () => {
             </div>
           </div>
         </div>
-        <section>
+        <section className="my-10">
           <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
               <img
@@ -47,7 +47,7 @@ const ClientLanding = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="my-10">
           <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
               <img
@@ -75,7 +75,7 @@ const ClientLanding = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="mt-10">
           <div className="max-md:flex-col flex justify-between  pb-[38px]">
             <div className="flex-1">
               <img
