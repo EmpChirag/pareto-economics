@@ -75,7 +75,7 @@ const routes = [
     exact: true
   },
   {
-    path: "/services-research",
+    path: "/services/research",
     component: <ServicesResearch />,
     exact: true
   },
@@ -92,6 +92,11 @@ const routes = [
   {
     path: "/clients-investors",
     component: <ClientsInvestors />,
+    exact: true
+  },
+  {
+    path: "/services-speaking",
+    component: <ServiceSpeaking />,
     exact: true
   }
 ];

@@ -65,7 +65,7 @@ const ClientsCorporations = () => {
                     experience our cutting edge research and insights? Then book
                     our CEO for your next conference or summit.
                   </p>
-                  <button className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px]   flex items-center justify-between">
+                  <button className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px]   flex items-center justify-between">
                     Book
                   </button>
                 </div>
@@ -79,7 +79,7 @@ const ClientsCorporations = () => {
                     services which help formulate your research question all the
                     way to post engagement debrief.
                   </p>
-                  <button className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px]   flex items-center justify-between">
+                  <button className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px]   flex items-center justify-between">
                     Learn More
                   </button>
                 </div>
@@ -92,7 +92,7 @@ const ClientsCorporations = () => {
                     and the free exploration of issues of related interest to
                     clients.
                   </p>
-                  <button className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px]  flex items-center justify-between">
+                  <button className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px]  flex items-center justify-between">
                     Discover
                   </button>
                 </div>

@@ -33,14 +33,14 @@ const ServiceSpeaking = () => {
         h1width="max-w-[600px]"
         image={Hero}
       />
-      <section className="ceo border-b border-black pb-[50px] md:pb-24">
-        <div className="flex gap-10 max-w-[1100px] mx-auto">
+      <section className="ceo border-b border-black pb-[60px] md:pb-24">
+        <div className="flex gap-10 max-w-[1100px] mx-auto max-md:block">
           <div className="flex-1">
             <img src={Klisman} alt="Klisman Murati" width={300} height={600} />
           </div>
-          <div className="flex-1 flex flex-col justify-between">
+          <div className="flex-1 flex flex-col justify-between ">
             <div>
-              <h3 className="text-xl md:text-4xl leading-[1.2] md:leading-[1.3] mb-10">
+              <h3 className="text-xl md:text-4xl leading-[1.2] md:leading-[1.3] max-md:mb-5  max-md:mt-5   mb-10">
                 Want to ignite minds and inspire action? Book Pareto CEO,
                 Klisman Murati as your headline speaker.
               </h3>
@@ -59,14 +59,15 @@ const ServiceSpeaking = () => {
                 </a>
               </div>
             </div>
-            <Link to="" className="btn w-content max-w-[260px] inline-block">
+            <div></div>
+            <Link to="" className="btn w-content max-w-[260px] inline-block mt-10">
               Download Speakers Pack
             </Link>
           </div>
         </div>
       </section>
-      <section className="border-b border-black pb-[50px] md:pb-24 ">
-        <div className="icons flex items-center flex-wrap [&>img]:w-[13%] gap-10 justify-between border-b border-black pb-[50px] md:pb-24">
+      <section className="border-b border-black pb-[60px] md:pb-24 ">
+        <div className="icons flex items-center flex-wrap [&>img]:w-[13%]  max-md:[&>img]:w-[19%] gap-10 justify-between border-b border-black pb-[60px] md:pb-24">
           <img src={Logo1} alt="logo" />
           <img src={Logo2} alt="logo" />
           <img src={Logo3} alt="logo" />
@@ -86,17 +87,17 @@ const ServiceSpeaking = () => {
           <img src={Logo17} alt="logo" />
           <img src={Logo18} alt="logo" />
         </div>
-        <section>
+        <section className="mt-10">
           <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
             Watch Murati in Action
           </h2>
         </section>
-        <div className="flex max-lg:block mt-20 gap-10 mb-20">
-          <div className="w-full flex-1">
-            <p className="text-4xl w-[400px] pb-5">
+        <div className="flex max-lg:block mt-20 gap-10 mb-20 max-lg:mt-10  max-lg:mb-10">
+          <div className="w-full flex-1 max-lg:mb-10">
+            <p className="text-4xl w-[400px] max-sm:w-full pb-5">
               How to Understand the Changing World Order
             </p>
-            <p className="text-xl font-extra w-[500px]">
+            <p className="text-xl font-extra w-[500px] max-md:w-full">
               Helsinki 2024 | Watch Klisman Murati, CEO of Pareto Economics
               deliver the keynote address at the annual Telia DAY ONE conference
               to an assembly of business leaders in the telecommunications
@@ -107,6 +108,7 @@ const ServiceSpeaking = () => {
             <iframe
               width="853"
               height="480"
+              className="max-md:h-[300px]"
               src={`https://www.youtube.com/embed/aCFzDh63U1k?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -115,11 +117,12 @@ const ServiceSpeaking = () => {
             />
           </div>
         </div>
-        <div className="flex max-lg:block gap-10 mb-20">
-          <div className="video-responsive">
+        <div className="flex max-lg:flex-col-reverse gap-10 mb-20 max-lg:mb-10">
+          <div className="video-responsive ">
             <iframe
               width="853"
               height="480"
+              className="max-md:h-[300px]"
               src={`https://www.youtube.com/embed/fUw6wyuU2Xk?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -127,10 +130,10 @@ const ServiceSpeaking = () => {
               title="Embedded youtube"
             />
           </div>
-          <div className="w-full flex-1">
+          <div className="w-full flex-1 ">
             {" "}
-            <p className="text-4xl w-[400px] pb-5">Global Power Summit 2023</p>
-            <p className="text-xl font-extra w-[500px]">
+            <p className="text-4xl w-[400px] max-sm:w-full pb-5">Global Power Summit 2023</p>
+            <p className="text-xl font-extra w-[500px] max-md:w-full">
               London 2024 | Join Murati, as he gives his keynote for Pareto’s
               flagship summit to an audience of senior business and government
               leaders
@@ -138,17 +141,18 @@ const ServiceSpeaking = () => {
           </div>
         </div>
         <div className="flex max-lg:block gap-10">
-          <div className="w-full flex-1">
-            <p className="text-4xl w-[400px] pb-5">Global Power Summit 2022</p>
-            <p className="text-xl font-extra  w-[500px]">
+          <div className="w-full flex-1 max-lg:mb-10">
+            <p className="text-4xl w-[400px] max-sm:w-full pb-5">Global Power Summit 2022</p>
+            <p className="text-xl font-extra  w-[500px] max-md:w-full">
               London 2023 | Murati opens up the first Global Power Summit at the
               London School of Economics. Watch his keynote now.
             </p>
           </div>
-          <div className="video-responsive">
+          <div className="video-responsive ">
             <iframe
               width="853"
               height="480"
+              className="max-md:h-[300px]"
               src={`https://www.youtube.com/embed/4b2MggrfgY8?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -159,12 +163,12 @@ const ServiceSpeaking = () => {
         </div>
       </section>
       <section className="">
-        <div className="flex justify-between mt-8">
+        <div className="flex justify-between mt-8 max-md:block">
           <div className="flex-1 flex justify-between flex-col">
             <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[600px]">
               Keynotes Worth Sharing
             </h2>
-            <div className="text-xl font-bold max-w-[500px] mb-10">
+            <div className="text-xl font-bold max-w-[500px] max-md:w-full mb-10">
               These topics provide a great starting point for your event. Murati
               crafts personalized experiences by tailoring each talk to match
               the event's goals and the audience's interests.
@@ -254,11 +258,11 @@ const ServiceSpeaking = () => {
         </div>
       </section>
       <section className="Testimonials max-w-[]">
-        <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] mb-20">
+        <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] mb-20 max-md:mb-10">
           Testimonials
         </h2>
-        <div className="flex gap-24">
-          <div className="flex-1 flex flex-col justify-between gap-[200px]">
+        <div className="flex gap-24 max-md:block">
+          <div className="flex-1 flex flex-col justify-between gap-[200px] max-md:gap-[40px]">
             <div>
               <div className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
                 “His [Klisman’s] capability to catch the attention of the
@@ -307,6 +311,57 @@ const ServiceSpeaking = () => {
             More Testimonials
           </button>
           <div className="clear-both"></div>
+        </div>
+      </section>
+      <section className="border-t border-black pt-[60px] md:pt-24">
+        <div className="flex max-md:block justify-between max-w-[1200px] mx-auto">
+          <div>
+            <h2 className=" text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[600px]">
+              Tell Us about your Event
+            </h2>
+          </div>
+          <div>
+            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+              FIRST NAME{" "}
+              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
+            </p>
+            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+              LAST NAME{" "}
+              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
+            </p>
+            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+              COMPANY /ORGANISATION{" "}
+              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+            </p>
+            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+              BUSINESS EMAIL{" "}
+              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+            </p>
+            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+              PHONE NUMBER{" "}
+              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+            </p>
+            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+              WHERE IS THE EVENT BEING HELD?{" "}
+              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+            </p>
+            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+              EVENT DATE{" "}
+              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
+            </p>
+            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+              SPEAKER BUDGET (USD $){" "}
+              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+            </p>
+            <button className=" mt-10 border-2  border-black  py-2 px-14">
+              Submit
+            </button>
+
+            <p className="text-sm  w-[400px] max-sm:w-full mt-5">
+              Please see our Privacy Policy regarding how we will handle this
+              information.
+            </p>
+          </div>
         </div>
       </section>
       <Footer />

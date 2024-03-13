@@ -5,7 +5,7 @@ import HeroSection from '../../components/HeroSection'
 
 const FirstPrinciple = () => {
   return (
-    <div className="container mx-auto pb-[200px]">
+    <div className="container mx-auto">
         <Header />
         <HeroSection
             className="hero-home"
