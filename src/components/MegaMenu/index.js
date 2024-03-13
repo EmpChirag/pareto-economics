@@ -138,7 +138,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               Governments
             </Link>
             <Link to="/in-the-news">Newsroom</Link>
-            <Link to="/contact">Contact </Link>
+            <Link to="/contact-us">Contact </Link>
           </div>
         </div>
         <div className=" ">
