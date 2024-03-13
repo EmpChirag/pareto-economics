@@ -6,17 +6,17 @@ const Header = () => {
     <header>
       <div className="header">
         <div className=" flex justify-between items-center pt-2">
-          <Link to='/'>
+          <Link to="/">
             <img
               src={Logo}
               alt="Pareto Economics"
               width="244"
               height="56"
-              className="w-full h-auto max-w-[280px]"
+              className="w-full h-auto max-w-[280px] max-md:-ml-5"
             />
           </Link>
           <div className="right flex">
-            <Link to="/contact-us" className="btn">
+            <Link to="/contact-us" className="btn max-md:hidden">
               Start Now{" "}
             </Link>
             <button className="Search-icon border w-10 h-10 flex items-center pl-[12px] pr-[10px] border-black ml-7">
@@ -47,7 +47,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="second-menu w-full pt-7 pb-7">
+        <div className="second-menu w-full pt-7 pb-7 max-md:hidden">
           <ul className="flex gap-10 w-full">
             <li>
               <Link to="/global-power-index">Global Power Index</Link>

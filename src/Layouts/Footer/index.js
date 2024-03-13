@@ -62,10 +62,10 @@ const Footer = ({ demo, contact, ptext = '' }) => {
           />
         </a>
       </div>
-      <p className="mt-4 text-lg">
+      <p className="mt-4 text-lg ">
         (c) 2024 Pareto Economics LtD. All rights reserved.
       </p>
-      <div className="flex flex-col text-lg gap-4 mt-10 font-semibold">
+      <div className="flex flex-col text-lg gap-4 mt-10 font-semibold pb-10">
         <a href="/">LEGAL</a>
         <a href="/">Modern Slavery Statement</a>
         <a href="/">Cookies</a>
