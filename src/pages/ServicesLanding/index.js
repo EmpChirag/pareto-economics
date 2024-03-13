@@ -2,6 +2,9 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
+import SpeakingEngagement from "../../assets/images/ServiceLeanding/Speaking-Engagement.png"
+import Research from "../../assets/images/ServiceLeanding/Research.png"
+import ExecutiveWorkshops from "../../assets/images/ServiceLeanding/Executive-Workshops.png"
 const ServicesLanding = () => {
   return (
     <div className="container mx-auto">
@@ -25,7 +28,7 @@ const ServicesLanding = () => {
             <div className="flex-1">
               <img
                 className="max-w-[70%] h-auto"
-                src="images/ServiceLeanding/Speaking-Engagement.png"
+                src={SpeakingEngagement}
                 alt='Speaking Engagement'
               />
               <br/>
@@ -55,7 +58,7 @@ const ServicesLanding = () => {
             <div className="flex-1">
               <img
                 className="max-w-[70%] h-auto"
-                src="images/ServiceLeanding/Research.png"
+                src={Research}
               />
             </div>
             <br/>
@@ -85,7 +88,7 @@ const ServicesLanding = () => {
             <div className="flex-1">
               <img
                 className="max-w-[70%] h-auto"
-                src="images/ServiceLeanding/Executive-Workshops.png"
+                src={ExecutiveWorkshops}
               />
               <br/>
             </div>

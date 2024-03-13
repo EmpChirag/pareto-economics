@@ -2,6 +2,9 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
+import ClientsCorporations from "../../assets/images/Clients-Corporations.png";
+import ClientsInvestors from "../../assets/images/Clients-Investors.png"
+import ClientsGovernments from "../../assets/images/Clients-Governments.png"
 const ClientLanding = () => {
   return (
     <div className="container mx-auto">
@@ -25,7 +28,7 @@ const ClientLanding = () => {
             <div className="flex-1">
               <img
                 className="max-w-[70%] h-auto"
-                src="images/ClientLeanding/Clients-Corporations.png"
+                src={ClientsCorporations}
               />
               <br/>
             </div>
@@ -52,7 +55,7 @@ const ClientLanding = () => {
             <div className="flex-1">
               <img
                 className="max-w-[70%] h-auto"
-                src="images/ClientLeanding/Clients-Investors.png"
+                src={ClientsInvestors}
               />
               <br/>
             </div>
@@ -76,11 +79,11 @@ const ClientLanding = () => {
           </div>
         </section>
         <section className="mt-10">
-          <div className="max-md:flex-col flex justify-between  pb-[38px]">
+          <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
               <img
                 className="max-w-[70%] h-auto"
-                src="images/ClientLeanding/Clients-Governments.png"
+                src={ClientsGovernments}
               />
               <br/>
             </div>

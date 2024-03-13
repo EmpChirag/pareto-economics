@@ -15,10 +15,10 @@ const AboutUs = () => {
       />
 
       <section>
-        <h2 className="max-w-[349px] text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[690px]">
+        <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[690px] my-10">
           How Will the World be Changed and Challenged in the next 100 years?
         </h2>
-        <div className="border-b border-slate-900 pb-[24px]">
+        <div className="border-b border-slate-900  py-10">
           <p className="text-3xl max-w-[700px] pt-3">
             Never before has there been a greater demand for unwavering
             long-term vision and decisive action.
@@ -43,7 +43,7 @@ const AboutUs = () => {
         </div>
       </section>
       <div>
-        <section>
+        <section className="my-10">
           <h2 className="text-4xl  leading-[1.2] lg:text-6xl lg:leading-[1.3]">
             What we do
           </h2>
@@ -82,7 +82,7 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="my-10">
           <div className="grid md:grid-cols-2  border-b border-slate-900 pb-[22px]">
             <div className="col-span-1">
               <p className="max-w-[280px] text-3xl">
@@ -118,7 +118,7 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="my-10">
           <div className="grid md:grid-cols-2  border-b border-slate-900 pb-[22px]">
             <div className="col-span-1">
               <p className="max-w-[280px] text-3xl">
@@ -152,7 +152,7 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="my-10">
           <div className="grid md:grid-cols-2  border-b border-slate-900 pb-[22px]">
             <div className="col-span-1">
               <p className="max-w-[280px] text-3xl">
@@ -184,7 +184,7 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="my-10">
           <div className="max-md:flex-col flex justify-between flex-1">
             <h2 className="text-4xl  leading-[1.2] lg:text-6xl lg:leading-[1.3] flex-1">
               Our Trajectory{" "}
