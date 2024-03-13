@@ -5,7 +5,7 @@ import Logo from "../../assets/images/pareto-logo.webp";
 const SearchBox = ({ search, handleMenu, handleSearch }) => {
   return (
     <div
-      className={`searchBox absolute overflow-y-auto h-full top-0 px-5 left-0 w-full bg-black  text-white duration-300 ${
+      className={`searchBox absolute z-10 overflow-y-auto h-full top-0 px-5 left-0 w-full bg-black  text-white duration-300 ${
         search
           ? "opacity-100 pointer-events-all"
           : "opacity-0 pointer-events-none"

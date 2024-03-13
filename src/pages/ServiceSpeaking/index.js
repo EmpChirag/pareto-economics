@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../../components/HeroSection";
-import Hero from "../../assets/images/Services-Speaking.png";
+import Hero from "../../assets/images/services-speaking.png";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
 import Klisman from "../../assets/images/klisman-murati.png";

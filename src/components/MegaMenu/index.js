@@ -7,7 +7,7 @@ import newsImg from "../../assets/images/latest-news.png";
 const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
   return (
     <div
-      className={`megaMenu absolute top-0 overflow-y-auto h-full px-5 left-0 w-full bg-black md:h-screen text-white pb-10 duration-300 ${
+      className={`megaMenu absolute z-10 top-0 overflow-y-auto h-full px-5 left-0 w-full bg-black md:h-screen text-white pb-10 duration-300 ${
         menu
           ? "opacity-100 pointer-events-all"
           : "opacity-0 pointer-events-none"
@@ -76,7 +76,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
             <Link to="/thought-leadership">Thought Leadership</Link>
             <Link to="/first-principles">First Principles</Link>
             <Link to="/services">Services</Link>
-            <Link to="/services/speaking">
+            <Link to="/services-speaking">
               <img
                 src={Arrow}
                 width="14"
@@ -86,7 +86,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               />
               Speaking
             </Link>
-            <Link to="/services/research">
+            <Link to="/services-research">
               <img
                 src={Arrow}
                 width="14"
@@ -96,7 +96,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               />
               Research
             </Link>
-            <Link to="/services/executive-workshops">
+            <Link to="/services-executive-workshops">
               <img
                 src={Arrow}
                 width="14"
@@ -107,7 +107,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               Executive Workshops
             </Link>
             <Link to="/clients">Clients</Link>
-            <Link to="/clients/corporations">
+            <Link to="/clients-corporations">
               <img
                 src={Arrow}
                 width="14"
@@ -117,7 +117,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               />
               Corporations
             </Link>
-            <Link to="/clients/investors">
+            <Link to="/clients-investors">
               <img
                 src={Arrow}
                 width="14"
@@ -127,7 +127,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               />
               Investors
             </Link>
-            <Link to="/clients/governments">
+            <Link to="/clients-governments">
               <img
                 src={Arrow}
                 width="14"
