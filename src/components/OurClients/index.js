@@ -5,10 +5,10 @@ const OurClients = () => {
     return (
       <section>
         <div className="title flex max-md:flex-col gap-5 md:items-center justify-between border-t border-black py-10">
-          <h2 className="text-4xl font-bold leading-[1.2] lg:text-6xl lg:leading-[1.3] flex-1">
+          <h2 className="text-4xl  leading-[1.2] lg:text-6xl lg:leading-[1.3] flex-1">
             Our Clients
           </h2>
-          <div className="text-4xl font-bold flex-1">
+          <div className="text-4xl  flex-1">
             We Partner With Global Stakeholders
           </div>
         </div>

@@ -12,7 +12,7 @@ const ClientLanding = () => {
       <section>
         <div className="max-md:flex-col flex justify-between">
           <div className="flex-1 max-md:flex-col max-sm:flex-col border-b pb-[16px] border-slate-900 flex">
-            <h1 className="text-4xl leading-[1.2] lg:text-6xl font-semibold  flex-1">
+            <h1 className="text-4xl leading-[1.2] lg:text-6xl   flex-1">
               Clients
             </h1>
             <div className="flex  col-span-1">

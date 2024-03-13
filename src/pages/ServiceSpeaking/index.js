@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../../components/HeroSection";
-import Hero from "../../assets/images/Services-Speaking.png";
+import Hero from "../../assets/images/services-speaking.png";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
 import Klisman from "../../assets/images/klisman-murati.png";
@@ -168,7 +168,7 @@ const ServiceSpeaking = () => {
             <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[600px]">
               Keynotes Worth Sharing
             </h2>
-            <div className="text-xl font-bold max-w-[500px] max-md:w-full mb-10">
+            <div className="text-xl  max-w-[500px] max-md:w-full mb-10">
               These topics provide a great starting point for your event. Murati
               crafts personalized experiences by tailoring each talk to match
               the event's goals and the audience's interests.
@@ -321,39 +321,39 @@ const ServiceSpeaking = () => {
             </h2>
           </div>
           <div>
-            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               FIRST NAME{" "}
               <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
             </p>
-            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               LAST NAME{" "}
               <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
             </p>
-            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               COMPANY /ORGANISATION{" "}
               <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
             </p>
-            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               BUSINESS EMAIL{" "}
               <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
             </p>
-            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               PHONE NUMBER{" "}
               <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
             </p>
-            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               WHERE IS THE EVENT BEING HELD?{" "}
               <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
             </p>
-            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               EVENT DATE{" "}
               <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
             </p>
-            <p className="border-b-2 flex items-center  w-[500px] max-md:w-full border-black py-5">
+            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               SPEAKER BUDGET (USD $){" "}
               <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
             </p>
-            <button className=" mt-10 border-2  border-black  py-2 px-14">
+            <button className=" mt-10 border  border-black  py-2 px-14">
               Submit
             </button>
 

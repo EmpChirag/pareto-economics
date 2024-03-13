@@ -8,12 +8,12 @@ import Quote from "../../assets/images/GlobalPowerIndex/quote.svg";
 import Footer from '../../Layouts/Footer';
 const GlobalPowerIndex = () => {
   return (
-    <div className="bg-[#1C1A1C]  text-white ">
+    <div className="bg-[#1B2029] text-white ">
       <div className="container mx-auto">
         <Header invert />
         <section className="mt-10 pb-10 border-white border-b ">
           <div className="flex max-md:flex-col gap-5 md:items-center justify-between ">
-            <h1 className="text-4xl leading-[1.2] lg:text-6xl font-semibold  max-w-[500px]">
+            <h1 className="text-4xl leading-[1.2] lg:text-6xl   max-w-[500px]">
               Global Power Index
             </h1>
             <p className="text-3xl max-w-[300px] ">
@@ -55,7 +55,7 @@ const GlobalPowerIndex = () => {
               risks, and identify market opportunities with unparalleled
               accuracy.
             </p>
-            <a href="#" className="btn text-black mt-5 md:mt-10 invert">
+            <a href="#" className="btn text-black mt-5 md:mt-10 btn-invert">
               Access Dashboard
             </a>
           </div>
@@ -135,7 +135,7 @@ const GlobalPowerIndex = () => {
                 <img src={Red} className="w-full lg:max-w-[650px]" />
               </div>
             </div>
-            <div className='clear-both'></div>
+            <div className="clear-both"></div>
           </div>
         </section>
         <section className="pb-[50px] md:pb-24 border-b border-[#EDE9DF] flex max-md:block gap-10">
@@ -143,8 +143,8 @@ const GlobalPowerIndex = () => {
             <h2 className="  text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] pb-4">
               Analytics + Analysis
             </h2>
-            <a href="#" className="btn text-black mt-5 md:mt-10 invert">
-              Access Dashboard
+            <a href="#" className="btn text-black mt-5 md:mt-10 btn-invert">
+              Access Insights
             </a>
           </div>
           <div className="max-md:mt-10 w-full">
@@ -161,7 +161,7 @@ const GlobalPowerIndex = () => {
         </section>
         <section className="mt-10 md:mt-20 md:pb-10 border-[#EDE9DF]">
           <div className="flex items-center justify-center text-center  ">
-            <div className="md:w-[50%]">
+            <div className="lg:w-[50%]">
               <p className="text-xl md:text-3xl flex items-start">
                 <img
                   src={Quote}

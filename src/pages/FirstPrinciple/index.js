@@ -5,7 +5,7 @@ import HeroSection from '../../components/HeroSection'
 
 const FirstPrinciple = () => {
   return (
-    <div className="container mx-auto pb-[200px]">
+    <div className="container mx-auto">
         <Header />
         <HeroSection
             className="hero-home"
@@ -79,7 +79,7 @@ const FirstPrinciple = () => {
                 <div className="clear-both"></div>
 
                 <div className="max-w-[750px] float-right text-3xl max-md:w-full">
-                    <p className="font-semibold text-2xl mt-5 pb-5 border-black border-b">
+                    <p className=" text-2xl mt-5 pb-5 border-black border-b">
                         These include:
                     </p>
 

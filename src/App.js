@@ -1,13 +1,25 @@
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.scss';
-import routes from './routes';
-import { Suspense } from 'react';
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import "./App.scss";
+import routes from "./routes";
+import { Suspense, useEffect } from "react";
 
 function App() {
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+      const body = document.querySelector("body");
+
+      body.classList.remove("overflow-hidden");
+    }, [pathname]);
+
+    return null;
+  }
   return (
     <Suspense>
       <BrowserRouter basename="/">
+        <ScrollToTop />
         <Routes>
           {routes.map((route, index) => (
             <Route

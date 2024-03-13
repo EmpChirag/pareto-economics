@@ -19,7 +19,8 @@ module.exports = {
         "max-sm": { max: "639px" }
       },
       fontFamily: {
-        extra: "Montserrat, sans-serif"
+        title: "sansation, sans-serif",
+        body: "Montserrat, sans-serif"
       },
       colors: {
         black: "#1B2029"
@@ -29,6 +30,22 @@ module.exports = {
   plugins: [
     plugin(function ({ addBase }) {
       addBase({
+        h1: {
+          fontSize: "75px",
+          lineHeight: "80px"
+        },
+        h2: {
+          fontSize: "50px",
+          lineHeight: "54px"
+        },
+        h3: {
+          fontSize: "34px",
+          lineHeight: "40px"
+        },
+        h4: {
+          fontSize: "20px",
+          lineHeight: "26px"
+        },
         ".btn": {
           border: "1px solid #1B2029",
           padding: "0 25px",
@@ -53,6 +70,21 @@ module.exports = {
             color: "white",
             "&:after": {
               filter: "invert(1)"
+            }
+          }
+        },
+        ".btn-invert": {
+          backgroundColor: "#1B2029",
+          color: "white !important",
+          borderColor: "white",
+          "&:after": {
+            filter: "invert(1)"
+          },
+          "&:hover": {
+            backgroundColor: "white",
+            color: "#1B2029 !important",
+            "&:after": {
+              filter: "invert(0)"
             }
           }
         },

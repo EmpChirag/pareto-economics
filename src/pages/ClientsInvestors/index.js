@@ -3,6 +3,7 @@ import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import homeHer from "../../assets/images/Clients-Investors.png";
 import Footer from "../../Layouts/Footer";
+import { Link } from 'react-router-dom';
 
 const ClientsInvestors = () => {
   return (
@@ -13,7 +14,7 @@ const ClientsInvestors = () => {
         title="Thinking That Moves Markets"
         image={homeHer}
       />
-      <section className="mt-10 border-b py-10  border-black">
+      <section className="mt-0 border-b py-10  border-black">
         <div>
           <div>
             {" "}
@@ -22,24 +23,26 @@ const ClientsInvestors = () => {
               the non-financial risk drivers impacting their portfolios.
             </p>
           </div>
-          <div className="flex ">
+          <div className="flex max-md:flex-col-reverse">
             <div className="w-full relative">
-              <button className="btn absolute bottom-0">Explore Index</button>{" "}
+              <Link to="/global-power-index" className="btn md:absolute bottom-0">
+                Explore Index
+              </Link>
             </div>
-            <div className="w-full ">
-              <p className="border-b border-black w-[380px] text-2xl py-4">
+            <div className="w-full max-md:my-5">
+              <p className="border-b border-black max-w-[380px] text-2xl py-4">
                 Pareto helps with:
               </p>
-              <p className="border-b border-black w-[380px] text-2xl py-4">
+              <p className="border-b border-black max-w-[380px] text-2xl py-4">
                 Country Risk Analysis
               </p>
-              <p className="border-b border-black w-[380px] text-2xl py-4">
+              <p className="border-b border-black max-w-[380px] text-2xl py-4">
                 M&A Advisory
               </p>
-              <p className="border-b border-black w-[380px] text-2xl py-4">
+              <p className="border-b border-black max-w-[380px] text-2xl py-4">
                 Geopolitical Risk Assessments
               </p>
-              <p className="border-b border-black w-[380px] text-2xl py-4">
+              <p className="md:border-b border-black max-w-[380px] text-2xl py-4">
                 Horizon Scanning & Future Trends Analysis
               </p>
             </div>
@@ -53,32 +56,32 @@ const ClientsInvestors = () => {
               <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] mb-10">
                 Who We Serve
               </h2>
-              <p className="border-b  border-t  border-black w-[380px] text-2xl py-4">
+              <p className="border-b  border-t  border-black max-w-[380px] text-2xl py-4">
                 Hedge Funds
               </p>
-              <p className="border-b border-black w-[380px] text-2xl py-4">
+              <p className="border-b border-black max-w-[380px] text-2xl py-4">
                 Sovereign Wealth Funds
               </p>
-              <p className="border-b border-black w-[380px] text-2xl py-4">
+              <p className="border-b border-black max-w-[380px] text-2xl py-4">
                 Commercial Lenders
               </p>
-              <p className=" w-[380px] text-2xl py-4">Central Banks</p>
+              <p className=" max-w-[380px] text-2xl py-4">Central Banks</p>
             </div>
             <div className="w-full max-xl:float-none float-right items-end flex">
               <div className="">
-                <p className="border-b border-black w-[380px] text-2xl py-4 mt-10">
+                <p className="border-b border-black max-w-[380px] text-2xl py-4 mt-10">
                   Institutional investors trust Pareto to deliver
                 </p>
-                <p className="border-b border-black w-[380px] text-2xl py-4">
+                <p className="border-b border-black max-w-[380px] text-2xl py-4">
                   Asset Management
                 </p>
-                <p className="border-b border-black w-[380px] text-2xl py-4">
+                <p className="border-b border-black max-w-[380px] text-2xl py-4">
                   Family Offices
                 </p>
-                <p className="border-b border-black w-[380px] text-2xl py-4">
+                <p className="border-b border-black max-w-[380px] text-2xl py-4">
                   Private Equity
                 </p>
-                <p className=" w-[380px] text-2xl py-4">
+                <p className=" max-w-[380px] text-2xl py-4">
                   Multilateral Development Banks
                 </p>
               </div>
