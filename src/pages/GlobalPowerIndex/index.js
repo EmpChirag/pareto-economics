@@ -55,7 +55,7 @@ const GlobalPowerIndex = () => {
               risks, and identify market opportunities with unparalleled
               accuracy.
             </p>
-            <a href="#" className="btn mt-5 md:mt-10 invert">
+            <a href="#" className="btn text-black mt-5 md:mt-10 invert">
               Access Dashboard
             </a>
           </div>
@@ -143,7 +143,7 @@ const GlobalPowerIndex = () => {
             <h2 className="  text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] pb-4">
               Analytics + Analysis
             </h2>
-            <a href="#" className="btn mt-5 md:mt-10 invert">
+            <a href="#" className="btn text-black mt-5 md:mt-10 invert">
               Access Dashboard
             </a>
           </div>

@@ -93,6 +93,11 @@ const routes = [
     path: "/clients-investors",
     component: <ClientsInvestors />,
     exact: true
+  },
+  {
+    path: "/services-speaking",
+    component: <ServiceSpeaking />,
+    exact: true
   }
 ];
 
