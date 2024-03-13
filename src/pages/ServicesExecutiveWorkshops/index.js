@@ -33,7 +33,7 @@ const ServicesExecutiveWorkshops = () => {
       </section>
 
       <section className="mt-10 pb-10 border-black border-b">
-        <div className="social md:flex-col flex items-center justify-between gap-4">
+        <div className="social  flex items-center justify-between gap-4">
           <img
             src="images/ServicesExecutiveWorkshops/logos/Logo-1.png"
             alt="Logo 1"
