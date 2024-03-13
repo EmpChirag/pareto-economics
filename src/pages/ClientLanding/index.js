@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
 const ClientLanding = () => {
   return (
-    <div className="container mx-auto pb-[200px]">
+    <div className="container mx-auto">
       <Header />
       <section>
         <div className="max-md:flex-col flex justify-between">
@@ -13,7 +13,7 @@ const ClientLanding = () => {
               Clients
             </h1>
             <div className="flex  col-span-1">
-              <h2 className="text-3xl max-w-[337px]">
+              <h2 className="text-3xl max-w-[287px]">
                 Pareto segments its clients into three broad categories.{" "}
               </h2>
               <br />
@@ -27,6 +27,7 @@ const ClientLanding = () => {
                 className="max-w-[70%] h-auto"
                 src="images/ClientLeanding/Clients-Corporations.png"
               />
+              <br/>
             </div>
             <div className="flex-1 justify-end col-span-1 border-b border-slate-900 pb-[28px]">
               <h4 className="text-3xl">Corporations</h4>
@@ -53,6 +54,7 @@ const ClientLanding = () => {
                 className="max-w-[70%] h-auto"
                 src="images/ClientLeanding/Clients-Investors.png"
               />
+              <br/>
             </div>
             <div className="flex-1 justify-end col-span-1 border-b border-slate-900 pb-[28px]">
               <h4 className="text-3xl">Investors</h4>
@@ -80,6 +82,7 @@ const ClientLanding = () => {
                 className="max-w-[70%] h-auto"
                 src="images/ClientLeanding/Clients-Governments.png"
               />
+              <br/>
             </div>
             <div className="flex-1 justify-end col-span-1">
               <h4 className="text-3xl">Governments</h4>
@@ -90,7 +93,7 @@ const ClientLanding = () => {
                   We support governments to build and transform economies.
                 </p>
 
-                <div className="col-span-1 flex-1 max-lg:ml-[26px]">
+                <div className="col-span-1 flex-1 max-lg:ml-[26px] max-sm:ml-0 max-md:ml-0">
                   <Link to="" className="btn3 w-[110px] self-end">
                     Explore
                   </Link>
@@ -100,7 +103,7 @@ const ClientLanding = () => {
           </div>
         </section>
       </section>
-      <Footer contact />
+      <Footer contact ptext="Get in touch to explore how we can partner today." />
     </div>
   );
 };
