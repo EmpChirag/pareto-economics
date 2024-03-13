@@ -1,5 +1,5 @@
 import React from "react";
-import ThoughtLeadershipImg from "../../assets/images/Thought-Leadership.png";
+import ThoughtLeadershipImg from "../../assets/images/thought-leadership.png";
 import HeroSection from "../../components/HeroSection";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
@@ -20,24 +20,24 @@ const ThoughtLeadership = () => {
             Choose Content Type
           </p>
         </div>
-        <div className="mt-8 md:-mx-2 grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+        <div className="mt-8 md:-mx-2 grid sm:grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex flex-wrap gap-4">
             <Link
               to="#"
-              className="inline-block text-uppercase border-2 border-black px-4 py-1"
+              className="inline-block leading-[1] uppercase border border-black px-4 py-2"
             >
               INSIGHTS
             </Link>
             <Link
               to="#"
-              className="inline-block text-uppercase border-2 border-black px-4 py-1"
+              className="inline-block leading-[1] uppercase border border-black px-4 py-2"
             >
               PODCASTS
             </Link>
 
             <Link
               to="#"
-              className="inline-block text-uppercase border-2 border-black px-4 py-1"
+              className="inline-block leading-[1] uppercase border border-black px-4 py-2"
             >
               KEYNOTES
             </Link>
@@ -46,7 +46,7 @@ const ThoughtLeadership = () => {
             <div className="md:mx-2 lg:mx-2 w-full md:w-auto">
               <div className="relative">
                 <input
-                  className="appearance-none border-b-2 text-end pl-10 border-black hover:border-gray-400 transition-colors w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:ring-purple-600 focus:border-purple-600 focus:shadow-outline"
+                  className="appearance-none border-b text-end pl-10 border-black hover:border-gray-400 transition-colors w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:ring-purple-600 focus:border-purple-600 focus:shadow-outline"
                   id="username"
                   type="text"
                 />
