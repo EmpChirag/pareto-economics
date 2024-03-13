@@ -15,7 +15,7 @@ const AboutUs = () => {
       />
 
       <section>
-        <h2 className="max-w-[336px] text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[690px]">
+        <h2 className="max-w-[349px] text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[690px]">
           How Will the World be Changed and Challenged in the next 100 years?
         </h2>
         <div className="border-b border-slate-900 pb-[24px]">
@@ -61,7 +61,7 @@ const AboutUs = () => {
                 development trends for people and organisations who need data
                 backed macro insights to make more informed strategy decisions.{" "}
               </p>
-              <div className="grid md:grid-cols-3">
+              <div className="grid lg:grid-cols-3">
                 <div className="col-span-2">
                   <p className="text-lg pt-4 max-w-[274px]">
                     To achieve this, we created our flagship Global Power Index
@@ -88,6 +88,7 @@ const AboutUs = () => {
               <p className="max-w-[280px] text-3xl">
                 We serve clients who make long term vision a priority
               </p>
+              <br/>
             </div>
             <div className="col-span-1">
               <p className="max-w-[466px] text-xl">
@@ -96,7 +97,7 @@ const AboutUs = () => {
                 trust us to challenge their assumptions and shape their thinking
                 when it matters most.{" "}
               </p>
-              <div className="grid md:grid-cols-3">
+              <div className="grid lg:grid-cols-3">
                 <div className="col-span-2">
                   <p className="max-w-[276px] text-lg pt-4">
                     We partner with diverse clients from both the private and
@@ -123,13 +124,14 @@ const AboutUs = () => {
               <p className="max-w-[280px] text-3xl">
                 We start from First Principles, and build from there
               </p>
+              <br/>
             </div>
             <div className="col-span-1">
               <p className="max-w-[450px] text-xl">
                 {" "}
                 We take the power of systemic thinking seriously.
               </p>
-              <div className="md:grid md:grid-cols-5">
+              <div className="lg:grid lg:grid-cols-5">
                 <div className="col-span-3">
                   <p className="max-w-[328px] text-lg pt-4 pr-5">
                     Pareto has developed a three pronged approach using first
@@ -156,12 +158,13 @@ const AboutUs = () => {
               <p className="max-w-[280px] text-3xl">
                 We mold our service offerings to fit your needs
               </p>
+              <br/>
             </div>
             <div className="col-span-1">
               <p className="max-w-[426px] text-xl">
                 No problem is the same, so why should our solutions be
               </p>
-              <div className="grid md:grid-cols-5">
+              <div className="grid lg:grid-cols-5">
                 <div className="col-span-3">
                   <p className="max-w-[267px] text-lg pt-4 pr-5">
                     PClients are supported with an array of deliverables that
@@ -188,7 +191,7 @@ const AboutUs = () => {
             </h2>
             <div className="flex-1">
               <div className="flex justify-end  col-span-1 max-md:pt-[30px] pt-[70px]">
-                <p className="text-3xl">
+                <p className="text-3xl max-xl:w-[482px]">
                   Global stakeholders are using Pareto to solve their biggest
                   problems.
                 </p>
