@@ -16,7 +16,7 @@ const ServicesExecutiveWorkshops = () => {
 
       <section className="mt-10 pb-10 border-black border-b">
         <div className="flex justify-between items-center mt-8">
-          <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[700px]">
+          <h2 className=" max-w-[700px]">
             We Provide Customised Content for Your Needs and Challenges
           </h2>
         </div>
@@ -77,7 +77,7 @@ const ServicesExecutiveWorkshops = () => {
 
       <section className="mt-10 pb-10 border-black border-b">
         <div className="flex justify-between items-center mt-8">
-          <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[700px]">
+          <h2 className=" max-w-[700px]">
             Why Commission an Executive Workshop?
           </h2>
         </div>
@@ -112,7 +112,7 @@ const ServicesExecutiveWorkshops = () => {
 
       <section className="mt-10 pb-10 ">
         <div className="flex justify-between items-center mt-8">
-          <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[600px]">
+          <h2 className="temp-font-remove max-w-[600px]">
             Our Approach
           </h2>
         </div>

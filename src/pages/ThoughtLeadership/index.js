@@ -74,7 +74,7 @@ const ThoughtLeadership = () => {
 
       <div className="mt-8 grid gap-10 md:grid-cols-3">
         <div className="" id="insights">
-          <div className="uppercase font-extra text-xl md:text-2xl">
+          <div className="uppercase  text-xl md:text-2xl">
             Insights
           </div>
           <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl my-4 md:my-5">
@@ -87,7 +87,7 @@ const ThoughtLeadership = () => {
           </p>
         </div>
         <div className="" id="podcasts">
-          <div className="uppercase font-extra text-xl md:text-2xl">
+          <div className="uppercase  text-xl md:text-2xl">
             Podcasts
           </div>
           <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl my-4 md:my-5">
@@ -100,7 +100,7 @@ const ThoughtLeadership = () => {
           </p>
         </div>
         <div className="" id="kynotes">
-          <div className="uppercase font-extra text-xl md:text-2xl">
+          <div className="uppercase  text-xl md:text-2xl">
             Keynote
           </div>
           <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl my-4 md:my-5">

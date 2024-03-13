@@ -1,13 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/pareto-logo.webp";
+import ParetoEconomics from "../../assets/images/pareto-logo.webp";
+
 const ContactUs = () => {
   return (
     <div>
-      <div className="grid max-sm:grid-cols-2   grid-cols-4 gap-4">
+      <div className="grid max-sm:grid-cols-2 grid-cols-4 gap-4">
         <div className="flex justify-center">
           <Link to="#">
-            <img src={Logo} alt="Pareto Economics" width="90%" height="auto" />
+            <img
+              src={ParetoEconomics}
+              alt="Pareto Economics"
+              width="90%"
+              height="auto"
+            />
           </Link>
         </div>
         <div className="col-span-3 text-white bg-black">

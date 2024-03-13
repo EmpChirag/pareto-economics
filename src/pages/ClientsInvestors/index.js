@@ -52,8 +52,8 @@ const ClientsInvestors = () => {
       <section className="mt-10 border-b py-10  border-black">
         <div>
           <div className="flex max-xl:block">
-            <div className="w-full ">
-              <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px] mb-10">
+            <div className="w-full">
+              <h2 className=" lg:max-w-[650px] mb-10">
                 Who We Serve
               </h2>
               <p className="border-b  border-t  border-black max-w-[380px] text-2xl py-4">
@@ -94,7 +94,7 @@ const ClientsInvestors = () => {
       <section className="mt-10  pb-10">
         <div className="flex  max-md:block">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
+            <h2 className="  lg:max-w-[650px]">
               How We Serve{" "}
             </h2>
           </div>

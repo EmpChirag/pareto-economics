@@ -16,9 +16,9 @@ const FirstPrinciple = () => {
 
         <section className="mt-10 pb-10 border-black border-b">
             <div className="flex justify-between max-md:flex-col mt-10 gap-5 md:gap-10">
-                <h4 className="text-3xl md:my-5 max-w-[500px]">
+                <h3 className="text-3xl md:my-5 max-w-[500px]">
                     What is First Principles Thinking?
-                </h4>
+                </h3>
 
                 <div className="max-w-[720px] text-xl text-gray-600">
                     First Principles Thinking is a problem-solving approach that involves breaking down complex problems into their most basic elements and reexamining them from the ground up, without relying on assumptions or prior knowledge. It requires questioning established conventions and beliefs to arrive at fundamental truths or principles that form the foundation of understanding.
@@ -28,9 +28,9 @@ const FirstPrinciple = () => {
 
         <section className="mt-10 pb-10 border-black border-b">
             <div className="flex justify-between max-md:flex-col mt-10 gap-5 md:gap-10">
-                <h4 className="text-3xl md:my-5 max-w-[500px]">
+                <h3 className="text-3xl md:my-5 max-w-[500px]">
                     Challenging Existing Narratives
-                </h4>
+                </h3>
 
                 <div className="max-w-[720px] text-xl text-gray-600">
                     When applied to the analysis of world affairs, First Principles Thinking involves examining global issues by identifying the fundamental drivers of world affairs so as to understand how they will behave now and in the future. Rather than relying on conventional wisdom or historical precedent, it requires challenging existing narratives and assumptions to identify the underlying principles driving events and dynamics in the international arena.
@@ -40,7 +40,7 @@ const FirstPrinciple = () => {
 
         <section className="mt-10 pb-10 border-black border-b">
             <div className="flex justify-between max-md:flex-col mt-8">
-                <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[720px]">
+                <h2 className="temp-font-remove max-w-[720px]">
                     What is the Nature of Power?
                 </h2>
             </div>
@@ -64,7 +64,7 @@ const FirstPrinciple = () => {
 
         <section className="mt-10 pb-10 border-black md:border-b">
             <div className="flex justify-between max-md:flex-col mt-8">
-                <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[720px]">
+                <h2 className="temp-font-remove max-w-[720px]">
                     Centers of Power
                 </h2>
             </div>
@@ -112,7 +112,7 @@ const FirstPrinciple = () => {
 
         <section className="mt-10">
             <div className="flex justify-between max-md:flex-col mt-8">
-                <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[720px]">
+                <h2 className="temp-font-remove max-w-[720px]">
                     From Thinking to Action
                 </h2>
             </div>

@@ -12,7 +12,7 @@ const ClientLanding = () => {
       <section>
         <div className="max-md:flex-col flex justify-between">
           <div className="flex-1 max-md:flex-col max-sm:flex-col border-b pb-[16px] border-slate-900 flex">
-            <h1 className="text-4xl leading-[1.2] lg:text-6xl   flex-1">
+            <h1 className="   flex-1">
               Clients
             </h1>
             <div className="flex  col-span-1">
@@ -33,7 +33,7 @@ const ClientLanding = () => {
               <br/>
             </div>
             <div className="flex-1 justify-end col-span-1 border-b border-slate-900 pb-[28px]">
-              <h4 className="text-3xl">Corporations</h4>
+              <h3 className="text-3xl">Corporations</h3>
               <br />
 
               <div className="max-md:flex-col flex justify-end col-span-1">
@@ -60,7 +60,7 @@ const ClientLanding = () => {
               <br/>
             </div>
             <div className="flex-1 justify-end col-span-1 border-b border-slate-900 pb-[28px]">
-              <h4 className="text-3xl">Investors</h4>
+              <h3 className="text-3xl">Investors</h3>
               <br />
 
               <div className="max-md:flex-col flex justify-end col-span-1">
@@ -88,7 +88,7 @@ const ClientLanding = () => {
               <br/>
             </div>
             <div className="flex-1 justify-end col-span-1">
-              <h4 className="text-3xl">Governments</h4>
+              <h3 className="text-3xl">Governments</h3>
               <br />
 
               <div className="flex max-md:flex-col  justify-end col-span-1">

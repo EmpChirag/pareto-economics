@@ -56,7 +56,7 @@ const SearchBox = ({ search, handleMenu, handleSearch }) => {
             className="border-[0] w-full border-b border-white bg-transparent text-3xl outline-none"
           />
           <div className="links flex max-md:flex-col gap-4 mt-5 text-lg [&>a]:underline">
-            <span className="font-extra text-sm">MOST POPULAR</span>{" "}
+            <span className=" text-sm">MOST POPULAR</span>{" "}
             <Link to="/global-power-index">Global Power Index</Link>
             <Link to="/first-principles"> First Principles</Link>
             <Link to="services"> Services</Link>

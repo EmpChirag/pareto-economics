@@ -4,7 +4,7 @@ const CommonTab = ({ title, options }) => {
   return (
     <div>
       <div className="mt-6">
-        <h2 className="text-4xl leading-[1.2] lg:text-6xl">{title}</h2>
+        <h2 className="">{title}</h2>
       </div>
       <div className="flex gap-5 max-md:flex-col mt-8 justify-between">
         <div className="flex items-center flex-wrap gap-4">

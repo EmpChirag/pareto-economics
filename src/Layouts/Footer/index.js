@@ -13,7 +13,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
     >
       {demo && (
         <div className="flex max-sm:flex-col max-sm gap-5 items-center justify-between mb-14 md:mb-20">
-          <h3 className="text-3xl md:text-5xl">Request a Demo</h3>
+          <h2 className="">Request a Demo</h2>
           <Link to="/contact-us" className="btn leading-[48px] h-[50px] px-10">
             Start Now
           </Link>
@@ -21,7 +21,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
       )}
       {contact && (
         <div className="flex max-md:flex-col mb-14 md:mb-20">
-          <h3 className="text-3xl md:text-5xl flex-1">Conact Us</h3>
+          <h2 className=" flex-1">Conact Us</h2>
           <div className="flex-[2] flex max-sm:flex-col items-start justify-between md:mt-20">
             <p className="text-2xl sm:max-w-[60%] max-sm:mb-5">
               {ptext && ptext}
@@ -69,7 +69,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
       <p className="mt-4 text-lg ">
         (c) 2024 Pareto Economics LtD. All rights reserved.
       </p>
-      <div className="flex flex-col text-lg gap-4 mt-10  pb-10">
+      <div className="flex flex-col text-xl gap-4 mt-10  pb-10">
         <a href="/">LEGAL</a>
         <a href="/">Modern Slavery Statement</a>
         <a href="/">Cookies</a>

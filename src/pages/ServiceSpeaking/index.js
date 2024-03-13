@@ -44,7 +44,7 @@ const ServiceSpeaking = () => {
                 Want to ignite minds and inspire action? Book Pareto CEO,
                 Klisman Murati as your headline speaker.
               </h3>
-              <div className="text-xl font-extra">
+              <div className="text-xl ">
                 Regularly appearing on the international speaking circuit,
                 Murati shapes the insights of global leaders in industry and
                 policy making on topics related to globalisation, geopolitics,
@@ -88,7 +88,7 @@ const ServiceSpeaking = () => {
           <img src={Logo18} alt="logo" />
         </div>
         <section className="mt-10">
-          <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
+          <h2 className=" lg:max-w-[650px]">
             Watch Murati in Action
           </h2>
         </section>
@@ -97,7 +97,7 @@ const ServiceSpeaking = () => {
             <p className="text-4xl w-[400px] max-sm:w-full pb-5">
               How to Understand the Changing World Order
             </p>
-            <p className="text-xl font-extra w-[500px] max-md:w-full">
+            <p className="text-xl  w-[500px] max-md:w-full">
               Helsinki 2024 | Watch Klisman Murati, CEO of Pareto Economics
               deliver the keynote address at the annual Telia DAY ONE conference
               to an assembly of business leaders in the telecommunications
@@ -133,7 +133,7 @@ const ServiceSpeaking = () => {
           <div className="w-full flex-1 ">
             {" "}
             <p className="text-4xl w-[400px] max-sm:w-full pb-5">Global Power Summit 2023</p>
-            <p className="text-xl font-extra w-[500px] max-md:w-full">
+            <p className="text-xl  w-[500px] max-md:w-full">
               London 2024 | Join Murati, as he gives his keynote for Pareto’s
               flagship summit to an audience of senior business and government
               leaders
@@ -143,7 +143,7 @@ const ServiceSpeaking = () => {
         <div className="flex max-lg:block gap-10">
           <div className="w-full flex-1 max-lg:mb-10">
             <p className="text-4xl w-[400px] max-sm:w-full pb-5">Global Power Summit 2022</p>
-            <p className="text-xl font-extra  w-[500px] max-md:w-full">
+            <p className="text-xl   w-[500px] max-md:w-full">
               London 2023 | Murati opens up the first Global Power Summit at the
               London School of Economics. Watch his keynote now.
             </p>
@@ -165,7 +165,7 @@ const ServiceSpeaking = () => {
       <section className="">
         <div className="flex justify-between mt-8 max-md:block">
           <div className="flex-1 flex justify-between flex-col">
-            <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[600px]">
+            <h2 className="temp-font-remove max-w-[600px]">
               Keynotes Worth Sharing
             </h2>
             <div className="text-xl  max-w-[500px] max-md:w-full mb-10">
@@ -258,7 +258,7 @@ const ServiceSpeaking = () => {
         </div>
       </section>
       <section className="Testimonials max-w-[]">
-        <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] mb-20 max-md:mb-10">
+        <h2 className="temp-font-remove mb-20 max-md:mb-10">
           Testimonials
         </h2>
         <div className="flex gap-24 max-md:block">
@@ -268,7 +268,7 @@ const ServiceSpeaking = () => {
                 “His [Klisman’s] capability to catch the attention of the
                 audience was astonishing”
               </div>
-              <p className="font-extra text-lg">
+              <p className=" text-lg">
                 – General Ivan Caruso, Commander of the Italian Special Forces |
                 Italian Army
               </p>
@@ -279,13 +279,13 @@ const ServiceSpeaking = () => {
                 topics in an easy to understand, thought provoking, fun, and
                 engaging way.”
               </div>
-              <p className="font-extra text-lg">– Barclays Bank</p>
+              <p className=" text-lg">– Barclays Bank</p>
             </div>
             <div>
               <div className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
                 “One of the best speakers we’ve had."
               </div>
-              <p className="font-extra text-lg">– OP Financial Group</p>
+              <p className=" text-lg">– OP Financial Group</p>
             </div>
           </div>
           <div className="flex-1 flex flex-col  justify-around">
@@ -294,7 +294,7 @@ const ServiceSpeaking = () => {
                 “Klisman thank you very much for a great presentation and
                 excellent discussion”
               </div>
-              <p className="font-extra text-lg">
+              <p className=" text-lg">
                 – -Dr Patricia Lewis – Research Director| Chatham House
               </p>
             </div>
@@ -302,7 +302,7 @@ const ServiceSpeaking = () => {
               <div className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
                 "Excellent talk by a speaker who knows his stuff.
               </div>
-              <p className="font-extra text-lg">– AIG</p>
+              <p className=" text-lg">– AIG</p>
             </div>
           </div>
         </div>
@@ -316,7 +316,7 @@ const ServiceSpeaking = () => {
       <section className="border-t border-black pt-[60px] md:pt-24">
         <div className="flex max-md:block justify-between max-w-[1200px] mx-auto">
           <div>
-            <h2 className=" text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[600px]">
+            <h2 className="  lg:max-w-[600px]">
               Tell Us about your Event
             </h2>
           </div>

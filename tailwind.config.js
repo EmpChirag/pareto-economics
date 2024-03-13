@@ -49,6 +49,7 @@ module.exports = {
         ".btn": {
           border: "1px solid #1B2029",
           padding: "0 25px",
+          fontFamily: "Montserrat, sans-serif",
           // color: "#1B2029",
           height: "40px",
           display: "inline-block",
@@ -90,6 +91,7 @@ module.exports = {
         },
         ".btn2": {
           "text-transform": "uppercase",
+          fontFamily: "Montserrat, sans-serif",
           "border-bottom": "1px solid #1B2029",
           height: "50px",
           "font-size": "18px",
@@ -118,6 +120,7 @@ module.exports = {
         },
         ".btn3": {
           height: "40px",
+          fontFamily: "Montserrat, sans-serif",
           "font-size": "18px",
           lineHeight: 1,
           padding: "10px 0",
@@ -146,11 +149,29 @@ module.exports = {
         },
         a: {
           transitionDuration: "0.3s",
+          fontFamily: "sansation, sans-serif",
           "&:hover": {
             "text-decoration": "underline"
           }
         },
-        "@media (max-width: 1023px)": {}
+        "@media (max-width: 1023px)": {
+          h1: {
+            fontSize: "40px",
+            lineHeight: "50px"
+          },
+          h2: {
+            fontSize: "35px",
+            lineHeight: "40px"
+          },
+          h3: {
+            fontSize: "24px",
+            lineHeight: "30px"
+          },
+          h4: {
+            fontSize: "18px",
+            lineHeight: "26px"
+          }
+        }
       });
     })
   ]

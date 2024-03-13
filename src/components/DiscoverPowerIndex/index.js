@@ -5,7 +5,7 @@ const DiscoverPowerIndex = () => {
     return (
       <section className="DiscoverPowerIndex">
         <div className="md:inline-block md:w-[45%]">
-          <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3]">
+          <h2 className="temp-font-remove">
             Discover how the Global Power Index (GPI) can shape decision making
             at the highest levels.
           </h2>

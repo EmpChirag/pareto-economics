@@ -12,7 +12,7 @@ const ServicesLanding = () => {
       <section className='mt-10'>
         <div className="max-md:flex-col flex justify-between">
           <div className="flex-1 border-b pb-[16px] border-slate-900">
-            <h1 className="text-4xl leading-[1.2] lg:text-6xl   flex-1">
+            <h1 className="   flex-1">
               Services
             </h1>
             <div className="flex  md:justify-end col-span-1  pt-[8px]">
@@ -34,7 +34,7 @@ const ServicesLanding = () => {
               <br/>
             </div>
             <div className="flex-1 justify-end col-span-1 border-b border-slate-900 pb-[28px]">
-              <h4 className="text-3xl">Speaking Engagements</h4>
+              <h3 className="text-3xl">Speaking Engagements</h3>
               <br />
 
               <div className="flex max-lg:flex-col justify-end col-span-1">
@@ -63,7 +63,7 @@ const ServicesLanding = () => {
             </div>
             <br/>
             <div className="flex-1 justify-end col-span-1 border-b border-slate-900 pb-[28px]">
-              <h4 className="text-3xl">Research</h4>
+              <h3 className="text-3xl">Research</h3>
               <br />
 
               <div className="flex max-lg:flex-col justify-end col-span-1">
@@ -93,7 +93,7 @@ const ServicesLanding = () => {
               <br/>
             </div>
             <div className="flex-1 justify-end col-span-1">
-              <h4 className="text-3xl">Executive Workshops</h4>
+              <h3 className="text-3xl">Executive Workshops</h3>
               <br />
 
               <div className="flex max-lg:flex-col justify-end col-span-1">

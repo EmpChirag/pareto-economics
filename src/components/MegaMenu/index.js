@@ -67,7 +67,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
       </div>
       <div className="menu md:grid grid-cols-3 gap-10 md:mt-5">
         <div className="navigation pt-5 border-t">
-          <div className="uppercase text-base font-extra mb-3 md:mb-5">
+          <div className="uppercase text-base  mb-3 md:mb-5">
             Navigation{" "}
           </div>
           <div className="navigation-links flex flex-col text-2xl ">
@@ -144,7 +144,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
         <div className=" ">
           <div className="latest-content pt-5 border-t max-md:mt-10">
             <div className=" mb-5 uppercase flex justify-between">
-              <span className="text-base font-extra">Latest Content</span>
+              <span className="text-base ">Latest Content</span>
               <Link
                 to="/"
                 className="text-sm  underline hover:no-underline whitespace-nowrap"
@@ -161,10 +161,10 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
           </div>
           <div className="latest-content mt-10 pt-5 border-t">
             <div className=" mb-5 uppercase flex justify-between">
-              <span className="text-base font-extra">Latest Content</span>
+              <span className="text-base ">Latest Content</span>
               <Link
                 to="/"
-                className="text-sm  underline hover:no-underline whitespace-nowrap"
+                className="text-sm underline hover:no-underline whitespace-nowrap"
               >
                 See More &gt;
               </Link>
@@ -180,7 +180,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
         <div>
           <div className="global-power pt-5 border-t max-md:mt-10">
             <div className="mb-5 uppercase flex justify-between ">
-              <span className="text-base font-extra">Global Power Index</span>
+              <span className="text-base ">Global Power Index</span>
               <Link
                 to="/"
                 className="text-sm  underline hover:no-underline whitespace-nowrap"

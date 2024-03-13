@@ -23,7 +23,7 @@ const Home = () => {
           image={homeHero}
         />
         <CommonSection>
-          <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
+          <h2 className="temp-font-remove lg:max-w-[650px]">
             We harness the power of data analytics to map the future of global
             development
           </h2>
