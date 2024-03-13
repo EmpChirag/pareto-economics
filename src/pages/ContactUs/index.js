@@ -4,27 +4,22 @@ import ParetoEconomics from "../../assets/images/pareto-economics-logo.png";
 
 const ContactUs = () => {
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-4">
-        <div className="flex justify-center md:col-span-1">
-          <Link to="/">
-            <img
-              src={ParetoEconomics}
-              alt="Pareto Economics"
-              width="90%"
-              height="auto"
-            />
+    <div>
+      <div className="grid max-sm:grid-cols-2   grid-cols-4 gap-4">
+        <div className="flex justify-center">
+          <Link to="#">
+            <img src={Logo} alt="Pareto Economics" width="90%" height="auto" />
           </Link>
         </div>
         <div className="md:col-span-3 text-white bg-black">
           <div className="text-end mt-8 mb-5">
-            <Link className="text-4xl mr-20" to="/">
+            <Link className="text-4xl mr-20 max-sm:mr-12" to="/">
               X
             </Link>
           </div>
-          <div className="flex justify-center">
-            <form className="w-full md:w-2/3 lg:w-1/2">
-              <div className="mt-20 mb-20 text-white text-center md:text-left">
+          <div className="md:flex md:justify-center px-5">
+            <form>
+              <div className="mt-20 mb-20 text-white">
                 <p>CONTACT / DASHBOARD DEMO / PARTNERSHIP INQUIRY</p>
               </div>
               <div className="mb-5 group">
@@ -121,7 +116,7 @@ const ContactUs = () => {
                     <li>
                       <button
                         type="button"
-                        className="border my-2 mx-2 border-white w-40 h-12 px-3 focus:bg-white focus:text-black"
+                        className="border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 focus:bg-white focus:text-black"
                       >
                         INDEX DASHBOARD
                       </button>
@@ -129,7 +124,7 @@ const ContactUs = () => {
                     <li>
                       <button
                         type="button"
-                        className="border my-2 mx-2 border-white  w-40 h-12 px-3 focus:bg-white focus:text-black"
+                        className="border my-2 mx-2 border-white  w-40 max-sm:w-32 h-12 px-3 focus:bg-white focus:text-black"
                       >
                         SERVICES
                       </button>
@@ -137,7 +132,7 @@ const ContactUs = () => {
                     <li>
                       <button
                         type="button"
-                        className="border my-2 mx-2 border-white w-40 h-12 px-3 focus:bg-white focus:text-black"
+                        className="border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 focus:bg-white focus:text-black"
                       >
                         EVENTS
                       </button>
@@ -147,7 +142,7 @@ const ContactUs = () => {
                     <li>
                       <button
                         type="button"
-                        className="border my-2 mx-2 border-white w-40 h-12 px-3 focus:bg-white focus:text-black"
+                        className="border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 focus:bg-white focus:text-black"
                       >
                         MEDIA REQUEST
                       </button>
@@ -155,7 +150,7 @@ const ContactUs = () => {
                     <li>
                       <button
                         type="button"
-                        className="border my-2 mx-2 border-white  w-40 h-12 px-3 focus:bg-white focus:text-black"
+                        className="border my-2 mx-2 border-white  w-40 max-sm:w-32 h-12 px-3 focus:bg-white focus:text-black"
                       >
                         CAREERS
                       </button>
@@ -163,7 +158,7 @@ const ContactUs = () => {
                     <li>
                       <button
                         type="button"
-                        className="border my-2 mx-2 border-white w-40 h-12 px-3 focus:bg-white focus:text-black"
+                        className="border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 focus:bg-white focus:text-black"
                       >
                         OTHER
                       </button>
