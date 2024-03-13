@@ -7,11 +7,11 @@ const CommonTab = ({ title, options }) => {
         <h2 className="text-4xl leading-[1.2] lg:text-6xl">{title}</h2>
       </div>
       <div className="flex gap-5 max-md:flex-col mt-8 justify-between">
-        <div className="flex">
+        <div className="flex items-center flex-wrap gap-4">
           {options.map((option, index) => (
             <div
               key={index}
-              className="inline-block max-md:text-sm uppercase mr-2 last:mr-0 md:mr-8 border border-black px-2 md:px-8 py-2"
+              className="uppercase leading-[1] border border-black px-2 md:px-4 py-2"
             >
               {option.value}
             </div>
@@ -23,7 +23,7 @@ const CommonTab = ({ title, options }) => {
             id="username"
             type="text"
           />
-          <div className="absolute left-0 -inset-y-1 flex items-center">
+          <div className="absolute left-0 top-0 h-10 flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 text-gray-400 hover:text-gray-500"

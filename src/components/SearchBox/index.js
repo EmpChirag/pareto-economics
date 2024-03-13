@@ -26,7 +26,7 @@ const SearchBox = ({ search, handleMenu, handleSearch }) => {
             <div className="right flex">
               <Link
                 to="/contact-us"
-                className="btn [&:after]:invert border-white hover:invert max-md:hidden"
+                className="btn btn-invert border-white max-md:hidden"
               >
                 Start Now{" "}
               </Link>

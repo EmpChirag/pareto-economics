@@ -22,7 +22,6 @@ const ServicesExecutiveWorkshops = () => {
         </div>
 
         <div className="flex justify-between items-center mt-8">
-          <h2 className="w-full"></h2>
 
           <p className="w-full text-3xl text-gray-600">
             Pareto is brought in to shed light and shape thinking of senior

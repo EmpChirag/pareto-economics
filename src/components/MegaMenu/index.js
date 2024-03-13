@@ -27,7 +27,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
           <div className="right flex">
             <Link
               to="/contact-us"
-              className="btn [&:after]:invert border-white hover:invert max-md:-ml-5 max-md:hidden"
+              className="btn btn-invert border-white  max-md:-ml-5 max-md:hidden"
             >
               Start Now{" "}
             </Link>
@@ -147,7 +147,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               <span className="text-base font-extra">Latest Content</span>
               <Link
                 to="/"
-                className="text-sm font-bold underline hover:no-underline whitespace-nowrap"
+                className="text-sm  underline hover:no-underline whitespace-nowrap"
               >
                 See More &gt;
               </Link>
@@ -164,7 +164,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               <span className="text-base font-extra">Latest Content</span>
               <Link
                 to="/"
-                className="text-sm font-bold underline hover:no-underline whitespace-nowrap"
+                className="text-sm  underline hover:no-underline whitespace-nowrap"
               >
                 See More &gt;
               </Link>
@@ -183,7 +183,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               <span className="text-base font-extra">Global Power Index</span>
               <Link
                 to="/"
-                className="text-sm font-bold underline hover:no-underline whitespace-nowrap"
+                className="text-sm  underline hover:no-underline whitespace-nowrap"
               >
                 Access &gt;
               </Link>

@@ -12,7 +12,7 @@ const ServicesLanding = () => {
       <section className='mt-10'>
         <div className="max-md:flex-col flex justify-between">
           <div className="flex-1 border-b pb-[16px] border-slate-900">
-            <h1 className="text-4xl leading-[1.2] lg:text-6xl font-semibold  flex-1">
+            <h1 className="text-4xl leading-[1.2] lg:text-6xl   flex-1">
               Services
             </h1>
             <div className="flex  md:justify-end col-span-1  pt-[8px]">
