@@ -109,7 +109,7 @@ module.exports = {
         section: {
           marginTop: "96px",
           "@media(max-width: 767px)": {
-            marginTop: "60px"
+            marginTop: "50px"
           }
         },
         a: {

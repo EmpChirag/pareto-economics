@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = ({ className, title, image, h1width }) => {
   return (
     <section
-      className={`hero ${className} mt-10 pb-10 border-black border-b-2`}
+      className={`hero ${className} mt-10 pb-10 border-black border-b`}
     >
       <h1
         className={`text-4xl leading-[1.2] lg:text-6xl font-semibold mb-6 ${

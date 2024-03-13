@@ -3,6 +3,7 @@ import ThoughtLeadershipImg from "../../assets/images/Thought-Leadership.png";
 import HeroSection from "../../components/HeroSection";
 import CommonTab from "../../components/CommonTab";
 import Header from "../../Layouts/Header";
+import Footer from '../../Layouts/Footer';
 
 const ThoughtLeadership = () => {
   const option = [
@@ -11,7 +12,7 @@ const ThoughtLeadership = () => {
     { id: "KEYNOTES", value: "KEYNOTES" },
   ];
   return (
-    <div>
+    <div className="container mx-auto">
       <Header />
       <HeroSection
         title="Original Thinking,
@@ -22,7 +23,7 @@ const ThoughtLeadership = () => {
       <CommonTab title="Choose Content Type" options={option} />
 
       <div className="mt-8 flex max-md:flex-col gap-10 md:px-10">
-        <div className="">
+        <div className="flex-1">
           <div className="uppercase font-extra text-2xl">Insights</div>
           <h3 className="text-3xl my-4 md:my-5">
             How is M&A impacted by China’s ‘Dual Circulation’ Development
@@ -33,7 +34,7 @@ const ThoughtLeadership = () => {
             EU- China and UK-China”
           </p>
         </div>
-        <div className="">
+        <div className="flex-1">
           <div className="uppercase font-extra text-2xl">PODCAST</div>
           <h3 className="text-3xl my-4 md:my-5">
             What Drives Political Action in the Real World | CEO Munich Security
@@ -44,7 +45,7 @@ const ThoughtLeadership = () => {
             understand your world.
           </p>
         </div>
-        <div className="">
+        <div className="flex-1">
           <div className="uppercase font-extra text-2xl">KEYNOTE</div>
           <h3 className="text-3xl my-4 md:my-5">
             A Beginner’s Guide to Geopolitical Risk, and How it’s Impacting
@@ -57,6 +58,7 @@ const ThoughtLeadership = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

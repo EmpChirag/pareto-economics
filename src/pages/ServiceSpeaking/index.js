@@ -172,7 +172,7 @@ const ServiceSpeaking = () => {
           </div>
 
           <div className="w-full flex-1 text-3xl">
-            <div className="mt-32 pb-10 border-black border-b-2">
+            <div className="mt-32 pb-10 border-black border-b">
               <p>
                 Navigating Geopolitical Shifts: Strategies for Business
                 Resilience
@@ -187,7 +187,7 @@ const ServiceSpeaking = () => {
               </p>
             </div>
 
-            <div className="mt-10 pb-10 border-black border-b-2">
+            <div className="mt-10 pb-10 border-black border-b">
               <p>
                 Leadership in 2024: What it Takes to Lead in a World with New
                 Rules
@@ -203,7 +203,7 @@ const ServiceSpeaking = () => {
               </p>
             </div>
 
-            <div className="mt-10 pb-10 border-black border-b-2">
+            <div className="mt-10 pb-10 border-black border-b">
               <p>
                 Elections in 2024: How Will they Shape the Future of Business
               </p>
@@ -218,7 +218,7 @@ const ServiceSpeaking = () => {
               </p>
             </div>
 
-            <div className="mt-10 pb-10 border-black border-b-2">
+            <div className="mt-10 pb-10 border-black border-b">
               <p>
                 The Future of Global Business: Anticipating Trends and
                 Opportunities
@@ -234,7 +234,7 @@ const ServiceSpeaking = () => {
               </p>
             </div>
 
-            <div className="mt-10 pb-10 border-black border-b-2">
+            <div className="mt-10 pb-10 border-black border-b">
               <p>
                 New Risks Requires New Thinking - How to Understand the Changing
                 World Order”

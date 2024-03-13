@@ -1,8 +1,8 @@
 import React, { lazy } from "react";
-import ThoughtLeadership from "./pages/ThoughtLeadership";
-import InTheNews from "./pages/InTheNews";
-import ContactUs from "./pages/ContactUs";
-import ServiceSpeaking from './pages/ServiceSpeaking';
+const ThoughtLeadership = lazy(() => import("./pages/ThoughtLeadership"));
+const InTheNews =  lazy(() => import("./pages/InTheNews"));
+const ContactUs =  lazy(() => import("./pages/ContactUs"));
+const ServiceSpeaking =  lazy(() => import('./pages/ServiceSpeaking'));
 
 const Home = lazy(() => import("./pages/Home"));
 const AboutUs = lazy(() => import("./pages/AboutUs"));
@@ -13,7 +13,6 @@ const ServicesResearch = lazy(() => import("./pages/ServicesResearch"));
 const ServicesExecutiveWorkshops = lazy(() => import("./pages/ServicesExecutiveWorkshops"));
 const ServicesLanding = lazy(() => import("./pages/ServicesLanding"));
 const ClientLanding = lazy(() => import("./pages/ClientLanding"));
-
 const ClientsGovernments = lazy(() => import("./pages/ClientsGovernments"));
 const ClientsInvestors = lazy(() => import("./pages/ClientsInvestors"));
 const routes = [
@@ -46,7 +45,7 @@ const routes = [
     exact: true
   },
   {
-    path: "/service",
+    path: "/services",
     component: <ServicesLanding />,
     exact: true
   },
@@ -56,7 +55,7 @@ const routes = [
     exact: true
   },
   {
-    path: "/client",
+    path: "/clients",
     component: <ClientLanding />,
     exact: true
   },

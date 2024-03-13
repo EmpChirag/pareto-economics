@@ -14,7 +14,7 @@ const FirstPrinciple = () => {
             h1width="max-w-[700px]"
         />
 
-        <section className="mt-10 pb-10 border-black border-b-2">
+        <section className="mt-10 pb-10 border-black border-b">
             <div className="flex justify-between max-md:flex-col mt-10 gap-5 md:gap-10">
                 <h4 className="text-3xl md:my-5 max-w-[500px]">
                     What is First Principles Thinking?
@@ -26,7 +26,7 @@ const FirstPrinciple = () => {
             </div>
         </section>
 
-        <section className="mt-10 pb-10 border-black border-b-2">
+        <section className="mt-10 pb-10 border-black border-b">
             <div className="flex justify-between max-md:flex-col mt-10 gap-5 md:gap-10">
                 <h4 className="text-3xl md:my-5 max-w-[500px]">
                     Challenging Existing Narratives
@@ -38,7 +38,7 @@ const FirstPrinciple = () => {
             </div>
         </section>
 
-        <section className="mt-10 pb-10 border-black border-b-2">
+        <section className="mt-10 pb-10 border-black border-b">
             <div className="flex justify-between max-md:flex-col mt-8">
                 <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[720px]">
                     What is the Nature of Power?
@@ -62,7 +62,7 @@ const FirstPrinciple = () => {
             </div>
         </section>
 
-        <section className="mt-10 pb-10 border-black border-b-2">
+        <section className="mt-10 pb-10 border-black md:border-b">
             <div className="flex justify-between max-md:flex-col mt-8">
                 <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[720px]">
                     Centers of Power
@@ -79,31 +79,31 @@ const FirstPrinciple = () => {
                 <div className="clear-both"></div>
 
                 <div className="max-w-[750px] float-right text-3xl max-md:w-full">
-                    <p className="font-semibold text-2xl mt-5 pb-5 border-black border-b-2">
+                    <p className="font-semibold text-2xl mt-5 pb-5 border-black border-b">
                         These include:
                     </p>
 
-                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b-2">
+                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b">
                         Active Consumer Market
                     </p>
 
-                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b-2">
+                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b">
                         Military Balance
                     </p>
 
-                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b-2">
+                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b">
                         Technological leadership
                     </p>
 
-                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b-2">
+                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b">
                         Systemically Important Commodities
                     </p>
 
-                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b-2">
+                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b">
                         Geo-Strategic Positioning
                     </p>
 
-                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b-2">
+                    <p className="text-gray-600 text-2xl mt-5 pb-5 border-black border-b">
                         Financial Strength
                     </p>
                 </div>

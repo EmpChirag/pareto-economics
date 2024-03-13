@@ -22,28 +22,28 @@ const ServicesResearch = () => {
                 </h2>
             </div>
 
-            <div className="flex justify-between items-center mt-8 pb-10 border-black border-b-2">
+            <div className="flex justify-between items-center mt-8 pb-10 border-black border-b">
                 <h2 className="w-full">
                 </h2>
 
                 <div className="w-full text-3xl text-gray-600">
-                    <p className="mt-5 pb-5 border-black border-b-2">
+                    <p className="mt-5 pb-5 border-black border-b">
                         Solve complex questions beyond internal expertise.
                     </p>
 
-                    <p className="mt-5 pb-5 border-black border-b-2">
+                    <p className="mt-5 pb-5 border-black border-b">
                         Refine strategies for informed decisions.
                     </p>
 
-                    <p className="mt-5 pb-5 border-black border-b-2">
+                    <p className="mt-5 pb-5 border-black border-b">
                         Uncover fresh perspectives on challenges.
                     </p>
 
-                    <p className="mt-5 pb-5 border-black border-b-2">
+                    <p className="mt-5 pb-5 border-black border-b">
                         Demonstrate due diligence for stakeholders.
                     </p>
 
-                    <p className="mt-5 pb-5 border-black border-b-2">
+                    <p className="mt-5 pb-5 border-black border-b">
                         Optimize strategies with dynamic insights.
                     </p>
                 </div>
@@ -85,7 +85,7 @@ const ServicesResearch = () => {
                 </p>
             </div>
 
-            <div className="flex justify-between items-center mt-8 pb-10 border-black border-b-2">
+            <div className="flex justify-between items-center max-md:mt-8 pb-10 border-black border-b">
                 <img
                     src="images/ServicesResearch\Research-Lifecycle.png"
                     alt="Research Lifecycle"

@@ -4,7 +4,7 @@ import Logo from '../../assets/images/pareto-logo.webp'
 const ContactUs = () => {
   return (
     <div>
-      <div className="grid grid-cols-4 gap-4 mt-4">
+      <div className="grid grid-cols-4 gap-4">
         <div className="flex justify-center">
           <Link to="#">
             <img
@@ -17,7 +17,7 @@ const ContactUs = () => {
         </div>
         <div className="col-span-3 text-white bg-black">
           <div className="text-end mt-8 mb-5">
-            <button className="text-4xl mr-20">X</button>
+            <Link className="text-4xl mr-20" to='/'>X</Link>
           </div>
           <div className="flex justify-center">
             <form>
@@ -33,7 +33,7 @@ const ContactUs = () => {
                   type="text"
                   name="fname"
                   id="fname"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
@@ -47,7 +47,7 @@ const ContactUs = () => {
                   type="text"
                   name="lname"
                   id="lname"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
@@ -61,7 +61,7 @@ const ContactUs = () => {
                   type="text"
                   name="company"
                   id="company"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
@@ -75,7 +75,7 @@ const ContactUs = () => {
                   type="text"
                   name="jobtitle"
                   id="jobtitle"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
@@ -89,7 +89,7 @@ const ContactUs = () => {
                   type="email"
                   name="email"
                   id="email"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
@@ -103,7 +103,7 @@ const ContactUs = () => {
                   type="number"
                   name="phone"
                   id="phone"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
@@ -171,7 +171,7 @@ const ContactUs = () => {
                   type="number"
                   name="phone"
                   id="phone"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
@@ -198,7 +198,7 @@ const ContactUs = () => {
                 <p>
                   Please see our
                   <Link>
-                    <i className="border-white border-b-2 mx-2">
+                    <i className="border-white border-b mx-2">
                       Privacy Policy
                     </i>
                   </Link>

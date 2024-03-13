@@ -14,7 +14,7 @@ const ServicesExecutiveWorkshops = () => {
             h1width="max-w-[700px]"
         />
 
-        <section className="mt-10 pb-10 border-black border-b-2">
+        <section className="mt-10 pb-10 border-black border-b">
             <div className="flex justify-between items-center mt-8">
                 <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[700px]">
                     We Provide Customised Content for Your Needs and Challenges
@@ -31,7 +31,7 @@ const ServicesExecutiveWorkshops = () => {
             </div>
         </section>
 
-        <section className="mt-10 pb-10 border-black border-b-2">
+        <section className="mt-10 pb-10 border-black border-b">
             <div className="social flex items-center justify-between gap-4">
                 <img
                     src="images/ServicesExecutiveWorkshops/logos/Logo-1.png"
@@ -75,7 +75,7 @@ const ServicesExecutiveWorkshops = () => {
             </div>
         </section>
 
-        <section className="mt-10 pb-10 border-black border-b-2">
+        <section className="mt-10 pb-10 border-black border-b">
             <div className="flex justify-between items-center mt-8">
                 <h2 className="text-4xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[700px]">
                     Why Commission an Executive Workshop?
@@ -103,7 +103,7 @@ const ServicesExecutiveWorkshops = () => {
             </div>
         </section>
 
-        <section className="mt-10 pb-10 border-black border-b-2">
+        <section className="mt-10 pb-10 ">
             <div className="flex justify-between items-center mt-8">
                 <h2 className="text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] max-w-[600px]">
                     Our Approach
@@ -115,7 +115,7 @@ const ServicesExecutiveWorkshops = () => {
                 </h2>
 
                 <div className="w-full text-3xl">
-                    <div className="mt-5 pb-10 border-black border-b-2">
+                    <div className="mt-5 pb-10 border-black border-b">
                         <p>
                             Interactive Learning Environment
                         </p>
@@ -125,7 +125,7 @@ const ServicesExecutiveWorkshops = () => {
                         </p>
                     </div>
 
-                    <div className="mt-10 pb-10 border-black border-b-2">
+                    <div className="mt-10 pb-10 border-black border-b">
                         <p>
                             Cutting-Edge Content
                         </p>
@@ -135,7 +135,7 @@ const ServicesExecutiveWorkshops = () => {
                         </p>
                     </div>
 
-                    <div className="mt-10 pb-10 border-black border-b-2">
+                    <div className="mt-10 pb-10 border-black border-b">
                         <p>
                             Tailored Curriculum
                         </p>
@@ -145,7 +145,7 @@ const ServicesExecutiveWorkshops = () => {
                         </p>
                     </div>
 
-                    <div className="mt-10 pb-10 border-black border-b-2">
+                    <div className="mt-10 pb-10 border-black border-b">
                         <p>
                             Skill-Building
                         </p>
@@ -155,7 +155,7 @@ const ServicesExecutiveWorkshops = () => {
                         </p>
                     </div>
 
-                    <div className="mt-10 pb-10 border-black border-b-2">
+                    <div className="mt-10 pb-10 border-black border-b">
                         <p>
                             Actionable Insights
                         </p>
@@ -165,7 +165,7 @@ const ServicesExecutiveWorkshops = () => {
                         </p>
                     </div>
 
-                    <div className="mt-10 pb-10 border-black border-b-2">
+                    <div className="mt-10 pb-10 border-black border-b">
                         <p>
                             Continuous Learning Culture
                         </p>

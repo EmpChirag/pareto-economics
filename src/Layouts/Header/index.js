@@ -8,10 +8,24 @@ const Header = ({ invert }) => {
   const [searchOpen, setSearchOpen] = useState(false);
 
   const handleMenu = () => {
+    setSearchOpen(false);
+    const body = document.querySelector('body');
+    if (!menuOpen === true) {
+      body.classList.add("overflow-hidden");
+    } else {
+      body.classList.remove("overflow-hidden");
+    }
     setMenuOpen(!menuOpen);
-    console.log("handleMenu", menuOpen);
   };
   const handleSearch = () => {
+    setMenuOpen(false);
+    const body = document.querySelector("body");
+    if (!searchOpen === true) {
+      body.classList.add("overflow-hidden");
+    } else {
+      body.classList.remove("overflow-hidden");
+
+    }
     setSearchOpen(!searchOpen);
   };
   return (

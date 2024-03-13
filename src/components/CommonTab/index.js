@@ -18,7 +18,7 @@ const CommonTab = ({ title, options }) => {
         <div className="mx-10">
           <div className="relative">
             <input
-              className="appearance-none border-b-2 text-end pl-10 border-black hover:border-gray-400 transition-colors w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:ring-purple-600 focus:border-purple-600 focus:shadow-outline"
+              className="appearance-none border-b text-end pl-10 border-black hover:border-gray-400 transition-colors w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:ring-purple-600 focus:border-purple-600 focus:shadow-outline"
               id="username"
               type="text"
             />
