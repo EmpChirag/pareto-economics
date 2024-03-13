@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
-import Footerdark from "../../Layouts/Footerdark";
+import Footer from '../../Layouts/Footer';
 
 const ClientsGovernments = () => {
   return (
@@ -13,7 +13,7 @@ const ClientsGovernments = () => {
         image="images/ClientsGovernments/Clients-Governments.png"
         h1width="max-w-[700px]"
       />
-      <section className="mt-10 pb-10 border-b-2   border-[#000000]">
+      <section className="mt-10 pb-10 border-b-2   border-black">
         <div className="flex  max-md:block">
           <div className="w-full">
             <h2 className=" text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[700px]">
@@ -50,13 +50,13 @@ const ClientsGovernments = () => {
             </h2>
           </div>
           <div className="w-full relative">
-            <p className=" text-3xl lg:max-w-[700px] w-full border-b-2 py-8 text-right absolute right-0  border-[#000000]">
+            <p className=" text-3xl lg:max-w-[700px] w-full border-b-2 py-8 text-right absolute right-0  border-black">
               We help countries thrive through:
             </p>
           </div>
         </div>
       </section>
-      <section className=" pb-10  border-b-2   border-[#000000]">
+      <section className=" pb-10  border-b-2   border-black">
         <div className="flex max-md:block">
           <div className="w-full">
             <h2 className=" text-4xl leading-[1.2] max-md:py-5  lg:text-6xl lg:leading-[1.3] lg:max-w-[800px]">
@@ -75,7 +75,7 @@ const ClientsGovernments = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10 pb-10 border-b-2   border-[#000000]">
+      <section className="mt-10 pb-10 border-b-2   border-black">
         <div className="flex  max-md:block">
           <div className="w-full">
             <h2 className=" text-4xl leading-[1.2] lg:text-6xl max-md:pb-5  lg:leading-[1.3] lg:max-w-[700px]">
@@ -98,7 +98,7 @@ const ClientsGovernments = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10 pb-10 border-b-2   border-[#000000]">
+      <section className="mt-10 pb-10 border-b-2   border-black">
         <div className="flex  max-md:block">
           <div className="w-full">
             <h2 className=" text-4xl leading-[1.2] max-md:pb-5 lg:text-6xl lg:leading-[1.3] lg:max-w-[700px]">
@@ -122,7 +122,7 @@ const ClientsGovernments = () => {
           </div>
         </div>
       </section>
-      <Footerdark contact />
+      <Footer contact />
     </div>
   );
 };

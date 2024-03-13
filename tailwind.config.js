@@ -32,6 +32,7 @@ module.exports = {
         ".btn": {
           border: "1px solid #1B2029",
           padding: "0 25px",
+          // color: "#1B2029",
           height: "40px",
           display: "inline-block",
           position: "relative",
@@ -45,7 +46,7 @@ module.exports = {
             width: "16px",
             transitionDuration: "0.3s",
             position: "relative",
-            top: "2.5px"
+            top: "1px"
           },
           "&:hover": {
             backgroundColor: "#1B2029",

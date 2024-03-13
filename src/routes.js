@@ -2,7 +2,7 @@ import React, { lazy } from "react";
 import ThoughtLeadership from "./pages/ThoughtLeadership";
 import InTheNews from "./pages/InTheNews";
 import ContactUs from "./pages/ContactUs";
-// import ServiceSpeaking from './pages/ServiceSpeaking';
+import ServiceSpeaking from './pages/ServiceSpeaking';
 
 const Home = lazy(() => import("./pages/Home"));
 const AboutUs = lazy(() => import("./pages/AboutUs"));
@@ -20,50 +20,55 @@ const routes = [
   {
     path: "/",
     component: <Home />,
-    exact: true,
+    exact: true
   },
   {
     path: "/about-us",
     component: <AboutUs />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/thought-leadership",
     component: <ThoughtLeadership />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/in-the-news",
     component: <InTheNews />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/contact-us",
     component: <ContactUs />,
-    exact: true,
+    exact: true
   },
   {
     path: "/service",
     component: <ServicesLanding />,
-    exact: true,
+    exact: true
+  },
+  {
+    path: "/services-speaking",
+    component: <ServiceSpeaking />,
+    exact: true
   },
   {
     path: "/client",
     component: <ClientLanding />,
-    exact: true,
+    exact: true
   },
   {
     path: "/global-power-index",
     component: <GlobalPowerIndex />,
-    exact: true,
+    exact: true
   },
   {
     path: "/clients-corporations",
     component: <ClientsCorporations />,
-    exact: true,
+    exact: true
   },
   {
     path: "/first-principles",

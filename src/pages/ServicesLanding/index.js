@@ -6,7 +6,7 @@ const ServicesLanding = () => {
   return (
     <div className="container mx-auto">
       <Header />
-      <section>
+      <section className='mt-10'>
         <div className="max-md:flex-col flex justify-between">
           <div className="flex-1 border-b-2 pb-[16px] border-slate-900">
             <h1 className="text-4xl leading-[1.2] lg:text-6xl font-semibold  flex-1">
@@ -26,6 +26,7 @@ const ServicesLanding = () => {
               <img
                 className="max-w-[70%] h-auto"
                 src="images/ServiceLeanding/Speaking-Engagement.png"
+                alt='Speaking Engagement'
               />
               <br/>
             </div>
@@ -80,7 +81,7 @@ const ServicesLanding = () => {
           </div>
         </section>
         <section className="mt-10">
-          <div className="max-md:flex-col flex justify-between  pb-[38px]">
+          <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
               <img
                 className="max-w-[70%] h-auto"

@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
-import Footerdark from "../../Layouts/Footerdark";
 import Corporations from "../../assets/images/ClientsCorporations/Clients_Corporations.png";
+import Footer from "../../Layouts/Footer";
 const ClientsCorporations = () => {
   return (
     <div className="container mx-auto pb-[200px]">
@@ -13,7 +13,7 @@ const ClientsCorporations = () => {
         image={Corporations}
         h1width="max-w-[700px]"
       />
-      <section className="mt-10 pb-10 border-b-2   border-[#000000]">
+      <section className="mt-10 pb-10 border-b-2   border-black">
         <div className="flex  max-md:block">
           <div className="w-full">
             <h2 className=" text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
@@ -52,14 +52,14 @@ const ClientsCorporations = () => {
               <p className="  text-3xl ">
                 No two clients are the same, nor are our solutions
               </p>
-              <p className="text-xl pb-8 max-md:mt-5  mt-10 border-b-2   border-[#000000]">
+              <p className="text-xl pb-8 max-md:mt-5  mt-10 border-b-2   border-black">
                 Pareto has developed a suite of services catered to the needs of
                 our clients, with various engagement levels to suit each
                 situation and circumstance.
               </p>
               <div className="pt-8">
                 <p className=" pb-3 text-3xl ">Speaking Engagements</p>
-                <div className=" max-xl:block flex items-center justify-between border-b-2   border-[#000000] pb-6">
+                <div className=" max-xl:block flex items-center justify-between border-b-2   border-black pb-6">
                   <p className="text-xl lg:max-w-[400px]">
                     Are you an event organiser and want your audience to
                     experience our cutting edge research and insights? Then book
@@ -72,7 +72,7 @@ const ClientsCorporations = () => {
               </div>
               <div className="pt-8">
                 <p className=" pb-3 text-3xl ">Research</p>
-                <div className=" max-xl:block flex items-center justify-between border-b-2   border-[#000000] pb-6">
+                <div className=" max-xl:block flex items-center justify-between border-b-2   border-black pb-6">
                   <p className="text-xl lg:max-w-[400px]">
                     This offering helps to satisfy clients need for insights
                     into specific issues by providing full service research
@@ -86,7 +86,7 @@ const ClientsCorporations = () => {
               </div>
               <div className="pt-8">
                 <p className=" pb-3 text-3xl ">Executive Workshops</p>
-                <div className="max-xl:block  flex items-center justify-between border-b-2   border-[#000000] pb-6">
+                <div className="max-xl:block  flex items-center justify-between border-b-2   border-black pb-6">
                   <p className="text-xl lg:max-w-[400px]">
                     This service gives the opportunity for structured analysis
                     and the free exploration of issues of related interest to
@@ -101,7 +101,7 @@ const ClientsCorporations = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10 py-10 border-b-2 border-t-2   border-[#000000]">
+      <section className="mt-10 py-10 border-b-2 border-t-2   border-black">
         <div className="flex  max-md:block">
           <div className="w-full">
             <h2 className=" text-3xl leading-[1.2] lg:text-6xl lg:leading-[1.3] lg:max-w-[650px]">
@@ -122,30 +122,28 @@ const ClientsCorporations = () => {
 
               <div className="flex">
                 <div className="w-full">
-                  <div className="  w-[150px] py-3  border-b-2 border-t-2   border-[#000000]">
+                  <div className="w-[150px] py-3 border-b-2 border-t-2 border-black">
                     Telecoms
                   </div>
-                  <div className="  w-[150px] py-3  border-[#000000]">
-                    Legal
-                  </div>
-                  <div className="  w-[150px] py-3  border-t-2   border-[#000000]">
+                  <div className="w-[150px] py-3 border-black">Legal</div>
+                  <div className="w-[150px] py-3 border-t-2   border-black">
                     Technology
                   </div>
-                  <div className="  w-[150px] py-3 border-b-2 border-t-2   border-[#000000]">
+                  <div className="w-[150px] py-3  border-b-2 border-t-2 border-black">
                     Insurance
                   </div>
                 </div>
                 <div className="w-full">
-                  <div className=" w-[150px] py-3   border-t-2   border-[#000000]">
+                  <div className=" w-[150px] py-3 border-t-2 border-black">
                     Energy
                   </div>
-                  <div className=" w-[150px] py-3   border-t-2   border-[#000000]">
+                  <div className=" w-[150px] py-3 border-t-2 border-black">
                     Natural Resources
                   </div>
-                  <div className=" w-[150px] py-3   border-t-2   border-[#000000]">
+                  <div className=" w-[150px] py-3 border-t-2 border-black">
                     Defense{" "}
                   </div>
-                  <div className=" w-[150px] py-3   border-b-2 border-t-2   border-[#000000]">
+                  <div className=" w-[150px] py-3 border-b-2 border-t-2 border-black">
                     Financial Services
                   </div>
                 </div>
@@ -154,8 +152,8 @@ const ClientsCorporations = () => {
           </div>
         </div>
       </section>
-      
-      <Footerdark contact />
+
+      <Footer contact />
     </div>
   );
 };

@@ -4,9 +4,13 @@ import Youtube from "../../assets/images/icons/youtube.svg";
 import Twitter from "../../assets/images/icons/twitter.svg";
 import Linkedin from "../../assets/images/icons/linkedin.svg";
 
-const Footer = ({ demo, contact, ptext = '' }) => {
+const Footer = ({ demo, contact, ptext,dark }) => {
   return (
-    <footer className="pt-10 border-black border-t mt-20">
+    <footer
+      className={`pt-[50px] md:pt-24 ${
+        dark ? "border-white" : "border-black"
+      } border-t mt-[50px] md:mt-24`}
+    >
       {demo && (
         <div className="flex max-sm:flex-col max-sm gap-5 items-center justify-between mb-14 md:mb-20">
           <h3 className="text-3xl md:text-5xl">Request a Demo</h3>
@@ -18,15 +22,15 @@ const Footer = ({ demo, contact, ptext = '' }) => {
       {contact && (
         <div className="flex max-md:flex-col mb-14 md:mb-20">
           <h3 className="text-3xl md:text-5xl flex-1">Conact Us</h3>
-          <div className="flex-[2] flex max-sm:flex-col items-start justify-between mt-8 md:mt-20">
+          <div className="flex-[2] flex max-sm:flex-col items-start justify-between md:mt-20">
             <p className="text-2xl sm:max-w-[60%] max-sm:mb-5">
-              {ptext !== "" && ptext}
+              {ptext && ptext}
               {/* Talk to us about gaining full access to the Global Power
               dashboard. */}
             </p>
             <Link
               to="/contact-us"
-              className="btn leading-[48px] h-[50px] px-10"
+              className={`btn leading-[48px] h-[50px] px-10 ${dark && 'invert'}`}
             >
               Contact Us
             </Link>

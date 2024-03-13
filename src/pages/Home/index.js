@@ -8,12 +8,11 @@ import DiscoverPowerIndex from '../../components/DiscoverPowerIndex'
 import OurClients from '../../components/OurClients'
 import ParetoThoughtLeadership from '../../components/ParetoThoughtLeadership'
 
-import MegaMenu from '../../components/MegaMenu'
 import InTheNewsComp from '../../components/InTheNewsComp'
 import homeHero from "../../assets/images/home/home-hero.png";
-import SearchBox from '../../components/SearchBox'
 
 const Home = () => {
+
   return (
     <>
       <div className="container mx-auto">
@@ -48,10 +47,7 @@ const Home = () => {
         <ParetoThoughtLeadership />
         <InTheNewsComp />
         <Footer demo />
-        
       </div>
-      <MegaMenu />
-      <SearchBox />
     </>
   );
 }

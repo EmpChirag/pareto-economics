@@ -33,7 +33,7 @@ const ServiceSpeaking = () => {
         h1width="max-w-[600px]"
         image={Hero}
       />
-      <section className="ceo border-b border-black pb-[60px] md:pb-24">
+      <section className="ceo border-b border-black pb-[50px] md:pb-24">
         <div className="flex gap-10 max-w-[1100px] mx-auto">
           <div className="flex-1">
             <img src={Klisman} alt="Klisman Murati" width={300} height={600} />
@@ -65,8 +65,8 @@ const ServiceSpeaking = () => {
           </div>
         </div>
       </section>
-      <section className="border-b border-black pb-[60px] md:pb-24 ">
-        <div className="icons flex items-center flex-wrap [&>img]:w-[13%] gap-10 justify-between border-b border-black pb-[60px] md:pb-24">
+      <section className="border-b border-black pb-[50px] md:pb-24 ">
+        <div className="icons flex items-center flex-wrap [&>img]:w-[13%] gap-10 justify-between border-b border-black pb-[50px] md:pb-24">
           <img src={Logo1} alt="logo" />
           <img src={Logo2} alt="logo" />
           <img src={Logo3} alt="logo" />

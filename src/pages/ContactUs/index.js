@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Logo from '../../assets/images/pareto-logo.webp'
 const ContactUs = () => {
   return (
     <div>
@@ -8,7 +8,7 @@ const ContactUs = () => {
         <div className="flex justify-center">
           <Link to="#">
             <img
-              src="images/pareto-economics-logo.png"
+              src={Logo}
               alt="Pareto Economics"
               width="90%"
               height="auto"
@@ -25,7 +25,7 @@ const ContactUs = () => {
                 <p>CONTACT / DASHBOARD DEMO / PARTNERSHIP INQUIRY</p>
               </div>
               <div className="relative z-0 w-full mb-5 group">
-                <label for="fname" class="text-2xl uppercase">
+                <label htmlFor="fname" className="text-2xl uppercase">
                   first name
                   <span className="text-red-600 ms-4">*</span>
                 </label>
@@ -33,13 +33,13 @@ const ContactUs = () => {
                   type="text"
                   name="fname"
                   id="fname"
-                  class="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
               </div>
-              <div class="relative z-0 w-full mb-5 group">
-                <label for="lname" class="text-2xl uppercase">
+              <div className="relative z-0 w-full mb-5 group">
+                <label htmlFor="lname" className="text-2xl uppercase">
                   last name
                   <span className="text-red-600 ms-4">*</span>
                 </label>
@@ -47,13 +47,13 @@ const ContactUs = () => {
                   type="text"
                   name="lname"
                   id="lname"
-                  class="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
               </div>
-              <div class="relative z-0 w-full mb-5 group">
-                <label for="company" class="text-2xl uppercase">
+              <div className="relative z-0 w-full mb-5 group">
+                <label htmlFor="company" className="text-2xl uppercase">
                   company/organisation
                   <span className="text-red-600 ms-4">*</span>
                 </label>
@@ -61,13 +61,13 @@ const ContactUs = () => {
                   type="text"
                   name="company"
                   id="company"
-                  class="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
               </div>
-              <div class="relative z-0 w-full mb-5 group">
-                <label for="jobtitle" class="text-2xl uppercase">
+              <div className="relative z-0 w-full mb-5 group">
+                <label htmlFor="jobtitle" className="text-2xl uppercase">
                   job title
                   <span className="text-red-600 ms-4">*</span>
                 </label>
@@ -75,13 +75,13 @@ const ContactUs = () => {
                   type="text"
                   name="jobtitle"
                   id="jobtitle"
-                  class="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
               </div>
-              <div class="relative z-0 w-full mb-5 group">
-                <label for="email" class="text-2xl uppercase">
+              <div className="relative z-0 w-full mb-5 group">
+                <label htmlFor="email" className="text-2xl uppercase">
                   business email
                   <span className="text-red-600 ms-4">*</span>
                 </label>
@@ -89,13 +89,13 @@ const ContactUs = () => {
                   type="email"
                   name="email"
                   id="email"
-                  class="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
               </div>
-              <div class="relative z-0 w-full mb-5 group">
-                <label for="phone" class="text-2xl uppercase">
+              <div className="relative z-0 w-full mb-5 group">
+                <label htmlFor="phone" className="text-2xl uppercase">
                   phone number
                   <span className="text-red-600 ms-4">*</span>
                 </label>
@@ -103,13 +103,13 @@ const ContactUs = () => {
                   type="number"
                   name="phone"
                   id="phone"
-                  class="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
               </div>
-              <div class="relative z-0 w-full mb-5 group">
-                <label for="topic" class="text-2xl uppercase">
+              <div className="relative z-0 w-full mb-5 group">
+                <label htmlFor="topic" className="text-2xl uppercase">
                   topic
                   <span className="text-red-600 ms-4">*</span>
                 </label>
@@ -171,26 +171,26 @@ const ContactUs = () => {
                   type="number"
                   name="phone"
                   id="phone"
-                  class="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b-2  appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder=" "
                   required
                 />
               </div>
 
               <label
-                for="message"
-                class="block mb-2 text-2xl font-medium uppercase"
+                htmlFor="message"
+                className="block mb-2 text-2xl font-medium uppercase"
               >
                 tell us more...
               </label>
               <textarea
                 id="message"
                 rows="4"
-                class="block p-2.5 w-full text-2xl border-white border-2 bg-black"
+                className="block p-2.5 w-full text-2xl border-white border-2 bg-black"
               />
               <button
                 type="submit"
-                class=" mt-8 border-2 border-white w-80 h-12 px-6 hover:bg-white hover:text-black text-xl"
+                className=" mt-8 border-2 border-white w-80 h-12 px-6 hover:bg-white hover:text-black text-xl"
               >
                 Submit
               </button>
