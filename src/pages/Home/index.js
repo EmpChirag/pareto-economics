@@ -48,6 +48,7 @@ const Home = () => {
         <ParetoThoughtLeadership />
         <InTheNewsComp />
         <Footer demo />
+        
       </div>
       <MegaMenu />
       <SearchBox />

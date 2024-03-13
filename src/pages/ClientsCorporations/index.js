@@ -1,9 +1,8 @@
 import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
-import Footer from "../../Layouts/Footer";
 import Footerdark from "../../Layouts/Footerdark";
-
+import Corporations from "../../assets/images/ClientsCorporations/Clients_Corporations.png";
 const ClientsCorporations = () => {
   return (
     <div className="container mx-auto pb-[200px]">
@@ -11,7 +10,7 @@ const ClientsCorporations = () => {
       <HeroSection
         className="hero-home"
         title="We Partner with Global Stakeholders to Guide Business Strategy"
-        image="images/ClientsCorporations/Clients_Corporations.png"
+        image={Corporations}
         h1width="max-w-[700px]"
       />
       <section className="mt-10 pb-10 border-b-2   border-[#000000]">
@@ -155,6 +154,7 @@ const ClientsCorporations = () => {
           </div>
         </div>
       </section>
+      
       <Footerdark contact />
     </div>
   );

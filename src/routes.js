@@ -15,6 +15,7 @@ const ServicesLanding = lazy(() => import("./pages/ServicesLanding"));
 const ClientLanding = lazy(() => import("./pages/ClientLanding"));
 
 const ClientsGovernments = lazy(() => import("./pages/ClientsGovernments"));
+const ClientsInvestors = lazy(() => import("./pages/ClientsInvestors"));
 const routes = [
   {
     path: "/",
@@ -67,12 +68,12 @@ const routes = [
   {
     path: "/first-principles",
     component: <FirstPrinciple />,
-    exact: true,
+    exact: true
   },
   {
     path: "/services-research",
     component: <ServicesResearch />,
-    exact: true,
+    exact: true
   },
   {
     path: "/clients-governments",
@@ -84,6 +85,11 @@ const routes = [
     component: <ServicesExecutiveWorkshops/>,
     exact: true
   },
+  {
+    path: "/clients-investors",
+    component: <ClientsInvestors />,
+    exact: true
+  }
 ];
 
 export default routes;
