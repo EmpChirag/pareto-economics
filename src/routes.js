@@ -10,6 +10,7 @@ const GlobalPowerIndex = lazy(() => import("./pages/GlobalPowerIndex"));
 const ClientsCorporations = lazy(() => import("./pages/ClientsCorporations"));
 const FirstPrinciple = lazy(() => import("./pages/FirstPrinciple"));
 const ServicesResearch = lazy(() => import("./pages/ServicesResearch"));
+const ServicesExecutiveWorkshops = lazy(() => import("./pages/ServicesExecutiveWorkshops"));
 const ServicesLanding = lazy(() => import("./pages/ServicesLanding"));
 const ClientLanding = lazy(() => import("./pages/ClientLanding"));
 
@@ -76,7 +77,12 @@ const routes = [
   {
     path: "/clients-governments",
     component: <ClientsGovernments />,
-    exact: true,
+    exact: true
+  },
+  {
+    path: "/services-executive-workshops",
+    component: <ServicesExecutiveWorkshops/>,
+    exact: true
   },
 ];
 
