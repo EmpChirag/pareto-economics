@@ -6,7 +6,7 @@ import Footer from "../../Layouts/Footer";
 import ourCore from '../../assets/images/aboutus/Our-Core.png'
 const AboutUs = () => {
   return (
-    <div className="container max-width-[1480px] mx-auto">
+    <div className="container mx-auto">
       <Header />
       <HeroSection
         className="hero-home"
