@@ -5,6 +5,7 @@ import Arrow from "../../assets/images/arrow.svg";
 import contentImg from "../../assets/images/latest-content.png";
 import newsImg from "../../assets/images/latest-news.png";
 const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
+
   return (
     <div
       className={`megaMenu absolute z-10 top-0 overflow-y-auto h-full px-5 left-0 w-full bg-black md:h-screen text-white pb-10 duration-300 ${
@@ -31,7 +32,8 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
             >
               Start Now{" "}
             </Link>
-            <div
+
+            <button
               className="Search-icon border w-10 h-10 flex items-center pl-[12px] pr-[10px] border-white ml-7"
               onClick={handleSearch}
             >
@@ -54,22 +56,20 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
                   ></path>
                 </g>
               </svg>
-            </div>
+            </button>
             <button
-              className="burger-menu border w-10 border-white border-l-0 flex flex-col h-10 justify-around py-2"
+              className="burger-menu border w-10 bg-white border-l-0 flex flex-col h-10 justify-around py-2"
               onClick={handleMenu}
             >
-              <span className="w-4 h-[1px] bg-white inline-block mx-auto rotate-45 top-[5px] relative"></span>
-              <span className="w-4 h-[1px] bg-white inline-block mx-auto -rotate-45 -top-[6px] relative"></span>
+              <span className="w-4 h-[1px] bg-black inline-block mx-auto rotate-45 top-[5px] relative"></span>
+              <span className="w-4 h-[1px] bg-black inline-block mx-auto -rotate-45 -top-[6px] relative"></span>
             </button>
           </div>
         </div>
       </div>
       <div className="menu md:grid grid-cols-3 gap-10 md:mt-5">
         <div className="navigation pt-5 border-t">
-          <div className="uppercase text-base  mb-3 md:mb-5">
-            Navigation{" "}
-          </div>
+          <div className="uppercase text-base  mb-3 md:mb-5">Navigation </div>
           <div className="navigation-links flex flex-col text-2xl ">
             <Link to="/about-us">About Us</Link>
             <Link to="/global-power-index">Global Power index</Link>

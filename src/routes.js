@@ -75,7 +75,7 @@ const routes = [
     exact: true
   },
   {
-    path: "/services/research",
+    path: "/services-research",
     component: <ServicesResearch />,
     exact: true
   },

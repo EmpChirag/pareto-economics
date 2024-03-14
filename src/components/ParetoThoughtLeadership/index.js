@@ -4,7 +4,7 @@ import ParetoThought from "../../assets/images/home/kisman-murati.png";
 const ParetoThoughtLeadership = () => {
   return (
     <section>
-      <h2 className="temp-font-remove lg:max-w-[780px]">
+      <h2 className="lg:max-w-[780px]">
         Pareto Thought Leadership - In Action
       </h2>
       <div className="flex justify-between max-md:flex-col mt-10 gap-5 md:gap-10">

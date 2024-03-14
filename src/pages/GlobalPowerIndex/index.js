@@ -30,7 +30,7 @@ const GlobalPowerIndex = () => {
         </section>
         <section className="pb-[50px] md:pb-24 w-full flex max-md:block justify-between border-b border-white gap-10 ">
           <div className="w-full">
-            <h2 className="sticky top-5 temp-font-remove lg:max-w-[650px] ">
+            <h2 className="sticky top-5 lg:max-w-[650px] ">
               Empowering Informed Global Strategies
             </h2>
           </div>
@@ -44,7 +44,7 @@ const GlobalPowerIndex = () => {
             <p className="py-10">
               Through our dashboard, comparative analysis and decision making
               are sharpened.
-              <div className="h-6"></div>
+              <span className="h-6 block"></span>
               With access to over 13,500 data points, spanning 194 countries
               across 10 years, coupled with real-time macro analysis, and access
               to our experts on demand, investors, corporations, and policy
@@ -52,7 +52,10 @@ const GlobalPowerIndex = () => {
               risks, and identify market opportunities with unparalleled
               accuracy.
             </p>
-            <a href="#" className="btn leading-[48px] h-[50px] text-black mt-5 btn-invert">
+            <a
+              href="https://pareto.empyrealinfotech.net/"
+              className="btn leading-[48px] h-[50px] text-black mt-5 btn-invert"
+            >
               Access Dashboard
             </a>
           </div>
@@ -60,9 +63,7 @@ const GlobalPowerIndex = () => {
         <section className="pb-[50px] md:pb-24 border-b border-white ">
           <div className="flex items-center justify-between  max-md:block gap-10">
             <div className="w-full">
-              <h2 className="temp-font-remove lg:max-w-[650px] ">
-                We Map the World
-              </h2>
+              <h2 className="lg:max-w-[650px] ">We Map the World</h2>
               <div className="mt-10 w-full items-center lg:max-w-[650px]">
                 <img src={Map} className="w-full" alt="map" />
               </div>
@@ -107,7 +108,7 @@ const GlobalPowerIndex = () => {
             <p className="font-title pt-5">
               Each of these Sub-Indices are composed of themes which best
               reflect each respective sub-index.
-            <span className='h-6 block'></span>
+              <span className="h-6 block"></span>
               And these themes are composed of a number of variables to give us
               a robust and reliable score for each country.
             </p>
@@ -128,7 +129,10 @@ const GlobalPowerIndex = () => {
         <section className="pb-[50px] md:pb-24 border-b border-white flex max-md:block gap-10">
           <div className="w-full">
             <h2 className="lg:max-w-[650px] pb-4">Analytics + Analysis</h2>
-            <a href="#" className="btn leading-[48px] h-[50px] text-black mt-5 md:mt-10 btn-invert">
+            <a
+              href="#"
+              className="btn leading-[48px] h-[50px] text-black mt-5 md:mt-10 btn-invert"
+            >
               Access Insights
             </a>
           </div>

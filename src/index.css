@@ -23,6 +23,7 @@ img{
 }
 .video-responsive{
   width: 100%;
+  position: relative;
 }
 .video-responsive iframe {
   aspect-ratio: 16 / 9;

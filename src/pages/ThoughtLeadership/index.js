@@ -21,23 +21,23 @@ const ThoughtLeadership = () => {
           </p>
         </div>
         <div className="mt-8 md:-mx-2 grid sm:grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="flex flex-wrap gap-4">
+          <div className="flex items-center flex-wrap gap-4">
             <Link
               to="#"
-              className="inline-block leading-[1] uppercase border border-black px-4 py-2"
+              className="uppercase leading-[1] border border-black px-2 md:px-4 py-2"
             >
               INSIGHTS
             </Link>
             <Link
               to="#"
-              className="inline-block leading-[1] uppercase border border-black px-4 py-2"
+              className="uppercase leading-[1] border border-black px-2 md:px-4 py-2"
             >
               PODCASTS
             </Link>
 
             <Link
               to="#"
-              className="inline-block leading-[1] uppercase border border-black px-4 py-2"
+              className="uppercase leading-[1] border border-black px-2 md:px-4 py-2"
             >
               KEYNOTES
             </Link>
@@ -74,40 +74,43 @@ const ThoughtLeadership = () => {
 
       <div className="mt-8 grid gap-10 md:grid-cols-3">
         <div className="" id="insights">
-          <div className="uppercase  text-xl md:text-2xl">
-            Insights
-          </div>
-          <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl my-4 md:my-5">
+          <div className="uppercase  text-xl md:text-2xl">Insights</div>
+          <a
+            href="#"
+            className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
+          >
             How is M&A impacted by China’s ‘Dual Circulation’ Development
             Strategy?
-          </h3>
-          <p className="text-base md:text-lg">
+          </a>
+          <p className="">
             “We focus on three key bilateral relationships, including; US-China,
             EU-China and UK-China”
           </p>
         </div>
         <div className="" id="podcasts">
-          <div className="uppercase  text-xl md:text-2xl">
-            Podcasts
-          </div>
-          <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl my-4 md:my-5">
+          <div className="uppercase  text-xl md:text-2xl">Podcasts</div>
+          <a
+            href="#"
+            className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
+          >
             What Drives Political Action in the Real World | CEO Munich Security
             Conference, Benedikt Franke
-          </h3>
-          <p className="text-base md:text-lg">
+          </a>
+          <p className="">
             This is a masterclass on the nature of politics and how to better
             understand your world.
           </p>
         </div>
         <div className="" id="kynotes">
-          <div className="uppercase  text-xl md:text-2xl">
-            Keynote
-          </div>
-          <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl my-4 md:my-5">
+          <div className="uppercase  text-xl md:text-2xl">Keynote</div>
+          <a
+            href="#"
+            className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
+          >
             A Beginner’s Guide to Geopolitical Risk, and How it’s Impacting
             Fintech
-          </h3>
-          <p className="text-base md:text-lg">
+          </a>
+          <p className="">
             Watch Klisman Murati, CEO of Pareto Economics deliver the keynote
             address at the annual Telia DAY ONE conference to an assembly of
             business leaders in the telecoms space.

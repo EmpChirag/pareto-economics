@@ -69,6 +69,7 @@ const Header = ({ invert }) => {
                   y="0"
                   viewBox="0 0 461.516 461.516"
                   xmlSpace="preserve"
+                  className={`${invert && 'invert-[98%] sepia-[99%] saturate-[4%] hue-rotate-60  brightness-[108%] contrast-[530%]'}`}
                 >
                   <g transform="matrix(-1.8369701987210297e-16,1,-1,-1.8369701987210297e-16,461.516040802002,0.000026702880859375)">
                     <path

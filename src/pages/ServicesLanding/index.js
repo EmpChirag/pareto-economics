@@ -15,10 +15,10 @@ const ServicesLanding = () => {
             <h1 className="   flex-1">
               Services
             </h1>
-            <div className="flex  md:justify-end col-span-1  pt-[8px]">
-              <h2 className="text-3xl max-w-[337px]">
+            <div className="flex md:justify-end pt-2">
+              <h3 className="max-w-[337px]">
                 Pareto offers three broad client services
-              </h2>
+              </h3>
               <br />
             </div>
           </div>
@@ -27,25 +27,25 @@ const ServicesLanding = () => {
           <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
               <img
-                className="max-w-[70%] h-auto"
+                className="md:max-w-[75%] h-auto"
                 src={SpeakingEngagement}
                 alt='Speaking Engagement'
               />
               <br/>
             </div>
-            <div className="flex-1 justify-end col-span-1 border-b border-slate-900 pb-[28px]">
-              <h3 className="text-3xl">Speaking Engagements</h3>
+            <div className="flex-1 justify-end  border-b border-slate-900 pb-[28px]">
+              <h4 className="font-body text-2xl font-bold">Speaking Engagements</h4>
               <br />
 
-              <div className="flex max-lg:flex-col justify-end col-span-1">
-                <p className="text-xl max-w-[300px]">
+              <div className="max-lg:flex-col flex justify-end lg:items-center gap-5">
+                <p className="max-w-[350px]">
                   Are you an event organiser and want your audience to
                   experience our cutting edge research and insights? Then book
                   our CEO for your next conference or summit.
                 </p>
 
-                <div className="col-span-1 flex-1 mt-9 2xl:pl-[92px] lg:pl-[34px]  md:pl-0">
-                  <Link to="" className="btn3  w-[110px] self-end ">
+                <div className="flex-1 lg:mt-9 lg:pl-[34px] 2xl:pl-[92px]  md:pl-0">
+                  <Link to="/services-speaking" className="btn2 self-end min-w-[115px] max-lg:w-4/5 ">
                     Book
                   </Link>
                 </div>
@@ -57,25 +57,25 @@ const ServicesLanding = () => {
           <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
               <img
-                className="max-w-[70%] h-auto"
+                className="md:max-w-[75%] h-auto"
                 src={Research}
               />
             </div>
             <br/>
-            <div className="flex-1 justify-end col-span-1 border-b border-slate-900 pb-[28px]">
-              <h3 className="text-3xl">Research</h3>
+            <div className="flex-1 justify-end  border-b border-slate-900 pb-[28px]">
+              <h4 className="font-body text-2xl font-bold">Research</h4>
               <br />
 
-              <div className="flex max-lg:flex-col justify-end col-span-1">
-                <p className="text-xl max-w-[274px] max-md:w-[270px]">
+              <div className="max-lg:flex-col flex justify-end lg:items-center gap-5">
+                <p className="max-w-[350px] ">
                   This offering helps to satisfy clients need for insights into
                   specific issues by providing full service research services
                   which help formulate your research question all the way to
                   post engagement debrief.
                 </p>
 
-                <div className="col-span-1 flex-1 mt-9 2xl:pl-[92px] lg:pl-[34px] md:pl-0">
-                  <Link to="" className="btn3 w-full max-w-[160px] self-end">
+                <div className="flex-1 lg:mt-9 lg:pl-[34px] 2xl:pl-[92px]  md:pl-0">
+                  <Link to="/services-research" className="btn2 self-end min-w-[115px] max-lg:w-4/5">
                     Learn More
                   </Link>
                 </div>
@@ -87,23 +87,23 @@ const ServicesLanding = () => {
           <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
               <img
-                className="max-w-[70%] h-auto"
+                className="md:max-w-[75%] h-auto"
                 src={ExecutiveWorkshops}
               />
               <br/>
             </div>
-            <div className="flex-1 justify-end col-span-1">
-              <h3 className="text-3xl">Executive Workshops</h3>
+            <div className="flex-1 justify-end ">
+              <h4 className="font-body text-2xl font-bold">Executive Workshops</h4>
               <br />
 
-              <div className="flex max-lg:flex-col justify-end col-span-1">
-                <p className="text-xl max-w-[274px]">
+              <div className="max-lg:flex-col flex justify-end lg:items-center gap-5">
+                <p className="max-w-[350px]">
                   This service gives the opportunity for structured analysis and
                   the free exploration of issues of related interest to clients.{" "}
                 </p>
 
-                <div className="col-span-1 flex-1 mt-9 lg:pl-[34px] 2xl:pl-[92px]  md:pl-0">
-                  <Link to="" className="btn3 w-full max-w-[160px] self-end">
+                <div className=" flex-1 lg:mt-9 lg:pl-[34px] 2xl:pl-[92px]  md:pl-0">
+                  <Link to="/services-executive-workshops" className="btn2 self-end min-w-[115px] max-lg:w-4/5">
                     Discover
                   </Link>
                 </div>

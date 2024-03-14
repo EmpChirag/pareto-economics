@@ -21,7 +21,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
       )}
       {contact && (
         <div className="flex max-md:flex-col mb-14 md:mb-20">
-          <h2 className=" flex-1">Conact Us</h2>
+          <h2 className=" flex-1 mb-3">Conact Us</h2>
           <div className="flex-[2] flex max-sm:flex-col items-start justify-between md:mt-20">
             <p className="text-2xl sm:max-w-[60%] max-sm:mb-5">
               {ptext && ptext}

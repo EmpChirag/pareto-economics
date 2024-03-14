@@ -11,7 +11,7 @@ const AboutUs = () => {
       <HeroSection className="hero-home" title="Our Core" image={ourCore} />
 
       <section className="mt-10">
-        <h2 className="temp-font-remove lg:max-w-[690px] ">
+        <h2 className="lg:max-w-[690px] ">
           How Will the World be Changed and Challenged in the next 100 years?
         </h2>
         <div className="border-b border-slate-900  py-5 md:py-10">

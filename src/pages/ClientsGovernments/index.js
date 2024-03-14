@@ -16,23 +16,22 @@ const ClientsGovernments = () => {
       <section className="mt-10 pb-10 border-b   border-black">
         <div className="flex  max-md:block">
           <div className="w-full">
-            <h2 className=" text-3xl leading-[1.2]  lg:text-6xl lg:leading-[1.3] lg:max-w-[700px]">
+            <h2 className="lg:max-w-[700px]">
               We Drive Economic Prosperity through data-driven Policy Making
             </h2>
           </div>
           <div className="w-full ">
             <div className=" max-md:float-none">
-              <p className="  text-3xl ">
+              <h3 className="max-md:mt-10">
                 The Pareto Policy Unit collaborates with global policymakers to
                 craft policies that drive meaningful change and deliver tangible
                 results.
-              </p>
-              <p className="text-xl pb-7 mt-20 max-md:mt-5  pt-25">
+              </h3>
+              <p className="pb-7 mt-20 max-md:mt-5">
                 At Pareto, we assist policymakers in gaining insights into the
                 needs of citizens, businesses, and markets while evaluating
                 policy impacts.
-              </p>
-              <p className="text-xl">
+                <span className='block h-6'/>
                 We leverage our expertise in data analytics and evidence-based
                 research to help clients develop actionable policies.
               </p>
@@ -40,7 +39,7 @@ const ClientsGovernments = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10 pb-10 ">
+      <section className="mt-10 md:pb-10 ">
         <div className="">
           <div className="w-full">
             <h2 className=" text-4xl leading-[1.2] max-md:text-2xl  lg:text-6xl lg:leading-[1.3] lg:max-w-[800px]">
@@ -50,7 +49,7 @@ const ClientsGovernments = () => {
             </h2>
           </div>
           <div className="w-full relative max-md:mt-5">
-            <p className=" text-3xl lg:max-w-[700px] max-md:text-2xl w-full border-b pb-8 max-md:mt-1 mt-10 max-md:pb-2 max-md:text-left text-right absolute right-0  border-black">
+            <p className=" font-title text-2xl lg:max-w-[700px] w-full border-b pb-8  mt-10  max-md:text-left text-right md:absolute right-0  border-black">
               We help countries thrive through:
             </p>
           </div>
@@ -59,12 +58,12 @@ const ClientsGovernments = () => {
       <section className=" pb-10   border-b   border-black">
         <div className="flex max-md:block">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2] max-md:text-2xl max-md:py-5  lg:text-6xl lg:leading-[1.3] lg:max-w-[800px]">
+            <h3 className="max-md:py-5 lg:max-w-[800px]">
               Evidence-Based Policy Making
-            </h2>
+            </h3>
           </div>
           <div className="w-full ">
-            <p className=" text-3xl max-md:text-2xl">
+            <p className="">
               Pareto emphasises the importance of basing policy decisions on
               empirical evidence and data-driven analysis. Governments can take
               advantage of our multifaceted country data to implement politics
@@ -78,13 +77,13 @@ const ClientsGovernments = () => {
       <section className="mt-10 pb-10 border-b   border-black">
         <div className="flex  max-md:block">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2]  max-md:text-2xl lg:text-6xl max-md:pb-5  lg:leading-[1.3] lg:max-w-[700px]">
+            <h3 className="max-md:pb-5 lg:max-w-[700px]">
               Geopolitical Risk Analysis
-            </h2>
+            </h3>
           </div>
           <div className="w-full ">
             <div className=" max-md:float-none">
-              <p className="  text-3xl max-md:text-2xl ">
+              <p className=" ">
                 Pareto assists governments in navigating complex geopolitical
                 dynamics and international relations shaped by current affairs
                 risks. By analysing global trends and developments, governments
@@ -101,13 +100,13 @@ const ClientsGovernments = () => {
       <section className="mt-10 ">
         <div className="flex  max-md:block">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2]  max-md:text-2xl max-md:pb-5 lg:text-6xl lg:leading-[1.3] lg:max-w-[700px]">
+            <h3 className="max-md:pb-5 lg:max-w-[700px]">
               “Vision Plan” Construction
-            </h2>
+            </h3>
           </div>
           <div className="w-full ">
             <div className=" max-md:float-none">
-              <p className="  text-3xl max-md:text-2xl">
+              <p className="">
                 Pareto believes that to compete in todays environment countries
                 need to showcase what they stand for and what they want to
                 achieve more clearly than ever. This requires creating a clear

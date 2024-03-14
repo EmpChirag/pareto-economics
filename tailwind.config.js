@@ -28,6 +28,7 @@ module.exports = {
     }
   },
   plugins: [
+    require("@tailwindcss/aspect-ratio"),
     plugin(function ({ addBase }) {
       addBase({
         h1: {
@@ -157,7 +158,7 @@ module.exports = {
         "@media (max-width: 1023px)": {
           h1: {
             fontSize: "40px",
-            lineHeight: "50px"
+            lineHeight: "46px"
           },
           h2: {
             fontSize: "35px",
@@ -169,7 +170,7 @@ module.exports = {
           },
           h4: {
             fontSize: "18px",
-            lineHeight: "26px"
+            lineHeight: "24px"
           }
         }
       });

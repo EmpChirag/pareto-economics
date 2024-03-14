@@ -40,11 +40,11 @@ const ServiceSpeaking = () => {
           </div>
           <div className="flex-1 flex flex-col justify-between ">
             <div>
-              <h3 className="text-xl md:text-4xl leading-[1.2] md:leading-[1.3] max-md:mb-5  max-md:mt-5   mb-10">
+              <h3 className="max-md:mb-5 max-md:mt-5 mb-10">
                 Want to ignite minds and inspire action? Book Pareto CEO,
                 Klisman Murati as your headline speaker.
               </h3>
-              <div className="text-xl ">
+              <div className="">
                 Regularly appearing on the international speaking circuit,
                 Murati shapes the insights of global leaders in industry and
                 policy making on topics related to globalisation, geopolitics,
@@ -60,14 +60,17 @@ const ServiceSpeaking = () => {
               </div>
             </div>
             <div></div>
-            <Link to="" className="btn w-content max-w-[260px] inline-block mt-10">
+            <Link
+              to=""
+              className="btn w-content max-w-[310px] max-md:px-3 inline-block mt-10"
+            >
               Download Speakers Pack
             </Link>
           </div>
         </div>
       </section>
       <section className="border-b border-black pb-[60px] md:pb-24 ">
-        <div className="icons flex items-center flex-wrap [&>img]:w-[13%]  max-md:[&>img]:w-[19%] gap-10 justify-between border-b border-black pb-[60px] md:pb-24">
+        <div className="icons flex items-center flex-wrap [&>img]:w-[13%]  max-md:[&>img]:w-[28%] gap-6 md:gap-10 justify-between border-b border-black pb-[60px] md:pb-24">
           <img src={Logo1} alt="logo" />
           <img src={Logo2} alt="logo" />
           <img src={Logo3} alt="logo" />
@@ -88,16 +91,14 @@ const ServiceSpeaking = () => {
           <img src={Logo18} alt="logo" />
         </div>
         <section className="mt-10">
-          <h2 className=" lg:max-w-[650px]">
-            Watch Murati in Action
-          </h2>
+          <h2 className=" lg:max-w-[650px]">Watch Murati in Action</h2>
         </section>
         <div className="flex max-lg:block mt-20 gap-10 mb-20 max-lg:mt-10  max-lg:mb-10">
           <div className="w-full flex-1 max-lg:mb-10">
-            <p className="text-4xl w-[400px] max-sm:w-full pb-5">
+            <h3 className="w-[400px] max-sm:w-full pb-5">
               How to Understand the Changing World Order
-            </p>
-            <p className="text-xl  w-[500px] max-md:w-full">
+            </h3>
+            <p className="w-[500px] max-md:w-full">
               Helsinki 2024 | Watch Klisman Murati, CEO of Pareto Economics
               deliver the keynote address at the annual Telia DAY ONE conference
               to an assembly of business leaders in the telecommunications
@@ -106,34 +107,32 @@ const ServiceSpeaking = () => {
           </div>
           <div className="video-responsive">
             <iframe
-              width="853"
-              height="480"
-              className="max-md:h-[300px]"
               src={`https://www.youtube.com/embed/aCFzDh63U1k?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               title="Embedded youtube"
+              className="min-h-[300px]"
             />
           </div>
         </div>
         <div className="flex max-lg:flex-col-reverse gap-10 mb-20 max-lg:mb-10">
-          <div className="video-responsive ">
+          <div className="video-responsive">
             <iframe
-              width="853"
-              height="480"
-              className="max-md:h-[300px]"
               src={`https://www.youtube.com/embed/fUw6wyuU2Xk?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               title="Embedded youtube"
+              className="min-h-[300px]"
             />
           </div>
           <div className="w-full flex-1 ">
             {" "}
-            <p className="text-4xl w-[400px] max-sm:w-full pb-5">Global Power Summit 2023</p>
-            <p className="text-xl  w-[500px] max-md:w-full">
+            <h3 className="w-[400px] max-sm:w-full pb-5">
+              Global Power Summit 2023
+            </h3>
+            <p className="w-[500px] max-md:w-full">
               London 2024 | Join Murati, as he gives his keynote for Pareto’s
               flagship summit to an audience of senior business and government
               leaders
@@ -142,47 +141,47 @@ const ServiceSpeaking = () => {
         </div>
         <div className="flex max-lg:block gap-10">
           <div className="w-full flex-1 max-lg:mb-10">
-            <p className="text-4xl w-[400px] max-sm:w-full pb-5">Global Power Summit 2022</p>
-            <p className="text-xl   w-[500px] max-md:w-full">
+            <h3 className="w-[400px] max-sm:w-full pb-5">
+              Global Power Summit 2022
+            </h3>
+            <p className=" w-[500px] max-md:w-full">
               London 2023 | Murati opens up the first Global Power Summit at the
               London School of Economics. Watch his keynote now.
             </p>
           </div>
-          <div className="video-responsive ">
+          <div className="video-responsive">
             <iframe
-              width="853"
-              height="480"
-              className="max-md:h-[300px]"
               src={`https://www.youtube.com/embed/4b2MggrfgY8?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               title="Embedded youtube"
+              className="min-h-[300px]"
             />
           </div>
         </div>
       </section>
       <section className="">
-        <div className="flex justify-between mt-8 max-md:block">
+        <div className="flex justify-between mt-8 gap-10 max-md:block">
           <div className="flex-1 flex justify-between flex-col">
-            <h2 className="temp-font-remove max-w-[600px]">
+            <h2 className="max-w-[600px]">
               Keynotes Worth Sharing
             </h2>
-            <div className="text-xl  max-w-[500px] max-md:w-full mb-10">
+            <div className="max-w-[500px] font-title font-bold max-md:w-full mb-10">
               These topics provide a great starting point for your event. Murati
               crafts personalized experiences by tailoring each talk to match
               the event's goals and the audience's interests.
             </div>
           </div>
 
-          <div className="w-full flex-1 text-3xl">
+          <div className="w-full flex-1">
             <div className="mt-32 pb-10 border-black border-b">
-              <p>
+              <h3>
                 Navigating Geopolitical Shifts: Strategies for Business
                 Resilience
-              </p>
+              </h3>
 
-              <p className="text-xl pt-3">
+              <p className="pt-3">
                 In an era marked by geopolitical volatility, understanding the
                 intersection of global politics and business is imperative. This
                 keynote explores actionable strategies for businesses to thrive
@@ -192,12 +191,12 @@ const ServiceSpeaking = () => {
             </div>
 
             <div className="mt-10 pb-10 border-black border-b">
-              <p>
+              <h3>
                 Leadership in 2024: What it Takes to Lead in a World with New
                 Rules
-              </p>
+              </h3>
 
-              <p className="text-xl pt-3">
+              <p className="pt-3">
                 As we step into a new phase of the 21st century, leadership
                 paradigms are undergoing significant transformations. This
                 keynote delves into the essential qualities and approaches that
@@ -208,11 +207,11 @@ const ServiceSpeaking = () => {
             </div>
 
             <div className="mt-10 pb-10 border-black border-b">
-              <p>
+              <h3>
                 Elections in 2024: How Will they Shape the Future of Business
-              </p>
+              </h3>
 
-              <p className="text-xl pt-3">
+              <p className="pt-3">
                 2024 will be the most important year in recent memory. This talk
                 delves into the new dimensions of strategic planning in the face
                 of global and a volatile election year. Murati emphasizes
@@ -223,12 +222,12 @@ const ServiceSpeaking = () => {
             </div>
 
             <div className="mt-10 pb-10 border-black border-b">
-              <p>
+              <h3>
                 The Future of Global Business: Anticipating Trends and
                 Opportunities
-              </p>
+              </h3>
 
-              <p className="text-xl pt-3">
+              <p className="pt-3">
                 Unraveling the prospects of global business in the upcoming
                 years requires a keen understanding of emerging trends and
                 potential opportunities. This keynote explores forecasts for
@@ -239,12 +238,12 @@ const ServiceSpeaking = () => {
             </div>
 
             <div className="mt-10 pb-10 border-black border-b">
-              <p>
+              <h3>
                 New Risks Requires New Thinking - How to Understand the Changing
                 World Order”
-              </p>
+              </h3>
 
-              <p className="text-xl pt-3">
+              <p className="pt-3">
                 Navigating uncertainties isn't just about managing risks; it's
                 about seizing hidden opportunities within them. This keynote
                 unravels the symbiotic relationship between risk and
@@ -257,52 +256,50 @@ const ServiceSpeaking = () => {
           </div>
         </div>
       </section>
-      <section className="Testimonials max-w-[]">
-        <h2 className="temp-font-remove mb-20 max-md:mb-10">
-          Testimonials
-        </h2>
+      <section className="Testimonials">
+        <h2 className="mb-20 max-md:mb-10">Testimonials</h2>
         <div className="flex gap-24 max-md:block">
           <div className="flex-1 flex flex-col justify-between gap-[200px] max-md:gap-[40px]">
             <div>
-              <div className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
                 “His [Klisman’s] capability to catch the attention of the
                 audience was astonishing”
-              </div>
-              <p className=" text-lg">
+              </h3>
+              <p className="">
                 – General Ivan Caruso, Commander of the Italian Special Forces |
                 Italian Army
               </p>
             </div>
             <div>
-              <div className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
                 “Klisman has the unique ability to communicate highly complex
                 topics in an easy to understand, thought provoking, fun, and
                 engaging way.”
-              </div>
-              <p className=" text-lg">– Barclays Bank</p>
+              </h3>
+              <p className="">– Barclays Bank</p>
             </div>
             <div>
-              <div className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
                 “One of the best speakers we’ve had."
-              </div>
-              <p className=" text-lg">– OP Financial Group</p>
+              </h3>
+              <p className="">– OP Financial Group</p>
             </div>
           </div>
           <div className="flex-1 flex flex-col  justify-around">
             <div>
-              <div className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
                 “Klisman thank you very much for a great presentation and
                 excellent discussion”
-              </div>
-              <p className=" text-lg">
+              </h3>
+              <p className="">
                 – -Dr Patricia Lewis – Research Director| Chatham House
               </p>
             </div>
             <div>
-              <div className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
                 "Excellent talk by a speaker who knows his stuff.
-              </div>
-              <p className=" text-lg">– AIG</p>
+              </h3>
+              <p className="">– AIG</p>
             </div>
           </div>
         </div>
@@ -314,50 +311,48 @@ const ServiceSpeaking = () => {
         </div>
       </section>
       <section className="border-t border-black pt-[60px] md:pt-24">
-        <div className="flex max-md:block justify-between max-w-[1200px] mx-auto">
+        <div className="flex max-md:block justify-between max-w-[1200px] ">
           <div>
-            <h2 className="  lg:max-w-[600px]">
-              Tell Us about your Event
-            </h2>
+            <h2 className="  lg:max-w-[600px]">Tell Us about your Event</h2>
           </div>
           <div>
             <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               FIRST NAME{" "}
-              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
+              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>{" "}
             </p>
             <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               LAST NAME{" "}
-              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
+              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>{" "}
             </p>
             <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               COMPANY /ORGANISATION{" "}
-              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
             </p>
             <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               BUSINESS EMAIL{" "}
-              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
             </p>
             <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               PHONE NUMBER{" "}
-              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
             </p>
             <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               WHERE IS THE EVENT BEING HELD?{" "}
-              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
             </p>
             <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               EVENT DATE{" "}
-              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>{" "}
+              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>{" "}
             </p>
             <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
               SPEAKER BUDGET (USD $){" "}
-              <div className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></div>
+              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
             </p>
             <button className=" mt-10 border  border-black  py-2 px-14">
               Submit
             </button>
 
-            <p className="text-sm  w-[400px] max-sm:w-full mt-5">
+            <p className="w-[400px] max-sm:w-full mt-5">
               Please see our Privacy Policy regarding how we will handle this
               information.
             </p>

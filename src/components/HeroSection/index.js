@@ -7,7 +7,7 @@ const HeroSection = ({ className, title, image, h1width }) => {
     >
       <h1
         className={`  mb-6 ${
-          h1width ? h1width : "max-w-[500px]"
+          h1width ? h1width : "max-w-[610px]"
         }`}
       >
         {title}

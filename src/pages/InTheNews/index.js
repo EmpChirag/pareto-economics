@@ -4,6 +4,7 @@ import InTheNewsImg from "../../assets/images/In-the-news.png";
 import Header from "../../Layouts/Header";
 import CommonTab from "../../components/CommonTab";
 import Footer from "../../Layouts/Footer";
+import Articles from '../../components/Articles';
 
 const InTheNews = () => {
   const option = [
@@ -18,6 +19,7 @@ const InTheNews = () => {
       <Header />
       <HeroSection title="In the News" image={InTheNewsImg} />
       <CommonTab title="Filter Media Content" options={option} />
+      <Articles />
       <Footer />
     </div>
   );

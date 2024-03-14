@@ -9,36 +9,33 @@ const ServicesExecutiveWorkshops = () => {
       <Header />
       <HeroSection
         className="hero-home"
-        title="We Apply First Principles Thinking to World Affairs"
+        title="Dive Deeper with Executive Workshops"
         image="images/ServicesExecutiveWorkshops/Services-Executive-Workshops.png"
-        h1width="max-w-[700px]"
+        h1width="max-w-[750px]"
       />
 
       <section className="mt-10 pb-10 border-black border-b">
-        <div className="flex justify-between items-center mt-8">
+        <div className="flex max-md:flex-col justify-between mt-8">
           <h2 className=" max-w-[700px]">
             We Provide Customised Content for Your Needs and Challenges
           </h2>
-        </div>
 
-        <div className="flex justify-between items-center mt-8">
-
-          <p className="w-full text-3xl text-gray-600">
+          <h3 className="w-full mt-5 md:mt-[200px]">
             Pareto is brought in to shed light and shape thinking of senior
             leadership through interactive and engaging workshop/training
             programs.
-          </p>
+          </h3>
         </div>
       </section>
 
       <section className="mt-10 pb-10 border-black border-b">
-        <div className="social  flex items-center justify-between gap-4">
+        <div className="social flex flex-wrap items-center justify-between gap-4">
           <img
             src="images/ServicesExecutiveWorkshops/logos/Logo-1.png"
             alt="Logo 1"
             height="100"
             width="200"
-            className="w-[100px] h-auto"
+            className="w-full max-w-[150px] h-auto"
           />
 
           <img
@@ -46,7 +43,7 @@ const ServicesExecutiveWorkshops = () => {
             alt="Logo 2"
             height="100"
             width="200"
-            className="w-[100px] h-auto"
+            className="w-full max-w-[150px] h-auto"
           />
 
           <img
@@ -62,7 +59,7 @@ const ServicesExecutiveWorkshops = () => {
             alt="Logo 4"
             height="100"
             width="200"
-            className="w-[100px] h-auto"
+            className="w-full max-w-[150px] h-auto"
           />
 
           <img
@@ -82,25 +79,25 @@ const ServicesExecutiveWorkshops = () => {
           </h2>
         </div>
 
-        <div className="md:flex justify-between items-center mt-20 mb-10 gap-20">
+        <div className="md:flex justify-between items-center mt-8 md:mt-20 md:mb-10 gap-20">
           <div className="flex-1">
-            <h2 className="text-2xl lg:text-4xl leading-[1.2] max-w-[480px] mb-5">
+            <h3 className="max-w-[480px] mb-3 md:mb-5">
               Strategic Planning & Decision Making
-            </h2>
-            <p className="max-w-[460px] text-lg lg:text-2xl md:w-full text-gray-600 ">
+            </h3>
+            <p className="max-w-[460px] text-lg lg:text-2xl md:w-full  ">
               Whether your team is eager to engage in scenario planning, test
               assumptions, or gain a broader, more informed perspective, Pareto
               is poised to offer deep insights into underlying dynamics,
               empowering you to make informed decisions with confidence.
             </p>
-            <br/>
+            <br />
           </div>
           <div className="flex-1">
-            <h2 className="text-2xl lg:text-4xl leading-[1.2] max-w-[434px] mb-5">
+            <h3 className="max-w-[434px] mb-3 md:mb-5">
               Education & Skills Upgrade
-            </h2>
+            </h3>
 
-            <p className="max-w-[413px] text-lg lg:text-2xl md:w-full text-gray-600">
+            <p className="max-w-[413px] text-lg lg:text-2xl md:w-full ">
               Executive workshops offer a dynamic platform for education and
               skills upgrades, providing participants with immersive learning
               experiences and practical tools to enhance their professional
@@ -112,19 +109,15 @@ const ServicesExecutiveWorkshops = () => {
 
       <section className="mt-10 pb-10 ">
         <div className="flex justify-between items-center mt-8">
-          <h2 className="temp-font-remove max-w-[600px]">
-            Our Approach
-          </h2>
+          <h2 className="max-w-[600px]">Our Approach</h2>
         </div>
 
-        <div className="flex justify-between items-center mt-8">
-          <h2 className="w-full"></h2>
-
-          <div className="w-full text-3xl">
+        <div className="flex justify-between items-center md:mt-8">
+          <div className="w-full">
             <div className="mt-5 pb-10 border-black border-b">
-              <p>Interactive Learning Environment</p>
+              <h3>Interactive Learning Environment</h3>
 
-              <p className="text-xl pt-3">
+              <p className=" pt-3">
                 Our executive workshops foster an interactive learning
                 environment where participants engage in discussions, case
                 studies, group activities, and hands-on exercises. This
@@ -134,9 +127,9 @@ const ServicesExecutiveWorkshops = () => {
             </div>
 
             <div className="mt-10 pb-10 border-black border-b">
-              <p>Cutting-Edge Content</p>
+              <h3>Cutting-Edge Content</h3>
 
-              <p className="text-xl pt-3">
+              <p className=" pt-3">
                 Executive workshops feature cutting-edge content on the latest
                 trends, developments, and best practices in various industries
                 and domains. Participants gain access to up-to-date information
@@ -146,9 +139,9 @@ const ServicesExecutiveWorkshops = () => {
             </div>
 
             <div className="mt-10 pb-10 border-black border-b">
-              <p>Tailored Curriculum</p>
+              <h3>Tailored Curriculum</h3>
 
-              <p className="text-xl pt-3">
+              <p className=" pt-3">
                 Workshops are always tailored to the specific needs and
                 objectives of the participants or organisations. This customised
                 curriculum ensures that the content is relevant, practical, and
@@ -158,9 +151,9 @@ const ServicesExecutiveWorkshops = () => {
             </div>
 
             <div className="mt-10 pb-10 border-black border-b">
-              <p>Skill-Building</p>
+              <h3>Skill-Building</h3>
 
-              <p className="text-xl pt-3">
+              <p className=" pt-3">
                 Executive workshops focus on skill-building and competency
                 development across a wide range of areas, including leadership,
                 strategic thinking, analysis, problem-solving, and
@@ -170,9 +163,9 @@ const ServicesExecutiveWorkshops = () => {
             </div>
 
             <div className="mt-10 pb-10 border-black border-b">
-              <p>Actionable Insights</p>
+              <h3>Actionable Insights</h3>
 
-              <p className="text-xl pt-3">
+              <p className=" pt-3">
                 Executive workshops deliver actionable insights and practical
                 tools that participants can immediately apply to their work.
                 Whether it's developing a strategic plan, refining leadership
@@ -182,10 +175,10 @@ const ServicesExecutiveWorkshops = () => {
               </p>
             </div>
 
-            <div className="mt-10 pb-10 border-black border-b">
-              <p>Continuous Learning Culture</p>
+            <div className="mt-10 md:pb-10 border-black md:border-b">
+              <h3>Continuous Learning Culture</h3>
 
-              <p className="text-xl pt-3">
+              <p className=" pt-3">
                 By participating in executive workshops, individuals and
                 organisations cultivate a culture of continuous learning and
                 professional development. Investing in education and skills
