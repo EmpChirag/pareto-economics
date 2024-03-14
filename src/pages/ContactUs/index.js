@@ -36,7 +36,7 @@ const ContactUs = () => {
                   type="text"
                   name="fname"
                   id="fname"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                   placeholder=" "
                   required
                 />
@@ -50,7 +50,7 @@ const ContactUs = () => {
                   type="text"
                   name="lname"
                   id="lname"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                   placeholder=" "
                   required
                 />
@@ -64,7 +64,7 @@ const ContactUs = () => {
                   type="text"
                   name="company"
                   id="company"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                   placeholder=" "
                   required
                 />
@@ -78,7 +78,7 @@ const ContactUs = () => {
                   type="text"
                   name="jobtitle"
                   id="jobtitle"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                   placeholder=" "
                   required
                 />
@@ -92,7 +92,7 @@ const ContactUs = () => {
                   type="email"
                   name="email"
                   id="email"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                   placeholder=" "
                   required
                 />
@@ -106,7 +106,7 @@ const ContactUs = () => {
                   type="number"
                   name="phone"
                   id="phone"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                   placeholder=" "
                   required
                 />
@@ -174,7 +174,7 @@ const ContactUs = () => {
                   type="number"
                   name="phone"
                   id="phone"
-                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                   placeholder=" "
                   required
                 />

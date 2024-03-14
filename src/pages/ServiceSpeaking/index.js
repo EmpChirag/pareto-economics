@@ -164,9 +164,7 @@ const ServiceSpeaking = () => {
       <section className="">
         <div className="flex justify-between mt-8 gap-10 max-md:block">
           <div className="flex-1 flex justify-between flex-col">
-            <h2 className="max-w-[600px]">
-              Keynotes Worth Sharing
-            </h2>
+            <h2 className="max-w-[600px]">Keynotes Worth Sharing</h2>
             <div className="max-w-[500px] font-title font-bold max-md:w-full mb-10">
               These topics provide a great starting point for your event. Murati
               crafts personalized experiences by tailoring each talk to match
@@ -308,54 +306,175 @@ const ServiceSpeaking = () => {
             More Testimonials
           </button>
           <div className="clear-both"></div>
-        </div>
+      </div>
       </section>
       <section className="border-t border-black pt-[60px] md:pt-24">
-        <div className="flex max-md:block justify-between max-w-[1200px] ">
+        <div className="flex max-md:block justify-between max-w-[1200px] ml-auto">
           <div>
-            <h2 className="  lg:max-w-[600px]">Tell Us about your Event</h2>
+            <h2 className=" lg:max-w-[600px] max-md:mb-10">
+              Tell Us about your Event
+            </h2>
           </div>
-          <div>
-            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
-              FIRST NAME{" "}
-              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>{" "}
-            </p>
-            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
-              LAST NAME{" "}
-              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>{" "}
-            </p>
-            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
-              COMPANY /ORGANISATION{" "}
-              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
-            </p>
-            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
-              BUSINESS EMAIL{" "}
-              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
-            </p>
-            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
-              PHONE NUMBER{" "}
-              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
-            </p>
-            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
-              WHERE IS THE EVENT BEING HELD?{" "}
-              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
-            </p>
-            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
-              EVENT DATE{" "}
-              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>{" "}
-            </p>
-            <p className="border-b flex items-center  w-[500px] max-md:w-full border-black py-5">
-              SPEAKER BUDGET (USD $){" "}
-              <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
-            </p>
-            <button className=" mt-10 border  border-black  py-2 px-14">
-              Submit
-            </button>
 
-            <p className="w-[400px] max-sm:w-full mt-5">
-              Please see our Privacy Policy regarding how we will handle this
-              information.
-            </p>
+          <div className="md:flex md:justify-center ">
+            <form>
+              <div className="relative z-0 w-full mb-5 group">
+                <label
+                  htmlFor="fname"
+                  className="text-2xl max-sm:text-base uppercase flex items-center"
+                >
+                  first name
+                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                </label>
+                <input
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b 
+                   appearance-none  border-black  
+                   focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                  placeholder=" "
+                  required
+                />
+              </div>
+              <div className="relative z-0 w-full mb-5 group">
+                <label
+                  htmlFor="lname"
+                  className="text-2xl max-sm:text-base uppercase flex items-center"
+                >
+                  last name
+                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                </label>
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                  placeholder=" "
+                  required
+                />
+              </div>
+              <div className="relative z-0 w-full mb-5 group">
+                <label
+                  htmlFor="company"
+                  className="text-2xl max-sm:text-base uppercase flex items-center"
+                >
+                  company/organisation
+                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                </label>
+                <input
+                  type="text"
+                  name="company"
+                  id="company"
+                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                  placeholder=" "
+                  required
+                />
+              </div>
+              <div className="relative z-0 w-full mb-5 group">
+                <label
+                  htmlFor="email"
+                  className="text-2xl max-sm:text-base uppercase flex items-center"
+                >
+                  business email
+                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                  placeholder=" "
+                  required
+                />
+              </div>
+              <div className="relative z-0 w-full mb-5 group">
+                <label
+                  htmlFor="phone"
+                  className="text-2xl max-sm:text-base uppercase flex items-center"
+                >
+                  phone number
+                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                </label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                  placeholder=" "
+                  required
+                />
+              </div>
+
+              <div className="relative z-0 w-full mb-5 group">
+                <label
+                  htmlFor="jobtitle"
+                  className="text-2xl max-sm:text-base uppercase flex items-center"
+                >
+                  WHERE IS THE EVENT BEING HELD?
+                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                </label>
+                <input
+                  type="text"
+                  name="jobtitle"
+                  id="jobtitle"
+                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                  placeholder=" "
+                  required
+                />
+              </div>
+              <div className="relative z-0 w-full mb-5 group">
+                <label
+                  htmlFor="jobtitle"
+                  className="text-2xl max-sm:text-base uppercase flex items-center"
+                >
+                  EVENT DATE
+                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                </label>
+                <input
+                  type="text"
+                  name="jobtitle"
+                  id="jobtitle"
+                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                  placeholder=" "
+                  required
+                />
+              </div>
+              <div className="relative z-0 w-full mb-5 group">
+                <label
+                  htmlFor="jobtitle"
+                  className="text-2xl max-sm:text-base uppercase flex items-center"
+                >
+                  SPEAKER BUDGET (USD $)
+                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                </label>
+                <input
+                  type="text"
+                  name="jobtitle"
+                  id="jobtitle"
+                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                  placeholder=" "
+                  required
+                />
+              </div>
+              <button
+                type="submit"
+                className="btn mt-8  hover:text-white   after:hidden text-xl"
+              >
+                Submit
+              </button>
+
+              <div className="mt-10">
+                <p>
+                  Please see our
+                  <Link>
+                    <i className="border-black border-b mx-2">Privacy Policy</i>
+                  </Link>
+                  regarding how we will
+                  <br /> handle this information.
+                </p>
+              </div>
+            </form>
           </div>
         </div>
       </section>
