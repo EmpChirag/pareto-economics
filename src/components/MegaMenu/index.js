@@ -70,7 +70,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
       <div className="menu md:grid grid-cols-3 gap-10 md:mt-5">
         <div className="navigation pt-5 border-t">
           <div className="uppercase text-base  mb-3 md:mb-5">Navigation </div>
-          <div className="navigation-links flex flex-col text-2xl ">
+          <div className="navigation-links flex flex-col text-4xl leading-[60px] ">
             <Link to="/about-us">About Us</Link>
             <Link to="/global-power-index">Global Power index</Link>
             <Link to="/thought-leadership">Thought Leadership</Link>
@@ -161,7 +161,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
           </div>
           <div className="latest-content mt-10 pt-5 border-t">
             <div className=" mb-5 uppercase flex justify-between">
-              <span className="text-base ">Latest Content</span>
+              <span className="text-base ">News Content</span>
               <Link
                 to="/"
                 className="text-sm underline hover:no-underline whitespace-nowrap"
@@ -180,7 +180,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
         <div>
           <div className="global-power pt-5 border-t max-md:mt-10">
             <div className="mb-5 uppercase flex justify-between ">
-              <span className="text-base ">Global Power Index</span>
+              <span className="text-base">Global Power Index</span>
               <Link
                 to="/"
                 className="text-sm  underline hover:no-underline whitespace-nowrap"
@@ -194,8 +194,8 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
             </div>
           </div>
           <div className="global-power pt-5 border-t mt-10">
-            <div className="flex flex-col text-lg">
-              <a href="/">LEGAL</a>
+              <p>LEGAL</p>
+            <div className="flex flex-col text-lg pl-[98px]">
               <a href="/">Modern Slavery Statement</a>
               <a href="/">Cookies</a>
               <a href="/">Privacy and Security Statement</a>

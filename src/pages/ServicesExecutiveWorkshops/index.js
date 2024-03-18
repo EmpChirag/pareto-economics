@@ -112,7 +112,8 @@ const ServicesExecutiveWorkshops = () => {
           <h2 className="max-w-[600px]">Our Approach</h2>
         </div>
 
-        <div className="flex justify-between items-center md:mt-8">
+        <div className="flex justify-between items-center md:mt-8 md:float-right md:max-w-[50%]">
+          
           <div className="w-full">
             <div className="mt-5 pb-10 border-black border-b">
               <h3>Interactive Learning Environment</h3>
@@ -188,6 +189,9 @@ const ServicesExecutiveWorkshops = () => {
             </div>
           </div>
         </div>
+        <div className="clear-both">
+
+          </div>
       </section>
 
       <Footer

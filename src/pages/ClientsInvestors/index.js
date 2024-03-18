@@ -3,7 +3,7 @@ import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import homeHer from "../../assets/images/Clients-Investors.png";
 import Footer from "../../Layouts/Footer";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const ClientsInvestors = () => {
   return (
@@ -33,7 +33,7 @@ const ClientsInvestors = () => {
                 Explore Index
               </Link>
             </div>
-            <div className="w-full max-md:my-5">
+            <div className="w-full max-md:my-5 lg:ml-64">
               <h2 className="border-b border-black max-w-[450px] pb-4 ">
                 Pareto helps with:
               </h2>
@@ -53,54 +53,62 @@ const ClientsInvestors = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10 border-b py-10  border-black">
-        <div>
-          <div className="flex max-md:flex-col">
-            <div className="w-full">
-              <h2 className=" lg:max-w-[650px] mb-20">Who We Serve</h2>
-              <p className="border-b font-title  border-t  border-black max-w-[380px] text-2xl py-4">
-                Hedge Funds
-              </p>
-              <p className="border-b font-title border-black max-w-[380px] text-2xl py-4">
-                Sovereign Wealth Funds
-              </p>
-              <p className="border-b font-title border-black max-w-[380px] text-2xl py-4">
-                Commercial Lenders
-              </p>
-              <p className=" max-w-[380px] text-2xl py-4">Central Banks</p>
-            </div>
-            <div className="w-full items-end flex">
-              <div className="">
-                <h3 className="border-b  border-black max-w-[380px] pb-10 mt-10">
-                  Institutional investors trust Pareto to deliver
-                </h3>
-                <p className="border-b font-title border-black max-w-[380px] text-2xl py-4">
-                  Asset Management
-                </p>
-                <p className="border-b font-title border-black max-w-[380px] text-2xl py-4">
-                  Family Offices
-                </p>
-                <p className="border-b font-title border-black max-w-[380px] text-2xl py-4">
-                  Private Equity
-                </p>
-                <p className="font-title max-w-[380px] text-2xl py-4">
-                  Multilateral Development Banks
-                </p>
+
+      <section className="mt-10 py-10 border-b  border-black">
+        <div className="flex flex-1 max-md:block">
+          <h2 className=" flex-1 lg:max-w-[650px] mb-5">Who We Serve</h2>
+
+          <div className="flex-1">
+            <div>
+              <h3 className="max-w-[380px] pb-10 mt-10">
+                Institutional investors trust Pareto to deliver
+              </h3>
+              <div className="flex gap-10 md:gap-20">
+                <div className="w-full">
+                  <div className=" py-3 border-b border-t border-black">
+                    Hedge Funds
+                  </div>
+                  <div className=" py-3 border-black">
+                    {" "}
+                    Sovereign Wealth Funds
+                  </div>
+                  <div className=" py-3 border-t   border-black">
+                    Commercial Lenders
+                  </div>
+                  <div className=" py-3  border-b border-t border-black">
+                    Central Banks
+                  </div>
+                </div>
+                <div className="w-full">
+                  <div className="  py-3 border-t border-black">
+                    {" "}
+                    Asset Management
+                  </div>
+                  <div className="  py-3 border-t border-black">
+                    Family Offices
+                  </div>
+                  <div className="  py-3 border-t border-black">
+                    {" "}
+                    Private Equity{" "}
+                  </div>
+                  <div className="  py-3 border-b border-t border-black">
+                    Multilateral Development Banks
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="clear-both"></div>
           </div>
         </div>
       </section>
 
       <section className="mt-10  md:pb-10">
-        <div className="flex max-lg:gap-10 max-md:flex-col">
-          <div className="w-full">
-            <h2 className="lg:max-w-[650px]">How We Serve </h2>
-          </div>
-          <div className="w-full ">
-            <div className="">
-              <h3 className="  ">Solutions as besh3oke as your portfolios</h3>
+        <div className="flex  max-lg:gap-10 max-md:flex-col">
+          
+            <h2 className=" flex-1 lg:max-w-[650px]">How We Serve </h2>
+          
+          
+            <div className="flex-1">
+              <h3>Solutions as bespoke as your portfolios</h3>
               <p className=" pb-8 max-md:mt-5  mt-10 border-b border-black">
                 Pareto has developed a suite of services catered to the needs of
                 each investor, with various engagement levels to suit each
@@ -131,7 +139,10 @@ const ClientsInvestors = () => {
                     services which help formulate your research question all the
                     way to post engagement debrief.
                   </p>
-                  <Link to='/services-research' className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px]   flex items-center justify-between">
+                  <Link
+                    to="/services-research"
+                    className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px]   flex items-center justify-between"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -144,14 +155,17 @@ const ClientsInvestors = () => {
                     and the free exploration of issues of related interest to
                     clients.
                   </p>
-                  <Link to='/services-executive-workshops' className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px] flex items-center justify-between">
+                  <Link
+                    to="/services-executive-workshops"
+                    className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px] flex items-center justify-between"
+                  >
                     Discover
                   </Link>
                 </div>
               </div>
             </div>
             <div className="clear-both"></div>
-          </div>
+          
         </div>
       </section>
 

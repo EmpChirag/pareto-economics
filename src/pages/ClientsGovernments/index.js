@@ -42,7 +42,7 @@ const ClientsGovernments = () => {
       <section className="mt-10 md:pb-10 ">
         <div className="">
           <div className="w-full">
-            <h2 className=" text-4xl leading-[1.2] max-md:text-2xl  lg:text-6xl lg:leading-[1.3] lg:max-w-[800px]">
+            <h2 className="lg:max-w-[800px]">
               In today's competitive global landscape, where attention,
               investment, and trust are highly sought after, focusing on
               long-term vision is essential for success.

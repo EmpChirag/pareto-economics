@@ -30,7 +30,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
             </p>
             <Link
               to="/contact-us"
-              className={`btn leading-[48px] h-[50px] px-10 text-black ${dark && 'btn-invert'}`}
+              className={`btn min-w-[210px] leading-[48px] h-[50px] px-10 text-black ${dark && 'btn-invert'}`}
             >
               Contact Us
             </Link>
@@ -66,11 +66,11 @@ const Footer = ({ demo, contact, ptext,dark }) => {
           />
         </a>
       </div>
-      <p className="mt-4 text-lg ">
+      <p className="mt-4 text-[16px] ">
         (c) 2024 Pareto Economics LtD. All rights reserved.
       </p>
-      <div className="flex flex-col text-xl gap-4 mt-10  pb-10">
-        <a href="/">LEGAL</a>
+      <div className="flex flex-col text-[18px] gap-4 mt-10  pb-10">
+        <p>LEGAL</p>
         <a href="/">Modern Slavery Statement</a>
         <a href="/">Cookies</a>
         <a href="/">Privacy and Security Statement</a>

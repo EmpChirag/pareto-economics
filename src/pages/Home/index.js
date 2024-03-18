@@ -23,6 +23,8 @@ const Home = () => {
           image={homeHero}
         />
         <CommonSection>
+          <div className='border-b border-b-slate-900 md:pb-24 pb-[50px] '>
+
           <h2 className="lg:max-w-[650px]">
             We harness the power of data analytics to map the future of global
             development
@@ -36,11 +38,12 @@ const Home = () => {
             clients navigate the geopolitical, economic, social and
             technological changes they are experiencing so they can take action
             with more confidence.
-            <Link to="/about-us" className="btn2 mt-8 ml-20">
+            <Link to="/about-us" className="btn2 mt-8 md:ml-20">
               Discover How
             </Link>
           </div>
           <div className="clear-both"></div>
+          </div>
         </CommonSection>
         <DiscoverPowerIndex />
         <OurClients />

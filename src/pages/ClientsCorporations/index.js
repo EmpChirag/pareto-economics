@@ -38,10 +38,10 @@ const ClientsCorporations = () => {
       </section>
       <section className="mt-10">
         <div className="flex  max-md:block">
-          <div className="w-full">
-            <h2 className=" lg:max-w-[650px]">How We Serve</h2>
-          </div>
-          <div className="w-full ">
+          
+            <h2 className="flex-1 lg:max-w-[650px]">How We Serve</h2>
+        
+          <div className="flex-1 ">
             <div>
               <h3>No two clients are the same, nor are our solutions</h3>
               <p className="pb-8 max-md:mt-5  mt-10 border-b   border-black">
@@ -50,7 +50,7 @@ const ClientsCorporations = () => {
                 situation and circumstance.
               </p>
               <div className="pt-8">
-                <h3 className=" pb-3 ">Speaking Engagements</h3>
+                <h3 className="font-body text-2xl font-bold pb-3">Speaking Engagements</h3>
                 <div className=" max-xl:block flex items-center justify-between border-b   border-black pb-6">
                   <p className="lg:max-w-[400px]">
                     Are you an event organiser and want your audience to
@@ -66,7 +66,7 @@ const ClientsCorporations = () => {
                 </div>
               </div>
               <div className="pt-8">
-                <h3 className=" pb-3 ">Research</h3>
+                <h3 className="font-body text-2xl font-bold pb-3">Research</h3>
                 <div className=" max-xl:block flex items-center justify-between border-b   border-black pb-6">
                   <p className="lg:max-w-[400px]">
                     This offering helps to satisfy clients need for insights
@@ -80,7 +80,7 @@ const ClientsCorporations = () => {
                 </div>
               </div>
               <div className="pt-8">
-                <h3 className=" pb-3 ">Executive Workshops</h3>
+                <h3 className="font-body text-2xl font-bold pb-3">Executive Workshops</h3>
                 <div className="max-xl:block  flex items-center justify-between md:border-b   border-black pb-6">
                   <p className="lg:max-w-[400px]">
                     This service gives the opportunity for structured analysis
@@ -96,24 +96,23 @@ const ClientsCorporations = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10 pt-10 border-t   border-black">
-        <div className="flex  max-md:block">
-          <div className="w-full">
-            <h2 className=" lg:max-w-[650px] mb-5">Who We Serve</h2>
-          </div>
-          <div className="w-full ">
+      <section className="mt-10 pt-10 border-t  border-black">
+        <div className="flex flex-1 max-lg:block">
+            <h2 className=" flex-1 lg:max-w-[650px] mb-5">Who We Serve</h2>
+          
+          <div className="flex-1">
             <div>
               <h3>
-                We believe current and future global dynamics will imh3ct every
+                We believe current and future global dynamics will impact every
                 industry around the world.
               </h3>
-              <p className="py-7  ">
+              <p className="py-7">
                 Our message of challenging status quo thinking resonates with
                 industry leaders from varies sectors who believe a new approach
                 is need to meet the challenges of a new world, including:
               </p>
 
-              <div className="flex gap-10 md:gap-20">
+              <div className="flex gap-10 md:gap-20 max-sm:block">
                 <div className="w-full">
                   <div className=" py-3 border-b border-t border-black">
                     Telecoms

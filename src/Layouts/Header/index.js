@@ -48,7 +48,7 @@ const Header = ({ invert }) => {
               <Link
                 to="/contact-us"
                 className={`btn max-md:hidden ${
-                  invert && "invert text-black "
+                  invert && "btn-invert "
                 }`}
               >
                 Start Now{" "}

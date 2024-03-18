@@ -14,7 +14,7 @@ const ServicesResearch = () => {
         className="hero-home"
         title="Harness the Power of Our Analytics to Answer Your Questions"
         image={ServicesResearchImg}
-        h1width="max-w-[700px]"
+        h1width="max-w-[810px]"
       />
 
       <section className="mt-10 pb-10 border-black border-b">
@@ -65,7 +65,7 @@ const ServicesResearch = () => {
 
         </div>
 
-        <div className="flex justify-between max-md:w-full max-md:flex-col gap-5 max-lg:gap-0 max-lg:justify-normal">
+        <div className="flex  justify-end max-md:w-full max-md:flex-col gap-5 max-lg:gap-0 max-lg:justify-normal">
     
 
           <div className="flex justify-between max-md:flex-col gap-5 md:gap-10 mt-10">
@@ -95,7 +95,7 @@ const ServicesResearch = () => {
         </div>
       </section>
 
-      <section className="mt-10 pb-10 border-black md:border-b">
+      <section className="mt-10">
         <div className="flex justify-between max-md:flex-col mt-8">
           <h2 className="max-w-[720px]">How Long Does Research Take?</h2>
         </div>

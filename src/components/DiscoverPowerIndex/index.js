@@ -9,7 +9,7 @@ const DiscoverPowerIndex = () => {
             Discover how the Global Power Index (GPI) can shape decision making
             at the highest levels.
           </h2>
-          <div className="text-2xl md:text-3xl mt-10">
+          <div className="mt-10">
             We have pioneered a new approach to geo-economic analysis that
             empowers organisations to make more informed decisions.
           </div>

@@ -103,7 +103,7 @@ const GlobalPowerIndex = () => {
               </p>
             </div>
             <div>
-              <p className="text-xl">Financial Strength</p>
+              <p className="text-xl border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3  border-white">Financial Strength</p>
             </div>
             <p className="font-title pt-5">
               Each of these Sub-Indices are composed of themes which best
@@ -130,7 +130,7 @@ const GlobalPowerIndex = () => {
           <div className="w-full">
             <h2 className="lg:max-w-[650px] pb-4">Analytics + Analysis</h2>
             <a
-              href="#"
+              href="https://pareto.empyrealinfotech.net/"
               className="btn leading-[48px] h-[50px] text-black mt-5 md:mt-10 btn-invert"
             >
               Access Insights

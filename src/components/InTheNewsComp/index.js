@@ -19,7 +19,7 @@ const InTheNewsComp = () => {
             href="https://youtu.be/5DJIgMJt_pw?si=P8eSllvspG0SIMdJ&t=173"
             className="text-2xl md:text-3xl my-4 md:my-5 inline-block font-title"
           >
-            Biden Travels to UK to launch ‘Atlantic Declaration’
+            Biden Travels to UK to launch ‘Atlantic Declaration’ - June 2023
           </a>
         </div>
         <div className="">
@@ -30,7 +30,7 @@ const InTheNewsComp = () => {
             href="https://mnacommunity.com/insights/how-to-better-evaluate-geopolitical-risk/"
             className="text-2xl md:text-3xl my-4 md:my-5 inline-block font-title"
           >
-            How to Better Evaluate Geopolitical Risk
+            How to Better Evaluate Geopolitical Risk - january 2024
           </a>
         </div>
         <div className="">
@@ -39,7 +39,7 @@ const InTheNewsComp = () => {
             href="https://www.youtube.com/watch?v=Na8-qANEQWI"
             className="text-2xl md:text-3xl my-4 md:my-5 inline-block font-title"
           >
-            Middle East Ties after Qatar’s Emir Visits the White House
+            Middle East Ties after Qatar’s Emir Visits the White House - March 2024
           </a>
         </div>
       </div>

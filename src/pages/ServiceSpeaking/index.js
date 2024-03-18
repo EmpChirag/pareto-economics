@@ -34,7 +34,7 @@ const ServiceSpeaking = () => {
         image={Hero}
       />
       <section className="ceo border-b border-black pb-[60px] md:pb-24">
-        <div className="flex gap-10 max-w-[1100px] mx-auto max-md:block">
+        <div className="flex gap-10 max-w-[1100px]  max-md:block">
           <div className="flex-1">
             <img src={Klisman} alt="Klisman Murati" width={300} height={600} />
           </div>
@@ -62,7 +62,7 @@ const ServiceSpeaking = () => {
             <div></div>
             <Link
               to=""
-              className="btn w-content max-w-[310px] max-md:px-3 inline-block mt-10"
+              className="btn w-content max-w-[330px] max-md:px-3 inline-block mt-10"
             >
               Download Speakers Pack
             </Link>
@@ -70,7 +70,7 @@ const ServiceSpeaking = () => {
         </div>
       </section>
       <section className="border-b border-black pb-[60px] md:pb-24 ">
-        <div className="icons flex items-center flex-wrap [&>img]:w-[13%]  max-md:[&>img]:w-[28%] gap-6 md:gap-10 justify-between border-b border-black pb-[60px] md:pb-24">
+        <div className="icons flex items-center flex-wrap md:[&>img]:w-[8%]   max-md:[&>img]:w-[28%] gap-6 md:gap-12 justify-between border-b border-black pb-[60px] md:pb-24">
           <img src={Logo1} alt="logo" />
           <img src={Logo2} alt="logo" />
           <img src={Logo3} alt="logo" />
@@ -254,8 +254,8 @@ const ServiceSpeaking = () => {
           </div>
         </div>
       </section>
-      <section className="Testimonials">
-        <h2 className="mb-20 max-md:mb-10">Testimonials</h2>
+      <section className="Testimonials border-t border-slate-950 my-10">
+        <h2 className="mb-20 max-md:mb-10 mt-10">Testimonials</h2>
         <div className="flex gap-24 max-md:block">
           <div className="flex-1 flex flex-col justify-between gap-[200px] max-md:gap-[40px]">
             <div>
@@ -324,7 +324,7 @@ const ServiceSpeaking = () => {
                   className="text-2xl max-sm:text-base uppercase flex items-center"
                 >
                   first name
-                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                  <span className="text-red-600 ms-4">*</span>
                 </label>
                 <input
                   type="text"
@@ -343,7 +343,7 @@ const ServiceSpeaking = () => {
                   className="text-2xl max-sm:text-base uppercase flex items-center"
                 >
                   last name
-                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                  <span className="text-red-600 ms-4">*</span>
                 </label>
                 <input
                   type="text"
@@ -360,7 +360,7 @@ const ServiceSpeaking = () => {
                   className="text-2xl max-sm:text-base uppercase flex items-center"
                 >
                   company/organisation
-                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                  <span className="text-red-600 ms-4">*</span>
                 </label>
                 <input
                   type="text"
@@ -377,7 +377,7 @@ const ServiceSpeaking = () => {
                   className="text-2xl max-sm:text-base uppercase flex items-center"
                 >
                   business email
-                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                  <span className="text-red-600 ms-4">*</span>
                 </label>
                 <input
                   type="email"
@@ -394,7 +394,7 @@ const ServiceSpeaking = () => {
                   className="text-2xl max-sm:text-base uppercase flex items-center"
                 >
                   phone number
-                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                  <span className="text-red-600 ms-4">*</span>
                 </label>
                 <input
                   type="text"
@@ -412,7 +412,7 @@ const ServiceSpeaking = () => {
                   className="text-2xl max-sm:text-base uppercase flex items-center"
                 >
                   WHERE IS THE EVENT BEING HELD?
-                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                  <span className="text-red-600 ms-4">*</span>
                 </label>
                 <input
                   type="text"
@@ -429,7 +429,7 @@ const ServiceSpeaking = () => {
                   className="text-2xl max-sm:text-base uppercase flex items-center"
                 >
                   EVENT DATE
-                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                  <span className="text-red-600 ms-4">*</span>
                 </label>
                 <input
                   type="text"
@@ -446,7 +446,7 @@ const ServiceSpeaking = () => {
                   className="text-2xl max-sm:text-base uppercase flex items-center"
                 >
                   SPEAKER BUDGET (USD $)
-                  <span className="w-[10px] h-[10px] bg-[#E52D27] rounded-[50%] ml-3"></span>
+                  <span className="text-red-600 ms-4">*</span>
                 </label>
                 <input
                   type="text"

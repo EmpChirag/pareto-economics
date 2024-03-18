@@ -25,7 +25,7 @@ const ParetoThoughtLeadership = () => {
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        className=" w-full mt-10"
+        className="w-full mt-10"
         title="Embedded youtube"
       />
       <div className="mt-8 flex max-md:flex-col gap-10 lg:px-10">
@@ -38,7 +38,7 @@ const ParetoThoughtLeadership = () => {
             How is M&A impacted by China’s ‘Dual Circulation’ Development
             Strategy?
           </a>
-          <p className=" text-lg md:text-2xl">
+          <p>
             “We focus on three key bilateral relationships, including; US-China,
             EU- China and UK-China”
           </p>
@@ -52,7 +52,7 @@ const ParetoThoughtLeadership = () => {
             What Drives Political Action in the Real World | CEO Munich Security
             Conference, Benedikt Franke
           </a>
-          <p className=" text-lg md:text-2xl">
+          <p>
             This is a masterclass on the nature of politics and how to better
             understand your world.
           </p>
@@ -66,7 +66,7 @@ const ParetoThoughtLeadership = () => {
             A Beginner’s Guide to Geopolitical Risk, and How it’s Impacting
             Fintech
           </a>
-          <p className=" text-lg md:text-2xl">
+          <p>
             “Geopolitics is a phenomenon that is increasingly impacting the
             global fintech and financial services ecosystem. ”
           </p>
