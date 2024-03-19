@@ -226,7 +226,7 @@ const ServiceSpeaking = () => {
                 Opportunities
               </h3>
 
-              <p className="pt-3">
+              <p className="pt-3"> 
                 Unraveling the prospects of global business in the upcoming
                 years requires a keen understanding of emerging trends and
                 potential opportunities. This keynote explores forecasts for
@@ -236,7 +236,7 @@ const ServiceSpeaking = () => {
               </p>
             </div>
 
-            <div className="mt-10 pb-10 border-black border-b">
+            <div className="mt-10 pb-10 border-black md:border-b">
               <h3>
                 New Risks Requires New Thinking - How to Understand the Changing
                 World Order”
@@ -468,8 +468,8 @@ const ServiceSpeaking = () => {
               <div className="mt-10">
                 <p>
                   Please see our
-                  <Link>
-                    <i className="border-black border-b mx-2">Privacy Policy</i>
+                  <Link className="underline hover:no-underline">
+                    <i className="border-black mx-2">Privacy Policy</i>
                   </Link>
                   regarding how we will
                   <br /> handle this information.

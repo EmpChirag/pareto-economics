@@ -75,7 +75,7 @@ const ServicesLanding = () => {
                 </p>
 
                 <div className="flex-1 lg:mt-9 lg:pl-[34px] 2xl:pl-[92px]  md:pl-0">
-                  <Link to="/services-research" className="btn2 self-end min-w-[115px] max-lg:w-4/5">
+                  <Link to="/services-research" className="btn2 self-end min-w-[146px] max-lg:w-4/5">
                     Learn More
                   </Link>
                 </div>

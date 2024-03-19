@@ -44,7 +44,7 @@ const InTheNewsComp = () => {
           <div>February 2022</div>
         </div>
       </div>
-      <Link to="/" className="btn2 max-w-[600px] mt-10">
+      <Link to="/in-the-news" className="btn2 max-w-[600px] mt-10">
         See More
       </Link>
     </section>

@@ -19,7 +19,7 @@ const OurClients = () => {
               We help capital allocators manage risk using our data first
               methodology
             </div>
-            <Link to="" className="btn3 mt-5 w-[110px] self-end">
+            <Link to="/clients-investors" className="btn3 mt-5 w-[110px] self-end">
               Explore
             </Link>
             <div className="clear-both"></div>
@@ -31,7 +31,7 @@ const OurClients = () => {
             <div className="flex-1 ">
               We partner with business leaders to guide business strategy
             </div>
-            <Link to="" className="btn3 mt-5 w-[110px] self-end">
+            <Link to="/clients-corporations" className="btn3 mt-5 w-[110px] self-end">
               Explore
             </Link>
             <div className="clear-both"></div>
@@ -43,7 +43,7 @@ const OurClients = () => {
             <div className="flex-1 ">
               We support governments to build and transform economies
             </div>
-            <Link to="" className="btn3 mt-5 w-[110px] self-end">
+            <Link to="/clients-governments" className="btn3 mt-5 w-[110px] self-end">
               Explore
             </Link>
             <div className="clear-both"></div>

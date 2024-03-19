@@ -24,20 +24,20 @@ const ThoughtLeadership = () => {
           <div className="flex items-center flex-wrap gap-4">
             <Link
               to="#"
-              className="uppercase leading-[1] border border-black px-2 md:px-4 py-2"
+              className="uppercase hover:bg-black hover:text-white !no-underline leading-[1] border border-black px-2 md:px-4 py-2"
             >
               INSIGHTS
             </Link>
             <Link
               to="#"
-              className="uppercase leading-[1] border border-black px-2 md:px-4 py-2"
+              className="uppercase  hover:bg-black hover:text-white !no-underline leading-[1] border border-black px-2 md:px-4 py-2"
             >
               PODCASTS
             </Link>
 
             <Link
               to="#"
-              className="uppercase leading-[1] border border-black px-2 md:px-4 py-2"
+              className="uppercase  hover:bg-black hover:text-white !no-underline leading-[1] border border-black px-2 md:px-4 py-2"
             >
               KEYNOTES
             </Link>

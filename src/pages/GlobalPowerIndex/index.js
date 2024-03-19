@@ -35,7 +35,7 @@ const GlobalPowerIndex = () => {
             </h2>
           </div>
           <div className="w-full">
-            <h3 className="">
+            <h3 className="mt-[16px]">
               Pareto’s GPI is the most comprehensive tool designed to provide
               global stakeholders with invaluable insights into the intricate
               dynamics of global power, thereby empowering informed

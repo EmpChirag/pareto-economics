@@ -7,8 +7,8 @@ const ParetoThoughtLeadership = () => {
       <h2 className="lg:max-w-[780px]">
         Pareto Thought Leadership - In Action
       </h2>
-      <div className="flex justify-between max-md:flex-col mt-10 gap-5 md:gap-10">
-        <h3 className=" md:my-5 max-w-[500px]">
+      <div className="flex justify-between max-lg:flex-col mt-10 gap-5 lg:gap-10">
+        <h3 className=" lg:my-5 max-w-[500px]">
           How To Understand The Changing World Order
         </h3>
         <div className="max-w-[600px]">
@@ -46,7 +46,7 @@ const ParetoThoughtLeadership = () => {
         <div className="">
           <div className="uppercase  text-lg md:text-2xl">PODCAST</div>
           <a
-            href="/"
+            href="https://podcasts.apple.com/gb/podcast/what-really-drives-political-action-in-the-real-world/id1394658598?i=1000518351187"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
           >
             What Drives Political Action in the Real World | CEO Munich Security
