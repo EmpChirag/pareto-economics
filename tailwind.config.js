@@ -32,7 +32,7 @@ module.exports = {
     plugin(function ({ addBase }) {
       addBase({
         h1: {
-          fontSize: "75px",
+          fontSize: "85px",
           lineHeight: "80px"
         },
         h2: {

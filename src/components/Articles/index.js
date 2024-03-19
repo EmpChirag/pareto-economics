@@ -1,8 +1,8 @@
 import React from 'react'
 import ArticleData from '../../Json/articles.json'
-import PodcastData from '../../Json/articles.json'
-import PressReleaseData from '../../Json/articles.json'
-import RadioData from "../../Json/articles.json";
+import PodcastData from '../../Json/podcast.json'
+import PressReleaseData from '../../Json/pressrelease.json'
+import RadioData from "../../Json/tvradio.json";
 
 const Articles = () => {
   return (
@@ -24,7 +24,7 @@ const Articles = () => {
         {PodcastData.map((podcast, index) => {
           return (
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="uppercase text-lg md:text-2xl">POdcast</div>
+              <div className="uppercase text-lg md:text-2xl">Podcast</div>
               <a
                 href={podcast.link}
                 className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"

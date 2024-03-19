@@ -126,12 +126,12 @@ const ClientsCorporations = () => {
                   </div>
                 </div>
                 <div className="w-full">
-                  <div className="  py-3 border-t border-black">Energy</div>
+                  <div className="  py-3 sm:border-t border-black">Energy</div>
                   <div className="  py-3 border-t border-black">
                     Natural Resources
                   </div>
                   <div className="  py-3 border-t border-black">Defense </div>
-                  <div className="  py-3 border-b border-t border-black">
+                  <div className="  py-3 sm:border-b border-t border-black">
                     Financial Services
                   </div>
                 </div>

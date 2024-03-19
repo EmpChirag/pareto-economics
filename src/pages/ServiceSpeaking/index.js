@@ -70,7 +70,8 @@ const ServiceSpeaking = () => {
         </div>
       </section>
       <section className="border-b border-black pb-[60px] md:pb-24 ">
-        <div className="icons flex items-center flex-wrap md:[&>img]:w-[8%]   max-md:[&>img]:w-[28%] gap-6 md:gap-12 justify-between border-b border-black pb-[60px] md:pb-24">
+        {/* <div className="icons flex items-center flex-wrap md:[&>img]:w-[8%]   max-md:[&>img]:w-[28%] gap-6 md:gap-12 justify-between border-b border-black pb-[60px] md:pb-24"> */}
+        <div className="icons  items-center grid grid-cols-3 md:grid-cols-6 xl:grid-cols-9 gap-10 md:gap-12 justify-between border-b border-black pb-[60px] md:pb-24">
           <img src={Logo1} alt="logo" />
           <img src={Logo2} alt="logo" />
           <img src={Logo3} alt="logo" />
@@ -306,7 +307,7 @@ const ServiceSpeaking = () => {
             More Testimonials
           </button>
           <div className="clear-both"></div>
-      </div>
+        </div>
       </section>
       <section className="border-t border-black pt-[60px] md:pt-24">
         <div className="flex max-md:block justify-between max-w-[1200px] ml-auto">

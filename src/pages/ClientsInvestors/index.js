@@ -63,7 +63,7 @@ const ClientsInvestors = () => {
               <h3 className="max-w-[380px] pb-10 mt-10">
                 Institutional investors trust Pareto to deliver
               </h3>
-              <div className="flex gap-10 md:gap-20">
+              <div className="sm:flex gap-10 md:gap-20">
                 <div className="w-full">
                   <div className=" py-3 border-b border-t border-black">
                     Hedge Funds
@@ -80,7 +80,7 @@ const ClientsInvestors = () => {
                   </div>
                 </div>
                 <div className="w-full">
-                  <div className="  py-3 border-t border-black">
+                  <div className="  py-3 sm:border-t border-black">
                     {" "}
                     Asset Management
                   </div>
@@ -91,7 +91,7 @@ const ClientsInvestors = () => {
                     {" "}
                     Private Equity{" "}
                   </div>
-                  <div className="  py-3 border-b border-t border-black">
+                  <div className="  py-3 sm:border-b border-t border-black">
                     Multilateral Development Banks
                   </div>
                 </div>

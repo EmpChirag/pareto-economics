@@ -161,7 +161,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
           </div>
           <div className="latest-content mt-10 pt-5 border-t">
             <div className=" mb-5 uppercase flex justify-between">
-              <span className="text-base ">News Content</span>
+              <span className="text-base ">Latest News</span>
               <Link
                 to="/"
                 className="text-sm underline hover:no-underline whitespace-nowrap"
