@@ -388,7 +388,7 @@ const ServiceSpeaking = () => {
                    focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("firstName", {
-                      required: "The first name is required."
+                      required: "The first name is required.",
                     })}
                   />
                 </div>
@@ -415,7 +415,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("lastName", {
-                      required: "The last name is required."
+                      required: "The last name is required.",
                     })}
                   />
                 </div>
@@ -442,7 +442,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("companyName", {
-                      required: "The company/organisation is required."
+                      required: "The company/organisation is required.",
                     })}
                   />
                 </div>
@@ -472,8 +472,8 @@ const ServiceSpeaking = () => {
                       required: "The business email is required.",
                       pattern: {
                         value: /\S+@\S+\.\S+/,
-                        message: "Please enter valid email."
-                      }
+                        message: "Please enter valid email.",
+                      },
                     })}
                   />
                 </div>
@@ -503,8 +503,8 @@ const ServiceSpeaking = () => {
                       required: "The phone number is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid phone number."
-                      }
+                        message: "Please enter valid phone number.",
+                      },
                     })}
                   />
                 </div>
@@ -531,7 +531,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("eventLocation", {
-                      required: "The event location is required."
+                      required: "The event location is required.",
                     })}
                   />
                 </div>
@@ -558,7 +558,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("eventDate", {
-                      required: "The event date is required."
+                      required: "The event date is required.",
                     })}
                   />
                 </div>
@@ -585,7 +585,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("speakerBudget", {
-                      required: "The speaker budget is required."
+                      required: "The speaker budget is required.",
                     })}
                   />
                 </div>
@@ -607,13 +607,13 @@ const ServiceSpeaking = () => {
               )}
 
               {requestStatus && requestStatus.status === true && (
-                <div className="error bottom-4 text-green-500">
+                <div className="error mt-8 bottom-4 text-green-500">
                   {requestStatus.message}
                 </div>
               )}
 
               {requestStatus && requestStatus.status === false && (
-                <div className="error bottom-4 text-red-500">
+                <div className="error mt-8 bottom-4 text-red-500">
                   {requestStatus.message}
                 </div>
               )}

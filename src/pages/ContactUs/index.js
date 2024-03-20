@@ -84,7 +84,7 @@ const ContactUs = () => {
               alt="Pareto Economics"
               width="240"
               height="auto"
-              className='w-[80%]'
+              className="w-[80%]"
             />
           </Link>
         </div>
@@ -406,13 +406,13 @@ const ContactUs = () => {
               )}
 
               {requestStatus && requestStatus.status === true && (
-                <div className="error bottom-4 text-green-500">
+                <div className="error mt-8 bottom-4 text-green-500">
                   {requestStatus.message}
                 </div>
               )}
 
               {requestStatus && requestStatus.status === false && (
-                <div className="error bottom-4 text-red-500">
+                <div className="error mt-8 bottom-4 text-red-500">
                   {requestStatus.message}
                 </div>
               )}
