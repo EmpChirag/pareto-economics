@@ -41,7 +41,6 @@ const AboutUs = () => {
                 We forecast country growth trends using software enabled
                 insights
               </h3>
-              
             </div>
             <div className="col-span-1">
               <h3 className="text-2xl max-w-[472px]">
@@ -49,19 +48,18 @@ const AboutUs = () => {
                 development trends for people and organisations who need data
                 backed macro insights to make more informed strategy decisions.{" "}
               </h3>
-              <div className="grid lg:grid-cols-3 gap-4">
-                <div className="col-span-2">
+              <div className="lg:grid lg:grid-cols-5 gap-4">
+                <div className="col-span-3">
                   <p className=" pt-4 max-w-[384px]">
                     To achieve this, we created our flagship Global Power Index
                     and built a SAAS enabled platform to interact with the 194
                     countries we ranked.
                   </p>
-                  
                 </div>
-                <div className="col-span-1">
+                <div className="col-span-2">
                   <Link
-                    to=""
-                    className="btn3 mt-5 w-[110px] self-end border-b-[1px] border-slate-900"
+                    to="/global-power-index"
+                    className="btn3 mt-5 w-[110px] self-end "
                   >
                     Explore
                   </Link>
@@ -76,7 +74,6 @@ const AboutUs = () => {
               <h3 className="max-w-[280px]">
                 We serve clients who make long term vision a priority
               </h3>
-              
             </div>
             <div className="col-span-1">
               <h3 className="text-2xl max-w-[466px] ">
@@ -85,19 +82,18 @@ const AboutUs = () => {
                 trust us to challenge their assumptions and shape their thinking
                 when it matters most.{" "}
               </h3>
-              <div className="grid lg:grid-cols-3 gap-4">
-                <div className="col-span-2">
+              <div className="lg:grid lg:grid-cols-5 gap-4">
+                <div className="col-span-3">
                   <p className="max-w-[376px]  pt-4">
                     We partner with diverse clients from both the private and
                     public sectors, across various industries and regions, to
                     provide clarity and support.
                   </p>
-                  
                 </div>
-                <div className="col-span-1">
+                <div className="col-span-2">
                   <Link
-                    to=""
-                    className="btn3 mt-5 w-[110px] self-end border-b-[1px] border-slate-900"
+                    to="/clients"
+                    className="btn3 mt-5 w-[110px] self-end "
                   >
                     Clients
                   </Link>
@@ -112,7 +108,6 @@ const AboutUs = () => {
               <h3 className="max-w-[280px]">
                 We start from First Principles, and build from there
               </h3>
-              
             </div>
             <div className="col-span-1">
               <h3 className="max-w-[450px] text-2xl">
@@ -126,12 +121,11 @@ const AboutUs = () => {
                     principles thinking that helps clients better understand how
                     to approach problem solving in a smarter way.
                   </p>
-                  
                 </div>
                 <div className="col-span-2">
                   <Link
-                    to=""
-                    className="btn3 mt-5 max-w-[182px] max-md:w-full self-end border-b-[1px] text-[16px] border-slate-900"
+                    to="/first-principles"
+                    className="btn3 mt-5 max-w-[152px] max-md:w-full self-end text-[16px]"
                   >
                     Our Approach
                   </Link>
@@ -146,7 +140,6 @@ const AboutUs = () => {
               <h3 className="max-w-[280px]">
                 We mold our service offerings to fit your needs
               </h3>
-              
             </div>
             <div className="col-span-1">
               <h3 className="max-w-[426px] text-2xl">
@@ -158,12 +151,11 @@ const AboutUs = () => {
                     PClients are supported with an array of deliverables that
                     best serve the the intended outcomes.
                   </p>
-                  
                 </div>
                 <div className="col-span-2">
                   <Link
-                    to=""
-                    className="btn3 mt-5 max-w-[180px] w-full self-end border-b-[1px] border-slate-900"
+                    to="/services"
+                    className="btn3 mt-5 max-w-[110px] w-full self-end "
                   >
                     Services
                   </Link>
@@ -184,7 +176,7 @@ const AboutUs = () => {
                   problems.
                 </h3>
               </div>
-              
+
               <div className="flex pt-5">
                 <p className="max-w-[486px]">
                   With Pareto, governments are reforming their foreign direct

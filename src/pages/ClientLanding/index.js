@@ -14,7 +14,7 @@ const ClientLanding = () => {
           <div className="flex-1 max-md:flex-col max-sm:flex-col border-b pb-[16px] border-slate-900 flex">
             <h1 className="   flex-1">Clients</h1>
             <div className="flex md:justify-end pt-2">
-              <h3 className="max-w-[287px]">
+              <h3 className="max-w-[400px]">
                 Pareto segments its clients into three broad categories.{" "}
               </h3>
             </div>
@@ -39,7 +39,7 @@ const ClientLanding = () => {
                   We partner with business leaders to guide business strategy.
                 </p>
 
-                <div className="flex-1 max-md:mt-4 2xl:pl-[92px] lg:pl-[34px] md:pl-0">
+                <div className="flex-1 max-md:mb-4 2xl:pl-[92px] lg:pl-[34px] md:pl-0">
                   <Link
                     to="/clients-corporations"
                     className="btn2 self-end min-w-[115px]  max-md:w-4/5"
@@ -66,7 +66,7 @@ const ClientLanding = () => {
                   methodology..
                 </p>
 
-                <div className="flex-1 max-md:mt-4 2xl:pl-[92px] lg:pl-[34px] md:pl-0">
+                <div className="flex-1 max-md:mb-4 2xl:pl-[92px] lg:pl-[34px] md:pl-0">
                   <Link
                     to="/clients-investors"
                     className="btn2 self-end min-w-[115px] max-md:w-4/5"
@@ -92,7 +92,7 @@ const ClientLanding = () => {
                   We support governments to build and transform economies.
                 </p>
 
-                <div className="flex-1 max-md:mt-4 2xl:pl-[92px] lg:pl-[34px] md:pl-0">
+                <div className="flex-1  2xl:pl-[92px] lg:pl-[34px] md:pl-0">
                   <Link
                     to="/clients-governments"
                     className="btn2 self-end min-w-[115px] max-md:w-4/5"

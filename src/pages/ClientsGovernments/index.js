@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import Footer from '../../Layouts/Footer';
-
+import aboutUs from "../../assets/images/ClientsGovernments/Clients-Governments.png";
 const ClientsGovernments = () => {
   return (
     <div className="container mx-auto">
@@ -10,7 +10,7 @@ const ClientsGovernments = () => {
       <HeroSection
         className="hero-home"
         title="Your Partners in fostering National Progress"
-        image="images/ClientsGovernments/Clients-Governments.png"
+        image={aboutUs}
         h1width="max-w-[700px]"
       />
       <section className="mt-10 pb-10 border-b   border-black">
@@ -31,7 +31,7 @@ const ClientsGovernments = () => {
                 At Pareto, we assist policymakers in gaining insights into the
                 needs of citizens, businesses, and markets while evaluating
                 policy impacts.
-                <span className='block h-6'/>
+                <span className="block h-6" />
                 We leverage our expertise in data analytics and evidence-based
                 research to help clients develop actionable policies.
               </p>

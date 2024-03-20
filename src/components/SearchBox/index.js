@@ -11,7 +11,7 @@ const SearchBox = ({ search, handleMenu, handleSearch }) => {
           : "opacity-0 pointer-events-none"
       }`}
     >
-      <div className="">
+      <div className="max-w-[1480px] mx-auto px-5">
         <div className="header">
           <div className="flex justify-between items-center pt-2">
             <Link to="/">

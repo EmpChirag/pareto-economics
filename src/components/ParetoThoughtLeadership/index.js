@@ -1,6 +1,6 @@
 import React from "react";
-import ParetoThought from "../../assets/images/home/kisman-murati.png";
-
+import dualCirculation from "../../assets/pdf/CHINA-DUAL-CIRCULATION-STRATEGY-PARETO-ECONOMICS-1.pdf";
+import geoPolitics from "../../assets/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf";
 const ParetoThoughtLeadership = () => {
   return (
     <section>
@@ -17,22 +17,24 @@ const ParetoThoughtLeadership = () => {
           assembly of business leaders in the telecommunications space.
         </div>
       </div>
-      <iframe
-        width="1480"
-        height="820"
-        className="max-md:h-[300px]"
-        src={`https://www.youtube.com/embed/aCFzDh63U1k?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        className="w-full mt-10"
-        title="Embedded youtube"
-      />
-      <div className="mt-8 flex max-md:flex-col gap-10 lg:px-10">
+      <div className="max-w-[900px] mx-auto">
+        <iframe
+          width="900"
+          height="520"
+          className="max-md:h-[300px] w-full mt-10"
+          src={`https://www.youtube.com/embed/aCFzDh63U1k?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="Embedded youtube"
+        />
+      </div>
+      <div className="mt-10 flex max-md:flex-col gap-10 lg:px-10">
         <div className="">
-          <div className="uppercase  text-lg md:text-2xl">Insights</div>
+          <div className="uppercase text-lg">Insights</div>
           <a
-            href="/"
+            href={dualCirculation}
+            target="_blank"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
           >
             How is M&A impacted by China’s ‘Dual Circulation’ Development
@@ -44,10 +46,11 @@ const ParetoThoughtLeadership = () => {
           </p>
         </div>
         <div className="">
-          <div className="uppercase  text-lg md:text-2xl">PODCAST</div>
+          <div className="uppercase text-lg">PODCAST</div>
           <a
             href="https://podcasts.apple.com/gb/podcast/what-really-drives-political-action-in-the-real-world/id1394658598?i=1000518351187"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
+            target="_blank"
           >
             What Drives Political Action in the Real World | CEO Munich Security
             Conference, Benedikt Franke
@@ -58,9 +61,10 @@ const ParetoThoughtLeadership = () => {
           </p>
         </div>
         <div className="">
-          <div className="uppercase  text-lg md:text-2xl">Insights</div>
+          <div className="uppercase text-lg">Insights</div>
           <a
-            href="/"
+            href={geoPolitics}
+            target="_blank"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
           >
             A Beginner’s Guide to Geopolitical Risk, and How it’s Impacting

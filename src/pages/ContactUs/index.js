@@ -78,12 +78,13 @@ const ContactUs = () => {
     <div>
       <div className="grid max-sm:grid-cols-2 grid-cols-4 gap-4">
         <div className="flex justify-center">
-          <Link to="#">
+          <Link to="/">
             <img
               src={ParetoEconomics}
               alt="Pareto Economics"
-              width="90%"
+              width="240"
               height="auto"
+              className='w-[80%]'
             />
           </Link>
         </div>
@@ -100,7 +101,7 @@ const ContactUs = () => {
               </div>
               <div className="relative pb-7">
                 <div className="relative z-0 w-full mb-5 group">
-                  <label htmlFor="fname" className="text-2xl uppercase">
+                  <label htmlFor="fname" className="text-xl uppercase">
                     first name
                     <span className="text-red-600 ms-4">*</span>
                   </label>
@@ -108,7 +109,7 @@ const ContactUs = () => {
                     type="text"
                     name="fname"
                     id="fname"
-                    className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
+                    className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("firstName", {
                       required: "The first name is required.",
@@ -124,7 +125,7 @@ const ContactUs = () => {
 
               <div className="relative pb-7">
                 <div className="relative z-0 w-full mb-5 group">
-                  <label htmlFor="lname" className="text-2xl uppercase">
+                  <label htmlFor="lname" className="text-xl uppercase">
                     last name
                     <span className="text-red-600 ms-4">*</span>
                   </label>
@@ -132,7 +133,7 @@ const ContactUs = () => {
                     type="text"
                     name="lname"
                     id="lname"
-                    className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
+                    className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("lastName", {
                       required: "The last name is required.",
@@ -148,7 +149,7 @@ const ContactUs = () => {
 
               <div className="relative pb-7">
                 <div className="relative z-0 w-full mb-5 group">
-                  <label htmlFor="company" className="text-2xl uppercase">
+                  <label htmlFor="company" className="text-xl uppercase">
                     company/organisation
                     <span className="text-red-600 ms-4">*</span>
                   </label>
@@ -156,7 +157,7 @@ const ContactUs = () => {
                     type="text"
                     name="company"
                     id="company"
-                    className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
+                    className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("companyName", {
                       required: "The company/organisation is required.",
@@ -172,7 +173,7 @@ const ContactUs = () => {
 
               <div className="relative pb-7">
                 <div className="relative z-0 w-full mb-5 group">
-                  <label htmlFor="jobtitle" className="text-2xl uppercase">
+                  <label htmlFor="jobtitle" className="text-xl uppercase">
                     job title
                     <span className="text-red-600 ms-4">*</span>
                   </label>
@@ -180,7 +181,7 @@ const ContactUs = () => {
                     type="text"
                     name="jobtitle"
                     id="jobtitle"
-                    className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
+                    className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("jobTitle", {
                       required: "The job title is required.",
@@ -196,7 +197,7 @@ const ContactUs = () => {
 
               <div className="relative pb-7">
                 <div className="relative z-0 w-full mb-5 group">
-                  <label htmlFor="email" className="text-2xl uppercase">
+                  <label htmlFor="email" className="text-xl uppercase">
                     business email
                     <span className="text-red-600 ms-4">*</span>
                   </label>
@@ -204,7 +205,7 @@ const ContactUs = () => {
                     type="text"
                     name="email"
                     id="email"
-                    className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
+                    className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("email", {
                       required: "The business email is required.",
@@ -224,7 +225,7 @@ const ContactUs = () => {
 
               <div className="relative pb-7">
                 <div className="relative z-0 w-full mb-5 group">
-                  <label htmlFor="phone" className="text-2xl uppercase">
+                  <label htmlFor="phone" className="text-xl uppercase">
                     phone number
                     <span className="text-red-600 ms-4">*</span>
                   </label>
@@ -232,7 +233,7 @@ const ContactUs = () => {
                     type="text"
                     name="phone"
                     id="phone"
-                    className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
+                    className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("phoneNumber", {
                       required: "The phone number is required.",
@@ -252,7 +253,7 @@ const ContactUs = () => {
 
               <div className="pb-7 relative">
                 <div className="relative z-0 w-full mb-5 group">
-                  <label htmlFor="topic" className="text-2xl uppercase">
+                  <label htmlFor="topic" className="text-xl uppercase">
                     topic
                     <span className="text-red-600 ms-4">*</span>
                   </label>
@@ -358,7 +359,7 @@ const ContactUs = () => {
                       type="text"
                       name="otherTopic"
                       id="otherTopic"
-                      className="block px-0 w-full text-2xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
+                      className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                       placeholder=" "
                       {...register("otherTopic", {
                         required:
@@ -383,14 +384,14 @@ const ContactUs = () => {
 
               <label
                 htmlFor="message"
-                className="block mb-2 text-2xl font-medium uppercase"
+                className="block mb-2 text-xl font-medium uppercase"
               >
                 tell us more...
               </label>
               <textarea
                 id="message"
                 rows="4"
-                className="block p-2.5 w-full text-2xl border-white border-2 bg-black"
+                className="block p-2.5 w-full text-xl border-white border-2 bg-black"
                 {...register("message")}
               />
 

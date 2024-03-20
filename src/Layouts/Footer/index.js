@@ -30,7 +30,9 @@ const Footer = ({ demo, contact, ptext,dark }) => {
             </p>
             <Link
               to="/contact-us"
-              className={`btn min-w-[210px] leading-[48px] h-[50px] px-10 text-black ${dark && 'btn-invert'}`}
+              className={`btn min-w-[210px] leading-[48px] h-[50px] px-10 text-black ${
+                dark && "btn-invert"
+              }`}
             >
               Contact Us
             </Link>
@@ -38,7 +40,10 @@ const Footer = ({ demo, contact, ptext,dark }) => {
         </div>
       )}
       <div className="social flex gap-1">
-        <a href="youtube.com" target="_blank">
+        <a
+          href="https://www.youtube.com/channel/UCByNVk6Z4YRTLMKNyhu3bBw"
+          target="_blank"
+        >
           <img
             src={Youtube}
             alt="youtube"
@@ -47,7 +52,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
             className="h-[40px] w-[40px]"
           />
         </a>
-        <a href="x.com" target="_blank">
+        <a href="https://twitter.com/ParetoEconomics" target="_blank">
           <img
             src={Twitter}
             alt="X"
@@ -56,7 +61,10 @@ const Footer = ({ demo, contact, ptext,dark }) => {
             className="h-[40px] w-[40px]"
           />
         </a>
-        <a href="linkedin.com" target="_blank">
+        <a
+          href="https://www.linkedin.com/company/paretoeconomics/"
+          target="_blank"
+        >
           <img
             src={Linkedin}
             alt="Linkedin"
@@ -66,10 +74,10 @@ const Footer = ({ demo, contact, ptext,dark }) => {
           />
         </a>
       </div>
-      <p className="mt-4 text-[16px] ">
+      <p className="mt-4 text-base ">
         (c) 2024 Pareto Economics LtD. All rights reserved.
       </p>
-      <div className="flex flex-col text-[18px] gap-4 mt-10  pb-10">
+      <div className="flex flex-col text-lg gap-2 mt-10  pb-10">
         <p>LEGAL</p>
         <a href="/">Modern Slavery Statement</a>
         <a href="/">Cookies</a>

@@ -14,9 +14,9 @@ const GlobalPowerIndex = () => {
         <section className="mt-10 pb-10 border-white border-b ">
           <div className="flex max-md:flex-col gap-5 md:items-center justify-between ">
             <h1 className="max-w-[500px]">Global Power Index</h1>
-            <h3 className="max-w-[300px]">
+            <h2 className="max-w-[430px]">
               Software enabled Macro forecasting
-            </h3>
+            </h2>
           </div>
           <div className="w-full mt-10">
             <img
@@ -82,23 +82,23 @@ const GlobalPowerIndex = () => {
           <div className="w-full lg:max-w-[650px]">
             <h2 className="pb-4">We Lead with an Intelligent Framework</h2>
             <div className="my-5 ">
-              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-xl border-white">
+              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-2xl border-white">
                 Active Consumer Market
               </p>
 
-              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-xl border-white">
+              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-2xl border-white">
                 Military Balance
               </p>
 
-              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-xl border-white">
+              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-2xl border-white">
                 Technological leadership
               </p>
 
-              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-xl border-white">
+              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-2xl border-white">
                 Systemically Important Commodities
               </p>
 
-              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-xl border-white">
+              <p className="border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3 text-2xl border-white">
                 Geo-Strategic Positioning
               </p>
             </div>

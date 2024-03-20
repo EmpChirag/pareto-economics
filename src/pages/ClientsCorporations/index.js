@@ -12,7 +12,7 @@ const ClientsCorporations = () => {
         className="hero-home"
         title="We Partner with Global Stakeholders to Guide Business Strategy"
         image={Corporations}
-        h1width="max-w-[850px]"
+        h1width="max-w-[950px]"
       />
       <section className="mt-10 pb-10 border-b   border-black">
         <div className="flex max-md:flex-col">
@@ -20,7 +20,7 @@ const ClientsCorporations = () => {
             Long term thinking done right
           </h2>
 
-          <div className="flex-1">
+          <div className="flex-1 max-md:mt-5">
             <h3>
               We use a data driven approach to inform business strategy when it
               matters most.
@@ -38,10 +38,9 @@ const ClientsCorporations = () => {
       </section>
       <section className="mt-10">
         <div className="flex  max-md:block">
-          
-            <h2 className="flex-1 lg:max-w-[650px]">How We Serve</h2>
-        
-          <div className="flex-1 ">
+          <h2 className="flex-1 lg:max-w-[650px]">How We Serve</h2>
+
+          <div className="flex-1 max-md:mt-5">
             <div>
               <h3>No two clients are the same, nor are our solutions</h3>
               <p className="pb-8 max-md:mt-5  mt-10 border-b   border-black">
@@ -50,7 +49,9 @@ const ClientsCorporations = () => {
                 situation and circumstance.
               </p>
               <div className="pt-8">
-                <h3 className="font-body text-2xl font-bold pb-3">Speaking Engagements</h3>
+                <h3 className="font-body text-2xl font-bold pb-3">
+                  Speaking Engagements
+                </h3>
                 <div className=" max-xl:block flex items-center justify-between border-b   border-black pb-6">
                   <p className="lg:max-w-[400px]">
                     Are you an event organiser and want your audience to
@@ -59,7 +60,7 @@ const ClientsCorporations = () => {
                   </p>
                   <Link
                     to="/services-speaking"
-                    className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px]   flex items-center justify-between"
+                    className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px] max-md:mb-4 flex items-center justify-between"
                   >
                     Book
                   </Link>
@@ -74,33 +75,41 @@ const ClientsCorporations = () => {
                     services which help formulate your research question all the
                     way to post engagement debrief.
                   </p>
-                  <button className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px]   flex items-center justify-between">
+                  <Link
+                    to="/services-research"
+                    className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px] max-md:mb-4 flex items-center justify-between"
+                  >
                     Learn More
-                  </button>
+                  </Link>
                 </div>
               </div>
               <div className="pt-8">
-                <h3 className="font-body text-2xl font-bold pb-3">Executive Workshops</h3>
+                <h3 className="font-body text-2xl font-bold pb-3">
+                  Executive Workshops
+                </h3>
                 <div className="max-xl:block  flex items-center justify-between md:border-b   border-black pb-6">
                   <p className="lg:max-w-[400px]">
                     This service gives the opportunity for structured analysis
                     and the free exploration of issues of related interest to
                     clients.
                   </p>
-                  <button className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px]  flex items-center justify-between">
+                  <Link
+                    to="/services-executive-workshops"
+                    className="btn2 max-xl:mt-3 max-xl:w-[240px] w-[250px]  flex items-center justify-between"
+                  >
                     Discover
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="mt-10 pt-10 border-t  border-black">
+      <section className="mt-5 md:mt-10 pt-10 border-t  border-black">
         <div className="flex flex-1 max-lg:block">
-            <h2 className=" flex-1 lg:max-w-[650px] mb-5">Who We Serve</h2>
-          
-          <div className="flex-1">
+          <h2 className=" flex-1 lg:max-w-[650px] mb-5">Who We Serve</h2>
+
+          <div className="flex-1 ">
             <div>
               <h3>
                 We believe current and future global dynamics will impact every

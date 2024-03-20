@@ -3,6 +3,7 @@ import Header from '../../Layouts/Header'
 import Footer from '../../Layouts/Footer'
 import HeroSection from '../../components/HeroSection'
 import { Link } from 'react-router-dom';
+import heroImg from "../../assets/images/FirstPrinciple/First-Principles.png";
 
 const FirstPrinciple = () => {
   return (
@@ -11,8 +12,8 @@ const FirstPrinciple = () => {
       <HeroSection
         className="hero-home"
         title="We Apply First Principles Thinking to World Affairs"
-        image="images/FirstPrinciple/First-Principles.png"
-        h1width="max-w-[700px]"
+        image={heroImg}
+        h1width="max-w-[800px]"
       />
 
       <section className="mt-10 pb-10 border-black border-b">

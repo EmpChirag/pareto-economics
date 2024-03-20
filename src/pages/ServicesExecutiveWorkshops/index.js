@@ -2,7 +2,12 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
 import HeroSection from "../../components/HeroSection";
-
+import heroImg from "../../assets/images/ServicesExecutiveWorkshops/Services-Executive-Workshops.png";
+import Logo1 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-1.png";
+import Logo2 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-2.png";
+import Logo3 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-3.png";
+import Logo4 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-4.png";
+import Logo5 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-5.png";
 const ServicesExecutiveWorkshops = () => {
   return (
     <div className="container mx-auto pb-[200px]">
@@ -10,8 +15,8 @@ const ServicesExecutiveWorkshops = () => {
       <HeroSection
         className="hero-home"
         title="Dive Deeper with Executive Workshops"
-        image="images/ServicesExecutiveWorkshops/Services-Executive-Workshops.png"
-        h1width="max-w-[750px]"
+        image={heroImg}
+        h1width="max-w-[850px]"
       />
 
       <section className="mt-10 pb-10 border-black border-b">
@@ -31,7 +36,7 @@ const ServicesExecutiveWorkshops = () => {
       <section className="mt-10 pb-10 border-black border-b">
         <div className="social flex flex-wrap items-center justify-between gap-4">
           <img
-            src="images/ServicesExecutiveWorkshops/logos/Logo-1.png"
+            src={Logo1}
             alt="Logo 1"
             height="100"
             width="200"
@@ -39,7 +44,7 @@ const ServicesExecutiveWorkshops = () => {
           />
 
           <img
-            src="images/ServicesExecutiveWorkshops/logos/Logo-2.png"
+            src={Logo2}
             alt="Logo 2"
             height="100"
             width="200"
@@ -47,7 +52,7 @@ const ServicesExecutiveWorkshops = () => {
           />
 
           <img
-            src="images/ServicesExecutiveWorkshops/logos/Logo-3.png"
+            src={Logo3}
             alt="Logo 3"
             height="100"
             width="200"
@@ -55,7 +60,7 @@ const ServicesExecutiveWorkshops = () => {
           />
 
           <img
-            src="images/ServicesExecutiveWorkshops/logos/Logo-4.png"
+            src={Logo4}
             alt="Logo 4"
             height="100"
             width="200"
@@ -63,7 +68,7 @@ const ServicesExecutiveWorkshops = () => {
           />
 
           <img
-            src="images/ServicesExecutiveWorkshops/logos/Logo-5.png"
+            src={Logo5}
             alt="Logo 5"
             height="100"
             width="200"
@@ -79,7 +84,7 @@ const ServicesExecutiveWorkshops = () => {
           </h2>
         </div>
 
-        <div className="md:flex justify-between items-center mt-8 md:mt-20 md:mb-10 gap-20">
+        <div className="md:flex justify-between items-center mt-8 lg:mt-20 md:mb-10 gap-20">
           <div className="flex-1">
             <h3 className="max-w-[480px] mb-3 md:mb-5">
               Strategic Planning & Decision Making
@@ -113,7 +118,6 @@ const ServicesExecutiveWorkshops = () => {
         </div>
 
         <div className="flex justify-between items-center md:mt-8 md:float-right md:max-w-[50%]">
-          
           <div className="w-full">
             <div className="mt-5 pb-10 border-black border-b">
               <h3>Interactive Learning Environment</h3>
@@ -189,9 +193,7 @@ const ServicesExecutiveWorkshops = () => {
             </div>
           </div>
         </div>
-        <div className="clear-both">
-
-          </div>
+        <div className="clear-both"></div>
       </section>
 
       <Footer

@@ -14,7 +14,7 @@ const ServicesResearch = () => {
         className="hero-home"
         title="Harness the Power of Our Analytics to Answer Your Questions"
         image={ServicesResearchImg}
-        h1width="max-w-[810px]"
+        h1width="max-w-[950px]"
       />
 
       <section className="mt-10 pb-10 border-black border-b">

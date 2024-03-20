@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
-import homeHer from "../../assets/images/Clients-Investors.png";
+import heroImg from "../../assets/images/Clients-Investors.png";
 import Footer from "../../Layouts/Footer";
 import { Link } from "react-router-dom";
 
@@ -12,8 +12,8 @@ const ClientsInvestors = () => {
       <HeroSection
         className="hero-home"
         title="We help Capital Allocators Manage Risk using our Data-First Methodology"
-        image={homeHer}
-        h1width={"max-w-[900px]"}
+        image={heroImg}
+        h1width={"max-w-[1100px]"}
       />
       <section className="mt-0 border-b py-10 border-black">
         <div>
@@ -102,9 +102,9 @@ const ClientsInvestors = () => {
       </section>
 
       <section className="mt-10  md:pb-10">
-        <div className="flex  max-lg:gap-10 max-md:flex-col">
+        <div className="flex  max-md:flex-col justify-between">
           
-            <h2 className=" flex-1 lg:max-w-[650px]">How We Serve </h2>
+            <h2 className="flex-1 lg:max-w-[650px]">How We Serve </h2>
           
           
             <div className="flex-1">

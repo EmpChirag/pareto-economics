@@ -8,6 +8,14 @@ module.exports = {
       padding: "1.125em"
     },
     extend: {
+      fontSize: {
+        base: ["0.875rem", "1.25rem"],
+        lg: ["1rem", "1.5rem"],
+        xl: ["1.125rem", "1.75rem"],
+        "2xl": ["1.25rem", "1.75rem"],
+        "3xl": ["1.5rem", "2rem"],
+        "4xl": ["1.875rem", "2.25rem"]
+      },
       screens: {
         "2xl": "1480px",
         "max-2xl": { max: "1439px" },
@@ -33,15 +41,16 @@ module.exports = {
       addBase({
         h1: {
           fontSize: "85px",
-          lineHeight: "80px"
+          lineHeight: "80px",
+          fontWeight: 'normal'
         },
         h2: {
           fontSize: "50px",
           lineHeight: "54px"
         },
         h3: {
-          fontSize: "34px",
-          lineHeight: "40px"
+          fontSize: "32px",
+          lineHeight: "38px"
         },
         h4: {
           fontSize: "20px",
@@ -61,11 +70,11 @@ module.exports = {
           "&:after": {
             display: "inline-block",
             content: "url(./assets/images/arrow.svg)",
-            "margin-left": "4px",
-            width: "16px",
+            "margin-left": "6px",
+            width: "18px",
             transitionDuration: "0.3s",
             position: "relative",
-            top: "1px"
+            top: "3px"
           },
           "&:hover": {
             backgroundColor: "#1B2029",
@@ -102,20 +111,21 @@ module.exports = {
           display: "block",
           "&:after": {
             display: "inline-block",
-            width: "16px",
+            width: "18px",
             content: "url(./assets/images/arrow.svg)",
             "margin-left": "4px",
             transitionDuration: "0.3s",
             position: "absolute",
             right: 0,
-            top: "12px"
+            top: "15px"
           },
           "&:hover": {
             backgroundColor: "#1B2029",
             color: "white",
             padding: "10px",
             "&:after": {
-              filter: "invert(1)"
+              filter: "invert(1)",
+              right: "10px"
             }
           }
         },
@@ -130,13 +140,13 @@ module.exports = {
           display: "block",
           "&:after": {
             display: "inline-block",
-            width: "16px",
+            width: "18px",
             content: "url(./assets/images/arrow.svg)",
             "margin-left": "4px",
             transitionDuration: "0.3s",
             position: "absolute",
             right: 0,
-            top: "9px"
+            top: "10px"
           },
           "&:hover": {
             textDecoration: "underline"

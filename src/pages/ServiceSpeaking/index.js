@@ -75,13 +75,19 @@ const ServiceSpeaking = () => {
       <HeroSection
         className="hero-service"
         title="Speaking that Inspires and Informs"
-        h1width="max-w-[600px]"
+        h1width="max-w-[800px]"
         image={Hero}
       />
       <section className="ceo border-b border-black pb-[60px] md:pb-24">
-        <div className="flex gap-10 max-w-[1100px]  max-md:block">
-          <div className="flex-1">
-            <img src={Klisman} alt="Klisman Murati" width={300} height={600} />
+        <div className="flex gap-10  max-md:block">
+          <div className="flex-1 ">
+            <img
+              src={Klisman}
+              alt="Klisman Murati"
+              width={300}
+              height={600}
+              className="xl:max-w-[70%]"
+            />
           </div>
           <div className="flex-1 flex flex-col justify-between ">
             <div>
@@ -211,7 +217,7 @@ const ServiceSpeaking = () => {
         <div className="flex justify-between mt-8 gap-10 max-md:block">
           <div className="flex-1 flex justify-between flex-col">
             <h2 className="max-w-[600px]">Keynotes Worth Sharing</h2>
-            <div className="max-w-[500px] font-title font-bold max-md:w-full mb-10">
+            <div className="max-w-[500px] font-title font-bold max-md:w-full mb-10 max-md:mt-5">
               These topics provide a great starting point for your event. Murati
               crafts personalized experiences by tailoring each talk to match
               the event's goals and the audience's interests.
@@ -219,7 +225,7 @@ const ServiceSpeaking = () => {
           </div>
 
           <div className="w-full flex-1">
-            <div className="mt-32 pb-10 border-black border-b">
+            <div className="md:mt-32 pb-10 border-black border-b">
               <h3>
                 Navigating Geopolitical Shifts: Strategies for Business
                 Resilience
@@ -281,7 +287,7 @@ const ServiceSpeaking = () => {
               </p>
             </div>
 
-            <div className="mt-10 pb-10 border-black md:border-b">
+            <div className="mt-10 md:pb-10 border-black md:border-b">
               <h3>
                 New Risks Requires New Thinking - How to Understand the Changing
                 World Order”
@@ -305,7 +311,7 @@ const ServiceSpeaking = () => {
         <div className="flex gap-24 max-md:block">
           <div className="flex-1 flex flex-col justify-between gap-[200px] max-md:gap-[40px]">
             <div>
-              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-3 md:mb-5 ">
                 “His [Klisman’s] capability to catch the attention of the
                 audience was astonishing”
               </h3>
@@ -315,7 +321,7 @@ const ServiceSpeaking = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-3 md:mb-5">
                 “Klisman has the unique ability to communicate highly complex
                 topics in an easy to understand, thought provoking, fun, and
                 engaging way.”
@@ -323,15 +329,15 @@ const ServiceSpeaking = () => {
               <p className="">– Barclays Bank</p>
             </div>
             <div>
-              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-3 md:mb-5">
                 “One of the best speakers we’ve had."
               </h3>
               <p className="">– OP Financial Group</p>
             </div>
           </div>
-          <div className="flex-1 flex flex-col  justify-around">
+          <div className="flex-1 flex flex-col  justify-around max-md:gap-[40px]">
             <div>
-              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-3 md:mb-5">
                 “Klisman thank you very much for a great presentation and
                 excellent discussion”
               </h3>
@@ -340,7 +346,7 @@ const ServiceSpeaking = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-5">
+              <h3 className="text-2xl leading-[1.2] md:text-5xl md:leading-[1.3] mb-3 md:mb-5">
                 "Excellent talk by a speaker who knows his stuff.
               </h3>
               <p className="">– AIG</p>
@@ -368,7 +374,7 @@ const ServiceSpeaking = () => {
                 <div className="relative z-0 w-full mb-5 group">
                   <label
                     htmlFor="fname"
-                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                    className="text-xl max-sm:text-base uppercase flex items-center"
                   >
                     first name
                     <span className="text-red-600 ms-4">*</span>
@@ -377,12 +383,12 @@ const ServiceSpeaking = () => {
                     type="text"
                     name="fname"
                     id="fname"
-                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b 
+                    className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b 
                    appearance-none  border-black  
                    focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("firstName", {
-                      required: "The first name is required.",
+                      required: "The first name is required."
                     })}
                   />
                 </div>
@@ -397,7 +403,7 @@ const ServiceSpeaking = () => {
                 <div className="relative z-0 w-full mb-5 group">
                   <label
                     htmlFor="lname"
-                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                    className="text-xl max-sm:text-base uppercase flex items-center"
                   >
                     last name
                     <span className="text-red-600 ms-4">*</span>
@@ -406,10 +412,10 @@ const ServiceSpeaking = () => {
                     type="text"
                     name="lname"
                     id="lname"
-                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("lastName", {
-                      required: "The last name is required.",
+                      required: "The last name is required."
                     })}
                   />
                 </div>
@@ -424,7 +430,7 @@ const ServiceSpeaking = () => {
                 <div className="relative z-0 w-full mb-5 group">
                   <label
                     htmlFor="company"
-                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                    className="text-xl max-sm:text-base uppercase flex items-center"
                   >
                     company/organisation
                     <span className="text-red-600 ms-4">*</span>
@@ -433,10 +439,10 @@ const ServiceSpeaking = () => {
                     type="text"
                     name="company"
                     id="company"
-                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("companyName", {
-                      required: "The company/organisation is required.",
+                      required: "The company/organisation is required."
                     })}
                   />
                 </div>
@@ -451,7 +457,7 @@ const ServiceSpeaking = () => {
                 <div className="relative z-0 w-full mb-5 group">
                   <label
                     htmlFor="email"
-                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                    className="text-xl max-sm:text-base uppercase flex items-center"
                   >
                     business email
                     <span className="text-red-600 ms-4">*</span>
@@ -460,14 +466,14 @@ const ServiceSpeaking = () => {
                     type="text"
                     name="email"
                     id="email"
-                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("email", {
                       required: "The business email is required.",
                       pattern: {
                         value: /\S+@\S+\.\S+/,
-                        message: "Please enter valid email.",
-                      },
+                        message: "Please enter valid email."
+                      }
                     })}
                   />
                 </div>
@@ -482,7 +488,7 @@ const ServiceSpeaking = () => {
                 <div className="relative z-0 w-full mb-5 group">
                   <label
                     htmlFor="phone"
-                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                    className="text-xl max-sm:text-base uppercase flex items-center"
                   >
                     phone number
                     <span className="text-red-600 ms-4">*</span>
@@ -491,14 +497,14 @@ const ServiceSpeaking = () => {
                     type="text"
                     name="phone"
                     id="phone"
-                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("phoneNumber", {
                       required: "The phone number is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid phone number.",
-                      },
+                        message: "Please enter valid phone number."
+                      }
                     })}
                   />
                 </div>
@@ -513,7 +519,7 @@ const ServiceSpeaking = () => {
                 <div className="relative z-0 w-full mb-5 group">
                   <label
                     htmlFor="jobtitle"
-                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                    className="text-xl max-sm:text-base uppercase flex items-center"
                   >
                     WHERE IS THE EVENT BEING HELD?
                     <span className="text-red-600 ms-4">*</span>
@@ -522,10 +528,10 @@ const ServiceSpeaking = () => {
                     type="text"
                     name="jobtitle"
                     id="jobtitle"
-                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("eventLocation", {
-                      required: "The event location is required.",
+                      required: "The event location is required."
                     })}
                   />
                 </div>
@@ -540,7 +546,7 @@ const ServiceSpeaking = () => {
                 <div className="relative z-0 w-full mb-5 group">
                   <label
                     htmlFor="jobtitle"
-                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                    className="text-xl max-sm:text-base uppercase flex items-center"
                   >
                     EVENT DATE
                     <span className="text-red-600 ms-4">*</span>
@@ -549,10 +555,10 @@ const ServiceSpeaking = () => {
                     type="text"
                     name="jobtitle"
                     id="jobtitle"
-                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("eventDate", {
-                      required: "The event date is required.",
+                      required: "The event date is required."
                     })}
                   />
                 </div>
@@ -567,7 +573,7 @@ const ServiceSpeaking = () => {
                 <div className="relative z-0 w-full mb-5 group">
                   <label
                     htmlFor="jobtitle"
-                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                    className="text-xl max-sm:text-base uppercase flex items-center"
                   >
                     SPEAKER BUDGET (USD $)
                     <span className="text-red-600 ms-4">*</span>
@@ -576,10 +582,10 @@ const ServiceSpeaking = () => {
                     type="text"
                     name="jobtitle"
                     id="jobtitle"
-                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("speakerBudget", {
-                      required: "The speaker budget is required.",
+                      required: "The speaker budget is required."
                     })}
                   />
                 </div>
@@ -618,8 +624,7 @@ const ServiceSpeaking = () => {
                   <Link className="underline hover:no-underline">
                     <i className="border-black mx-2">Privacy Policy</i>
                   </Link>
-                  regarding how we will
-                  <br /> handle this information.
+                  regarding how we will handle this information.
                 </p>
               </div>
             </form>

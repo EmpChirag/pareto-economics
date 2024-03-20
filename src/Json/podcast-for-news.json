@@ -1,0 +1,16 @@
+[
+  {
+    "image": "./src/assets/images/podcasts/PREM.webp",
+    "title": "Geopolitical consequences of Covid-19 - Discussion with Klisman Murati of Pangea Wire Group",
+    "link": "https://podcasts.apple.com/in/podcast/episode-4-geopolitical-consequences-of-covid-19/id1500319313?i=1000472783016",
+    "content": "In this episode, our Head of Trade and Transaction Banking, Alex Gray, talks to Klisman Murati of Pangea Wire Group. They discuss the long term knock-on effects of the virus, its impact on all types of supply chains and consumer behaviour throughout the industry.",
+    "date":"April 2020"
+  },
+  {
+    "image": "./src/assets/images/podcasts/BERNARD-22.webp",
+    "title": "The benefits of long-term thinking (With Klisman Murati)",
+    "link":"https://podcasts.apple.com/gb/podcast/the-benefits-of-long-term-thinking-with-klisman-murati/id1496190710?i=1000577774905",
+    "content": "The podcast that covers everything insurance. In this episode Peter is joined by Klisman Murati, Founder & CEO -of Pareto Economics, we discuss the benefits of long term thinking on a global scale.",
+    "date":"August 2022"
+  }
+]

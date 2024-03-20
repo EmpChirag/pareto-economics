@@ -18,7 +18,7 @@ const InTheNews = () => {
     <div className="container mx-auto">
       <Header />
       <HeroSection title="In the News" image={InTheNewsImg} />
-      <CommonTab title="Filter Media Content" options={option} />
+      {/* <CommonTab title="Filter Media Content" options={option} /> */}
       <Articles />
       <Footer />
     </div>

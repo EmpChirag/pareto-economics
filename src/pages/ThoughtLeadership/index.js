@@ -4,17 +4,27 @@ import HeroSection from "../../components/HeroSection";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
 import { Link } from "react-router-dom";
+import PodcastData from "../../Json/podcast-for-leadership.json";
+import Insights from "../../Json/insights.json";
+import Keynotes from "../../Json/keynotes.json";
+import CommonTab from "../../components/CommonTab";
 
 const ThoughtLeadership = () => {
+  const option = [
+    { id: "INSIGHTS", value: "INSIGHTS" },
+    { id: "PODCAST", value: "PODCAST" },
+    { id: "KEYNOTES", value: "KEYNOTES" }
+  ];
   return (
     <div className="container mx-auto">
       <Header />
       <HeroSection
         title="Original Thinking, Sharp Analysis"
         image={ThoughtLeadershipImg}
+        h1width="max-w-[700px]"
       />
 
-      <div>
+      {/* <div>
         <div className="mt-6">
           <p className="text-4xl md:text-4xl lg:text-6xl">
             Choose Content Type
@@ -70,52 +80,54 @@ const ThoughtLeadership = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="mt-8 grid gap-10 md:grid-cols-3">
-        <div className="" id="insights">
-          <div className="uppercase  text-xl md:text-2xl">Insights</div>
-          <a
-            href="#"
-            className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
-          >
-            How is M&A impacted by China’s ‘Dual Circulation’ Development
-            Strategy?
-          </a>
-          <p className="">
-            “We focus on three key bilateral relationships, including; US-China,
-            EU-China and UK-China”
-          </p>
-        </div>
-        <div className="" id="podcasts">
-          <div className="uppercase  text-xl md:text-2xl">Podcasts</div>
-          <a
-            href="#"
-            className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
-          >
-            What Drives Political Action in the Real World | CEO Munich Security
-            Conference, Benedikt Franke
-          </a>
-          <p className="">
-            This is a masterclass on the nature of politics and how to better
-            understand your world.
-          </p>
-        </div>
-        <div className="" id="kynotes">
-          <div className="uppercase  text-xl md:text-2xl">Keynote</div>
-          <a
-            href="#"
-            className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
-          >
-            A Beginner’s Guide to Geopolitical Risk, and How it’s Impacting
-            Fintech
-          </a>
-          <p className="">
-            Watch Klisman Murati, CEO of Pareto Economics deliver the keynote
-            address at the annual Telia DAY ONE conference to an assembly of
-            business leaders in the telecoms space.
-          </p>
-        </div>
+      </div> */}
+      {/* <CommonTab options={option} title="Choose Content Type" /> */}
+      <div className="mt-20 flex max-md:flex-col flex-wrap gap-4 md:gap-8 lg:gap-12 max-md:mt-10">
+        {PodcastData.map((podcast, index) => {
+          return (
+            <div className="md:w-[47%] lg:w-[30%]" key={index}>
+              <div className="uppercase text-lg">Podcast</div>
+              <a
+                target="_blank"
+                href={podcast.link}
+                className="text-2xl md:text-3xl my-2 md:my-3 inline-block font-title"
+              >
+                {podcast.title}
+              </a>
+              {podcast.date && <div className="date text-sm uppercase">{podcast.date}</div>}
+            </div>
+          );
+        })}
+        {Insights.map((insight, index) => {
+          return (
+            <div className="md:w-[47%] lg:w-[30%]" key={index}>
+              <div className="uppercase text-lg">Insights</div>
+              <a
+                target="_blank"
+                href={insight.link}
+                className="text-2xl md:text-3xl my-2 md:my-3 inline-block font-title"
+              >
+                {insight.title}
+              </a>
+              {insight.date && <div className="date text-sm uppercase">{insight.date}</div>}
+            </div>
+          );
+        })}
+        {Keynotes.map((keynotes, index) => {
+          return (
+            <div className="md:w-[47%] lg:w-[30%]" key={index}>
+              <div className="uppercase text-lg">Keynotess</div>
+              <a
+                target="_blank"
+                href={keynotes.link}
+                className="text-2xl md:text-3xl my-2 md:my-3 inline-block font-title"
+              >
+                {keynotes.title}
+              </a>
+              {keynotes.date && <div className="date text-sm uppercase">{keynotes.date}</div>}
+            </div>
+          );
+        })}
       </div>
       <Footer />
     </div>
