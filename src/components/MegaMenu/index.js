@@ -4,6 +4,7 @@ import Logo from "../../assets/images/pareto-logo.webp";
 import Arrow from "../../assets/images/arrow.svg";
 import contentImg from "../../assets/images/latest-content.png";
 import newsImg from "../../assets/images/latest-news.png";
+import geopolitics from '../../assets/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf'
 const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
 
   return (
@@ -147,7 +148,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               <div className=" mb-5 uppercase flex justify-between">
                 <span className="text-base ">Latest Content</span>
                 <Link
-                  to="/"
+                  to="/thought-leadership"
                   className="text-sm  underline hover:no-underline whitespace-nowrap"
                 >
                   See More &gt;
@@ -155,16 +156,21 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               </div>
               <div className="w-2/3">
                 <img src={contentImg} alt="" width={500} height={200} />
-                <p className="text-lg mt-4">
-                  How to understand the Changing World Order
-                </p>
+                <a
+                  target="_blank"
+                  href={geopolitics}
+                  className="text-lg mt-4 block font-body"
+                >
+                  A beginner’s guide to geopolitical risk, and how it’s
+                  impacting fintech
+                </a>
               </div>
             </div>
             <div className="latest-content mt-10 pt-5 border-t">
               <div className=" mb-5 uppercase flex justify-between">
                 <span className="text-base ">Latest News</span>
                 <Link
-                  to="/"
+                  to="/in-the-news"
                   className="text-sm underline hover:no-underline whitespace-nowrap"
                 >
                   See More &gt;
@@ -172,9 +178,13 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               </div>
               <div className="w-2/3">
                 <img src={newsImg} alt="news Image" width={500} height={200} />
-                <p className="text-lg mt-4">
-                  Global Business: UK economy sees recession to end 2023
-                </p>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=na7AWWod8gc&t=97s"
+                  className="text-lg mt-4 block font-body"
+                >
+                  UK debt and what to do about it
+                </a>
               </div>
             </div>
           </div>
@@ -183,7 +193,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               <div className="mb-5 uppercase flex justify-between ">
                 <span className="text-base">Global Power Index</span>
                 <Link
-                  to="/"
+                  to="/global-power-index"
                   className="text-sm  underline hover:no-underline whitespace-nowrap"
                 >
                   Access &gt;

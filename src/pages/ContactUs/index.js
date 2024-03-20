@@ -112,7 +112,7 @@ const ContactUs = () => {
                     className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("firstName", {
-                      required: "The first name is required.",
+                      required: "The first name is required."
                     })}
                   />
                 </div>
@@ -136,7 +136,7 @@ const ContactUs = () => {
                     className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("lastName", {
-                      required: "The last name is required.",
+                      required: "The last name is required."
                     })}
                   />
                 </div>
@@ -160,7 +160,7 @@ const ContactUs = () => {
                     className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("companyName", {
-                      required: "The company/organisation is required.",
+                      required: "The company/organisation is required."
                     })}
                   />
                 </div>
@@ -184,7 +184,7 @@ const ContactUs = () => {
                     className="block px-0 w-full text-xl bg-transparent border-0 border-b appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer"
                     placeholder=" "
                     {...register("jobTitle", {
-                      required: "The job title is required.",
+                      required: "The job title is required."
                     })}
                   />
                 </div>
@@ -211,8 +211,8 @@ const ContactUs = () => {
                       required: "The business email is required.",
                       pattern: {
                         value: /\S+@\S+\.\S+/,
-                        message: "Please enter valid email.",
-                      },
+                        message: "Please enter valid email."
+                      }
                     })}
                   />
                 </div>
@@ -239,8 +239,8 @@ const ContactUs = () => {
                       required: "The phone number is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid phone number.",
-                      },
+                        message: "Please enter valid phone number."
+                      }
                     })}
                   />
                 </div>
@@ -350,7 +350,7 @@ const ContactUs = () => {
                     className="hidden"
                     placeholder=" "
                     {...register("topic", {
-                      required: "The topic is required.",
+                      required: "The topic is required."
                     })}
                   />
 
@@ -365,7 +365,7 @@ const ContactUs = () => {
                         required:
                           topic && topic.toLowerCase() === "other"
                             ? "The other topic is required."
-                            : false,
+                            : false
                       })}
                     />
                   )}
@@ -420,8 +420,8 @@ const ContactUs = () => {
               <div className="mt-10">
                 <p>
                   Please see our
-                  <Link>
-                    <i className="border-white border-b mx-2">Privacy Policy</i>
+                  <Link className="underline hover:!no-underline ">
+                    <i className="mx-2">Privacy Policy</i>
                   </Link>
                   regarding how we will
                   <br /> handle this information.
