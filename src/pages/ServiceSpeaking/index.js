@@ -552,7 +552,7 @@ const ServiceSpeaking = () => {
                     <span className="text-red-600 ms-4">*</span>
                   </label>
                   <input
-                    type="text"
+                    type="date"
                     name="jobtitle"
                     id="jobtitle"
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
@@ -586,6 +586,10 @@ const ServiceSpeaking = () => {
                     placeholder=" "
                     {...register("speakerBudget", {
                       required: "The speaker budget is required.",
+                      pattern: {
+                        value: /^\d+$/,
+                        message: "Please enter valid amount.",
+                      },
                     })}
                   />
                 </div>
