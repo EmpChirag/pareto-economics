@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HeroSection from "../../components/HeroSection";
 import Hero from "../../assets/images/services-speaking.png";
 import Header from "../../Layouts/Header";
@@ -23,7 +23,52 @@ import Logo15 from "../../assets/images/Logos/Logo-15.png";
 import Logo16 from "../../assets/images/Logos/Logo-16.png";
 import Logo17 from "../../assets/images/Logos/Logo-17.png";
 import Logo18 from "../../assets/images/Logos/Logo-18.png";
+import { useForm } from "react-hook-form";
+import { postEventRequest } from "../../api/eventApi";
 const ServiceSpeaking = () => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [requestStatus, setRequestStatus] = useState(null);
+
+  const {
+    handleSubmit,
+    register,
+    reset,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = async (data) => {
+    setIsLoading(true);
+    setRequestStatus(null);
+    try {
+      await postEventRequest(data)
+        .then((response) => {
+          reset();
+          setRequestStatus(response);
+        })
+        .catch((error) => {
+          setRequestStatus({
+            status: false,
+            message: error.message
+              ? error.message
+              : "Something went wrong please try again.",
+          });
+        });
+    } catch (error) {
+      setRequestStatus({
+        status: false,
+        message: error.message
+          ? error.message
+          : "Something went wrong please try again.",
+      });
+    }
+
+    setIsLoading(false);
+
+    setTimeout(() => {
+      setRequestStatus(null);
+    }, 2000);
+  };
+
   return (
     <div className="container mx-auto">
       <Header />
@@ -226,7 +271,7 @@ const ServiceSpeaking = () => {
                 Opportunities
               </h3>
 
-              <p className="pt-3"> 
+              <p className="pt-3">
                 Unraveling the prospects of global business in the upcoming
                 years requires a keen understanding of emerging trends and
                 potential opportunities. This keynote explores forecasts for
@@ -318,152 +363,254 @@ const ServiceSpeaking = () => {
           </div>
 
           <div className="md:flex md:justify-center ">
-            <form>
-              <div className="relative z-0 w-full mb-5 group">
-                <label
-                  htmlFor="fname"
-                  className="text-2xl max-sm:text-base uppercase flex items-center"
-                >
-                  first name
-                  <span className="text-red-600 ms-4">*</span>
-                </label>
-                <input
-                  type="text"
-                  name="fname"
-                  id="fname"
-                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b 
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <div className="relative pb-7">
+                <div className="relative z-0 w-full mb-5 group">
+                  <label
+                    htmlFor="fname"
+                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                  >
+                    first name
+                    <span className="text-red-600 ms-4">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="fname"
+                    id="fname"
+                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b 
                    appearance-none  border-black  
                    focus:outline-none focus:ring-0 focus:border-gray-300 peer"
-                  placeholder=" "
-                  required
-                />
-              </div>
-              <div className="relative z-0 w-full mb-5 group">
-                <label
-                  htmlFor="lname"
-                  className="text-2xl max-sm:text-base uppercase flex items-center"
-                >
-                  last name
-                  <span className="text-red-600 ms-4">*</span>
-                </label>
-                <input
-                  type="text"
-                  name="lname"
-                  id="lname"
-                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
-                  placeholder=" "
-                  required
-                />
-              </div>
-              <div className="relative z-0 w-full mb-5 group">
-                <label
-                  htmlFor="company"
-                  className="text-2xl max-sm:text-base uppercase flex items-center"
-                >
-                  company/organisation
-                  <span className="text-red-600 ms-4">*</span>
-                </label>
-                <input
-                  type="text"
-                  name="company"
-                  id="company"
-                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
-                  placeholder=" "
-                  required
-                />
-              </div>
-              <div className="relative z-0 w-full mb-5 group">
-                <label
-                  htmlFor="email"
-                  className="text-2xl max-sm:text-base uppercase flex items-center"
-                >
-                  business email
-                  <span className="text-red-600 ms-4">*</span>
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
-                  placeholder=" "
-                  required
-                />
-              </div>
-              <div className="relative z-0 w-full mb-5 group">
-                <label
-                  htmlFor="phone"
-                  className="text-2xl max-sm:text-base uppercase flex items-center"
-                >
-                  phone number
-                  <span className="text-red-600 ms-4">*</span>
-                </label>
-                <input
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
-                  placeholder=" "
-                  required
-                />
+                    placeholder=" "
+                    {...register("firstName", {
+                      required: "The first name is required.",
+                    })}
+                  />
+                </div>
+                {errors.firstName && (
+                  <div className="error absolute bottom-4 text-red-500">
+                    {errors.firstName.message}
+                  </div>
+                )}
               </div>
 
-              <div className="relative z-0 w-full mb-5 group">
-                <label
-                  htmlFor="jobtitle"
-                  className="text-2xl max-sm:text-base uppercase flex items-center"
-                >
-                  WHERE IS THE EVENT BEING HELD?
-                  <span className="text-red-600 ms-4">*</span>
-                </label>
-                <input
-                  type="text"
-                  name="jobtitle"
-                  id="jobtitle"
-                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
-                  placeholder=" "
-                  required
-                />
+              <div className="relative pb-7">
+                <div className="relative z-0 w-full mb-5 group">
+                  <label
+                    htmlFor="lname"
+                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                  >
+                    last name
+                    <span className="text-red-600 ms-4">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="lname"
+                    id="lname"
+                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    placeholder=" "
+                    {...register("lastName", {
+                      required: "The last name is required.",
+                    })}
+                  />
+                </div>
+                {errors.lastName && (
+                  <div className="error absolute bottom-4 text-red-500">
+                    {errors.lastName.message}
+                  </div>
+                )}
               </div>
-              <div className="relative z-0 w-full mb-5 group">
-                <label
-                  htmlFor="jobtitle"
-                  className="text-2xl max-sm:text-base uppercase flex items-center"
-                >
-                  EVENT DATE
-                  <span className="text-red-600 ms-4">*</span>
-                </label>
-                <input
-                  type="text"
-                  name="jobtitle"
-                  id="jobtitle"
-                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
-                  placeholder=" "
-                  required
-                />
+
+              <div className="relative pb-7">
+                <div className="relative z-0 w-full mb-5 group">
+                  <label
+                    htmlFor="company"
+                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                  >
+                    company/organisation
+                    <span className="text-red-600 ms-4">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="company"
+                    id="company"
+                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    placeholder=" "
+                    {...register("companyName", {
+                      required: "The company/organisation is required.",
+                    })}
+                  />
+                </div>
+                {errors.companyName && (
+                  <div className="error absolute bottom-4 text-red-500">
+                    {errors.companyName.message}
+                  </div>
+                )}
               </div>
-              <div className="relative z-0 w-full mb-5 group">
-                <label
-                  htmlFor="jobtitle"
-                  className="text-2xl max-sm:text-base uppercase flex items-center"
-                >
-                  SPEAKER BUDGET (USD $)
-                  <span className="text-red-600 ms-4">*</span>
-                </label>
-                <input
-                  type="text"
-                  name="jobtitle"
-                  id="jobtitle"
-                  className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
-                  placeholder=" "
-                  required
-                />
+
+              <div className="relative pb-7">
+                <div className="relative z-0 w-full mb-5 group">
+                  <label
+                    htmlFor="email"
+                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                  >
+                    business email
+                    <span className="text-red-600 ms-4">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    placeholder=" "
+                    {...register("email", {
+                      required: "The business email is required.",
+                      pattern: {
+                        value: /\S+@\S+\.\S+/,
+                        message: "Please enter valid email.",
+                      },
+                    })}
+                  />
+                </div>
+                {errors.email && (
+                  <div className="error absolute bottom-4 text-red-500">
+                    {errors.email.message}
+                  </div>
+                )}
               </div>
-              <button
-                type="submit"
-                className="btn mt-8  hover:text-white   after:hidden text-xl"
-              >
-                Submit
-              </button>
+
+              <div className="relative pb-7">
+                <div className="relative z-0 w-full mb-5 group">
+                  <label
+                    htmlFor="phone"
+                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                  >
+                    phone number
+                    <span className="text-red-600 ms-4">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    placeholder=" "
+                    {...register("phoneNumber", {
+                      required: "The phone number is required.",
+                      pattern: {
+                        value: /^\d+$/,
+                        message: "Please enter valid phone number.",
+                      },
+                    })}
+                  />
+                </div>
+                {errors.phoneNumber && (
+                  <div className="error absolute bottom-4 text-red-500">
+                    {errors.phoneNumber.message}
+                  </div>
+                )}
+              </div>
+
+              <div className="relative pb-7">
+                <div className="relative z-0 w-full mb-5 group">
+                  <label
+                    htmlFor="jobtitle"
+                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                  >
+                    WHERE IS THE EVENT BEING HELD?
+                    <span className="text-red-600 ms-4">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="jobtitle"
+                    id="jobtitle"
+                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    placeholder=" "
+                    {...register("eventLocation", {
+                      required: "The event location is required.",
+                    })}
+                  />
+                </div>
+                {errors.eventLocation && (
+                  <div className="error absolute bottom-4 text-red-500">
+                    {errors.eventLocation.message}
+                  </div>
+                )}
+              </div>
+
+              <div className="relative pb-7">
+                <div className="relative z-0 w-full mb-5 group">
+                  <label
+                    htmlFor="jobtitle"
+                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                  >
+                    EVENT DATE
+                    <span className="text-red-600 ms-4">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="jobtitle"
+                    id="jobtitle"
+                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    placeholder=" "
+                    {...register("eventDate", {
+                      required: "The event date is required.",
+                    })}
+                  />
+                </div>
+                {errors.eventDate && (
+                  <div className="error absolute bottom-4 text-red-500">
+                    {errors.eventDate.message}
+                  </div>
+                )}
+              </div>
+
+              <div className="relative pb-7">
+                <div className="relative z-0 w-full mb-5 group">
+                  <label
+                    htmlFor="jobtitle"
+                    className="text-2xl max-sm:text-base uppercase flex items-center"
+                  >
+                    SPEAKER BUDGET (USD $)
+                    <span className="text-red-600 ms-4">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="jobtitle"
+                    id="jobtitle"
+                    className="block px-0  w-full text-2xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
+                    placeholder=" "
+                    {...register("speakerBudget", {
+                      required: "The speaker budget is required.",
+                    })}
+                  />
+                </div>
+                {errors.speakerBudget && (
+                  <div className="error absolute bottom-4 text-red-500">
+                    {errors.speakerBudget.message}
+                  </div>
+                )}
+              </div>
+
+              {(!requestStatus || requestStatus === null) && (
+                <button
+                  type="submit"
+                  className="btn mt-8  hover:text-white   after:hidden text-xl"
+                  disabled={isLoading}
+                >
+                  {isLoading ? "Loading..." : "Submit"}
+                </button>
+              )}
+
+              {requestStatus && requestStatus.status === true && (
+                <div className="error bottom-4 text-green-500">
+                  {requestStatus.message}
+                </div>
+              )}
+
+              {requestStatus && requestStatus.status === false && (
+                <div className="error bottom-4 text-red-500">
+                  {requestStatus.message}
+                </div>
+              )}
 
               <div className="mt-10">
                 <p>

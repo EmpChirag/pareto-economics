@@ -22,10 +22,11 @@ try {
         $inputData->firstName,
         $inputData->lastName,
         $inputData->companyName,
-        $inputData->jobTitle,
         $inputData->email,
         $inputData->phoneNumber,
-        $inputData->topic,
+        $inputData->eventLocation,
+        $inputData->eventDate,
+        $inputData->speakerBudget,
     )) {
         //Server settings
         $mail->isSMTP();
@@ -44,30 +45,29 @@ try {
         $firstName = (isset($inputData->firstName)) ? $inputData->firstName : '';
         $lastName = (isset($inputData->lastName)) ? $inputData->lastName : '';
         $companyName = (isset($inputData->companyName)) ? $inputData->companyName : '';
-        $jobTitle = (isset($inputData->jobTitle)) ? $inputData->jobTitle : '';
         $email = (isset($inputData->email)) ? $inputData->email : '';
         $phoneNumber = (isset($inputData->phoneNumber)) ? $inputData->phoneNumber : '';
-        $topic = (isset($inputData->topic)) ? $inputData->topic : '';
-        $message = (isset($inputData->message)) ? $inputData->message : '';
+        $eventLocation = (isset($inputData->eventLocation)) ? $inputData->eventLocation : '';
+        $eventDate = (isset($inputData->eventDate)) ? $inputData->eventDate : '';
+        $speakerBudget = (isset($inputData->speakerBudget)) ? $inputData->speakerBudget : '';
 
         $emailContent = '<!DOCTYPE html>
             <html>
                 <head>
-                    <title>Contact / Dashboard Demo / Partnership Inquiry - Pareto Economics</title>
+                    <title>Event Details - Pareto Economics</title>
                 </head>
                 <body>
                     <div style="background-color: #f8f8f8; padding: 20px;">
                         <div style="max-width: 600px; margin: auto; background: white; padding: 20px; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #333;">
-                            <h2 style="color: #0056b3;">Contact / Dashboard Demo / Partnership Inquiry - Pareto Economics</h2>
+                            <h2 style="color: #0056b3;">Event Details - Pareto Economics</h2>
                             <p><strong>First Name:</strong> '.$firstName.'</p>
                             <p><strong>Last Name:</strong> '.$lastName.'</p>
                             <p><strong>Company/Organisation:</strong> '.$companyName.'</p>
-                            <p><strong>Job Title:</strong> '.$jobTitle.'</p>
                             <p><strong>Business Email:</strong> '.$email.'</p>
                             <p><strong>Phone Number:</strong> '.$phoneNumber.'</p>
-                            <p><strong>Topic:</strong> '.$topic.'</p>
-                            <p><strong>Message:</strong></p>
-                            <p>'.$message.'</p>
+                            <p><strong>Event Location:</strong> '.$eventLocation.'</p>
+                            <p><strong>Event Date:</strong> '.$eventDate.'</p>
+                            <p><strong>Speaker Budget:</strong> '.$speakerBudget.'</p>
                         </div>
                     </div>
                 </body>
@@ -75,14 +75,14 @@ try {
         ';
 
         $mail->isHTML(true);
-        $mail->Subject = 'Contact / Dashboard Demo / Partnership Inquiry - Pareto Economics';
+        $mail->Subject = 'Event Details - Pareto Economics';
         $mail->Body    = $emailContent;
 
         if ($mail->send()) {
             $responseCode = 200;
             $response = [
                 'status' => true,
-                'message' => 'Thank You! Your message has been sent.',
+                'message' => 'Thank You! Your request has been sent.',
             ];
         } else {
             $responseCode = 400;
