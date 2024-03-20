@@ -14,6 +14,7 @@ const ContactUs = () => {
     register,
     reset,
     setValue,
+    clearErrors,
     formState: { errors },
   } = useForm();
 
@@ -69,6 +70,8 @@ const ContactUs = () => {
   const handleChangeTopic = (value) => {
     setValue("topic", value);
     setTopic(value);
+    clearErrors("topic");
+    if (value && value.toLowerCase() !== "other") clearErrors("otherTopic");
   };
 
   return (
