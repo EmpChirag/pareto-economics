@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from "../../assets/images/pareto-logo.webp";
 import MegaMenu from '../../components/MegaMenu';
 import SearchBox from '../../components/SearchBox';
+import { searchResult } from "../../static/serach";
 const Header = ({ invert }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -131,6 +132,7 @@ const Header = ({ invert }) => {
         search={searchOpen}
         handleMenu={handleMenu}
         handleSearch={handleSearch}
+        data={searchResult}
       />
     </>
   );

@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
-const CommonTab = ({ title, options }) => {
+const CommonTab = ({ title, options, handleOption,setSearchText }) => {
+  const [text, setText] = useState('');
+
+  const handleInputChange = (event) => {
+    setText(event.target.value);
+    setSearchText(event.target.value);
+  };
   return (
     <div>
       <div className="mt-6">
@@ -9,12 +15,17 @@ const CommonTab = ({ title, options }) => {
       <div className="flex gap-5 max-md:flex-col mt-8 justify-between">
         <div className="flex items-center flex-wrap gap-4">
           {options.map((option, index) => (
-            <div
+            <button
               key={index}
-              className="uppercase leading-[1] border border-black px-2 md:px-4 py-2"
+              className={`uppercase leading-[1] border ${
+                option.isActive ? "bg-black text-white" : "border-black"
+              } duration-300 border-black px-2 md:px-4 py-2`}
+              onClick={() => {
+                handleOption(option.value);
+              }}
             >
               {option.value}
-            </div>
+            </button>
           ))}
         </div>
         <div className="relative max-w-[300px] w-full">
@@ -22,6 +33,8 @@ const CommonTab = ({ title, options }) => {
             className="appearance-none border-b text-end pl-10 border-black hover:border-gray-400 transition-colors w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:ring-purple-600 focus:border-purple-600 focus:shadow-outline"
             id="username"
             type="text"
+            value={text}
+           onChange={handleInputChange}
           />
           <div className="absolute left-0 top-0 h-10 flex items-center">
             <svg
