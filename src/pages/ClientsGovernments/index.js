@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import Footer from '../../Layouts/Footer';
-import aboutUs from "../../assets/images/ClientsGovernments/Clients-Governments.png";
+import aboutUs from "../../assets/images/ClientsGovernments/clients-governments.png";
 const ClientsGovernments = () => {
   return (
     <div className="container mx-auto">

@@ -2,9 +2,9 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
-import ClientsCorporations from "../../assets/images/Clients-Corporations.png";
-import ClientsInvestors from "../../assets/images/Clients-Investors.png"
-import ClientsGovernments from "../../assets/images/Clients-Governments.png"
+import ClientsCorporations from "../../assets/images/clients-corporations.png";
+import ClientsInvestors from "../../assets/images/clients-investors.png"
+import ClientsGovernments from "../../assets/images/clients-governments.png"
 const ClientLanding = () => {
   return (
     <div className="container mx-auto">

@@ -3,7 +3,7 @@ import Header from '../../Layouts/Header'
 import Footer from '../../Layouts/Footer'
 import HeroSection from '../../components/HeroSection'
 import { Link } from 'react-router-dom';
-import heroImg from "../../assets/images/FirstPrinciple/First-Principles.png";
+import heroImg from "../../assets/images/FirstPrinciple/first-principles.png";
 
 const FirstPrinciple = () => {
   return (
