@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
-import heroImg from "../../assets/images/clients-investors.png";
 import Footer from "../../Layouts/Footer";
 import { Link } from "react-router-dom";
 
@@ -12,7 +11,7 @@ const ClientsInvestors = () => {
       <HeroSection
         className="hero-home"
         title="We help Capital Allocators Manage Risk using our Data-First Methodology"
-        image={heroImg}
+        image="/images/clients-investors.png"
         h1width={"max-w-[1100px]"}
       />
       <section className="mt-0 border-b py-10 border-black">
@@ -103,69 +102,65 @@ const ClientsInvestors = () => {
 
       <section className="mt-10  md:pb-10">
         <div className="flex  max-md:flex-col justify-between">
-          
-            <h2 className="flex-1 lg:max-w-[650px]">How We Serve </h2>
-          
-          
-            <div className="flex-1">
-              <h3>Solutions as bespoke as your portfolios</h3>
-              <p className=" pb-8 max-md:mt-5  mt-10 border-b border-black">
-                Pareto has developed a suite of services catered to the needs of
-                each investor, with various engagement levels to suit each
-                situation and circumstance.
-              </p>
-              <div className="pt-8">
-                <p className=" pb-3 font-bold">Speaking Engagements </p>
-                <div className=" max-xl:block flex items-center justify-between border-b border-black pb-10 md:pb-6">
-                  <p className=" lg:max-w-[400px]">
-                    Are you an event organiser and want your audience to
-                    experience our cutting edge research and insights? Then book
-                    our CEO for your next conference or summit.
-                  </p>
-                  <Link
-                    to="/services-speaking"
-                    className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px] flex items-center justify-between"
-                  >
-                    Book
-                  </Link>
-                </div>
-              </div>
-              <div className="pt-8">
-                <p className=" pb-3 font-bold">Research</p>
-                <div className=" max-xl:block flex items-center justify-between border-b border-black pb-10 md:pb-6">
-                  <p className=" lg:max-w-[400px]">
-                    This offering helps to satisfy clients need for insights
-                    into specific issues by providing full service research
-                    services which help formulate your research question all the
-                    way to post engagement debrief.
-                  </p>
-                  <Link
-                    to="/services-research"
-                    className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px]   flex items-center justify-between"
-                  >
-                    Learn More
-                  </Link>
-                </div>
-              </div>
-              <div className="pt-8">
-                <p className=" pb-3 font-bold">Executive Workshops</p>
-                <div className="max-xl:block  flex items-center justify-between md:border-b border-black  md:pb-6">
-                  <p className=" lg:max-w-[400px]">
-                    This service gives the opportunity for structured analysis
-                    and the free exploration of issues of related interest to
-                    clients.
-                  </p>
-                  <Link
-                    to="/services-executive-workshops"
-                    className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px] flex items-center justify-between"
-                  >
-                    Discover
-                  </Link>
-                </div>
+          <h2 className="flex-1 lg:max-w-[650px]">How We Serve </h2>
+
+          <div className="flex-1">
+            <h3>Solutions as bespoke as your portfolios</h3>
+            <p className=" pb-8 max-md:mt-5  mt-10 border-b border-black">
+              Pareto has developed a suite of services catered to the needs of
+              each investor, with various engagement levels to suit each
+              situation and circumstance.
+            </p>
+            <div className="pt-8">
+              <p className=" pb-3 font-bold">Speaking Engagements </p>
+              <div className=" max-xl:block flex items-center justify-between border-b border-black pb-10 md:pb-6">
+                <p className=" lg:max-w-[400px]">
+                  Are you an event organiser and want your audience to
+                  experience our cutting edge research and insights? Then book
+                  our CEO for your next conference or summit.
+                </p>
+                <Link
+                  to="/services-speaking"
+                  className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px] flex items-center justify-between"
+                >
+                  Book
+                </Link>
               </div>
             </div>
-            <div className="clear-both"></div>
-          
+            <div className="pt-8">
+              <p className=" pb-3 font-bold">Research</p>
+              <div className=" max-xl:block flex items-center justify-between border-b border-black pb-10 md:pb-6">
+                <p className=" lg:max-w-[400px]">
+                  This offering helps to satisfy clients need for insights into
+                  specific issues by providing full service research services
+                  which help formulate your research question all the way to
+                  post engagement debrief.
+                </p>
+                <Link
+                  to="/services-research"
+                  className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px]   flex items-center justify-between"
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+            <div className="pt-8">
+              <p className=" pb-3 font-bold">Executive Workshops</p>
+              <div className="max-xl:block  flex items-center justify-between md:border-b border-black  md:pb-6">
+                <p className=" lg:max-w-[400px]">
+                  This service gives the opportunity for structured analysis and
+                  the free exploration of issues of related interest to clients.
+                </p>
+                <Link
+                  to="/services-executive-workshops"
+                  className="btn2 max-xl:mt-3 max-xl:w-[300px] w-[250px] flex items-center justify-between"
+                >
+                  Discover
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="clear-both"></div>
         </div>
       </section>
 

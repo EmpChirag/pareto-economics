@@ -2,9 +2,7 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
-import SpeakingEngagement from "../../assets/images/ServiceLeanding/Speaking-Engagement.png"
-import Research from "../../assets/images/ServiceLeanding/Research.png"
-import ExecutiveWorkshops from "../../assets/images/ServiceLeanding/Executive-Workshops.png"
+
 const ServicesLanding = () => {
   return (
     <div className="container mx-auto">
@@ -26,7 +24,7 @@ const ServicesLanding = () => {
             <div className="flex-1">
               <img
                 className="md:max-w-[75%] h-auto"
-                src={SpeakingEngagement}
+                src="/images/ServiceLeanding/speaking-engagement.png"
                 alt="Speaking Engagement"
               />
               <br />
@@ -59,7 +57,10 @@ const ServicesLanding = () => {
         <section className="my-10">
           <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
-              <img className="md:max-w-[75%] h-auto" src={Research} />
+              <img
+                className="md:max-w-[75%] h-auto"
+                src="/images/ServiceLeanding/research.png"
+              />
             </div>
             <br />
             <div className="flex-1 justify-end  border-b border-slate-900 pb-[28px]">
@@ -89,7 +90,10 @@ const ServicesLanding = () => {
         <section className="mt-10">
           <div className="max-md:flex-col flex justify-between">
             <div className="flex-1">
-              <img className="md:max-w-[75%] h-auto" src={ExecutiveWorkshops} />
+              <img
+                className="md:max-w-[75%] h-auto"
+                src="/images/ServiceLeanding/executive-workshops.png"
+              />
               <br />
             </div>
             <div className="flex-1 justify-end ">

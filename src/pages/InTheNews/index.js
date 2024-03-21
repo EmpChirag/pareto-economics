@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import HeroSection from "../../components/HeroSection";
-import InTheNewsImg from "../../assets/images/In-the-news.png";
 import Header from "../../Layouts/Header";
 import CommonTab from "../../components/CommonTab";
 import Footer from "../../Layouts/Footer";
@@ -63,7 +62,7 @@ const InTheNews = () => {
   return (
     <div className="container mx-auto">
       <Header />
-      <HeroSection title="In the News" image={InTheNewsImg} />
+      <HeroSection title="In the News" image="/images/in-the-news.png" />
       <CommonTab
         title="Filter Media Content"
         options={option}

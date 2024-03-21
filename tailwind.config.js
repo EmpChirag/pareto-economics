@@ -69,7 +69,7 @@ module.exports = {
           transitionDuration: "0.3s",
           "&:after": {
             display: "inline-block",
-            content: "url(./assets/images/arrow.svg)",
+            content: "url(/public/images/arrow.svg)",
             "margin-left": "6px",
             width: "18px",
             transitionDuration: "0.3s",
@@ -112,7 +112,7 @@ module.exports = {
           "&:after": {
             display: "inline-block",
             width: "18px",
-            content: "url(./assets/images/arrow.svg)",
+            content: "url(/public/images/arrow.svg)",
             "margin-left": "4px",
             transitionDuration: "0.3s",
             position: "absolute",
@@ -141,7 +141,7 @@ module.exports = {
           "&:after": {
             display: "inline-block",
             width: "18px",
-            content: "url(./assets/images/arrow.svg)",
+            content: "url(/public/images/arrow.svg)",
             "margin-left": "4px",
             transitionDuration: "0.3s",
             position: "absolute",

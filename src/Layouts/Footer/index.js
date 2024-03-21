@@ -1,8 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Youtube from "../../assets/images/icons/youtube.svg";
-import Twitter from "../../assets/images/icons/twitter.svg";
-import Linkedin from "../../assets/images/icons/linkedin.svg";
 
 const Footer = ({ demo, contact, ptext,dark }) => {
   return (
@@ -45,7 +42,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
           target="_blank"
         >
           <img
-            src={Youtube}
+            src="/images/icons/youtube.svg"
             alt="youtube"
             height="40"
             width="40"
@@ -54,7 +51,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
         </a>
         <a href="https://twitter.com/ParetoEconomics" target="_blank">
           <img
-            src={Twitter}
+            src="/images/icons/twitter.svg"
             alt="X"
             height="40"
             width="40"
@@ -66,7 +63,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
           target="_blank"
         >
           <img
-            src={Linkedin}
+            src="/images/icons/linkedin.svg"
             alt="Linkedin"
             height="40"
             width="40"

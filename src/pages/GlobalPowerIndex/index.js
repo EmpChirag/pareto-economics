@@ -1,11 +1,7 @@
 import React from "react";
 import Header from "../../Layouts/Header";
-
-import Hero from "../../assets/images/GlobalPowerIndex/globalimg.png";
-import Red from "../../assets/images/GlobalPowerIndex/Red_Dot.png";
-import Map from "../../assets/images/GlobalPowerIndex/Map.png";
-import Quote from "../../assets/images/GlobalPowerIndex/quote.svg";
 import Footer from "../../Layouts/Footer";
+
 const GlobalPowerIndex = () => {
   return (
     <div className="bg-[#1B2029] text-white ">
@@ -20,7 +16,7 @@ const GlobalPowerIndex = () => {
           </div>
           <div className="w-full mt-10">
             <img
-              src={Hero}
+              src="/images/GlobalPowerIndex/globalimg.png"
               className="w-full"
               height="1480"
               width="492"
@@ -65,7 +61,11 @@ const GlobalPowerIndex = () => {
             <div className="w-full">
               <h2 className="lg:max-w-[650px] ">We Map the World</h2>
               <div className="mt-10 w-full items-center lg:max-w-[650px]">
-                <img src={Map} className="w-full" alt="map" />
+                <img
+                  src="/images/GlobalPowerIndex/map.png"
+                  className="w-full"
+                  alt="map"
+                />
               </div>
             </div>
             <div className="w-full">
@@ -103,7 +103,9 @@ const GlobalPowerIndex = () => {
               </p>
             </div>
             <div>
-              <p className="text-xl border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3  border-white">Financial Strength</p>
+              <p className="text-xl border-b lg:w-[50%] font-title w-[80%] mb-4 pb-3  border-white">
+                Financial Strength
+              </p>
             </div>
             <p className="font-title pt-5">
               Each of these Sub-Indices are composed of themes which best
@@ -120,7 +122,10 @@ const GlobalPowerIndex = () => {
                 indices which reflect an important component of power.
               </p>
               <div className="flex items-center justify-center max-md:mt-5">
-                <img src={Red} className="w-full lg:max-w-[650px]" />
+                <img
+                  src="/images/GlobalPowerIndex/red_dot.png"
+                  className="w-full lg:max-w-[650px]"
+                />
               </div>
             </div>
             <div className="clear-both"></div>
@@ -153,7 +158,7 @@ const GlobalPowerIndex = () => {
             <div className="max-w-[700px] font-title">
               <h3 className="flex items-start">
                 <img
-                  src={Quote}
+                  src='/images/GlobalPowerIndex/quote.svg'
                   alt="quote"
                   className="w-[20px] md:w-[30px] rotate-[180deg]"
                 />
@@ -161,7 +166,7 @@ const GlobalPowerIndex = () => {
                 is key. I was therefore interested to see that this is also the
                 starting point of Pareto Economics’ approach to understanding
                 global issues, and it underpins its Global Power Index.
-                <img src={Quote} alt="quote" className="w-[20px] md:w-[30px]" />
+                <img src='/images/GlobalPowerIndex/quote.svg' alt="quote" className="w-[20px] md:w-[30px]" />
               </h3>
 
               <p className="mt-5 md:mt-10">

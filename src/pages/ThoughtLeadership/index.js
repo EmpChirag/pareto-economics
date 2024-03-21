@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import ThoughtLeadershipImg from "../../assets/images/thought-leadership.png";
 import HeroSection from "../../components/HeroSection";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
@@ -33,7 +32,7 @@ const ThoughtLeadership = () => {
       <Header />
       <HeroSection
         title="Original Thinking, Sharp Analysis"
-        image={ThoughtLeadershipImg}
+        image="/images/thought-leadership.png"
         h1width="max-w-[700px]"
       />
       <CommonTab title="Choose Content Type" options={option} handleOption={handleOption} setSearchText={setSearchText}/>

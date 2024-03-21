@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import Logo from "../../assets/images/pareto-logo.webp";
 import MegaMenu from '../../components/MegaMenu';
 import SearchBox from '../../components/SearchBox';
 import { searchResult } from "../../static/serach";
@@ -36,7 +35,7 @@ const Header = ({ invert }) => {
           <div className="flex justify-between items-center pt-2">
             <Link to="/">
               <img
-                src={Logo}
+                src="images/pareto-logo.webp"
                 alt="Pareto Economics"
                 width="244"
                 height="56"
@@ -48,9 +47,7 @@ const Header = ({ invert }) => {
             <div className="right flex">
               <Link
                 to="/contact-us"
-                className={`btn max-md:hidden ${
-                  invert && "btn-invert "
-                }`}
+                className={`btn max-md:hidden ${invert && "btn-invert "}`}
               >
                 Start Now{" "}
               </Link>

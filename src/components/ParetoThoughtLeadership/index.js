@@ -1,6 +1,5 @@
 import React from "react";
-import dualCirculation from "../../assets/pdf/CHINA-DUAL-CIRCULATION-STRATEGY-PARETO-ECONOMICS-1.pdf";
-import geoPolitics from "../../assets/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf";
+
 const ParetoThoughtLeadership = () => {
   return (
     <section>
@@ -33,7 +32,7 @@ const ParetoThoughtLeadership = () => {
         <div className="">
           <div className="uppercase text-lg">Insights</div>
           <a
-            href={dualCirculation}
+            href="/pdf/CHINA-DUAL-CIRCULATION-STRATEGY-PARETO-ECONOMICS-1.pdf"
             target="_blank"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
           >
@@ -63,7 +62,7 @@ const ParetoThoughtLeadership = () => {
         <div className="">
           <div className="uppercase text-lg">Insights</div>
           <a
-            href={geoPolitics}
+            href="/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf"
             target="_blank"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
           >

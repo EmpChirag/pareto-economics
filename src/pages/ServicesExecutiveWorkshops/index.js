@@ -2,12 +2,7 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
 import HeroSection from "../../components/HeroSection";
-import heroImg from "../../assets/images/ServicesExecutiveWorkshops/Services-Executive-Workshops.png";
-import Logo1 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-1.png";
-import Logo2 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-2.png";
-import Logo3 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-3.png";
-import Logo4 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-4.png";
-import Logo5 from "../../assets/images/ServicesExecutiveWorkshops/logos/Logo-5.png";
+
 const ServicesExecutiveWorkshops = () => {
   return (
     <div className="container mx-auto pb-[200px]">
@@ -15,7 +10,7 @@ const ServicesExecutiveWorkshops = () => {
       <HeroSection
         className="hero-home"
         title="Dive Deeper with Executive Workshops"
-        image={heroImg}
+        image="/images/ServicesExecutiveWorkshops/services-executive-workshops.png"
         h1width="max-w-[850px]"
       />
 
@@ -36,7 +31,7 @@ const ServicesExecutiveWorkshops = () => {
       <section className="mt-10 pb-10 border-black border-b">
         <div className="social flex flex-wrap items-center justify-between gap-4">
           <img
-            src={Logo1}
+            src='/images/ServicesExecutiveWorkshops/logos/Logo-1.png'
             alt="Logo 1"
             height="100"
             width="200"
@@ -44,7 +39,7 @@ const ServicesExecutiveWorkshops = () => {
           />
 
           <img
-            src={Logo2}
+            src='/images/ServicesExecutiveWorkshops/logos/Logo-2.png'
             alt="Logo 2"
             height="100"
             width="200"
@@ -52,7 +47,7 @@ const ServicesExecutiveWorkshops = () => {
           />
 
           <img
-            src={Logo3}
+            src='/images/ServicesExecutiveWorkshops/logos/Logo-3.png'
             alt="Logo 3"
             height="100"
             width="200"
@@ -60,7 +55,7 @@ const ServicesExecutiveWorkshops = () => {
           />
 
           <img
-            src={Logo4}
+            src='/images/ServicesExecutiveWorkshops/logos/Logo-4.png'
             alt="Logo 4"
             height="100"
             width="200"
@@ -68,7 +63,7 @@ const ServicesExecutiveWorkshops = () => {
           />
 
           <img
-            src={Logo5}
+            src='/images/ServicesExecutiveWorkshops/logos/Logo-5.png'
             alt="Logo 5"
             height="100"
             width="200"

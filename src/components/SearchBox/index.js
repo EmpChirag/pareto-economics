@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/pareto-logo.webp";
 
 const SearchBox = ({ search, handleMenu, handleSearch, data }) => {
   const [searchInput, setSearchInput] = useState(""); // State to store the search input value
@@ -33,7 +32,7 @@ const SearchBox = ({ search, handleMenu, handleSearch, data }) => {
           <div className="flex justify-between items-center pt-2">
             <Link to="/">
               <img
-                src={Logo}
+                src="/images/pareto-logo.webp"
                 alt="Pareto Economics"
                 width="244"
                 height="56"

@@ -27,6 +27,9 @@ const Articles = ({option,searchText}) => {
               >
                 {article.title}
               </a>
+              {article.date && (
+                <div className="date text-sm uppercase">{article.date}</div>
+              )}
             </div>
           );
         })}
@@ -40,6 +43,9 @@ const Articles = ({option,searchText}) => {
               >
                 {podcast.title}
               </a>
+              {podcast.date && (
+                <div className="date text-sm uppercase">{podcast.date}</div>
+              )}
             </div>
           );
         })}

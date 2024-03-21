@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import analytics from "../../assets/images/home/global-power-analytics.png";
 const DiscoverPowerIndex = () => {
     return (
       <section className="DiscoverPowerIndex">
@@ -16,7 +15,7 @@ const DiscoverPowerIndex = () => {
         </div>
         <div className="md:inline-block md:w-[55%] max-md:pt-10 md:pl-10 align-top">
           <img
-            src={analytics}
+            src="/images/home/global-power-analytics.png"
             alt="Global Power Analytics"
             height="200"
             width="400"

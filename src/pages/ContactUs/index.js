@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ParetoEconomics from "../../assets/images/pareto-logo.webp";
 import { useForm } from "react-hook-form";
 import { postContactRequest } from "../../api/contactApi";
 
@@ -80,7 +79,7 @@ const ContactUs = () => {
         <div className="flex justify-center">
           <Link to="/">
             <img
-              src={ParetoEconomics}
+              src="/images/pareto-logo.webp"
               alt="Pareto Economics"
               width="240"
               height="auto"

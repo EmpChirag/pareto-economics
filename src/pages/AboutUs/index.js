@@ -3,12 +3,16 @@ import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
-import ourCore from '../../assets/images/aboutus/Our-Core.png'
+
 const AboutUs = () => {
   return (
     <div className="container mx-auto">
       <Header />
-      <HeroSection className="hero-home" title="Our Core" image={ourCore} />
+      <HeroSection
+        className="hero-home"
+        title="Our Core"
+        image="/images/aboutus/our-core.png"
+      />
 
       <section className="mt-10">
         <h2 className="lg:max-w-[690px] ">
@@ -91,10 +95,7 @@ const AboutUs = () => {
                   </p>
                 </div>
                 <div className="col-span-2">
-                  <Link
-                    to="/clients"
-                    className="btn3 mt-5 w-[110px] self-end "
-                  >
+                  <Link to="/clients" className="btn3 mt-5 w-[110px] self-end ">
                     Clients
                   </Link>
                 </div>

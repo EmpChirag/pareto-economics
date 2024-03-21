@@ -1,30 +1,11 @@
 import React, { useState } from "react";
 import HeroSection from "../../components/HeroSection";
-import Hero from "../../assets/images/services-speaking.png";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
-import Klisman from "../../assets/images/klisman-murati.png";
 import { Link } from "react-router-dom";
-import Logo1 from "../../assets/images/Logos/Logo-1.png";
-import Logo2 from "../../assets/images/Logos/Logo-2.png";
-import Logo3 from "../../assets/images/Logos/Logo-3.png";
-import Logo4 from "../../assets/images/Logos/Logo-4.png";
-import Logo5 from "../../assets/images/Logos/Logo-5.png";
-import Logo6 from "../../assets/images/Logos/Logo-6.png";
-import Logo7 from "../../assets/images/Logos/Logo-7.png";
-import Logo8 from "../../assets/images/Logos/Logo-8.png";
-import Logo9 from "../../assets/images/Logos/Logo-9.png";
-import Logo10 from "../../assets/images/Logos/Logo-10.png";
-import Logo11 from "../../assets/images/Logos/Logo-11.png";
-import Logo12 from "../../assets/images/Logos/Logo-12.png";
-import Logo13 from "../../assets/images/Logos/Logo-13.png";
-import Logo14 from "../../assets/images/Logos/Logo-14.png";
-import Logo15 from "../../assets/images/Logos/Logo-15.png";
-import Logo16 from "../../assets/images/Logos/Logo-16.png";
-import Logo17 from "../../assets/images/Logos/Logo-17.png";
-import Logo18 from "../../assets/images/Logos/Logo-18.png";
 import { useForm } from "react-hook-form";
 import { postEventRequest } from "../../api/eventApi";
+
 const ServiceSpeaking = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [requestStatus, setRequestStatus] = useState(null);
@@ -76,13 +57,13 @@ const ServiceSpeaking = () => {
         className="hero-service"
         title="Speaking that Inspires and Informs"
         h1width="max-w-[800px]"
-        image={Hero}
+        image="/images/services-speaking.png"
       />
       <section className="ceo border-b border-black pb-[60px] md:pb-24">
         <div className="flex gap-10  max-md:block">
           <div className="flex-1 ">
             <img
-              src={Klisman}
+              src="/images/klisman-murati.png"
               alt="Klisman Murati"
               width={300}
               height={600}
@@ -123,24 +104,24 @@ const ServiceSpeaking = () => {
       <section className="border-b border-black pb-[60px] md:pb-24 ">
         {/* <div className="icons flex items-center flex-wrap md:[&>img]:w-[8%]   max-md:[&>img]:w-[28%] gap-6 md:gap-12 justify-between border-b border-black pb-[60px] md:pb-24"> */}
         <div className="icons  items-center grid grid-cols-3 md:grid-cols-6 xl:grid-cols-9 gap-10 md:gap-12 justify-between border-b border-black pb-[60px] md:pb-24">
-          <img src={Logo1} alt="logo" />
-          <img src={Logo2} alt="logo" />
-          <img src={Logo3} alt="logo" />
-          <img src={Logo4} alt="logo" />
-          <img src={Logo5} alt="logo" />
-          <img src={Logo6} alt="logo" />
-          <img src={Logo7} alt="logo" />
-          <img src={Logo8} alt="logo" />
-          <img src={Logo9} alt="logo" />
-          <img src={Logo10} alt="logo" />
-          <img src={Logo11} alt="logo" />
-          <img src={Logo12} alt="logo" />
-          <img src={Logo13} alt="logo" />
-          <img src={Logo14} alt="logo" />
-          <img src={Logo15} alt="logo" />
-          <img src={Logo16} alt="logo" />
-          <img src={Logo17} alt="logo" />
-          <img src={Logo18} alt="logo" />
+          <img src='/images/Logos/Logo-1.png' alt="logo" />
+          <img src='/images/Logos/Logo-2.png' alt="logo" />
+          <img src='/images/Logos/Logo-3.png' alt="logo" />
+          <img src='/images/Logos/Logo-4.png' alt="logo" />
+          <img src='/images/Logos/Logo-5.png' alt="logo" />
+          <img src='/images/Logos/Logo-6.png' alt="logo" />
+          <img src='/images/Logos/Logo-7.png' alt="logo" />
+          <img src='/images/Logos/Logo-8.png' alt="logo" />
+          <img src='/images/Logos/Logo-9.png' alt="logo" />
+          <img src='/images/Logos/Logo-10.png' alt="logo" />
+          <img src='/images/Logos/Logo-11.png' alt="logo" />
+          <img src='/images/Logos/Logo-12.png' alt="logo" />
+          <img src='/images/Logos/Logo-13.png' alt="logo" />
+          <img src='/images/Logos/Logo-14.png' alt="logo" />
+          <img src='/images/Logos/Logo-15.png' alt="logo" />
+          <img src='/images/Logos/Logo-16.png' alt="logo" />
+          <img src='/images/Logos/Logo-17.png' alt="logo" />
+          <img src='/images/Logos/Logo-18.png' alt="logo" />
         </div>
         <section className="mt-10">
           <h2 className=" lg:max-w-[650px]">Watch Murati in Action</h2>
@@ -388,7 +369,7 @@ const ServiceSpeaking = () => {
                    focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("firstName", {
-                      required: "The first name is required.",
+                      required: "The first name is required."
                     })}
                   />
                 </div>
@@ -415,7 +396,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("lastName", {
-                      required: "The last name is required.",
+                      required: "The last name is required."
                     })}
                   />
                 </div>
@@ -442,7 +423,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("companyName", {
-                      required: "The company/organisation is required.",
+                      required: "The company/organisation is required."
                     })}
                   />
                 </div>
@@ -472,8 +453,8 @@ const ServiceSpeaking = () => {
                       required: "The business email is required.",
                       pattern: {
                         value: /\S+@\S+\.\S+/,
-                        message: "Please enter valid email.",
-                      },
+                        message: "Please enter valid email."
+                      }
                     })}
                   />
                 </div>
@@ -503,8 +484,8 @@ const ServiceSpeaking = () => {
                       required: "The phone number is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid phone number.",
-                      },
+                        message: "Please enter valid phone number."
+                      }
                     })}
                   />
                 </div>
@@ -531,7 +512,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("eventLocation", {
-                      required: "The event location is required.",
+                      required: "The event location is required."
                     })}
                   />
                 </div>
@@ -558,7 +539,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("eventDate", {
-                      required: "The event date is required.",
+                      required: "The event date is required."
                     })}
                   />
                 </div>
@@ -588,8 +569,8 @@ const ServiceSpeaking = () => {
                       required: "The speaker budget is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid amount.",
-                      },
+                        message: "Please enter valid amount."
+                      }
                     })}
                   />
                 </div>

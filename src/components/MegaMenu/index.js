@@ -1,10 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/pareto-logo.webp";
-import Arrow from "../../assets/images/arrow.svg";
-import contentImg from "../../assets/images/latest-content.png";
-import newsImg from "../../assets/images/latest-news.png";
-import geopolitics from '../../assets/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf'
 const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
 
   return (
@@ -20,7 +15,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
           <div className="flex justify-between items-center pt-2">
             <Link to="/">
               <img
-                src={Logo}
+                src="/images/pareto-logo.webp"
                 alt="Pareto Economics"
                 width="244"
                 height="56"
@@ -80,7 +75,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               <Link to="/services">Services</Link>
               <Link to="/services-speaking">
                 <img
-                  src={Arrow}
+                  src="/images/arrow.svg"
                   width="14"
                   height="14"
                   alt="arrow"
@@ -90,7 +85,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               </Link>
               <Link to="/services-research">
                 <img
-                  src={Arrow}
+                  src="/images/arrow.svg"
                   width="14"
                   height="14"
                   alt="arrow"
@@ -100,7 +95,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               </Link>
               <Link to="/services-executive-workshops">
                 <img
-                  src={Arrow}
+                  src="/images/arrow.svg"
                   width="14"
                   height="14"
                   alt="arrow"
@@ -111,7 +106,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               <Link to="/clients">Clients</Link>
               <Link to="/clients-corporations">
                 <img
-                  src={Arrow}
+                  src="/images/arrow.svg"
                   width="14"
                   height="14"
                   alt="arrow"
@@ -121,7 +116,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               </Link>
               <Link to="/clients-investors">
                 <img
-                  src={Arrow}
+                  src="/images/arrow.svg"
                   width="14"
                   height="14"
                   alt="arrow"
@@ -131,7 +126,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               </Link>
               <Link to="/clients-governments">
                 <img
-                  src={Arrow}
+                  src="/images/arrow.svg"
                   width="14"
                   height="14"
                   alt="arrow"
@@ -155,10 +150,15 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
                 </Link>
               </div>
               <div className="w-2/3">
-                <img src={contentImg} alt="" width={500} height={200} />
+                <img
+                  src="/images/latest-content.png"
+                  alt=""
+                  width={500}
+                  height={200}
+                />
                 <a
                   target="_blank"
-                  href={geopolitics}
+                  href="/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf"
                   className="text-lg mt-4 block font-body"
                 >
                   A beginner’s guide to geopolitical risk, and how it’s
@@ -177,7 +177,12 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
                 </Link>
               </div>
               <div className="w-2/3">
-                <img src={newsImg} alt="news Image" width={500} height={200} />
+                <img
+                  src="/images/latest-news.png"
+                  alt="news Image"
+                  width={500}
+                  height={200}
+                />
                 <a
                   target="_blank"
                   href="https://www.youtube.com/watch?v=na7AWWod8gc&t=97s"

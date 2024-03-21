@@ -2,8 +2,6 @@ import React from "react"
 import Header from '../../Layouts/Header'
 import Footer from '../../Layouts/Footer'
 import HeroSection from '../../components/HeroSection'
-import ServicesResearchImg from "../../assets/images/ServicesResearch/Services-Research.png";
-import ResearchLifecycle from "../../assets/images/ServicesResearch/Research-Lifecycle.png";
 
 const ServicesResearch = () => {
   return (
@@ -13,7 +11,7 @@ const ServicesResearch = () => {
       <HeroSection
         className="hero-home"
         title="Harness the Power of Our Analytics to Answer Your Questions"
-        image={ServicesResearchImg}
+        image="/images/ServicesResearch/services-research.png"
         h1width="max-w-[950px]"
       />
 
@@ -62,22 +60,19 @@ const ServicesResearch = () => {
               thorough and robust research process.
             </h3>
           </div>
-
         </div>
 
         <div className="flex  justify-end max-md:w-full max-md:flex-col gap-5 max-lg:gap-0 max-lg:justify-normal">
-    
-
           <div className="flex justify-between max-md:flex-col gap-5 md:gap-10 mt-10">
             <div className="max-w-[720px]">
               Our six-step process allows for both the client and us to work
               together on established goals and results which fully answers the
               client’s questions.
-              <div className='h-6' />
+              <div className="h-6" />
               We offer both quantitative & qualitative research methods as well
               as access to our proprietary data bank when required as well as
               open and primary-source data collection avenues.
-              <div className='h-6' />
+              <div className="h-6" />
               The client is kept informed of our progress throughout the
               research lifecycle as milestones are achieved.
             </div>
@@ -86,7 +81,7 @@ const ServicesResearch = () => {
 
         <div className="flex justify-between max-md:w-full max-md:flex-col gap-5 max-lg:gap-0 max-lg:justify-center mt-10">
           <img
-            src={ResearchLifecycle}
+            src="/images/ServicesResearch/research-lifecycle.png"
             alt="Research Lifecycle"
             height="200"
             width="400"
@@ -108,7 +103,7 @@ const ServicesResearch = () => {
               This depends on the scope of the research clients want to
               commission as well as the resources needed to successfully
               complete the commission.
-              <div className='h-6' />
+              <div className="h-6" />
               Each commission and unique, our team will be happy to discuss your
               needs and timeframes during a consultation.
             </div>

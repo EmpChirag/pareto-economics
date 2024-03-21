@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
-import Corporations from "../../assets/images/ClientsCorporations/clients_corporations.png";
 import Footer from "../../Layouts/Footer";
 import { Link } from 'react-router-dom';
+
 const ClientsCorporations = () => {
   return (
     <div className="container mx-auto pb-[200px]">
@@ -11,7 +11,7 @@ const ClientsCorporations = () => {
       <HeroSection
         className="hero-home"
         title="We Partner with Global Stakeholders to Guide Business Strategy"
-        image={Corporations}
+        image="/images/ClientsCorporations/clients_corporations.png"
         h1width="max-w-[950px]"
       />
       <section className="mt-10 pb-10 border-b   border-black">
