@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
-import Corporations from "../../assets/images/ClientsCorporations/Clients_Corporations.png";
+import Corporations from "../../assets/images/ClientsCorporations/clients_corporations.png";
 import Footer from "../../Layouts/Footer";
 import { Link } from 'react-router-dom';
 const ClientsCorporations = () => {

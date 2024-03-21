@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
-import heroImg from "../../assets/images/Clients-Investors.png";
+import heroImg from "../../assets/images/clients-investors.png";
 import Footer from "../../Layouts/Footer";
 import { Link } from "react-router-dom";
 
