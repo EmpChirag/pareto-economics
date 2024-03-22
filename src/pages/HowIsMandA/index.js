@@ -27,6 +27,7 @@ const HowIsMandA = () => {
           </b>
         </p>
       </section>
+
       <section>
         <h3 className="pb-5 mt-9 text-4xl">Executive Summary</h3>
         <p className="text-xl pb-5">
