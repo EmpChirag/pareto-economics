@@ -1,6 +1,9 @@
 import React, { lazy } from "react";
 
 const Abeginner = lazy(() => import("./pages/Abeginnerpdf"));
+const IsBubble = lazy(() =>
+  import("./pages/Pdf/Is-ESG-a-Bubble-or-Paradigm-Shift")
+);
 const ModernSlavery = lazy(() => import("./pages/ModernSlavery"));
 const Cookies = lazy(() => import("./pages/Cookies"));
 const PrivacySecurityStatement = lazy(() =>
@@ -145,6 +148,11 @@ const routes = [
   {
     path: "/how-is-manda",
     component: <HowIsMandA />,
+    exact: true,
+  },
+  {
+    path: "/Is-ESG-a-Bubble-or-Paradigm-Shift",
+    component: <IsBubble />,
     exact: true,
   },
 ];

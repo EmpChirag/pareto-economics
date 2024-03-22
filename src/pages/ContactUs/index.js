@@ -419,8 +419,11 @@ const ContactUs = () => {
               <div className="mt-10">
                 <p>
                   Please see our
-                  <Link className="underline hover:!no-underline ">
-                    <i className="mx-2">Privacy Policy</i>
+                  <Link
+                    to="/privacy-security-statement" target="_blank"
+                    className="underline hover:!no-underline ">
+                      <i className="mx-2">Privacy Policy</i>
+
                   </Link>
                   regarding how we will
                   <br /> handle this information.
