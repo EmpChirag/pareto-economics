@@ -60,6 +60,7 @@ const routes = [
     component: <ContactUs />,
     exact: true,
   },
+
   {
     path: "/services",
     component: <ServicesLanding />,
