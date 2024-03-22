@@ -3,13 +3,17 @@ import React, { lazy } from "react";
 const Abeginner = lazy(() => import("./pages/Abeginnerpdf"));
 const ModernSlavery = lazy(() => import("./pages/ModernSlavery"));
 const Cookies = lazy(() => import("./pages/Cookies"));
-const PrivacySecurityStatement = lazy(() => import("./pages/PrivacySecurityStatement"));
+const PrivacySecurityStatement = lazy(() =>
+  import("./pages/PrivacySecurityStatement")
+);
 const TermsOfUse = lazy(() => import("./pages/TermsOfUse"));
 const Sitemap = lazy(() => import("./pages/Sitemap"));
+const HowIsMandA = lazy(() => import("./pages/HowIsMandA"));
+
 const ThoughtLeadership = lazy(() => import("./pages/ThoughtLeadership"));
-const InTheNews =  lazy(() => import("./pages/InTheNews"));
-const ContactUs =  lazy(() => import("./pages/ContactUs"));
-const ServiceSpeaking =  lazy(() => import('./pages/ServiceSpeaking'));
+const InTheNews = lazy(() => import("./pages/InTheNews"));
+const ContactUs = lazy(() => import("./pages/ContactUs"));
+const ServiceSpeaking = lazy(() => import("./pages/ServiceSpeaking"));
 
 const Home = lazy(() => import("./pages/Home"));
 const AboutUs = lazy(() => import("./pages/AboutUs"));
@@ -17,7 +21,9 @@ const GlobalPowerIndex = lazy(() => import("./pages/GlobalPowerIndex"));
 const ClientsCorporations = lazy(() => import("./pages/ClientsCorporations"));
 const FirstPrinciple = lazy(() => import("./pages/FirstPrinciple"));
 const ServicesResearch = lazy(() => import("./pages/ServicesResearch"));
-const ServicesExecutiveWorkshops = lazy(() => import("./pages/ServicesExecutiveWorkshops"));
+const ServicesExecutiveWorkshops = lazy(() =>
+  import("./pages/ServicesExecutiveWorkshops")
+);
 const ServicesLanding = lazy(() => import("./pages/ServicesLanding"));
 const ClientLanding = lazy(() => import("./pages/ClientLanding"));
 const ClientsGovernments = lazy(() => import("./pages/ClientsGovernments"));
@@ -26,116 +32,121 @@ const routes = [
   {
     path: "/",
     component: <Home />,
-    exact: true
+    exact: true,
   },
   {
     path: "/about-us",
     component: <AboutUs />,
-    exact: true
+    exact: true,
   },
 
   {
     path: "/thought-leadership",
     component: <ThoughtLeadership />,
-    exact: true
+    exact: true,
   },
 
   {
     path: "/in-the-news",
     component: <InTheNews />,
-    exact: true
+    exact: true,
   },
 
   {
     path: "/contact-us",
     component: <ContactUs />,
-    exact: true
+    exact: true,
   },
   {
     path: "/services",
     component: <ServicesLanding />,
-    exact: true
+    exact: true,
   },
   {
     path: "/services-speaking",
     component: <ServiceSpeaking />,
-    exact: true
+    exact: true,
   },
   {
     path: "/clients",
     component: <ClientLanding />,
-    exact: true
+    exact: true,
   },
   {
     path: "/global-power-index",
     component: <GlobalPowerIndex />,
-    exact: true
+    exact: true,
   },
   {
     path: "/clients-corporations",
     component: <ClientsCorporations />,
-    exact: true
+    exact: true,
   },
   {
     path: "/first-principles",
     component: <FirstPrinciple />,
-    exact: true
+    exact: true,
   },
   {
     path: "/services-research",
     component: <ServicesResearch />,
-    exact: true
+    exact: true,
   },
   {
     path: "/clients-governments",
     component: <ClientsGovernments />,
-    exact: true
+    exact: true,
   },
   {
     path: "/services-executive-workshops",
     component: <ServicesExecutiveWorkshops />,
-    exact: true
+    exact: true,
   },
   {
     path: "/clients-investors",
     component: <ClientsInvestors />,
-    exact: true
+    exact: true,
   },
   {
     path: "/services-speaking",
     component: <ServiceSpeaking />,
-    exact: true
+    exact: true,
   },
   {
     path: "/modern-slavery-statement",
     component: <ModernSlavery />,
-    exact: true
+    exact: true,
   },
   {
     path: "/cookies",
     component: <Cookies />,
-    exact: true
+    exact: true,
   },
   {
     path: "/privacy-security-statement",
     component: <PrivacySecurityStatement />,
-    exact: true
+    exact: true,
   },
   {
     path: "/terms-of-use",
     component: <TermsOfUse />,
-    exact: true
+    exact: true,
   },
   {
     path: "/sitemap",
     component: <Sitemap />,
-    exact: true
+    exact: true,
   },
   {
     path: "/abeginner",
     component: <Abeginner />,
-    exact: true
-  }
+    exact: true,
+  },
+  {
+    path: "/how-is-manda",
+    component: <HowIsMandA />,
+    exact: true,
+  },
 ];
 
 export default routes;
