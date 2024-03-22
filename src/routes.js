@@ -142,6 +142,7 @@ const routes = [
     component:<IsBubble/>,
     exact:true
   }
+  
 ];
 
 export default routes;

@@ -29,6 +29,10 @@ mail() {
 
       cd mail
 
+      rm -rf .env
+
+      cp .env.example .env
+
       composer install
 
       print_process "Copying mail folder into build directory..."
