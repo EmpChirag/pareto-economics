@@ -1,93 +1,200 @@
 [
   {
-    "image": "./src/assets/images/podcasts/PREM.webp",
+    "image": "/images/podcasts/PREM.webp",
     "title": "How London became the financial crime capital of the world – Prem Sikka",
-    "link": "https://podcasts.apple.com/gb/podcast/how-london-became-the-financial-crime-capital-of-the/id1394658598?i=1000521836630",
-    "content": "Klisman Sits down with Lord Sikka to discuss the shady world of financial crime and how London has been at the center of a global web of it all. He discusses the effects this has had on society and answers some very difficult questions as to how to combat it and what individuals can do to bring about a more equitable society."
+    "link": "https://www.youtube.com/watch?v=wXBPVvr5_Jo&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=13&pp=iAQB",
+    "content": "Klisman Sits down with Lord Sikka to discuss the shady world of financial crime and how London has been at the center of a global web of it all. He discusses the effects this has had on society and answers some very difficult questions as to how to combat it and what individuals can do to bring about a more equitable society.",
+    "date": "June 2021"
   },
   {
-    "image": "./src/assets/images/podcasts/BERNARD-22.webp",
+    "image": "/images/podcasts/BERNARD-22.webp",
     "title": "Who killed the West and what comes next? – Martin Armstrong",
-    "link":"https://podcasts.apple.com/gb/podcast/who-killed-the-west-and-what-comes-next-w-martin-armstrong/id1394658598?i=1000520727372",
-    "content": "Klisman sits with Armstrong to discuss many interesting topics including, Who really controls the world?, What’s wrong with the World Economic Forum?, Why the green agenda is doomed to fail, How do economic cycles really work, Why China is winning, The role of crypto when fiat becomes digitised."
+    "link": "https://www.youtube.com/watch?v=dOYjMRTuasI&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=11&pp=iAQB",
+    "content": "Klisman sits with Armstrong to discuss many interesting topics including, Who really controls the world?, What’s wrong with the World Economic Forum?, Why the green agenda is doomed to fail, How do economic cycles really work, Why China is winning, The role of crypto when fiat becomes digitised.",
+    "date": "May 2021"
   },
 
   {
-    "image": "./src/assets/images/podcasts/BERNARD-23.webp",
+    "image": "/images/podcasts/BERNARD-23.webp",
     "title": "What really drives political action in the real world? – Benedikt Franke",
-    "link":"https://podcasts.apple.com/gb/podcast/what-really-drives-political-action-in-the-real-world/id1394658598?i=1000518351187",
-    "content": "Klisman and Benedkit give a masterclass on the nature of politics, why politicians seem slow to respond to international issues, why grey rhinos matter more than black swans and what Benedikt’s biggest frustrations are with international leaders. This episode is for anyone looking to penetrate through  the headlines & soundbites that we are all too used to seeing."
+    "link": "https://www.youtube.com/watch?v=McD8Qbw4Fpg&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=12&pp=iAQB",
+    "content": "Klisman and Benedkit give a masterclass on the nature of politics, why politicians seem slow to respond to international issues, why grey rhinos matter more than black swans and what Benedikt’s biggest frustrations are with international leaders. This episode is for anyone looking to penetrate through  the headlines & soundbites that we are all too used to seeing.",
+    "date": "May 2021"
   },
   {
-    "image": "./src/assets/images/podcasts/BERNARD-24.webp",
+    "image": "/images/podcasts/BERNARD-24.webp",
     "title": "How to hedge against black swans in 2021 and beyond- David Kelly",
-    "link":"https://podcasts.apple.com/gb/podcast/how-to-hedge-against-black-swans-in-2021-beyond-w-dr/id1394658598?i=1000514581164",
-    "content": "Klisman and David sit down to discuss:– How coronavirus plays out in 2021– How to hedge against geopolitical risk– How the West should engage China– Why cryptocurrencies are garbage– How Black Swans emerge."
+    "link": "https://www.youtube.com/watch?v=EcNjYr4HpRc&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=10&pp=iAQB",
+    "content": "Klisman and David sit down to discuss:– How coronavirus plays out in 2021– How to hedge against geopolitical risk– How the West should engage China– Why cryptocurrencies are garbage– How Black Swans emerge.",
+    "date": "March 2021"
   },
   {
-    "image": "./src/assets/images/podcasts/BERNARD-27.webp",
+    "image": "/images/podcasts/BERNARD-27.webp",
     "title": "How to use big data in your investing strategy? – Chris Tinker",
-    "link": "https://podcasts.apple.com/gb/podcast/how-to-use-big-data-in-your-investing-strategy-w-chris-tinker/id1394658598?i=1000512967947",
-    "content": "In this 4 Corners Podcast episode Klisman and Chris sit down to discuss:– How to price in political risk– Why not all data is valuable– China’s Belt and Road vs US Globalism– The importance of North Asian economies like Japan, South Korea and Taiwan– How to think about ESG"
+    "link": "https://www.youtube.com/watch?v=zUQu-Fi5Xcg&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=9&pp=iAQB",
+    "content": "In this 4 Corners Podcast episode Klisman and Chris sit down to discuss:– How to price in political risk– Why not all data is valuable– China’s Belt and Road vs US Globalism– The importance of North Asian economies like Japan, South Korea and Taiwan– How to think about ESG",
+    "date": "March 2021"
   },
   {
-    "image": "./src/assets/images/podcasts/BERNARD-28.webp",
+    "image": "/images/podcasts/BERNARD-28.webp",
     "title": "How to really invest in a new age of hype – Savvas Savouri",
-    "link":"https://podcasts.apple.com/gb/podcast/how-to-really-invest-in-a-new-age-of-hype-w-savvas-savouri/id1394658598?i=1000511514970",
-    "content": "In this 4 Corners Podcast episode Klisman and Savvas sit down and cover topics like:-The hypocrisy in financial markets as it relates to China– Why BITCOIN will crash-How investors should be thinking about the world?-Is the US Dollar on its knees?-Why politics and economics should not mix"
+    "link": "https://www.youtube.com/watch?v=N0jnyWUofG0&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=8&pp=iAQB",
+    "content": "In this 4 Corners Podcast episode Klisman and Savvas sit down and cover topics like:-The hypocrisy in financial markets as it relates to China– Why BITCOIN will crash-How investors should be thinking about the world?-Is the US Dollar on its knees?-Why politics and economics should not mix",
+    "date": "March 2021"
   },
   {
-    "image": "./src/assets/images/podcasts/BERNARD-29.webp",
+    "image": "/images/podcasts/BERNARD-29.webp",
     "title": "Why Iran is the new investing frontier – Maciej Wojtal",
-    "link":"https://podcasts.apple.com/gb/podcast/why-iran-is-the-new-investing-frontier-w-maciej-wojtal/id1394658598?i=1000507028500",
-    "content": "In this episode of the 4 Corners Podcast Klisman and Maciej discuss:• Opportunity for Great Reset in US-Iran relations.• Relations between Iran and the region.• Impact of a New Iran Deal on the Iranian economy.• Ways to invest in Iran, restrictions and who can invest."
+    "link": "https://www.youtube.com/watch?v=k7LNbl8tSio&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=1&pp=iAQB",
+    "content": "In this episode of the 4 Corners Podcast Klisman and Maciej discuss:• Opportunity for Great Reset in US-Iran relations.• Relations between Iran and the region.• Impact of a New Iran Deal on the Iranian economy.• Ways to invest in Iran, restrictions and who can invest.",
+    "date": "February 2021"
   },
   {
-    "image": "./src/assets/images/podcasts/david1.webp",
+    "image": "/images/podcasts/david1.webp",
     "title": "What is the future of the WTO? – Bernard Kuiten",
-    "link":"https://podcasts.apple.com/gb/podcast/what-is-the-future-of-the-wto-w-bernard-kuiten/id1394658598?i=1000505801402",
-    "content": "On this 4 Corners Podcast episode Klisman and Bernard discuss:-What will be the main changes & challenges the WTO will face this new year and new decade?-What role the WTO can play as more and more nations develop their Center’s Of Power (CoP)-How can SME’s take advantage of the WTO?"
+    "link": "https://www.youtube.com/watch?v=HbhQDRnaB44&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=2&pp=iAQB",
+    "content": "On this 4 Corners Podcast episode Klisman and Bernard discuss:-What will be the main changes & challenges the WTO will face this new year and new decade?-What role the WTO can play as more and more nations develop their Center’s Of Power (CoP)-How can SME’s take advantage of the WTO?",
+    "date": "January 2021"
   },
   {
-    "image": "./src/assets/images/podcasts/SIMON-1.webp",
+    "image": "/images/podcasts/SIMON-1.webp",
     "title": "Data is the new oil – Edward Luttwak",
-    "link":"https://podcasts.apple.com/gb/podcast/data-is-the-new-oil-w-dr-edward-luttwak/id1394658598?i=1000499989437",
-    "content": "Klisman and Edward sit to to discuss:-The impact & influence of middle-level powers have on the global geopolitica landscape.-How do geopolitics and geoeconomics impact financial services and why should investors care?-How can business leaders make more informed   investing decisions given the uncertainty of world affairs"
+    "link": "https://www.youtube.com/watch?v=81CQEDodXEo&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=3&pp=iAQB",
+    "content": "Klisman and Edward sit to to discuss:-The impact & influence of middle-level powers have on the global geopolitica landscape.-How do geopolitics and geoeconomics impact financial services and why should investors care?-How can business leaders make more informed   investing decisions given the uncertainty of world affairs",
+    "date": "December 2020"
   },
   {
-    "image": "./src/assets/images/podcasts/SIMON-2.webp",
+    "image": "/images/podcasts/SIMON-2.webp",
     "title": "Why the US-China conflict really exists – Simon Lacey",
-    "link":"https://podcasts.apple.com/gb/podcast/why-the-us-china-conflict-really-exists-w-simon-lacey/id1394658598?i=1000496395820",
-    "content": "When China stepped onto the world stage in 2001 following the joining of the WTO things changed.This change happened very rapidly which made many in the west very suspicious. Fast forward to the present we have a geopolitical landscape poised to impact every aspect of business, life, and politics the world over."
+    "link": "https://www.youtube.com/watch?v=M6Gg_U5OhVQ&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=4&pp=iAQB",
+    "content": "When China stepped onto the world stage in 2001 following the joining of the WTO things changed.This change happened very rapidly which made many in the west very suspicious. Fast forward to the present we have a geopolitical landscape poised to impact every aspect of business, life, and politics the world over.",
+    "date": "November 2020"
   },
   {
-    "image": "./src/assets/images/podcasts/SIMON-3.webp",
-    "title": "The geopolitics of COVID-19 in the Middle East – Cyril Widdershoven",
-    "link":"https://podcasts.apple.com/gb/podcast/the-geopolitics-of-covid-19-in-the-middle-east/id1394658598?i=1000473063130",
-    "content": "Klisman sits down with Cyril to find out what and who will be affected the most from the coronavirus, what this means for Russia and the future of GCC nations Vision 2030 equivalence. As well as why Dr Widdrshoven believes HIGH oil prices are the nail in the coffin for Saudi Arabia’s Vision 2030, how Russia can play a more productive role in the Middle East and the real reason behind the OPEC + oversupply which lead to negative oil prices."
-  },
-  {
-    "image": "./src/assets/images/podcasts/SIMON-4.webp",
-    "title": "How the media really works – Michael Fiorentino",
-    "link":"https://podcasts.apple.com/gb/podcast/how-the-media-really-works-w-michael-fiorentino/id1394658598?i=1000471119812",
-    "content": "On this 4 corners podcast episode, Klisman sits with Micheal Fiorentino who is a journalist for both NBC News and Reuters and delve into how the news machine really works, what might happen for the 2020 November elections in the United States given coronavirus, how journalists are doing their jobs during this crisis, and why certain parts of the world never seem to make headlines."
-  },
-  {
-    "image": "./src/assets/images/podcasts/SIMON-5.webp",
-    "title": "Investing success in a changing world – Richard Philbin",
-    "link":"https://podcasts.apple.com/gb/podcast/investing-success-in-a-changing-world-w-richard-philbin/id1394658598?i=1000467338461",
-    "content": "Klisman and Richard sit down to discuss• The changing investment landscape • How to define success in today’s world•Portfolio construction 101•Active vs. Passive investing"
-  },
-  {
-    "image": "./src/assets/images/podcasts/PREM.webp",
+    "image": "/images/podcasts/PREM.webp",
     "title": "The $1.5 trillion heist in trade finance – Duarte Pedreira",
-    "link":"https://podcasts.apple.com/gb/podcast/klisman-murati-the-$1-5-trillion-heist-trade-finance/id1394658598?i=1000466753978",
-    "content": "Klisman sits down with Duarte to talk about– Why the $1.5tn trade finance gap really exists– How to choose your career and the importance of a global perspective– China’s impact in Africa– Duarte’s charity in Rwanda."
+    "link": "https://www.youtube.com/watch?v=VT223itbib8&list=PLSZsCHTmPrtb94KVMzLzZBeQ9HzLgWWBn&index=5&pp=iAQB",
+    "content": "Klisman sits down with Duarte to talk about– Why the $1.5tn trade finance gap really exists– How to choose your career and the importance of a global perspective– China’s impact in Africa– Duarte’s charity in Rwanda.",
+    "date": "June 2020"
+  },
+
+  {
+    "image": "/images/podcasts/olivia.webp",
+    "title": "The changing landscape of family office investments w/Olivia Cooper",
+    "link": "https://podcasts.apple.com/de/podcast/the-changing-landscape-of-family-office-investments/id1688046426?i=1000613129205",
+    "content": "The world is changing. Investments are becoming more abundant but at the same time riskier. Family offices face many internal and external dynamics that Oliva Cooper understands all too well.",
+    "date": "February 2020"
   },
   {
-    "image": "./src/assets/images/podcasts/SIMON-5.webp",
-    "title": "The changing landscape of family office investments – Olivia Cooper",
-    "link":"https://podcasts.apple.com/gb/podcast/changing-landscape-of-family-office-investments/id1394658598?i=1000466079808",
-    "content": "The world is changing. Investments are becoming more abundant but at the same time riskier. Family offices need to adapt.We discuss COVID-19 and risk management. Social cohesion as a geopolitical risk Free trade post BREXIT Why James Bond loves Aston Martins."
+    "image": "/images/podcasts/duarte.webp",
+    "title": "The $1.5 trillion heist, trade finance w/Duarte Pedreira",
+    "link": "https://podcasts.apple.com/de/podcast/the-%241-5-trillion-heist-trade-finance-w-duarte-pedreira/id1688046426?i=1000613129311",
+    "content": "Duarte Pedreira heads up Trade Finance at Crown Agents bank and is a personality you'll likely won't forget.His passion for life and hard work coupled with his international experience working in trade finance in emerging and frontier markets make him someone to pay attention to.",
+    "date": "February 2020"
+  },
+  {
+    "image": "/images/podcasts/geopolitics.webp",
+    "title": "Klisman Murati keynote: How is geopolitics going to affect trade in 2020",
+    "link": "https://podcasts.apple.com/de/podcast/klisman-murati-keynote-how-is-geopolitics-going-to/id1688046426?i=1000613129338",
+    "content": "It's clear to see that geopolitical risk is rising. We can all see the effects when we switch on the news.But WHY isgeopolitical risk growing so rapidly and spreading so globally? and, how is it going to affect trade in 2020 and beyond?This keynote by Klisman Murati answers that question.",
+    "date": "February 2020"
+  },
+  {
+    "image": "/images/podcasts/richard.webp",
+    "title": "Investing success in a changing world w/Richard Philbin",
+    "link": "https://podcasts.apple.com/de/podcast/investing-success-in-a-changing-world-w-richard-philbin/id1688046426?i=1000613129204",
+    "content": "On this weeks Pangaea Wire Podcast we have the stalwart of investment management Richard Philbin in the hot seat.If you know Richard you know he is a treasure trove of knowledge and insights in the world of investing, and if you don’t know Richard, you’re about to get a masterclass from one of the best.",
+    "date": "March 2020"
+  },
+  {
+    "image": "/images/podcasts/pangea.webp",
+    "title": "How the media really works w/Michael Fiorentino",
+    "link": "https://podcasts.apple.com/de/podcast/the-threat-to-sovereignty-in-a-new-age-outer-space-and-cyber/id1688046426?i=1000613129221",
+    "content": "The news media machine is a global goliath which has developed in an increasingly bad reputation.On this episode, we sit with Micheal Fiorentino who is a journalist for both NBC News and Reuters and delve into how the news machine really works, what might happen for the 2020 November elections in the United States given coronavirus, how journalists are doing their jobs during this crisis, and why certain parts of the world never seem to make headlines.",
+    "date": "April 2020"
+  },
+  {
+    "image": "/images/podcasts/pangai.webp",
+    "title": "The geopolitics of COVID-19 in the Middle East w/Cyril Widdershoven",
+    "link": "https://podcasts.apple.com/de/podcast/the-geopolitics-of-covid-19-in-the-middle-east/id1688046426?i=1000613129253",
+    "content": "Coronavirus spells disaster for the middle east. The perfect storm resulting from historically low oil prices, historically low demand, oversupply, geopolitical chaos, a non-existent tourist sector with everyone looking towards a solution which is increasingly harder to find.",
+    "date": "April 2020"
+  },
+  {
+    "image": "/images/podcasts/space.webp",
+    "title": "The Threat to Sovereignty in a New Age: Outer Space and Cyber",
+    "link": "https://podcasts.apple.com/de/podcast/the-threat-to-sovereignty-in-a-new-age-outer-space-and-cyber/id1688046426?i=1000613129221",
+    "content": "YouTube Video: https://www.youtube.com/watch?v=_Gbq5elnMeIWebsite: www.klismanmurati.comThis lecture will examine whether sovereignty, the oldest innovation of statehood, continues to have relevance and will challenge the audience to reimagine a world where technology changes not only your day to day life but a much more fundamental aspect of how states draw the line. In exploring these issues Klisman will provide an insight into what it may mean to go to war in this new age and why borders may no longer matter.",
+    "date": "May 2020"
+  },
+  {
+    "image": "/images/podcasts/simon.webp",
+    "title": "Why The US-China Conflict Really Exists w/Simon Lacey",
+    "link": "https://podcasts.apple.com/de/podcast/why-the-us-china-conflict-really-exists-w-simon-lacey/id1688046426?i=1000613129281",
+    "content": "When China stepped onto the world stage in 2001 following the joining of the WTO things changed.Change happened very rapidly which made many in the west very suspicious. Fast forward to the present we have a geopolitical landscape poised to impact every aspect of business, life, and politics the world over.",
+    "date": "October 2020"
+  },
+  {
+    "image": "/images/podcasts/edward.webp",
+    "title": "Data is the New Oil w/ Dr Edward Luttwak",
+    "link": "https://podcasts.apple.com/de/podcast/data-is-the-new-oil-w-dr-edward-luttwak/id1688046426?i=1000613129254",
+    "content": "The world is changing at such a rapid pace that a lot of the time we find ourselves focusing on the noise and acting upon unreliable or shallow information.In this episode of 4 Corners, we sit with the Machiavelli of Maryland Dr. Edward Luttwak to discuss:",
+    "date": "November 2020"
+  },
+  {
+    "image": "/images/podcasts/bernard.webp",
+    "title": "What Is The Future Of The WTO? w/ Bernard Kuiten",
+    "link": "https://podcasts.apple.com/de/podcast/what-is-the-future-of-the-wto-w-bernard-kuiten/id1688046426?i=1000613129203",
+    "content": "In the world of international trade arbitration, there is one thing that matters...keeping parties at the negotiation table.Few know the pressures and dynamics of international trade like Bernard Kuiten.Bernard has spent 22 years and counting at the helm of the World Trade Organisation as its Head of External Relations and works with internal and external stakeholders on a daily basis.",
+    "date": "January 2021"
+  },
+  {
+    "image": "/images/podcasts/iran.webp",
+    "title": "Why Iran Is The New Investing Frontier w/Maciej Wojtal",
+    "link": "https://podcasts.apple.com/de/podcast/why-iran-is-the-new-investing-frontier-w-maciej-wojtal/id1688046426?i=1000613129282",
+    "content": "Iran probably has the worst PR of any nation bar North Korea, but as investors blacklist Iran, some are seeing golden opportunities and are reaping the benefits.Maciej Wojtal is going all in and making a mark in Iran that is paying hansom dividends for his clients.",
+    "date": "January 2021"
+  },
+  {
+    "image": "/images/podcasts/reallyinvest.webp",
+    "title": "How to Really Invest in a New Age of Hype w/Savvas Savouri",
+    "link": "https://podcasts.apple.com/de/podcast/how-to-really-invest-in-a-new-age-of-hype-w-savvas-savouri/id1688046426?i=1000613129283",
+    "content": "Investing hypes are everywhere, and for many new market participants, these look like paradigm shifts. But to Dr Savvas Savouri it's nothing new.Savvas has more than 30 years of investing experience and in our latest podcast, he tells it as it is.",
+    "date": "March 2021"
+  },
+  {
+    "image": "/images/podcasts/bigdata.webp",
+    "title": "How to Use Big Data in your Investing Strategy? w/Chris Tinker",
+    "link": "https://podcasts.apple.com/de/podcast/how-to-use-big-data-in-your-investing-strategy-w-chris-tinker/id1688046426?i=1000613129220",
+    "content": "The innovation of Big Data in financial markets has opened up new opportunities for investment, nobody knows this more than Chris Tinker of Libra Investment Services.Chris has more than 35 years of experience in global finance and investing, having worked in the west and Asia Chris brings his real-world experience to his clients.",
+    "date": "MÄRZ 2021"
+  },
+  {
+    "image": "/images/podcasts/hedge.webp",
+    "title": "How To Hedge Against Black Swans in 2021 & Beyond w/ Dr David Kelly",
+    "link": "https://podcasts.apple.com/de/podcast/how-to-hedge-against-black-swans-in-2021-beyond-w-dr/id1688046426?i=1000613129255",
+    "content": "What's it like being in charge of strategy for $2.2trillion?Not many people can answer that question, but Dr David Kelly, Chief Global Strategist for JM Morgan Asset Management can.",
+    "date": "MÄRZ 2021"
+  },
+  {
+    "image": "/images/podcasts/drives.webp",
+    "title": "What Really Drives Political Action in the Real World? w/Benedikt Franke",
+    "link": "https://podcasts.apple.com/de/podcast/what-really-drives-political-action-in-the-real-world/id1688046426?i=1000613129337",
+    "content": "International politics seems, to many, to be clocked in a veil of mystery and fog. Political decisions are many times looked upon with frustration and at times disbelief by investors and business people alike.In this episode, Klisman Murati sits with guest Dr Benedikt Franke CEO of the Munich Security Conference to discuss what really drives political action in the real world?",
+    "date": "April 2021"
+  },
+  {
+    "image": "/images/podcasts/killed.webp",
+    "title": "Who Killed the West and What Comes Next? w/Martin Armstrong",
+    "link": "https://podcasts.apple.com/de/podcast/who-killed-the-west-and-what-comes-next-w-martin-armstrong/id1688046426?i=1000613129207",
+    "content": "Not many have the ability to look behind the curtain of international power, but for those that do, Martin Armstrong is the one they call for strategy and advice.Martin has over 40 years of experience working at the highest level of finance and political affairs. He was one of the very first international hedge fund managers and is the creator of SOCRATES the worlds first and only AI Investment tool.",
+    "date": "AI 2021"
+  },
+  {
+    "image": "/images/podcasts/london.webp",
+    "title": "How London Became the Financial Crime Capital of the World w/Prem Sikka",
+    "link": "https://podcasts.apple.com/de/podcast/how-london-became-the-financial-crime-capital-of-the/id1688046426?i=1000613129175",
+    "content": "With financial and structural ruin plaguing the UK after WW2 as well as a loss of their empire, the UK needed to forge new relevance in the world.Using sophisticated financial wizardry the City of London has developed a web of financial flow loopholes that have served to facilitate extraordinary illicit black money flows.",
+    "date": "May 2021"
   }
 ]

@@ -20,9 +20,10 @@ const Articles = ({option,searchText}) => {
         {option[option.findIndex(obj => obj['value'] === 'ARTICLES')]?.isActive && filteredArticles.map((article, index) => {
           return (
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="uppercase text-lg md:text-2xl">Article</div>
+              <div className="uppercase text-lg">Article</div>
               <a
                 href={article.link}
+                rel="noreferrer"
                 className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"
               >
                 {article.title}
@@ -36,9 +37,10 @@ const Articles = ({option,searchText}) => {
         {option[option.findIndex(obj => obj['value'] === 'PODCAST')]?.isActive && filteredPodcasts.map((podcast, index) => {
           return (
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="uppercase text-lg md:text-2xl">Podcast</div>
+              <div className="uppercase text-lg">Podcast</div>
               <a
                 href={podcast.link}
+                rel="noreferrer"
                 className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"
               >
                 {podcast.title}
@@ -52,7 +54,7 @@ const Articles = ({option,searchText}) => {
         {/* { option[option.findIndex(obj => obj['value'] === 'PRESS RELEASE')]?.isActive && filteredPressReleases.map((press, index) => {
           return (
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="uppercase text-lg md:text-2xl">Press Release</div>
+              <div className="uppercase text-lg">Press Release</div>
               <a
                 href={press.link}
                 className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"
@@ -65,9 +67,10 @@ const Articles = ({option,searchText}) => {
         {option[option.findIndex(obj => obj['value'] === 'TV/RADIO')]?.isActive && filteredRadioData.map((radio, index) => {
           return (
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="uppercase text-lg md:text-2xl">TV/Radio</div>
+              <div className="uppercase text-lg">TV/Radio</div>
               <a
                 href={radio.link}
+                rel="noreferrer"
                 className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"
               >
                 {radio.title}
