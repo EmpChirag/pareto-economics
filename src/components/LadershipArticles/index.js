@@ -25,7 +25,7 @@ const LadershipArticles = ({ option, searchText }) => {
           filteredPodcasts.map((podcast, index) => {
             return (
               <div className="md:w-[47%] lg:w-[30%]" key={index}>
-                <div className="flex items-start justify-between gap-5">
+                <div className="flex items-center justify-between gap-5">
                   <div className="flex-1 max-w-[120px]">
                     <img
                       src={podcast.image}
@@ -60,7 +60,7 @@ const LadershipArticles = ({ option, searchText }) => {
           filteredPressReleases.map((press, index) => {
             return (
               <div className="md:w-[47%] lg:w-[30%]" key={index}>
-                <div className="flex items-start justify-between gap-5">
+                <div className="flex items-center justify-between gap-5">
                   <div className="flex-1 max-w-[120px]">
                     <img
                       src={press.image}
@@ -87,7 +87,7 @@ const LadershipArticles = ({ option, searchText }) => {
           filteredInsights.map((insight, index) => {
             return (
               <div className="md:w-[47%] lg:w-[30%]" key={index}>
-                <div className="flex items-start justify-between gap-5">
+                <div className="flex items-center justify-between gap-5">
                   <div className="flex-1 max-w-[120px]">
                     <img
                       src={insight.image}
@@ -121,7 +121,7 @@ const LadershipArticles = ({ option, searchText }) => {
           filteredKeynotes.map((keynotes, index) => {
             return (
               <div className="md:w-[47%] lg:w-[30%]" key={index}>
-                <div className="flex items-start justify-between gap-5">
+                <div className="flex items-center justify-between gap-5">
                   <div className="flex-1 max-w-[120px]">
                     <img
                       src={keynotes.image}

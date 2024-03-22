@@ -20,34 +20,58 @@ const Articles = ({option,searchText}) => {
         {option[option.findIndex(obj => obj['value'] === 'ARTICLES')]?.isActive && filteredArticles.map((article, index) => {
           return (
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="uppercase text-lg">Article</div>
-              <a
-                href={article.link}
-                rel="noreferrer"
-                className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"
-              >
-                {article.title}
-              </a>
-              {article.date && (
-                <div className="date text-sm uppercase">{article.date}</div>
-              )}
+              <div className="flex items-center justify-between gap-5">
+                <div className="flex-1 max-w-[120px]">
+                  <img
+                    src={article.image}
+                    alt={article.title}
+                    width={150}
+                    className=""
+                  />
+                </div>
+                <div className="flex-1">
+                  <div className="uppercase text-lg">Article</div>
+                  <a
+                    href={article.link}
+                    rel="noreferrer"
+                    className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
+                  >
+                    {article.title}
+                  </a>
+                  {article.date && (
+                    <div className="date text-sm uppercase">{article.date}</div>
+                  )}
+                </div>
+              </div>
             </div>
           );
         })}
         {option[option.findIndex(obj => obj['value'] === 'PODCAST')]?.isActive && filteredPodcasts.map((podcast, index) => {
           return (
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="uppercase text-lg">Podcast</div>
-              <a
-                href={podcast.link}
-                rel="noreferrer"
-                className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"
-              >
-                {podcast.title}
-              </a>
-              {podcast.date && (
-                <div className="date text-sm uppercase">{podcast.date}</div>
-              )}
+              <div className="flex items-center justify-between gap-5">
+                <div className="flex-1 max-w-[120px]">
+                  <img
+                    src={podcast.image}
+                    alt={podcast.title}
+                    width={150}
+                    className=""
+                  />
+                </div>
+                <div className="flex-1">
+                  <div className="uppercase text-lg">Podcast</div>
+                  <a
+                    href={podcast.link}
+                    rel="noreferrer"
+                    className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
+                  >
+                    {podcast.title}
+                  </a>
+                  {podcast.date && (
+                    <div className="date text-sm uppercase">{podcast.date}</div>
+                  )}
+                </div>
+              </div>
             </div>
           );
         })}
@@ -57,7 +81,7 @@ const Articles = ({option,searchText}) => {
               <div className="uppercase text-lg">Press Release</div>
               <a
                 href={press.link}
-                className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"
+                className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
               >
                 {press.title}
               </a>
@@ -67,14 +91,26 @@ const Articles = ({option,searchText}) => {
         {option[option.findIndex(obj => obj['value'] === 'TV/RADIO')]?.isActive && filteredRadioData.map((radio, index) => {
           return (
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="uppercase text-lg">TV/Radio</div>
-              <a
-                href={radio.link}
-                rel="noreferrer"
-                className="text-2xl md:text-3xl my-2 md:my-5 inline-block font-title"
-              >
-                {radio.title}
-              </a>
+              <div className="flex items-center justify-between gap-5">
+                <div className="flex-1 max-w-[120px]">
+                  <img
+                    src={radio.image}
+                    alt={radio.title}
+                    width={150}
+                    className=""
+                  />
+                </div>
+                <div className="flex-1">
+                  <div className="uppercase text-lg">TV/Radio</div>
+                  <a
+                    href={radio.link}
+                    rel="noreferrer"
+                    className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
+                  >
+                    {radio.title}
+                  </a>
+                </div>
+              </div>
             </div>
           );
         })}

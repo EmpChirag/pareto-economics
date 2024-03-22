@@ -38,7 +38,7 @@ try {
 
         //Recipients
         $mail->setFrom($_ENV['MAIL_FROM'], $_ENV['MAIL_FROM_NAME']);
-        $mail->addAddress($_ENV['MAIL_FROM']);     //Add a recipient
+        $mail->addAddress('info@pareto-economics.com');     //Add a recipient
 
         //Content
         $firstName = (isset($inputData->firstName)) ? $inputData->firstName : '';
