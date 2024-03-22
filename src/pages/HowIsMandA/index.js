@@ -97,8 +97,8 @@ const HowIsMandA = () => {
           overestimation of the West’s ability to absorb China into its way of
           doing things.
         </p>
-        <div className="grid grid-cols-2 pb-5">
-          <p className="text-xl pb-5">
+        <div className="flex max-md:flex-col pb-5">
+          <p className="text-xl pb-5 w-full">
             The policy of engagement with China began in 1972 with President
             Nixon & Henry Kissinger and has continued on through eight different
             presidential administrations. Most notably perhaps in 1979 when the
@@ -108,17 +108,15 @@ const HowIsMandA = () => {
             normalisation based on a common belief and acceptance of open
             markets, transparency, and cooperation.
           </p>
-          <div className="border-b-8 border-t-8 border-sky-600 mx-4 inline-block">
+          <div className="border-b-8 border-t-8 border-sky-600 max-md:mx-0 mx-10 inline-block w-full">
             <p className="text-2xl text-sky-500 mt-3 mb-3">
               <div className="h-6" />
-              <i>
-                <b>
-                  China’s 1.433 billion market was and continues to be such an
-                  attractive pull for US industry that policymakers have given
-                  up earlier attempts to transform the nation politically...
-                </b>
-              </i>
               <div className="h-6" />
+              <i>
+                China’s 1.433 billion market was and continues to be such an
+                attractive pull for US industry that policymakers have given up
+                earlier attempts to transform the nation politically...
+              </i>
             </p>
           </div>
         </div>
@@ -160,6 +158,7 @@ const HowIsMandA = () => {
           Premier Deng Xiaoping put it shows China’s ability to be malleable and
           pragmatic…but on its own terms.
         </p>
+        <div className="h-6" />
         <div className="bg-black text-white py-3">
           <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
           <ul className="mx-4 list-disc pl-5">
@@ -226,6 +225,7 @@ const HowIsMandA = () => {
           operating in Chinese markets. Equally, such preferential treatment is
           likely to heighten accusations of anti-competitive tactics.
         </p>
+        <div className="h-6" />
         <div className="bg-black text-white py-3">
           <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
           <ul className="mx-4 list-disc pl-5">
@@ -270,12 +270,14 @@ const HowIsMandA = () => {
           <p className="text-xl pb-2">
             Fig 1: Overseas Chinese M&A transactions, 2020
           </p>
+          <div className="h-6" />
           <img
             className="mx-auto"
             width="1200px"
             src={Fig1}
             alt="Fig 1: Overseas Chinese M&A transactions, 2020"
           />
+          <div className="h-6" />
         </div>
         <p className="text-xl pb-5">
           The State Administration of Foreign Exchange (SAFE) announced that
@@ -299,6 +301,7 @@ const HowIsMandA = () => {
           the EU. Geo-economic tensions have been the cause and result of
           increasingly suspicious and inhospitable environment for M&A.
         </p>
+        <div className="h-6" />
         <div className="bg-black text-white py-3">
           <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
           <ul className="mx-4 list-disc pl-5">
@@ -378,6 +381,7 @@ const HowIsMandA = () => {
           nature<sup>1</sup>.
         </p>
         <div className="mb-5">
+          <div className="h-6" />
           <div className="w-[300px] border-t-2 border-t-slate-900 mb-3" />
           <p>
             <sup>1</sup>Chernow, R. 2005. Alexander Hamilton. Penguin Group. New
@@ -445,13 +449,15 @@ const HowIsMandA = () => {
           warfare, but has developed a more sophisticated definition and
           practical application which covers health.
         </p>
+        <div className="h-6" />
         <div className="w-[300px] border-t-2 border-t-slate-900 mb-3" />
+
         <p className="text-xl">
           <sup>2</sup>Zimmerman, Evan, The Foreign Investment Risk Review
           Modernisation Act: How CFIUS Became a Tech Office (April 9, 2019).
           Berkeley Technology Law Journal, Volume 34, Issue 4, Available at
           SSRN:
-          <a href="https://ssrn.com/abstract=3368723">
+          <a className="break-words" href="https://ssrn.com/abstract=3368723">
             https://ssrn.com/abstract=3368723
           </a>
           <sup>3</sup>
@@ -460,7 +466,7 @@ const HowIsMandA = () => {
         <p className="text-xl pb-5">
           <sup>4</sup>Jackson,J,K. (2020) The Committee on Foreign Investment in
           the United States (CFIUS). Congressional Research Service.
-          <a href="https://crsreports.congress.gov/">
+          <a className="break-words" href="https://crsreports.congress.gov/">
             https://crsreports.congress.gov/
           </a>
           [RL33388]
@@ -483,6 +489,7 @@ const HowIsMandA = () => {
           energy companies is curtailed with this act, giving a sizable
           opportunity for competitors to capitalise.
         </p>
+        <div className="h-6" />
         <div className="bg-black text-white py-3">
           <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
           <ul className="mx-4 list-disc pl-5">
@@ -596,7 +603,7 @@ const HowIsMandA = () => {
             <sup>6</sup> Muddy Waters Research
             <a
               target="blank"
-              className="mx-2 border-b-2 border-blue-900 text-blue-900"
+              className="mx-2 border-b-2 border-blue-900 text-blue-900 break-words"
               href="https://www.muddywatersresearch.com/"
             >
               https://www.muddywatersresearch.com/
@@ -611,18 +618,20 @@ const HowIsMandA = () => {
             <sup>8</sup> Ibid
           </p>
         </div>
+        <div className="h-6" />
         <div className="mb-5">
           <p>
             <b>Figure 2. China MediaExpress Holdings</b>
           </p>
+          <div className="h-6" />
           <img
             src={Fig2}
             alt="Figure 2. China MediaExpress Holdings"
-            className="mx-auto"
-            width="1200px"
+            className="mx-auto w-[80%]"
             height="auto"
           />
         </div>
+        <div className="h-6" />
         <div className="bg-black text-white py-3">
           <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
           <ul className="mx-4 list-disc pl-5">
@@ -784,6 +793,7 @@ const HowIsMandA = () => {
           origin investigation, regional security in South-East Asia, reverse
           mergers and compliant cross-border M&A activity.
         </p>
+        <div className="h-6" />
         <div className="bg-black text-white py-3">
           <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
           <ul className="mx-4 list-disc pl-5">
@@ -856,7 +866,7 @@ const HowIsMandA = () => {
             notifications for 2017, 62 members have still not submitted subsidy
             notifications for 2015. See also:
             <a
-              className="border-b-2 border-blue-900 text-blue-900"
+              className="border-b-2 border-blue-900 text-blue-900 break-words"
               href="https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm"
             >
               https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm
@@ -894,6 +904,7 @@ const HowIsMandA = () => {
           key/strategic industries like energy, natural resources, military
           production, and critical infrastructure e.g. 5G look like.
         </p>
+        <div className="h-6" />
         <div className="bg-black text-white py-3">
           <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
           <ul className="mx-4 list-disc pl-5">
@@ -945,7 +956,7 @@ const HowIsMandA = () => {
             <a
               href="https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF"
               target="blank"
-              className="border-b-2 border-blue-900 text-blue-900"
+              className="border-b-2 border-blue-900 text-blue-900 break-words"
             >
               https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF
             </a>
@@ -1121,6 +1132,7 @@ const HowIsMandA = () => {
           initiative, and support Africa’s anti-epidemic and development
           efforts. Promote world development and prosperity.
         </p>
+        <div className="h-6" />
         <div className="bg-black text-white py-3">
           <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
           <ul className="mx-4 list-disc pl-5">
@@ -1201,6 +1213,7 @@ const HowIsMandA = () => {
             Jeremy Hunt and Conservative MP Ian Duncan Smith. On January Tuesday
             19th this amendment was defeated by 319 to 308.
           </p>
+          <div className="h-6" />
           <div className="bg-black text-white py-3">
             <h3 className="mx-4 text-3xl">KEY TAKE AWAYS</h3>
             <ul className="mx-4 list-disc pl-5">
@@ -1268,7 +1281,7 @@ const HowIsMandA = () => {
             in areas with dual use capabilities are required to reach these
             aims.
           </p>
-
+          <div className="h-6" />
           <div className="bg-black border border-black ">
             <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
               KEY TAKE AWAYS
@@ -1299,7 +1312,10 @@ const HowIsMandA = () => {
             <p>
               <sup className="mr-2">13</sup>Overview of the National Security
               and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
-              <a href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet">
+              <a
+                className="break-words"
+                href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet"
+              >
                 https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
               </a>
             </p>
@@ -1312,7 +1328,10 @@ const HowIsMandA = () => {
             <p>
               <sup className="mr-2">15</sup>Overview of the National Security
               and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
-              <a href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet">
+              <a
+                className="break-words"
+                href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet"
+              >
                 https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
               </a>
             </p>
@@ -1409,14 +1428,14 @@ const HowIsMandA = () => {
                   <h3 className="pb-10  max-md:mt-0 mt-20">
                     <div className="font-bold mt-4">Contact</div>
                     <div className="flex-1 max-md:mt-16 mt-28">
-                      <img src={Klisman} className="w-[300px]-mt-7" />
+                      <img src={Klisman} className="w-[300px] -mt-7" />
                     </div>
                     <div className="font-bold mt-20">Klisman Murati </div>
                     <p className="pb-5">Director, Pareto Economics</p>
 
                     <p className="pb-5">
                       <a
-                        className="underline decoration-2"
+                        className="underline decoration-2 break-words"
                         href="https://klisman.m@pareto-economics.com"
                         target="_blank"
                       >
@@ -1426,7 +1445,7 @@ const HowIsMandA = () => {
 
                     <p className="pb-5">
                       <a
-                        className="underline decoration-2"
+                        className="underline decoration-2 break-words"
                         href="https://pareto-economics.com/"
                         target="_blank"
                       >
