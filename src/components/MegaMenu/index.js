@@ -212,11 +212,13 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
             <div className="global-power pt-5 border-t mt-10">
               <p>LEGAL</p>
               <div className="flex flex-col text-lg pl-[98px]">
-                <a href="/">Modern Slavery Statement</a>
-                <a href="/">Cookies</a>
-                <a href="/">Privacy and Security Statement</a>
-                <a href="/">Terms of Use</a>
-                <a href="/">Site Map</a>
+                <a href="/modern-slavery-statement">Modern Slavery Statement</a>
+                <a href="/cookies">Cookies</a>
+                <a href="/privacy-security-statement">
+                  Privacy and Security Statement
+                </a>
+                <a href="/terms-of-use">Terms of Use</a>
+                <a href="/sitemap">Site Map</a>
               </div>
             </div>
           </div>

@@ -76,11 +76,11 @@ const Footer = ({ demo, contact, ptext,dark }) => {
       </p>
       <div className="flex flex-col text-lg gap-2 mt-10  pb-10">
         <p>LEGAL</p>
-        <a href="/">Modern Slavery Statement</a>
-        <a href="/">Cookies</a>
-        <a href="/">Privacy and Security Statement</a>
-        <a href="/">Terms of Use</a>
-        <a href="/">Site Map</a>
+        <a href="/modern-slavery-statement">Modern Slavery Statement</a>
+        <a href="/cookies">Cookies</a>
+        <a href="/privacy-security-statement">Privacy and Security Statement</a>
+        <a href="/terms-of-use">Terms of Use</a>
+        <a href="/sitemap">Site Map</a>
       </div>
     </footer>
   );

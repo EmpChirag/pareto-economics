@@ -1,4 +1,11 @@
 import React, { lazy } from "react";
+
+const Abeginner = lazy(() => import("./pages/Abeginnerpdf"));
+const ModernSlavery = lazy(() => import("./pages/ModernSlavery"));
+const Cookies = lazy(() => import("./pages/Cookies"));
+const PrivacySecurityStatement = lazy(() => import("./pages/PrivacySecurityStatement"));
+const TermsOfUse = lazy(() => import("./pages/TermsOfUse"));
+const Sitemap = lazy(() => import("./pages/Sitemap"));
 const ThoughtLeadership = lazy(() => import("./pages/ThoughtLeadership"));
 const InTheNews =  lazy(() => import("./pages/InTheNews"));
 const ContactUs =  lazy(() => import("./pages/ContactUs"));
@@ -86,7 +93,7 @@ const routes = [
   },
   {
     path: "/services-executive-workshops",
-    component: <ServicesExecutiveWorkshops/>,
+    component: <ServicesExecutiveWorkshops />,
     exact: true
   },
   {
@@ -97,6 +104,36 @@ const routes = [
   {
     path: "/services-speaking",
     component: <ServiceSpeaking />,
+    exact: true
+  },
+  {
+    path: "/modern-slavery-statement",
+    component: <ModernSlavery />,
+    exact: true
+  },
+  {
+    path: "/cookies",
+    component: <Cookies />,
+    exact: true
+  },
+  {
+    path: "/privacy-security-statement",
+    component: <PrivacySecurityStatement />,
+    exact: true
+  },
+  {
+    path: "/terms-of-use",
+    component: <TermsOfUse />,
+    exact: true
+  },
+  {
+    path: "/sitemap",
+    component: <Sitemap />,
+    exact: true
+  },
+  {
+    path: "/abeginner",
+    component: <Abeginner />,
     exact: true
   }
 ];
