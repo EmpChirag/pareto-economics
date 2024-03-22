@@ -10,10 +10,12 @@ const SearchBox = ({ search, handleMenu, handleSearch, data }) => {
   };
 
   useEffect(() => {
-    if(searchInput && searchInput !== '') {
-      setFilteredResults(data.filter((item) =>
-      item.title.toLowerCase().includes(searchInput.toLowerCase())
-    ) || []);
+    if (searchInput && searchInput !== "") {
+      setFilteredResults(
+        data.filter((item) =>
+          item.title.toLowerCase().includes(searchInput.toLowerCase())
+        ) || []
+      );
     } else {
       setFilteredResults([]);
     }
@@ -82,15 +84,36 @@ const SearchBox = ({ search, handleMenu, handleSearch, data }) => {
           </div>
         </div>
       </div>
-      <div className="search-results">
-        <p>Total results: {filteredResults.length}</p>
-        <ul>
-          {filteredResults.map((result) => (
-            <li key={result.id}>
-              <Link to={result.path}>{result.title}</Link>
-            </li>
-          ))}
-        </ul>
+      <div className="container mx-auto">
+        <section className="my-[80px]">
+          {searchInput &&
+            searchInput.trim() !== "" &&
+            filteredResults.length === 0 && (
+              <div className="search-results">
+                <p>No results found.</p>
+              </div>
+            )}
+          {filteredResults.length > 0 && (
+            <div className="search-results max-md:flex-col flex justify-between overflow-y-auto h-[500px]">
+              <div className="flex-1">
+                <h3 className="text-5xl">
+                  Displaying {filteredResults.length} results
+                </h3>
+                <br/>
+              </div>
+              <div className="flex-1">
+                <ul>
+                  {filteredResults.map((result) => (
+                    <li key={result.id} className="mb-8">
+                      <Link className="text-3xl mb-3 inline-block" to={result.path}>{result.title}</Link>
+                      <p>{result.description}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )}
+        </section>
       </div>
     </div>
   );
