@@ -12,7 +12,7 @@ const IsBubble = () => {
           Is ESG a Bubble or Paradigm Shift?
         </h1>
         <div className="h-6" />
-        <div className="h-6" />
+
         <div className="">
           <p className="text-xl pb-5">
             An irresponsible bandwagon or a paradigm shift? ESG investing has
@@ -82,6 +82,7 @@ const IsBubble = () => {
               <img src="./images/pdf/financialeconomy.PNG" />
             </p>
           </div>
+          <div className="h-6" />
           <p className="text-xl pb-5">
             Typically, however, this focus leans heavily on the “E” side
             especially for industrial sectors like construction, mining, natural
@@ -503,15 +504,18 @@ const IsBubble = () => {
             investors think.
           </p>
           <div className="max-w-[1200px] mx-auto">
+            <div className="h-6" />
             <p className="text-xl">
               <span className="font-bold"> Figure 4.</span> Total CO<sub>2</sub>
               emissions 2012-2018 rescaled
               <img src="./images/pdf/emissions.PNG" />
             </p>
           </div>
+          <div className="h-6" />
           <div className="max-w-[1200px] mx-auto pt-12">
             <img src="./images/pdf/Sustainable.PNG" />
           </div>
+          <div className="h-6" />
           <p className="text-xl pt-10">
             CO<sub>2</sub> emissions for the listed countries has been rescaled
             to 100 in 2012 in order to visualize evolutions comparably. Europe
