@@ -136,6 +136,7 @@ const routes = [
     component: <Abeginner />,
     exact: true
   }
+  
 ];
 
 export default routes;
