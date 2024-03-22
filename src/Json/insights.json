@@ -1,26 +1,26 @@
 [
   {
-    "image": "/images/podcasts/PREM.webp",
+    "image": "/images/insights/guide.jpg",
     "title": "A beginner’s guide to geopolitical risk, and how it’s impacting fintech",
-    "link": "/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf",
+    "link": "/a-beginners-guide",
     "content": ""
   },
   {
-    "image": "/images/podcasts/PREM.webp",
+    "image": "/images/insights/bubble.jpg",
     "title": "Is ESG a Bubble or Paradigm Shift? ",
-    "link": "/pdf/CHINA-DUAL-CIRCULATION-STRATEGY-PARETO-ECONOMICS-1.pdf",
+    "link": "/is-ecg-a-bubble-or-paradigm",
     "content": ""
   },
   {
-    "image": "/images/podcasts/PREM.webp",
+    "image": "/images/insights/china.jpg",
     "title": "How Is M&A Impacted By China’S “Dual Circulation” Development Strategy?",
-    "link": "/pdf/Is-ESG-a-Bubble-or-Paradigm-Shift.pdf",
+    "link": "/how-is-ma-impacted",
     "content": ""
   },
   {
-    "image": "/images/podcasts/PREM.webp",
+    "image": "/images/insights/passive-investing.jpg",
     "title": "Is Passive Investing Killing ESG?",
-    "link": "/pdf/Is-Passive-investing-Killing-ESG.pdf",
+    "link": "/is-passive-investing-killing-esg",
     "content": ""
   }
 ]

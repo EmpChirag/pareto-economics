@@ -49,7 +49,7 @@ const GlobalPowerIndex = () => {
               accuracy.
             </p>
             <a
-              href="https://pareto.empyrealinfotech.net/signup"
+              href="https://globalpowerindex.com/"
               className="btn leading-[48px] h-[50px] text-black mt-5 btn-invert"
             >
               Access Dashboard
@@ -135,7 +135,7 @@ const GlobalPowerIndex = () => {
           <div className="w-full">
             <h2 className="lg:max-w-[650px] pb-4">Analytics + Analysis</h2>
             <a
-              href="https://pareto.empyrealinfotech.net/signup"
+              href="https://globalpowerindex.com/"
               className="btn leading-[48px] h-[50px] text-black mt-5 md:mt-10 btn-invert"
             >
               Access Insights

@@ -22,12 +22,21 @@ const Articles = ({option,searchText}) => {
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
               <div className="flex items-center justify-between gap-5">
                 <div className="flex-1 max-w-[120px]">
-                  <img
-                    src={article.image}
-                    alt={article.title}
-                    width={150}
-                    className=""
-                  />
+                  {article.image ? (
+                    <img
+                      src={article.image}
+                      alt={article.title}
+                      width={150}
+                      className=""
+                    />
+                  ) : (
+                    <img
+                      src='/images/articles/article.png'
+                      alt={article.title}
+                      width={150}
+                      className=""
+                    />
+                  )}
                 </div>
                 <div className="flex-1">
                   <div className="uppercase text-lg">Article</div>
@@ -51,12 +60,21 @@ const Articles = ({option,searchText}) => {
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
               <div className="flex items-center justify-between gap-5">
                 <div className="flex-1 max-w-[120px]">
-                  <img
-                    src={podcast.image}
-                    alt={podcast.title}
-                    width={150}
-                    className=""
-                  />
+                  {podcast.image ? (
+                    <img
+                      src={podcast.image}
+                      alt={podcast.title}
+                      width={150}
+                      className=""
+                    />
+                  ) : (
+                    <img
+                      src="/images/podcasts/podcast.png"
+                      alt={podcast.title}
+                      width={150}
+                      className=""
+                    />
+                  )}
                 </div>
                 <div className="flex-1">
                   <div className="uppercase text-lg">Podcast</div>
@@ -93,12 +111,21 @@ const Articles = ({option,searchText}) => {
             <div className="md:w-[47%] lg:w-[30%]" key={index}>
               <div className="flex items-center justify-between gap-5">
                 <div className="flex-1 max-w-[120px]">
+                  {radio.image ? (
                   <img
                     src={radio.image}
                     alt={radio.title}
                     width={150}
                     className=""
                   />
+                  ) : (
+                  <img
+                    src="/images/radio/tv-radio.png"
+                    alt={radio.title}
+                    width={150}
+                    className=""
+                  />
+                  )}
                 </div>
                 <div className="flex-1">
                   <div className="uppercase text-lg">TV/Radio</div>

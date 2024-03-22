@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../../Layouts/Header";
 import Footer from "../../../Layouts/Footer";
-import { Link } from "react-router-dom";
 
 const IsBubble = () => {
   return (
@@ -71,7 +70,7 @@ const IsBubble = () => {
             set.
           </p>
           <p className="mt-[200px] max-md:mt-[100px] text-xl pb-5 before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            <sup class="mr-2">1</sup>
+            <sup className="mr-2">1</sup>
             The Story Behind Talent & ESG, 2020, BRUIN FINANCIAL, ESG Initiative
             Surve
           </p>
@@ -148,17 +147,17 @@ const IsBubble = () => {
             <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
               KEY TAKE AWAYS
             </h3>
-            <ul class="list-disc px-5 text-white mx-5 pb-10 text-2xl">
-              <li class="pb-4">
+            <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
+              <li className="pb-4">
                 A clear distinction exists between the real economy and
                 financial economy in relation to the understanding and
                 application of ESG standards and metrics
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 There is a reflexive relationship that exists between industries
                 in the real economy and ESG standards
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 Companies in the real economy are seeing an increase in
                 reputational risk because they are finding it increasingly
                 difficult to respond to social outcry and demands for change
@@ -212,17 +211,17 @@ const IsBubble = () => {
             <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
               KEY TAKE AWAYS
             </h3>
-            <ul class="list-disc px-5 text-white mx-5 pb-10 text-2xl">
-              <li class="pb-4">
+            <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
+              <li className="pb-4">
                 Translating ESG considerations into a useful and valid metric
                 has been very difficult to achieve
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 In relation to Governance, there emerges the issue of authority.
                 Which is to say, who gets to decide what governance structures
                 are the most valid?
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 The current ESG measures attempt to encapsulate too many
                 variables to produce a valid measure that can be applied to
                 stock picking.
@@ -248,7 +247,7 @@ const IsBubble = () => {
             when assessing a firm’s ESG friendliness.
           </p>
           <p className="mt-[200px] max-md:mt-[100px] text-xl pb-5 before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            <sup class="mr-2">2</sup>
+            <sup className="mr-2">2</sup>
             According to Research Affiliates.
           </p>
           <p className="text-xl pb-5">
@@ -291,10 +290,10 @@ const IsBubble = () => {
             </p>
           </div>
           <p className="mt-[200px] max-md:mt-[100px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            <sup class="mr-2">3</sup> PwC Asset & Wealth Management, Luxembourg
+            <sup className="mr-2">3</sup> PwC Asset & Wealth Management, Luxembourg
           </p>
           <p>
-            <sup class="mr-2">4</sup> Research Affiliates’ Li and
+            <sup className="mr-2">4</sup> Research Affiliates’ Li and
             Polychronopoulos (2020)
           </p>
           <h3 className="pb-10 mt-9 text-4xl text-[#3e4d77]">
@@ -357,18 +356,18 @@ const IsBubble = () => {
             like gold, oil, commodities and real estate are likely.
           </p>
           <p className="mt-[200px] max-md:mt-[100px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            <sup class="mr-2">5</sup> Bank of America Global Fund Manager Survey
+            <sup className="mr-2">5</sup> Bank of America Global Fund Manager Survey
           </p>
           <p className="pb-5">
-            <sup class="mr-2">6</sup> Yahoo Finance, time of writing 11
+            <sup className="mr-2">6</sup> Yahoo Finance, time of writing 11
             <sup>th</sup> of December 2020
           </p>
           <p>
-            <sup class="mr-2">7</sup> Yahoo Finance, time of writing 11
+            <sup className="mr-2">7</sup> Yahoo Finance, time of writing 11
             <sup>th</sup> of December 2020
           </p>
           <p>
-            <sup class="mr-2">8</sup> Bank of America Global Fund Manager Survey
+            <sup className="mr-2">8</sup> Bank of America Global Fund Manager Survey
           </p>
           <p className="text-xl pt-5">
             Furthermore, given ESG’s alternative-asset-like behaviour when it
@@ -389,17 +388,17 @@ const IsBubble = () => {
             <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
               KEY TAKE AWAYS
             </h3>
-            <ul class="list-disc px-5 text-white mx-5 pb-10 text-2xl">
-              <li class="pb-4">
+            <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
+              <li className="pb-4">
                 More than 70 firms exist that offer ESG data, notwithstanding
                 that almost a quarter of asset managers also produce their own
                 in-house metrics.
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 There is no clear leader in ESG data, all mentioned have a
                 relatively equal market share.
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 Common ESG standards are needed in order to make metrics more
                 valid. However, if ESG is values driven, then common standards
                 will be impossible as values will vary.
@@ -449,17 +448,17 @@ const IsBubble = () => {
             <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
               KEY TAKE AWAYS
             </h3>
-            <ul class="list-disc px-5 text-white mx-5 pb-10 text-2xl">
-              <li class="pb-4">
+            <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
+              <li className="pb-4">
                 Low interest rates are incentivising retail investing to
                 increase, typically these take the form of passive ETF funds.
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 Smart/institutional money is also being put to work due to low
                 interest rates with an increase in M&A deal flow, dividend
                 payments and share buybacks.
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 Low interest rates are incentivising cash-rich market
                 participants like retail investors, family offices, SWFs,
                 infrastructure funds to place capital into ESG related funds as
@@ -490,10 +489,10 @@ const IsBubble = () => {
           </p>
 
           <p className="mt-[200px] max-md:mt-[100px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            <sup class="mr-2">9</sup> Yardeni Research, 2020
+            <sup className="mr-2">9</sup> Yardeni Research, 2020
           </p>
           <p>
-            <sup class="mr-2">10</sup> Ned Davis Research, 2019
+            <sup className="mr-2">10</sup> Ned Davis Research, 2019
           </p>
           <p className="text-xl pt-5">
             to $30.9 trillion in 2018 with Europe having the biggest share
@@ -756,9 +755,9 @@ const IsBubble = () => {
               className="flex-1 mt-28 relative w-full
               "
             >
-              <img src="images/pdf/globlinvesto.png" className="w-[100%] " />
+              <img src="/images/pdf/globlinvesto.png" className="w-[100%] " />
               <img
-                src="images/pdf/Pareto.png"
+                src="/images/pdf/Pareto.png"
                 className="w-[70%] absolute bottom-10 left-4 bg-[#223949]"
               />
 
@@ -787,7 +786,7 @@ const IsBubble = () => {
                 <div className="font-bold mt-4">Contact</div>
                 <div className="flex-1 max-md:mt-16 mt-28">
                   <img
-                    src="images/pdf/klisman.png"
+                    src="/images/pdf/klisman.png"
                     className="w-[300px] -mt-7"
                   />
                 </div>

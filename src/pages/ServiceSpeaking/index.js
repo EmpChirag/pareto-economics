@@ -92,12 +92,13 @@ const ServiceSpeaking = () => {
               </div>
             </div>
             <div></div>
-            <Link
-              to=""
+            <a
+              href="/pdf/klisman-murati-speakers-pack-2024.pdf"
+              target='_blank'
               className="btn w-content max-w-[330px] max-md:px-3 inline-block mt-10"
             >
               Download Speakers Pack
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -335,21 +336,25 @@ const ServiceSpeaking = () => {
           </div>
         </div>
         <div>
-          <button className="btn h-[50px] float-right">
+          <a
+            href="/pdf/klisman-murati-testimonials-2024.pdf"
+            target="_blank"
+            className="btn h-[50px] float-right inline-block leading-[3]"
+          >
             More Testimonials
-          </button>
+          </a>
           <div className="clear-both"></div>
         </div>
       </section>
       <section className="border-t border-black pt-[60px] md:pt-24">
-        <div className="flex max-md:block justify-between max-w-[1200px] ml-auto">
-          <div>
+        <div className="flex max-md:block justify-between ml-auto">
+          <div className="flex-1 lg:flex-[1.7]">
             <h2 className=" lg:max-w-[600px] max-md:mb-10">
               Tell Us about your Event
             </h2>
           </div>
 
-          <div className="md:flex md:justify-center ">
+          <div className="md:flex md:justify-center flex-1">
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="relative pb-7">
                 <div className="relative z-0 w-full mb-5 group">

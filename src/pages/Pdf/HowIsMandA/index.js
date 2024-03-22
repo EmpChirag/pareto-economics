@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../../Layouts/Header";
-import Footer from "../../Layouts/Footer";
-import Fig1 from "../../assets/images/fig1.png";
-import Fig2 from "../../assets/images/fig2.png";
-import Bgimg from "../../assets/images/3.png";
-import Klisman from "../../assets/images/klisman.png";
-import Pareto from "../../assets/images/Pareto.png";
+import Header from "../../../Layouts/Header";
+import Footer from "../../../Layouts/Footer";
+import Fig1 from "../../../assets/images/fig1.png";
+import Fig2 from "../../../assets/images/fig2.png";
+import Bgimg from "../../../assets/images/3.png";
+import Klisman from "../../../assets/images/klisman.png";
+import Pareto from "../../../assets/images/Pareto.png";
 
 const HowIsMandA = () => {
   return (
@@ -18,11 +18,11 @@ const HowIsMandA = () => {
       </section>
       <section className="grid grid-cols-2">
         <h3 className="pb-5 mt-9 text-4xl">January 2021 </h3>
-        <div className="text-right">
+        {/* <div className="text-right">
           <a href="">
             <h3 className="pb-5 mt-9 text-4xl text-right">Download as PDF</h3>
           </a>
-        </div>
+        </div> */}
       </section>
       <section className="grid grid-cols-2">
         <p className="text-xl pb-5">
@@ -1286,21 +1286,21 @@ const HowIsMandA = () => {
             <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
               KEY TAKE AWAYS
             </h3>
-            <ul class="list-disc px-5 text-white mx-5 pb-10 text-2xl">
-              <li class="pb-4">
+            <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
+              <li className="pb-4">
                 The UK has moved to introduce new legislation which attempts to
                 protect national security whilst at the same time keeping the UK
                 open and attractive for business investment to the rest of the
                 world.
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 The NSIB will give government new powers to screen investments
                 on the ground of national security. Some examples of “qualifying
                 assets” which will aim to be protected include: trade secrets,
                 databases, source code, algorithms, formulae, designs, plans,
                 drawings and specifications, software.
               </li>
-              <li class="pb-4">
+              <li className="pb-4">
                 With China's dual circulatory model focusing on increasing
                 domestic consumption and upgrading its domestic industrial
                 chain, these measures may as a second order effect impact
@@ -1308,7 +1308,7 @@ const HowIsMandA = () => {
               </li>
             </ul>
           </div>
-          <p className="mt-[200px] text-xl   before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black ">
+          <p className="mt-[200px] text-xl pt-5 before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black ">
             <p>
               <sup className="mr-2">13</sup>Overview of the National Security
               and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
@@ -1345,7 +1345,7 @@ const HowIsMandA = () => {
             Below is a list of questions and themes we have investigated and
             think you would like the answers to.
           </p>
-          <ol class="list-decimal mx-5 pb-10">
+          <ol className="list-decimal mx-5 pb-10">
             <li className="pb-4">
               How will a Biden administration tackle important national security
               concerns whilst keeping the appetite for cross border M&A high?

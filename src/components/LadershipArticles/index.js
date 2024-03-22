@@ -27,12 +27,21 @@ const LadershipArticles = ({ option, searchText }) => {
               <div className="md:w-[47%] lg:w-[30%]" key={index}>
                 <div className="flex items-center justify-between gap-5">
                   <div className="flex-1 max-w-[120px]">
-                    <img
-                      src={podcast.image}
-                      alt={podcast.title}
-                      width={150}
-                      className=""
-                    />
+                    {podcast.image ? (
+                      <img
+                        src={podcast.image}
+                        alt={podcast.title}
+                        width={150}
+                        className=""
+                      />
+                    ) : (
+                      <img
+                        src="/images/podcasts/podcast.png"
+                        alt={podcast.title}
+                        width={150}
+                        className=""
+                      />
+                    )}
                   </div>
                   <div className="flex-1">
                     <div className="uppercase text-lg">Podcast</div>
@@ -60,25 +69,14 @@ const LadershipArticles = ({ option, searchText }) => {
           filteredPressReleases.map((press, index) => {
             return (
               <div className="md:w-[47%] lg:w-[30%]" key={index}>
-                <div className="flex items-center justify-between gap-5">
-                  <div className="flex-1 max-w-[120px]">
-                    <img
-                      src={press.image}
-                      alt={press.title}
-                      width={150}
-                      className=""
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <div className="uppercase text-lg">Press Release</div>
-                    <a
-                      href={press.link}
-                      className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
-                    >
-                      {press.title}
-                    </a>
-                  </div>
-                </div>
+                <div className="uppercase text-lg">Press Release</div>
+                <a
+                  href={press.link}
+                  className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
+                >
+                  {press.title}
+                </a>
+                <div className="date text-sm uppercase">{press.date}</div>
               </div>
             );
           })}

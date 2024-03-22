@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../Layouts/Header';
-import Footer from '../../Layouts/Footer';
+import Header from '../../../Layouts/Header';
+import Footer from '../../../Layouts/Footer';
 
 const Abeginner = () => {
   return (
@@ -152,7 +152,7 @@ const Abeginner = () => {
           <h3 className="">About</h3>
           <div className="h-6" />
 
-          <img src="images/pareto-logo.webp" className="w-[300px] -ml-10" />
+          <img src="/images/pareto-logo.webp" className="w-[300px] -ml-10" />
           <div className="h-6" />
           <p className="  border-b border-b-slate-900">
             The Pareto Economics helps clients understand and navigate complex
@@ -174,7 +174,7 @@ const Abeginner = () => {
           </p>
           <div className="h-6" />
           <div className="h-6" />
-          <img src="images/pdf/fintrail.png" className="max-w-[200px] " />
+          <img src="/images/pdf/fintrail.png" className="max-w-[200px] " />
           <div className="h-6" />
           <div className="h-6" />
 
@@ -327,7 +327,7 @@ const Abeginner = () => {
           </p>
           <div className="h-6" />
           <div className="flex items-center justify-center ">
-            <img src="images/pdf/centresofpower.png" className="w-[60%]" />
+            <img src="/images/pdf/centresofpower.png" className="w-[60%]" />
           </div>
           <div className="h-6" />
           <div>
@@ -503,7 +503,7 @@ const Abeginner = () => {
           <div className="h-6" />
           <div className="h-6" />
           <div className="flex items-center justify-center">
-            <img src="images/pdf/thefintech.png" className="w-[60%]" />
+            <img src="/images/pdf/thefintech.png" className="w-[60%]" />
           </div>
           <div className="h-6" />
           <div className="h-6" />
@@ -528,7 +528,7 @@ const Abeginner = () => {
           <div className="h-6" />
           <div className="h-6" />
           <div className="flex items-center justify-center">
-            <img src="images/pdf/supplier.png" className="w-[70%]" />
+            <img src="/images/pdf/supplier.png" className="w-[70%]" />
           </div>
           <div className="h-6" />
           <div className="h-6" />
@@ -1385,7 +1385,7 @@ https://www.occrp.org/en/troikalaundromat/"
         <div className="flex max-md:flex-col gap-10 md:gap-6 items-center justify-around w-full">
           <div className="flex items-center justify-center flex-col">
             <img
-              src="images/pdf/klismanmurati.png"
+              src="/images/pdf/klismanmurati.png"
               className="rounded-full max-w-[200px] "
             />
             <div className="h-6" />
@@ -1401,7 +1401,7 @@ https://www.occrp.org/en/troikalaundromat/"
           </div>
           <div className=" flex items-center justify-center flex-col">
             <img
-              src="images/pdf/jessicacath.png"
+              src="/images/pdf/jessicacath.png"
               className="rounded-full max-w-[200px] "
             />
             <div className="h-6" />
@@ -1417,7 +1417,7 @@ https://www.occrp.org/en/troikalaundromat/"
           </div>
           <div className="flex items-center justify-center flex-col">
             <img
-              src="images/pdf/mikeymorton.png"
+              src="/images/pdf/mikeymorton.png"
               className="rounded-full max-w-[200px] "
             />
             <div className="h-6" />
@@ -1440,14 +1440,14 @@ https://www.occrp.org/en/troikalaundromat/"
         <div className="h-6" />
         <div className="w-full max-md:flex-col gap-10 bg-gradient-to-r from-[#8c52ff] to-[#5CE1E6] flex items-center justify-around py-40 max-md:[&>img]:max-w-[60%]">
           <img
-            src="images/pdf/Pareto.png"
+            src="/images/pdf/Pareto.png"
             alt="Pareto Economics"
-            class="w-full h-auto max-w-[450px]"
+            className="w-full h-auto max-w-[450px]"
           />
           <img
-            src="images/pdf/fintrail.png"
+            src="/images/pdf/fintrail.png"
             alt="Pareto Economics"
-            class="w-full h-auto max-w-[400px]"
+            className="w-full h-auto max-w-[400px]"
           />
         </div>
       </section>

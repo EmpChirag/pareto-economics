@@ -30,7 +30,7 @@ const CommonTab = ({ title, options, handleOption,setSearchText }) => {
         </div>
         <div className="relative max-w-[300px] w-full">
           <input
-            className="appearance-none border-b text-end pl-10 border-black hover:border-gray-400 transition-colors w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:ring-purple-600 focus:border-purple-600 focus:shadow-outline"
+            className="appearance-none border-b pl-10 border-black hover:border-gray-400 transition-colors w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:ring-gray-400 focus:border-gray-ring-gray-400 focus:shadow-outline"
             id="username"
             type="text"
             value={text}

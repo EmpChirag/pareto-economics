@@ -1,9 +1,18 @@
 import React, { lazy } from "react";
+import USATop from './pages/Press-Release/USATop';
+import IndexLaunch from './pages/Press-Release/IndexLaunch';
+import PangaeaWireGroup from './pages/Press-Release/PangaeaWireGroup';
+import ParetoEconomicsRanking from './pages/Press-Release/ParetoEconomicsRanking';
+import TheUSACrown from './pages/Press-Release/TheUSACrown';
 
-const Abeginner = lazy(() => import("./pages/Abeginnerpdf"));
+const Abeginner = lazy(() => import("./pages/Pdf/Abeginnerpdf"));
 const IsBubble = lazy(() =>
   import("./pages/Pdf/Is-ESG-a-Bubble-or-Paradigm-Shift")
 );
+const KillingESG = lazy(() => import("./pages/Pdf/KillingESG"));
+const HowIsMandA = lazy(() => import("./pages/Pdf/HowIsMandA"));
+const ErrorPage = lazy(() => import("./pages/ErrorPage"));
+
 const ModernSlavery = lazy(() => import("./pages/ModernSlavery"));
 const Cookies = lazy(() => import("./pages/Cookies"));
 const PrivacySecurityStatement = lazy(() =>
@@ -11,7 +20,7 @@ const PrivacySecurityStatement = lazy(() =>
 );
 const TermsOfUse = lazy(() => import("./pages/TermsOfUse"));
 const Sitemap = lazy(() => import("./pages/Sitemap"));
-const HowIsMandA = lazy(() => import("./pages/HowIsMandA"));
+
 
 const ThoughtLeadership = lazy(() => import("./pages/ThoughtLeadership"));
 const InTheNews = lazy(() => import("./pages/InTheNews"));
@@ -33,129 +42,164 @@ const ClientsGovernments = lazy(() => import("./pages/ClientsGovernments"));
 const ClientsInvestors = lazy(() => import("./pages/ClientsInvestors"));
 const routes = [
   {
+    path: "*",
+    component: <ErrorPage />,
+    exact: true
+  },
+  {
     path: "/",
     component: <Home />,
-    exact: true,
+    exact: true
   },
   {
     path: "/about-us",
     component: <AboutUs />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/thought-leadership",
     component: <ThoughtLeadership />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/in-the-news",
     component: <InTheNews />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/contact-us",
     component: <ContactUs />,
-    exact: true,
+    exact: true
   },
 
   {
     path: "/services",
     component: <ServicesLanding />,
-    exact: true,
+    exact: true
   },
   {
     path: "/services-speaking",
     component: <ServiceSpeaking />,
-    exact: true,
+    exact: true
   },
   {
     path: "/clients",
     component: <ClientLanding />,
-    exact: true,
+    exact: true
   },
   {
     path: "/global-power-index",
     component: <GlobalPowerIndex />,
-    exact: true,
+    exact: true
   },
   {
     path: "/clients-corporations",
     component: <ClientsCorporations />,
-    exact: true,
+    exact: true
   },
   {
     path: "/first-principles",
     component: <FirstPrinciple />,
-    exact: true,
+    exact: true
   },
   {
     path: "/services-research",
     component: <ServicesResearch />,
-    exact: true,
+    exact: true
   },
   {
     path: "/clients-governments",
     component: <ClientsGovernments />,
-    exact: true,
+    exact: true
   },
   {
     path: "/services-executive-workshops",
     component: <ServicesExecutiveWorkshops />,
-    exact: true,
+    exact: true
   },
   {
     path: "/clients-investors",
     component: <ClientsInvestors />,
-    exact: true,
+    exact: true
   },
   {
     path: "/services-speaking",
     component: <ServiceSpeaking />,
-    exact: true,
+    exact: true
   },
   {
     path: "/modern-slavery-statement",
     component: <ModernSlavery />,
-    exact: true,
+    exact: true
   },
   {
     path: "/cookies",
     component: <Cookies />,
-    exact: true,
+    exact: true
   },
   {
     path: "/privacy-security-statement",
     component: <PrivacySecurityStatement />,
-    exact: true,
+    exact: true
   },
   {
     path: "/terms-of-use",
     component: <TermsOfUse />,
-    exact: true,
+    exact: true
   },
   {
     path: "/sitemap",
     component: <Sitemap />,
-    exact: true,
+    exact: true
   },
   {
-    path: "/abeginner",
+    path: "/a-beginners-guide",
     component: <Abeginner />,
-    exact: true,
+    exact: true
   },
   {
-    path: "/how-is-manda",
-    component: <HowIsMandA />,
-    exact: true,
-  },
-  {
-    path: "/Is-ESG-a-Bubble-or-Paradigm-Shift",
+    path: "/is-ecg-a-bubble-or-paradigm",
     component: <IsBubble />,
-    exact: true,
+    exact: true
   },
+  {
+    path: "/how-is-ma-impacted",
+    component: <HowIsMandA />,
+    exact: true
+  },
+  {
+    path: "/is-passive-investing-killing-esg",
+    component: <KillingESG />,
+    exact: true
+  },
+  {
+    path: "/global-power-index-2022-launch-press-release",
+    component: <IndexLaunch />,
+    exact: true
+  },
+  {
+    path: "/pangaea-wire-group-announces-company-name-change-to-pareto-economics",
+    component: <PangaeaWireGroup />,
+    exact: true
+  },
+  {
+    path: "/pareto-economics-to-unveil-ranking-of-the-most-powerful-countries-in-2023",
+    component: <ParetoEconomicsRanking />,
+    exact: true
+  },
+  {
+    path: "/usa-top-the-global-power-index-in-2023",
+    component: <USATop />,
+    exact: true
+  },
+  {
+    path: "/the-usa-is-crowned-most-powerful-country-in-the-world",
+    component: <TheUSACrown />,
+    exact: true
+  }
 ];
 
 export default routes;

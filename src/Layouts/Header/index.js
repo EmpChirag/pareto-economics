@@ -35,7 +35,7 @@ const Header = ({ invert }) => {
           <div className="flex justify-between items-center pt-2">
             <Link to="/">
               <img
-                src="images/pareto-logo.webp"
+                src="/images/pareto-logo.webp"
                 alt="Pareto Economics"
                 width="244"
                 height="56"
