@@ -3,6 +3,9 @@ import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
 import Fig1 from "../../assets/images/fig1.png";
 import Fig2 from "../../assets/images/fig2.png";
+import Bgimg from "../../assets/images/3.png";
+import Klisman from "../../assets/images/klisman.png";
+import Pareto from "../../assets/images/Pareto.png";
 
 const HowIsMandA = () => {
   return (
@@ -13,10 +16,12 @@ const HowIsMandA = () => {
           How Is M&A Impacted By China’S “Dual Circulation”
         </h1>
       </section>
-      <section className="">
+      <section className="grid grid-cols-2">
         <h3 className="pb-5 mt-9 text-4xl">January 2021 </h3>
         <div className="text-right">
-          <h3 className="pb-5 mt-9 text-4xl text-right">Download as PDF</h3>
+          <a href="">
+            <h3 className="pb-5 mt-9 text-4xl text-right">Download as PDF</h3>
+          </a>
         </div>
       </section>
       <section className="grid grid-cols-2">
@@ -1219,7 +1224,7 @@ const HowIsMandA = () => {
           <h3 className="pb-5 mt-9 text-4xl">
             National Security & Investment Bill
           </h3>
-          <p>
+          <p className="text-xl pb-5">
             The UK has always been a good place for business which is why there
             has been such interest from foreign companies to stake their claim
             to the UK consumer, and furthermore to have a base in the UK from
@@ -1230,6 +1235,209 @@ const HowIsMandA = () => {
             military power, increasing competition between states, and the
             emergence of more powerful non-state actors<sup>13</sup>.
           </p>
+          <p className="text-xl pb-5">
+            In response, the UK has moved to introduce new legislation which
+            attempts to protect national security, whilst at the same time
+            keeping the UK open and attractive for business investment to the
+            rest of the world. This balancing act comes in the form of the new
+            National Security & Investment Bill (NSIB). Resembling the US
+            Foreign Investment Risk Review Modernisation Act and other similar
+            measures taken by other allies including Canada and Australia, the
+            NSIB will give government new powers to screen investments on the
+            ground of national security. Some examples of “qualifying assets”
+            which will aim to be protected include: trade secrets, databases,
+            source code, algorithms, formulae, designs, plans, drawings and
+            specifications, software<sup>14</sup>.
+          </p>
+          <p className="text-xl pb-5">
+            Although not mentioning China explicitly the UK government does
+            recognise that the UK, and UK businesses, face continued and
+            broad-ranging hostile activity from those who seek to compromise
+            their national security and that of their allies. Such behaviour
+            left unchecked can leave the UK vulnerable to disruption, unfair
+            leverage, and espionage. It is crucial that the government is able
+            to fully combat these threats coming from ever more determined
+            overseas actors<sup>15</sup>.
+          </p>
+
+          <p className="text-xl pb-5">
+            With China’s dual circulatory model focusing on increasing domestic
+            consumption and upgrading its domestic industrial chain, these
+            measures may, as a second order effect, impact China’s ability to do
+            this. This is especially true when external expertise and innovation
+            in areas with dual use capabilities are required to reach these
+            aims.
+          </p>
+
+          <div className="bg-black border border-black ">
+            <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
+              KEY TAKE AWAYS
+            </h3>
+            <ul class="list-disc px-5 text-white mx-5 pb-10 text-2xl">
+              <li class="pb-4">
+                The UK has moved to introduce new legislation which attempts to
+                protect national security whilst at the same time keeping the UK
+                open and attractive for business investment to the rest of the
+                world.
+              </li>
+              <li class="pb-4">
+                The NSIB will give government new powers to screen investments
+                on the ground of national security. Some examples of “qualifying
+                assets” which will aim to be protected include: trade secrets,
+                databases, source code, algorithms, formulae, designs, plans,
+                drawings and specifications, software.
+              </li>
+              <li class="pb-4">
+                With China's dual circulatory model focusing on increasing
+                domestic consumption and upgrading its domestic industrial
+                chain, these measures may as a second order effect impact
+                China's ability to do this.
+              </li>
+            </ul>
+          </div>
+          <p className="mt-[200px] text-xl   before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black ">
+            <p>
+              <sup className="mr-2">13</sup>Overview of the National Security
+              and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
+              <a href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet">
+                https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
+              </a>
+            </p>
+
+            <p>
+              <sup className="mr-2">14</sup>National Security and Investment
+              Bill, 2020.
+            </p>
+
+            <p>
+              <sup className="mr-2">15</sup>Overview of the National Security
+              and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
+              <a href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet">
+                https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
+              </a>
+            </p>
+          </p>
+        </section>
+        <section>
+          <h3 className="pb-10 mt-12 text-4xl text-[#3e4d77]">
+            Further Research Questions
+          </h3>
+          <p className="text-xl pb-5">
+            Below is a list of questions and themes we have investigated and
+            think you would like the answers to.
+          </p>
+          <ol class="list-decimal mx-5 pb-10">
+            <li className="pb-4">
+              How will a Biden administration tackle important national security
+              concerns whilst keeping the appetite for cross border M&A high?
+            </li>
+            <li className="pb-4">
+              How will inbound M&A into China be impacted if/when national
+              security becomes an issue for China?
+            </li>
+            <li className="pb-4">
+              How can the US, UK and EU present a united front when there exists
+              a fractured approach to Chinese investment?
+            </li>
+            <li className="pb-4">
+              What industries are the winners and losers when considering the
+              impact China’s dual circulation development strategy?
+            </li>
+            <li className="pb-4">
+              Will the strain of BREXIT force the UK to establish a
+              comprehensive trade deal with China?
+            </li>
+            <li className="pb-4">
+              How do foreign firms manage their growth strategy with China as
+              public pressure increases to cut ties with the nation due to their
+              human rights abuses?
+            </li>
+            <li className="pb-4">
+              How will EU policy on China look post Merkel?
+            </li>
+            <li className="pb-4">
+              If protectionist measures by the West continue, how does China
+              transcend the middle-income trap?
+            </li>
+            <li className="pb-4">
+              Can the Chinese Communist Party sustain power given its lack of
+              dollar reserves and growing M&A restrictions in key markets?
+            </li>
+            <li className="pb-4">
+              How should M&A operators be hedging geopolitical risk and this new
+              hostile investing environment?
+            </li>
+          </ol>
+        </section>
+        <section>
+          <div className="">
+            <div>
+              <div className="flex gap-10 max-md:gap-0 max-md:flex-col">
+                <div
+                  className="flex-1 mt-28 relative w-full
+              "
+                >
+                  <img src={Bgimg} className="w-[100%] " />
+                  <img
+                    src={Pareto}
+                    className="w-[80%] absolute bottom-10 left-4 bg-[#223949]"
+                  />
+
+                  <div className="absolute top-0 p-8 text-white">
+                    {" "}
+                    <h3 className="pb-10 mt-9">
+                      <div className="font-bold mt-4">
+                        GLOBAL INVESTORS SERIES{" "}
+                      </div>
+                    </h3>
+                    <p className="pb-5">
+                      To receive other whitepapers from our Global Investors
+                      Series on themes including:
+                    </p>
+                    <ul className="pl-10 list-disc">
+                      <li className="pb-4">GEOPOLITICS</li>
+                      <li className="pb-4">GLOBALISATION</li>
+                      <li className="pb-4">TRANSFORMATIVE TECHNOLOGY</li>
+                      <li className="pb-4">SOCIETAL CHANGE</li>
+                    </ul>
+                    <p className="pb-5">
+                      Please email us at mailto:info@pareto-economics.com
+                    </p>
+                  </div>
+                </div>
+                <div className="flex-1 max-md:mt-6 mt-28 w-full">
+                  <h3 className="pb-10  max-md:mt-0 mt-20">
+                    <div className="font-bold mt-4">Contact</div>
+                    <div className="flex-1 max-md:mt-16 mt-28">
+                      <img src={Klisman} className="w-[300px]-mt-7" />
+                    </div>
+                    <div className="font-bold mt-20">Klisman Murati </div>
+                    <p className="pb-5">Director, Pareto Economics</p>
+
+                    <p className="pb-5">
+                      <a
+                        className="underline decoration-2"
+                        href="https://klisman.m@pareto-economics.com"
+                        target="_blank"
+                      >
+                        mailto:klisman.m@pareto-economics.com
+                      </a>
+                    </p>
+
+                    <p className="pb-5">
+                      <a
+                        className="underline decoration-2"
+                        href="https://pareto-economics.com/"
+                        target="_blank"
+                      >
+                        https://pareto-economics.com/
+                      </a>
+                    </p>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </section>
       <Footer />
