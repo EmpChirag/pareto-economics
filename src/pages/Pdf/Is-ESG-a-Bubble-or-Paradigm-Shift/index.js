@@ -11,6 +11,8 @@ const IsBubble = () => {
         <h1 className="pb-10 max-md:pb-1">
           Is ESG a Bubble or Paradigm Shift?
         </h1>
+        <div className="h-6" />
+        <div className="h-6" />
         <div className="">
           <p className="text-xl pb-5">
             An irresponsible bandwagon or a paradigm shift? ESG investing has
@@ -68,9 +70,10 @@ const IsBubble = () => {
             other. Standards shape firms and firms contribute to the standards
             set.
           </p>
-          <p className="mt-[200px] text-xl pb-5 before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            1 The Story Behind Talent & ESG, 2020, BRUIN FINANCIAL, ESG
-            Initiative Surve
+          <p className="mt-[200px] max-md:mt-[100px] text-xl pb-5 before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
+            <sup class="mr-2">1</sup>
+            The Story Behind Talent & ESG, 2020, BRUIN FINANCIAL, ESG Initiative
+            Surve
           </p>
           <div className=" max-w-[1200px] mx-auto">
             <p className="text-xl pb-5">
@@ -243,8 +246,9 @@ const IsBubble = () => {
             that every ESG data provider uses different variables and weights
             when assessing a firm’s ESG friendliness.
           </p>
-          <p className="mt-[200px] text-xl pb-5 before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            2 According to Research Affiliates.
+          <p className="mt-[200px] max-md:mt-[100px] text-xl pb-5 before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
+            <sup class="mr-2">2</sup>
+            According to Research Affiliates.
           </p>
           <p className="text-xl pb-5">
             Moreover, recent reports shed light on the fragmented ESG data
@@ -285,10 +289,13 @@ const IsBubble = () => {
               <img src="./images/pdf/Wealth Management.PNG" />
             </p>
           </div>
-          <p className="mt-[200px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            3 PwC Asset & Wealth Management, Luxembourg
+          <p className="mt-[200px] max-md:mt-[100px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
+            <sup class="mr-2">3</sup> PwC Asset & Wealth Management, Luxembourg
           </p>
-          <p>4 Research Affiliates’ Li and Polychronopoulos (2020)</p>
+          <p>
+            <sup class="mr-2">4</sup> Research Affiliates’ Li and
+            Polychronopoulos (2020)
+          </p>
           <h3 className="pb-10 mt-9 text-4xl text-[#3e4d77]">
             Bull Markets and its Impact on Risk
           </h3>
@@ -348,27 +355,34 @@ const IsBubble = () => {
             allocations towards more alternative, real and less risky assets
             like gold, oil, commodities and real estate are likely.
           </p>
-          <p className="mt-[200px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            5 Bank of America Global Fund Manager Survey
+          <p className="mt-[200px] max-md:mt-[100px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
+            <sup class="mr-2">5</sup> Bank of America Global Fund Manager Survey
           </p>
           <p className="pb-5">
-            6 Yahoo Finance, time of writing 11<sup>th</sup> of December 2020
+            <sup class="mr-2">6</sup> Yahoo Finance, time of writing 11
+            <sup>th</sup> of December 2020
           </p>
           <p>
-            7 Yahoo Finance, time of writing 11<sup>th</sup> of December 2020
+            <sup class="mr-2">7</sup> Yahoo Finance, time of writing 11
+            <sup>th</sup> of December 2020
           </p>
-          <p>8 Bank of America Global Fund Manager Survey</p>
+          <p>
+            <sup class="mr-2">8</sup> Bank of America Global Fund Manager Survey
+          </p>
           <p className="text-xl pt-5">
             Furthermore, given ESG’s alternative-asset-like behaviour when it
             comes to returns and perceived risk, we might see increased momentum
             in ESG related stocks.
           </p>
+          <div className="h-6" />
+
           <div className="max-w-[1200px] mx-auto">
             <p className="text-xl">
               <span className="font-bold"> Figure 3.</span> Cyclically adjusted
               P/E ratio and growth/value ratio 1990 to date
-              <img src="./images/pdf/cyclicallygrowth.PNG" />
             </p>
+            <div className="h-6" />
+            <img src="./images/pdf/cyclicallygrowth.PNG" />
           </div>
           <div className="bg-black border border-black mt-9">
             <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
@@ -474,10 +488,12 @@ const IsBubble = () => {
             under management have grown from $13.3 trillion in 2012
           </p>
 
-          <p className="mt-[200px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
-            9 Yardeni Research, 2020
+          <p className="mt-[200px] max-md:mt-[100px] text-xl  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
+            <sup class="mr-2">9</sup> Yardeni Research, 2020
           </p>
-          <p>10 Ned Davis Research, 2019</p>
+          <p>
+            <sup class="mr-2">10</sup> Ned Davis Research, 2019
+          </p>
           <p className="text-xl pt-5">
             to $30.9 trillion in 2018 with Europe having the biggest share
             followed by the USA, Japan, Canada, Australia & New Zealand
@@ -505,7 +521,7 @@ const IsBubble = () => {
             could be seen in their service-oriented nature. Canada, Australia &
             New{" "}
           </p>
-          <p className="mt-[200px] text-xl pb-5  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
+          <p className="mt-[200px] max-md:mt-[100px] text-xl pb-5  before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
             11 Bank of America Global Fund Manager Survey
           </p>
           <p className="text-xl pb-5">
@@ -572,7 +588,7 @@ const IsBubble = () => {
             policy, inflation, GDP growth and international conflicts and
             heightened tensions. It might seem
           </p>
-          <p className="mt-[200px] text-xl   before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
+          <p className="mt-[200px] max-md:mt-[100px] text-xl   before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
             12 Refinitiv’s Wu & Borovkova, 2020
           </p>
           <p>13 Global Sustainable Investment Alliance report, 2019</p>
@@ -671,7 +687,7 @@ const IsBubble = () => {
             ESGlabelled investments which will cause a great deal of volatility
             and sell-offs
           </p>
-          <p className="mt-[200px] text-xl   before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
+          <p className="mt-[200px] max-md:mt-[100px] text-xl   before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black pt-5">
             14 Research Affiliates’ Kalesnik
           </p>
           <div className="bg-black border border-black mt-9">
@@ -730,35 +746,42 @@ const IsBubble = () => {
               Development Goals?
             </li>
           </ul>
-          <div className="flex justify-between pt-14 gap-10">
-            <div className="flex-1">
-              <img src="images/pdf/2.png" className="w-[900px] -mt-7" />
-            </div>
-            <div className="absolute">
-              <h3 className="font-bold pt-[410px] px-8">
-                GLOBAL INVESTOR SERIES
-              </h3>
-              <p className="text-xl pt-5 px-8 max-w-[484px]">
-                To receive other whitepapers from our Global Investors Series on
-                themes including:
-              </p>
-              <div className="px-9">
-                <ul className="list-disc px-8 pt-10">
-                  <li className="">GEOPOLITICS</li>
-                  <li>GLOBALISATION</li>
-                  <li>TRANSFORMATIVE TECHNOLOGY</li>
-                  <li>SOCIETAL CHANGE</li>
+
+          <div className="flex gap-10 max-md:gap-0 max-md:flex-col">
+            <div
+              className="flex-1 mt-28 relative w-full
+              "
+            >
+              <img src="images/pdf/globlinvesto.png" className="w-[100%] " />
+              <img
+                src="images/pdf/Pareto.png"
+                className="w-[70%] absolute bottom-10 left-4 bg-[#223949]"
+              />
+
+              <div className="absolute top-0 p-8 text-black font-semibold">
+                {" "}
+                <h3 className="pb-10 mt-9">
+                  <div className="font-bold mt-4">GLOBAL INVESTORS SERIES </div>
+                </h3>
+                <p className="pb-5">
+                  To receive other whitepapers from our Global Investors Series
+                  on themes including:
+                </p>
+                <ul className="pl-10 list-disc">
+                  <li className="pb-4">GEOPOLITICS</li>
+                  <li className="pb-4">GLOBALISATION</li>
+                  <li className="pb-4">TRANSFORMATIVE TECHNOLOGY</li>
+                  <li className="pb-4">SOCIETAL CHANGE</li>
                 </ul>
-                <p className="pt-10">
-                  Please email us at
-                  <Link> info@pareto-economics.com</Link>
+                <p className="pb-5">
+                  Please email us at info@pareto-economics.com
                 </p>
               </div>
             </div>
-            <div className="flex-1 mt-28 gap-6">
-              <div className="pb-10 mt-20">
-                <h3 className="font-bold mt-4">Contact</h3>
-                <div className="flex-1 mt-28 ">
+            <div className="flex-1 max-md:mt-6 mt-28 w-full">
+              <h3 className="pb-10  max-md:mt-0 mt-20">
+                <div className="font-bold mt-4">Contact</div>
+                <div className="flex-1 max-md:mt-16 mt-28">
                   <img
                     src="images/pdf/klisman.png"
                     className="w-[300px] -mt-7"
@@ -769,19 +792,24 @@ const IsBubble = () => {
 
                 <p className="pb-5">
                   <a
-                    href="mailto:Klisman.m@pareto-economics.com"
+                    className="underline decoration-2"
+                    href="https://klisman.m@pareto-economics.com"
                     target="_blank"
                   >
-                    Klisman.m@pareto-economics.com
+                    klisman.m@pareto-economics.com
                   </a>
                 </p>
 
                 <p className="pb-5">
-                  <a href="https://pareto-economics.com/" target="_blank">
+                  <a
+                    className="underline decoration-2"
+                    href="https://pareto-economics.com/"
+                    target="_blank"
+                  >
                     https://pareto-economics.com/
                   </a>
                 </p>
-              </div>
+              </h3>
             </div>
           </div>
         </div>
