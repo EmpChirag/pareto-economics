@@ -32,7 +32,7 @@ const ParetoThoughtLeadership = () => {
         <div className="">
           <div className="uppercase text-lg">Insights</div>
           <a
-            href="/pdf/CHINA-DUAL-CIRCULATION-STRATEGY-PARETO-ECONOMICS-1.pdf"
+            href="/how-is-ma-impacted"
             target="_blank"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
           >
@@ -62,7 +62,7 @@ const ParetoThoughtLeadership = () => {
         <div className="">
           <div className="uppercase text-lg">Insights</div>
           <a
-            href="/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf"
+            href="/a-beginners-guide"
             target="_blank"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
           >

@@ -126,11 +126,6 @@ const routes = [
     exact: true
   },
   {
-    path: "/services-speaking",
-    component: <ServiceSpeaking />,
-    exact: true
-  },
-  {
     path: "/modern-slavery-statement",
     component: <ModernSlavery />,
     exact: true
@@ -161,7 +156,7 @@ const routes = [
     exact: true
   },
   {
-    path: "/is-ecg-a-bubble-or-paradigm",
+    path: "/is-esg-a-bubble-or-paradigm",
     component: <IsBubble />,
     exact: true
   },

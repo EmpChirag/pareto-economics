@@ -105,24 +105,24 @@ const ServiceSpeaking = () => {
       <section className="border-b border-black pb-[60px] md:pb-24 ">
         {/* <div className="icons flex items-center flex-wrap md:[&>img]:w-[8%]   max-md:[&>img]:w-[28%] gap-6 md:gap-12 justify-between border-b border-black pb-[60px] md:pb-24"> */}
         <div className="icons  items-center grid grid-cols-3 md:grid-cols-6 xl:grid-cols-9 gap-10 md:gap-12 justify-between border-b border-black pb-[60px] md:pb-24">
-          <img src="/images/Logos/Logo-1.png" alt="logo" />
-          <img src="/images/Logos/Logo-2.png" alt="logo" />
-          <img src="/images/Logos/Logo-3.png" alt="logo" />
-          <img src="/images/Logos/Logo-4.png" alt="logo" />
-          <img src="/images/Logos/Logo-5.png" alt="logo" />
-          <img src="/images/Logos/Logo-6.png" alt="logo" />
-          <img src="/images/Logos/Logo-7.png" alt="logo" />
-          <img src="/images/Logos/Logo-8.png" alt="logo" />
-          <img src="/images/Logos/Logo-9.png" alt="logo" />
-          <img src="/images/Logos/Logo-10.png" alt="logo" />
-          <img src="/images/Logos/Logo-11.png" alt="logo" />
-          <img src="/images/Logos/Logo-12.png" alt="logo" />
-          <img src="/images/Logos/Logo-13.png" alt="logo" />
-          <img src="/images/Logos/Logo-14.png" alt="logo" />
-          <img src="/images/Logos/Logo-15.png" alt="logo" />
-          <img src="/images/Logos/Logo-16.png" alt="logo" />
-          <img src="/images/Logos/Logo-17.png" alt="logo" />
-          <img src="/images/Logos/Logo-18.png" alt="logo" />
+          <img src="/images/logo-1.png" alt="logo" />
+          <img src="/images/logo-2.png" alt="logo" />
+          <img src="/images/logo-3.png" alt="logo" />
+          <img src="/images/logo-4.png" alt="logo" />
+          <img src="/images/logo-5.png" alt="logo" />
+          <img src="/images/logo-6.png" alt="logo" />
+          <img src="/images/logo-7.png" alt="logo" />
+          <img src="/images/logo-8.png" alt="logo" />
+          <img src="/images/logo-9.png" alt="logo" />
+          <img src="/images/logo-10.png" alt="logo" />
+          <img src="/images/logo-11.png" alt="logo" />
+          <img src="/images/logo-12.png" alt="logo" />
+          <img src="/images/logo-13.png" alt="logo" />
+          <img src="/images/logo-14.png" alt="logo" />
+          <img src="/images/logo-15.png" alt="logo" />
+          <img src="/images/logo-16.png" alt="logo" />
+          <img src="/images/logo-17.png" alt="logo" />
+          <img src="/images/logo-18.png" alt="logo" />
         </div>
         <section className="mt-10">
           <h2 className=" lg:max-w-[650px]">Watch Murati in Action</h2>
@@ -339,7 +339,7 @@ const ServiceSpeaking = () => {
           <a
             href="/pdf/klisman-murati-testimonials-2024.pdf"
             target="_blank"
-            className="btn h-[50px] float-right inline-block leading-[3]"
+            className="btn h-[50px] float-right inline-block leading-[2.6]"
           >
             More Testimonials
           </a>

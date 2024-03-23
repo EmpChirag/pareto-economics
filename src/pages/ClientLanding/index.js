@@ -27,7 +27,7 @@ const ClientLanding = () => {
               />
               <br />
             </div>
-            <div className="flex-1 justify-end border-b border-slate-900 pb-[28px]">
+            <div className="flex-[1.2] xl:flex-1 justify-end border-b border-slate-900 pb-[28px]">
               <h4 className="font-body text-2xl font-bold mb-5">
                 Corporations
               </h4>
@@ -58,7 +58,7 @@ const ClientLanding = () => {
               />
               <br />
             </div>
-            <div className="flex-1 justify-end border-b border-slate-900 pb-[28px]">
+            <div className="flex-[1.2] xl:flex-1 justify-end border-b border-slate-900 pb-[28px]">
               <h4 className="font-body text-2xl font-bold mb-5">Investors</h4>
 
               <div className="max-md:flex-col flex justify-end md:items-center gap-5">
@@ -88,7 +88,7 @@ const ClientLanding = () => {
               />
               <br />
             </div>
-            <div className="flex-1 justify-end">
+            <div className="flex-[1.2] xl:flex-1 justify-end">
               <h4 className="font-body text-2xl font-bold mb-5">Governments</h4>
 
               <div className="flex max-md:flex-col justify-end md:items-center">

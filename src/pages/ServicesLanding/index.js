@@ -29,7 +29,7 @@ const ServicesLanding = () => {
               />
               <br />
             </div>
-            <div className="flex-1 justify-end  border-b border-slate-900 pb-[28px]">
+            <div className="flex-[1.3] xl:flex-1 justify-end  border-b border-slate-900 pb-[28px]">
               <h4 className="font-body text-2xl font-bold">
                 Speaking Engagements
               </h4>
@@ -42,7 +42,7 @@ const ServicesLanding = () => {
                   our CEO for your next conference or summit.
                 </p>
 
-                <div className="flex-1 max-md:mb-4 lg:mt-9 lg:pl-[34px] 2xl:pl-[92px]  md:pl-0">
+                <div className="flex-1 max-md:mb-4 lg:mt-9  2xl:pl-[92px] md:pl-0">
                   <Link
                     to="/services-speaking"
                     className="btn2 self-end min-w-[115px] max-lg:w-4/5 "
@@ -63,7 +63,7 @@ const ServicesLanding = () => {
               />
             </div>
             <br />
-            <div className="flex-1 justify-end  border-b border-slate-900 pb-[28px]">
+            <div className="flex-[1.3] xl:flex-1 justify-end  border-b border-slate-900 pb-[28px]">
               <h4 className="font-body text-2xl font-bold">Research</h4>
               <br />
 
@@ -75,7 +75,7 @@ const ServicesLanding = () => {
                   post engagement debrief.
                 </p>
 
-                <div className="flex-1 max-md:mb-4 lg:mt-9 lg:pl-[34px] 2xl:pl-[92px]  md:pl-0">
+                <div className="flex-1 max-md:mb-4 lg:mt-9  2xl:pl-[92px]  md:pl-0">
                   <Link
                     to="/services-research"
                     className="btn2 self-end min-w-[146px] max-lg:w-4/5"
@@ -96,7 +96,7 @@ const ServicesLanding = () => {
               />
               <br />
             </div>
-            <div className="flex-1 justify-end ">
+            <div className="flex-[1.3] xl:flex-1 justify-end ">
               <h4 className="font-body text-2xl font-bold">
                 Executive Workshops
               </h4>
@@ -108,7 +108,7 @@ const ServicesLanding = () => {
                   the free exploration of issues of related interest to clients.{" "}
                 </p>
 
-                <div className=" flex-1 lg:mt-9 lg:pl-[34px] 2xl:pl-[92px]  md:pl-0">
+                <div className=" flex-1 lg:mt-9  2xl:pl-[92px]  md:pl-0">
                   <Link
                     to="/services-executive-workshops"
                     className="btn2 self-end min-w-[115px] max-lg:w-4/5"
