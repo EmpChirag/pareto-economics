@@ -178,7 +178,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
               </div>
               <div className="w-2/3">
                 <img
-                  src="/images/latest-news.png"
+                  src="/images/latest-news.jpg"
                   alt="news Image"
                   width={500}
                   height={200}
@@ -188,7 +188,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
                   href="https://www.youtube.com/watch?v=na7AWWod8gc&t=97s"
                   className="text-lg mt-4 block font-body"
                 >
-                  UK debt and what to do about it
+                  Truss warned of 'mass bankruptcies'
                 </a>
               </div>
             </div>

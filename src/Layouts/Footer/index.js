@@ -72,7 +72,7 @@ const Footer = ({ demo, contact, ptext,dark }) => {
         </a>
       </div>
       <p className="mt-4 text-base ">
-        (c) 2024 Pareto Economics LtD. All rights reserved.
+        © 2024 Pareto Economics LTD. All rights reserved.
       </p>
       <div className="flex flex-col text-lg gap-2 mt-10  pb-10">
         <p>LEGAL</p>

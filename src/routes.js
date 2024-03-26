@@ -1,9 +1,9 @@
 import React, { lazy } from "react";
-import USATop from './pages/Press-Release/USATop';
-import IndexLaunch from './pages/Press-Release/IndexLaunch';
-import PangaeaWireGroup from './pages/Press-Release/PangaeaWireGroup';
-import ParetoEconomicsRanking from './pages/Press-Release/ParetoEconomicsRanking';
-import TheUSACrown from './pages/Press-Release/TheUSACrown';
+const USATop = lazy(()=> import('./pages/Press-Release/USATop'));
+const IndexLaunch = lazy(()=> import('./pages/Press-Release/IndexLaunch'));
+const PangaeaWireGroup = lazy(()=> import('./pages/Press-Release/PangaeaWireGroup'));
+const ParetoEconomicsRanking = lazy(()=> import('./pages/Press-Release/ParetoEconomicsRanking'));
+const TheUSACrown = lazy(()=> import('./pages/Press-Release/TheUSACrown'));
 
 const Abeginner = lazy(() => import("./pages/Pdf/Abeginnerpdf"));
 const IsBubble = lazy(() =>
