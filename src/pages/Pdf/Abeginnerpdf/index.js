@@ -3,6 +3,42 @@ import Header from "../../../Layouts/Header";
 import Footer from "../../../Layouts/Footer";
 
 const Abeginner = () => {
+  const handleSharePageLink = (shareTo) => {
+    if (window?.location?.href && shareTo) {
+      switch (shareTo) {
+        case "FACEBOOK":
+          window.open(
+            `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "WHATSAPP":
+          window.open(`https://wa.me/?text=${window.location.href}`, "_blank");
+          break;
+        case "TWITTER":
+          window.open(
+            `https://twitter.com/intent/tweet?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "LINKEDIN":
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "EMAIL":
+          window.open(`mailto:?body=${window.location.href}`, "_blank");
+          break;
+        case "COPY":
+          navigator.clipboard.writeText(window.location.href);
+          break;
+        default:
+          return;
+      }
+    }
+  };
+
   return (
     <>
       {" "}
@@ -22,7 +58,10 @@ const Abeginner = () => {
           <div className="flex items-center">
             <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
             <div className="social flex gap-1 pl-2">
-              <a href="#">
+              <a
+                className="cursor-pointer"
+                onClick={() => handleSharePageLink("FACEBOOK")}
+              >
                 <img
                   src="/images/icons/facebook.svg"
                   alt="youtube"
@@ -31,7 +70,10 @@ const Abeginner = () => {
                   className="h-[30px] w-[30px]"
                 />
               </a>
-              <a href="#">
+              <a
+                className="cursor-pointer"
+                onClick={() => handleSharePageLink("WHATSAPP")}
+              >
                 <img
                   src="/images/icons/whatsapp.svg"
                   alt="youtube"
@@ -40,7 +82,10 @@ const Abeginner = () => {
                   className="h-[30px] w-[30px]"
                 />
               </a>
-              <a href="#">
+              <a
+                className="cursor-pointer"
+                onClick={() => handleSharePageLink("TWITTER")}
+              >
                 <img
                   src="/images/icons/twitter.svg"
                   alt="X"
@@ -49,7 +94,10 @@ const Abeginner = () => {
                   className="h-[30px] w-[30px]"
                 />
               </a>
-              <a href="#">
+              <a
+                className="cursor-pointer"
+                onClick={() => handleSharePageLink("LINKEDIN")}
+              >
                 <img
                   src="/images/icons/linkedin.svg"
                   alt="Linkedin"
@@ -58,9 +106,24 @@ const Abeginner = () => {
                   className="h-[30px] w-[30px]"
                 />
               </a>
-              <a href="#">
+              <a
+                className="cursor-pointer"
+                onClick={() => handleSharePageLink("EMAIL")}
+              >
                 <img
                   src="/images/icons/email.svg"
+                  alt="youtube"
+                  height="30"
+                  width="30"
+                  className="h-[30px] w-[30px]"
+                />
+              </a>
+              <a
+                className="cursor-pointer"
+                onClick={() => handleSharePageLink("COPY")}
+              >
+                <img
+                  src="/images/icons/copy.svg"
                   alt="youtube"
                   height="30"
                   width="30"
