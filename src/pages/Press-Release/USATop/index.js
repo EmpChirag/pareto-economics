@@ -3,6 +3,41 @@ import Header from '../../../Layouts/Header';
 import Footer from '../../../Layouts/Footer';
 
 const USATop = () => {
+  const handleSharePageLink = (shareTo) => {
+    if (window?.location?.href && shareTo) {
+      switch (shareTo) {
+        case "FACEBOOK":
+          window.open(
+            `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "WHATSAPP":
+          window.open(`https://wa.me/?text=${window.location.href}`, "_blank");
+          break;
+        case "TWITTER":
+          window.open(
+            `https://twitter.com/intent/tweet?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "LINKEDIN":
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "EMAIL":
+          window.open(`mailto:?body=${window.location.href}`, "_blank");
+          break;
+        case "COPY":
+          navigator.clipboard.writeText(window.location.href);
+          break;
+        default:
+          return;
+      }
+    }
+  };
   return (
     <>
       <div className="container mx-auto px-5">
@@ -15,6 +50,89 @@ const USATop = () => {
           Global Power Index by Pareto Economics
         </h1>
         <div className="entry-content">
+          <div className="md:flex block  items-center justify-between">
+            <div>
+              <p>March 1st, 2023</p>
+            </div>
+            <div className="flex items-center md:mt-0 mt-4">
+              <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
+              <div className="social flex gap-1 pl-2">
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("FACEBOOK")}
+                >
+                  <img
+                    src="/images/icons/facebook.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("WHATSAPP")}
+                >
+                  <img
+                    src="/images/icons/whatsapp.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("TWITTER")}
+                >
+                  <img
+                    src="/images/icons/twitter.svg"
+                    alt="X"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("LINKEDIN")}
+                >
+                  <img
+                    src="/images/icons/linkedin.svg"
+                    alt="Linkedin"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("EMAIL")}
+                >
+                  <img
+                    src="/images/icons/email.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("COPY")}
+                >
+                  <img
+                    src="/images/icons/copy.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="h-6" />
           <p>
             <em>
               The most comprehensive power index ranks a record 194 counties and

@@ -2,26 +2,136 @@ import React from 'react'
 import Header from '../../../Layouts/Header';
 import Footer from '../../../Layouts/Footer';
 
+
 const KillingESG = () => {
+  const handleSharePageLink = (shareTo) => {
+    if (window?.location?.href && shareTo) {
+      switch (shareTo) {
+        case "FACEBOOK":
+          window.open(
+            `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "WHATSAPP":
+          window.open(`https://wa.me/?text=${window.location.href}`, "_blank");
+          break;
+        case "TWITTER":
+          window.open(
+            `https://twitter.com/intent/tweet?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "LINKEDIN":
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "EMAIL":
+          window.open(`mailto:?body=${window.location.href}`, "_blank");
+          break;
+        case "COPY":
+          navigator.clipboard.writeText(window.location.href);
+          break;
+        default:
+          return;
+      }
+    }
+  };
+
+
+
+
   return (
     <div className="max-w-[1480px] mx-auto px-5">
       <Header />
       <div className=" max-lg:block flex items-center justify-center ">
         <div className="mt-10 max-w-[1180px]">
-          <h1 className="pb-10 max-md:pb-1">
+          <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[40px] leading-[1.2]">
             Is Passive Investing Killing ESG
           </h1>
           <div className="h-6" />
-          <div className="flex items-center justify-between">
+          <div className="md:flex block  items-center justify-between">
             <div>
-              <h3>June 2020</h3>
+              <p>June 2020</p>
             </div>
-            <div className="flex items-center">
-              <img src="images/icons/share.svg" className="w-[30px] mr-2" />{" "}
-              <a href="#" className="text-2xl">
-                {" "}
-                share pdf{" "}
-              </a>
+            <div className="flex items-center md:mt-0 mt-4">
+              <img src="images/icons/share.svg" className="w-[20px] mr-2" />
+              <div className="social flex gap-1 pl-2">
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("FACEBOOK")}
+                >
+                  <img
+                    src="/images/icons/facebook.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("WHATSAPP")}
+                >
+                  <img
+                    src="/images/icons/whatsapp.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("TWITTER")}
+                >
+                  <img
+                    src="/images/icons/twitter.svg"
+                    alt="X"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("LINKEDIN")}
+                >
+                  <img
+                    src="/images/icons/linkedin.svg"
+                    alt="Linkedin"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("EMAIL")}
+                >
+                  <img
+                    src="/images/icons/email.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("COPY")}
+                >
+                  <img
+                    src="/images/icons/copy.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+              </div>
             </div>
           </div>
           <div className="h-6" />
@@ -368,7 +478,7 @@ const KillingESG = () => {
                 </p>
               </div>
             </div>
-            <div className="flex max-md:flex-col gap-10">
+            {/* <div className="flex max-md:flex-col gap-10">
               <div className="flex-1 mt-28">
                 <img src="/images/pdf/1.png" className="w-[1000px] -mt-7" />
               </div>
@@ -420,7 +530,7 @@ const KillingESG = () => {
                   </p>
                 </h3>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

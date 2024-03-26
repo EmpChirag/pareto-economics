@@ -8,35 +8,142 @@ import Klisman from "../../../assets/images/klisman.png";
 import Pareto from "../../../assets/images/Pareto.png";
 
 const HowIsMandA = () => {
+  const handleSharePageLink = (shareTo) => {
+    if (window?.location?.href && shareTo) {
+      switch (shareTo) {
+        case "FACEBOOK":
+          window.open(
+            `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "WHATSAPP":
+          window.open(`https://wa.me/?text=${window.location.href}`, "_blank");
+          break;
+        case "TWITTER":
+          window.open(
+            `https://twitter.com/intent/tweet?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "LINKEDIN":
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "EMAIL":
+          window.open(`mailto:?body=${window.location.href}`, "_blank");
+          break;
+        case "COPY":
+          navigator.clipboard.writeText(window.location.href);
+          break;
+        default:
+          return;
+      }
+    }
+  };
+
+
+
   return (
     <div className="container mx-auto">
       <Header />
+      <div className="h-6" />
+      <div className="h-6" />
       <div className=" max-lg:block flex items-center justify-center ">
-        <div className="mt-10 max-w-[1180px]">
-          <section>
-            <h1 className="pb-10 max-md:pb-1">
-              How Is M&A Impacted By China’S “Dual Circulation”
-            </h1>
-          </section>
+        <div className=" max-w-[1180px]">
+          <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[40px] leading-[1.2]">
+            How Is M&A Impacted By China’S “Dual Circulation”
+          </h1>
+
           <div className="h-6" />
-          
-          <div className="flex items-center justify-between">
+
+          <div className=" md:flex block  items-center justify-between">
             <div>
-              <h3>January 2021 </h3>
+              <p>January 2021 </p>
             </div>
-            <div className="flex items-center">
-              <img src="images/icons/share.svg" className="w-[30px] mr-2" />{" "}
-              <a href="#" className="text-2xl">
-                {" "}
-                share pdf{" "}
-              </a>
+            <div className="flex items-center md:mt-0 mt-4">
+              <img src="images/icons/share.svg" className="w-[20px] mr-2" />
+              <div className="social flex gap-1 pl-2">
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("FACEBOOK")}
+                >
+                  <img
+                    src="/images/icons/facebook.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("WHATSAPP")}
+                >
+                  <img
+                    src="/images/icons/whatsapp.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("TWITTER")}
+                >
+                  <img
+                    src="/images/icons/twitter.svg"
+                    alt="X"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("LINKEDIN")}
+                >
+                  <img
+                    src="/images/icons/linkedin.svg"
+                    alt="Linkedin"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("EMAIL")}
+                >
+                  <img
+                    src="/images/icons/email.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => handleSharePageLink("COPY")}
+                >
+                  <img
+                    src="/images/icons/copy.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+              </div>
             </div>
           </div>
 
-         
-
           <section className="grid grid-cols-2">
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               <b>
                 Murati, K & Tomkins, E. (2021) WHAT DOES CHINA’S NEW “DUAL
                 CIRCULATION” DEVELOPMENT MODEL MEAN FOR M&A? Pareto Economics
@@ -46,13 +153,13 @@ const HowIsMandA = () => {
 
           <section>
             <h3 className="pb-5 mt-9 text-4xl">Executive Summary</h3>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               This whitepaper is an essential read for the institutional
               investor, cross border business operator and foreign investment
               policy maker who are looking to successfully navigate these
               seemingly unpredictable and growing hostile investing climate.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               When reviewing the literature on cross-border M&A as it relates to
               China, one glaringly obvious trend emerges, that being – most
               whitepapers are written for a non-Chinese audience from the
@@ -60,18 +167,18 @@ const HowIsMandA = () => {
               fascinating topic from the Chinese perspective for a non-Chinese
               audience. This is what this whitepaper attempts to do.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               A better understanding of the Chinese perspective, plan and
               strategy will better equip the M&A community no matter where they
               are to make more informed, confident and profitable investing
               decisions.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               This whitepaper covers the most important and at times least
               talked about flashpoints that have defined and continue to shape
               the Chinese M&A strategy and how the global West has responded.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               We focus on three key bilateral relationships, including;
               US-China, EU-China and UK-China, this whitepaper details the
               unique aspects of these three bilateral relationships, how they
@@ -81,7 +188,7 @@ const HowIsMandA = () => {
               relationships, especially given the unique timing we are faced
               with today.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               We then conclude with 10 further research questions which we feel
               are the natural next steps for any M&A practitioner to be asking.
               If you so wish to engage us with these or other questions, we
@@ -91,7 +198,7 @@ const HowIsMandA = () => {
           </section>
           <section>
             <h3 className="pb-5 mt-9 text-4xl">The Chinese Perspective</h3>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               Much of the literature, forecasts, opinions and strategy regarding
               China and M&A comes from a western perspective for a western
               audience. Not much added value can be offered in that regard given
@@ -103,7 +210,7 @@ const HowIsMandA = () => {
               in this brave new world. This is the blind spot which this
               whitepaper will attempt to fill.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               To begin with, it is important to realise that there seems to have
               developed an asymmetric understanding between the West and China
               that needs rebalancing. This investor parallax has afflicted the
@@ -113,7 +220,7 @@ const HowIsMandA = () => {
               of doing things.
             </p>
             <div className="flex max-md:flex-col pb-5">
-              <p className="text-xl pb-5 w-full">
+              <p className=" pb-5 w-full">
                 The policy of engagement with China began in 1972 with President
                 Nixon & Henry Kissinger and has continued on through eight
                 different presidential administrations. Most notably perhaps in
@@ -124,7 +231,7 @@ const HowIsMandA = () => {
                 and acceptance of open markets, transparency, and cooperation.
               </p>
               <div className="border-b-8 border-t-8 border-sky-600 max-md:mx-0 mx-10 inline-block w-full">
-                <p className="text-2xl text-sky-500 mt-3 mb-3">
+                <p className="text-2xl font-bold mt-3 mb-3">
                   <div className="h-6" />
                   <div className="h-6" />
                   <i>
@@ -135,7 +242,7 @@ const HowIsMandA = () => {
                 </p>
               </div>
             </div>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               The macro strategy of the US was to reward relationship
               normalisation with opening US markets to Chinese investment and
               expecting the same, thus showing how much better off they would
@@ -147,7 +254,7 @@ const HowIsMandA = () => {
               what would have been a belligerent power. It didn’t turn out that
               way.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               The US strategy post WWII was to open up their manufacturing
               markets to the world, this allowed Japan to pursue an export-led
               growth model. Nations like South-Korea, Taiwan, and Singapore
@@ -157,7 +264,7 @@ const HowIsMandA = () => {
               business and were replaced by imports, thus allowing a focus on
               high value tech and financial services.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               This was the same trajectory they expected the Chinese to take,
               but they did not. China’s 1.433 billion market was and continues
               to be such an attractive pull for US industry that policymakers
@@ -200,7 +307,7 @@ const HowIsMandA = () => {
           </section>
           <section>
             <h3 className="pb-5 mt-9 text-4xl">China’s 14th Five-Year Plan</h3>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               In response to increasing external economic shocks, China’s 14th
               Five-Year Plan, formulated at the 19th Party Congress in October,
               attaches great importance to the pursuit of self-reliance and
@@ -216,7 +323,7 @@ const HowIsMandA = () => {
               indicate stronger nationalist sentiments among economic
               policymakers.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               In an October 2020 speech, Xi Jinping announced that China must
               pursue independent innovation, make breakthroughs in key core
               technologies, strive to achieve independent control in key fields,
@@ -224,10 +331,10 @@ const HowIsMandA = () => {
               enhance China's science and technology ability to respond to
               international risks and challenges.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               “我们必须坚定不移走自主创新道路，坚定信心、埋头苦干，突破关键核心技术，努力在关键领域实现自主可控，保障产业链供应链安全，增强我国科技应对国际风险挑战的能力”
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               China is likely to strengthen industrial policies aimed at
               financial, operational, and regulatory support for companies in
               key sectors. This is strongly aligned with its "Made in China
@@ -238,7 +345,7 @@ const HowIsMandA = () => {
               sectors of strategic importance, offering tax incentives,
               subsidies, and an accelerated administrative process.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               As China enacts these plans, there is likely to be some
               significant changes in industry regulations which could impact
               foreign firms operating in Chinese markets. Equally, such
@@ -268,7 +375,7 @@ const HowIsMandA = () => {
             <h3 className="pb-5 mt-9 text-4xl">
               China’s Outbound Foreign Investment
             </h3>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               In 2020, the volume of China’s M&A transactions has declined for
               the fifth consecutive year. This has been due to several factors
               including heavier debt loads, tighter domestic liquidity
@@ -277,7 +384,7 @@ const HowIsMandA = () => {
               downward trend is only set to continue as geopolitical tensions
               rise and supervision in destination markets is tightening.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               However, in the context of China's latest economic "dual cycle"
               strategy, “external circulation" needs to serve domestic economic
               growth, and overseas investment and cross-border mergers and
@@ -288,7 +395,7 @@ const HowIsMandA = () => {
               Communist Party (CCP).
             </p>
             <div className="pb-5">
-              <p className="text-xl pb-2">
+              <p className=" pb-2">
                 Fig 1: Overseas Chinese M&A transactions, 2020
               </p>
               <div className="h-6" />
@@ -300,14 +407,14 @@ const HowIsMandA = () => {
               />
               <div className="h-6" />
             </div>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               The State Administration of Foreign Exchange (SAFE) announced that
               controls on outbound capital flows would be relaxed further in
               major cities, granting domestic investors wider access to foreign
               opportunities, in efforts to encourage more domestic investment
               abroad as the yuan depreciates against the dollar.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               Shanghai, Beijing and Shenzhen will respectively expand the pilot
               scale of the Qualified Domestic Limited Partnership (QDLP) and the
               Qualified Domestic Investment Enterprise (QDIE). At the same time,
@@ -317,7 +424,7 @@ const HowIsMandA = () => {
               Free Trade Port and the development of Chengdu-Chongqing Economic
               Circle.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               In regards to outbound capital flows, Chinese money is facing
               increasing scrutiny in three major markets, including; the USA, UK
               and the EU. Geo-economic tensions have been the cause and result
@@ -340,7 +447,7 @@ const HowIsMandA = () => {
           </section>
           <section>
             <h3 className="pb-5 mt-9 text-4xl">Sino-US Relations</h3>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               Ever since President Nixon & Henry Kissinger landed in Beijing
               marking the beginning of the US’s policy of engagement in 1972
               US-China relations have changed considerably. However, one
@@ -349,7 +456,7 @@ const HowIsMandA = () => {
               actively form and shape the relationship, or rather shape what
               they wanted the Chinese to do in the relationship.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               Given its position as the world’s only superpower back then and
               still one now, this “proactive” approach was to be expected. The
               intention at the start was to form a bilateral relationship with
@@ -357,7 +464,7 @@ const HowIsMandA = () => {
               have been a dangerous alignment of two strong powers.
             </p>
             <div className="border-b-8 border-t-8 border-sky-600 mb-5">
-              <p className="text-4xl text-sky-500 my-3">
+              <p className="text-4xl font-bold my-3">
                 <i>
                   One constant theme has characterised the US-China relationship
                   ever since and that is the consistent hands-on approach by the
@@ -366,14 +473,14 @@ const HowIsMandA = () => {
                 </i>
               </p>
             </div>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               They were successful in this, but over the years and decades the
               US has become increasingly disillusioned with what they perceived
               as China’s broken promises and increasingly antagonistic,
               secretive and belligerent behaviour in the fields of business,
               diplomacy, trade, research and technology.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               However, from the Chinese perspective, it is clear to Beijing what
               benefits the US would enjoy if China were to behave in the way the
               US and the wider West wants, specifically in respect to trade,
@@ -386,7 +493,7 @@ const HowIsMandA = () => {
             <h3 className="pb-5 mt-9 text-4xl">
               Foreign Investment Risk Review Modernisation Act (FIRRMA)
             </h3>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               As it concerns M&A, when looking at the last four years under the
               Trump administration, many key decisions have been made which have
               impacted the inward follow of Chinese investment. The first of
@@ -395,36 +502,23 @@ const HowIsMandA = () => {
               extension of the legal protections regarding the national security
               of America in relation to trade and investment.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               Coming from a long linage of legislative protections as it
               concerns national security, dating back to the Tariff Act of 1789,
               which was enacted as a response to Alexander Hamilton’s thinking
               regarding “infant industries”. This act was largely military and
               strategic in nature<sup>1</sup>.
             </p>
-            <div className="mb-5">
-              <div className="h-6" />
-              <div className="w-[300px] border-t-2 border-t-slate-900 mb-3" />
-              <p>
-                <sup>1</sup>Chernow, R. 2005. Alexander Hamilton. Penguin Group.
-                New York
-              </p>
-            </div>
-            <p className="text-xl pb-5">
+
+            <div className="h-6" />
+
+            <p className=" pb-5">
               At the turn of the century, the Trading with the Enemy Act of 1917
               was used to nationalise assets during World War I and to block all
               foreign investment during World War II<sup>2</sup>.
             </p>
-            <p className="text-xl pb-5">
-              FIRRMA was born out of the nexus of increased fear regarding
-              China’s growing strategic and economic clout and the potential
-              loss of American technology supremacy, with urgency ignited by the
-              attempted Broadcom-Qualcomm merger. The resulting legislation
-              attracted significant industry attention, especially from venture
-              capital
-              <sup>3</sup>.
-            </p>
-            <p className="text-xl pb-5">
+
+            <p className=" pb-5">
               With the enactment of FIRRMA the US is more clearly defining who
               its friends and foes are. FIRRMA grants the President the
               authority to block or suspend proposed or pending foreign
@@ -443,7 +537,7 @@ const HowIsMandA = () => {
               two years to develop similar legislation in order to continue the
               daisy chain of nation security protectionism.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               In regards to Chinese inbound investment, FIRRMA is especially
               invasive. The act underlines that every two years the Secretary of
               Commerce shall submit to congress and to CFIUS a report on ALL
@@ -463,7 +557,7 @@ const HowIsMandA = () => {
               January 2021. The 23-clause new rules rest upon the Foreign
               Investment Law and the National Security Law as a legal basis.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               This has seen mixed reactions from the M&A community. Naturally,
               for Chinese firms this will slow down and limit business growth
               especially as it relates to acquisitions in industries related to
@@ -475,35 +569,8 @@ const HowIsMandA = () => {
               definition and practical application which covers health.
             </p>
             <div className="h-6" />
-            <div className="w-[300px] border-t-2 border-t-slate-900 mb-3" />
 
-            <p className="text-xl">
-              <sup>2</sup>Zimmerman, Evan, The Foreign Investment Risk Review
-              Modernisation Act: How CFIUS Became a Tech Office (April 9, 2019).
-              Berkeley Technology Law Journal, Volume 34, Issue 4, Available at
-              SSRN:
-              <a
-                className="break-words"
-                href="https://ssrn.com/abstract=3368723"
-              >
-                https://ssrn.com/abstract=3368723
-              </a>
-              <sup>3</sup>
-              Ibid.
-            </p>
-            <p className="text-xl pb-5">
-              <sup>4</sup>Jackson,J,K. (2020) The Committee on Foreign
-              Investment in the United States (CFIUS). Congressional Research
-              Service.
-              <a
-                className="break-words"
-                href="https://crsreports.congress.gov/"
-              >
-                https://crsreports.congress.gov/
-              </a>
-              [RL33388]
-            </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               For the US or excepted foreign states companies this presents an
               opportunity to continue and even increase M&A activity knowing
               that competition for Chinese firms is restricted who might have
@@ -513,7 +580,7 @@ const HowIsMandA = () => {
               consolidation in this industry as many smaller and medium players
               are experiencing tighter margins which cannot be sustained.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               Securing reliable and cheap energy is key for China, they have an
               incentive to control the energy and commodity supply chain for
               growing internal consumption, however seeing as energy is a
@@ -549,7 +616,7 @@ const HowIsMandA = () => {
             <h3 className="pb-5 mt-9 text-4xl">
               Reverse Mergers and Delisting Chinese Companies from US Exchanges
             </h3>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               A reverse merger is a process in which a private company overtakes
               a public shell company and controls it. This method allows
               companies to avoid the costs and scrutiny inherent to an initial
@@ -565,14 +632,8 @@ const HowIsMandA = () => {
               have been found perusing fraudulent activity and keeping western
               investors in the dark.
             </p>
-            <div>
-              <div className="w-[300px] border-t-2 border-t-slate-900 mb-3" />
-              <p>
-                <sup>5</sup>Altucher, J (2006). Mergers That Go Forward in
-                Reverse. Financial Times. 1+. Access World News.
-              </p>
-            </div>
-            <p className="text-xl pb-5">
+            <div></div>
+            <p className=" pb-5">
               A few examples uncovered by research firm Muddy Waters6 include;
               Sino-Forrest which is a forestry company located in Hong Kong. S-F
               listed on the Toronto Venture Exchange in Canada nearly over 20
@@ -582,7 +643,7 @@ const HowIsMandA = () => {
               $900m, the creation of phoney third parties, and fraudulent
               purchase orders.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               China Media Express holding (Fig.2) was also another example of a
               reverse merger gone wrong. CME is an advertising company that
               plays television ads in buses throughout the Republic of China. In
@@ -599,7 +660,7 @@ const HowIsMandA = () => {
               Muddy Waters report. In May of the same year, they were delisted
               from the Nasdaq.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               Many more examples of these practices are still coming out which
               has prompted action by the Trump administration. On 4th June 2020,
               A memorandum on Protecting United States Investors from
@@ -615,7 +676,7 @@ const HowIsMandA = () => {
               exchange listing in the United States, PCAOB access to work papers
               of the principal audit firm for the audit of a listed company.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               For companies that are unable to satisfy that standard as a result
               of governmental restrictions on access to audit work papers and
               practices in Non-Compliant Jurisdictions (NCJ), this standard may
@@ -624,7 +685,7 @@ const HowIsMandA = () => {
               it has sufficient access to audit work papers and practices to
               conduct an appropriate inspection of the audit firm.
             </p>
-            <p className="text-xl pb-5">
+            <p className=" pb-5">
               To reduce market disruption, the recommended new listing standards
               would provide for a transition period until 1st January, 2022 for
               currently listed companies from NCJs to come into compliance. The
@@ -634,28 +695,7 @@ const HowIsMandA = () => {
               for investment advisors considering investment in NCJs<sup>8</sup>
               .
             </p>
-            <div className="mb-5">
-              <div className="w-[300px] border-t-2 border-t-slate-900 mb-3" />
-              <p>
-                <sup>6</sup> Muddy Waters Research
-                <a
-                  target="blank"
-                  className="mx-2 border-b-2 border-blue-900 text-blue-900 break-words"
-                  href="https://www.muddywatersresearch.com/"
-                >
-                  https://www.muddywatersresearch.com/
-                </a>
-              </p>
-              <p>
-                <sup>7</sup>President’s Working Group on Financial Markets:
-                Report on Protecting United States Investors from Significant
-                Risks from
-              </p>
-              <p>Chinese Companies, July 24, 2020</p>
-              <p>
-                <sup>8</sup> Ibid
-              </p>
-            </div>
+
             <div className="h-6" />
             <div className="mb-5">
               <p>
@@ -698,7 +738,7 @@ const HowIsMandA = () => {
           </section>
           <section>
             <h3 className="pb-5 mt-9 text-4xl">Biden’s China Policy</h3>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Before Biden officially took office, he committed to maintaining
               Trump’s hard-line stance on China; although, it is widely expected
               that he will target China through multilateral action rather than
@@ -708,14 +748,14 @@ const HowIsMandA = () => {
               administration but has worried the US defence and security
               establishment.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Biden has made it clear he will preserve protectionist measures on
               strategic, high-tech sectors such as aerospace, quantum
               communications, and AI. But it is unlikely Biden will follow Trump
               into arbitrary disputes over non-critical tech e.g., TikTok,
               WeChat.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               As expected, President Biden has enacted a series of executive
               orders on his first day in office which clearly define his
               position on a range of issues, including; revoking permits for the
@@ -727,22 +767,22 @@ const HowIsMandA = () => {
               demoted as compared with the Trump administration which held
               hawkish positions on those area.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Furthermore, his stance and strategy on a belligerent Russia and
               collaborative outreach for allies like the UK and EU on matters
               including post BREXIT trade, a unified response to terrorism and
               cyber defence have yet to be defined.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               On 23<sup>ed</sup> November 2020, Biden announced several
               significant cabinet picks, most are veterans of the Obama
               administration who worked alongside Biden during his term as Vice
               President, they include;
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Antony Blinken – <i>Secretary of State</i>
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               <b>
                 Member of Bill Clinton’s White House staff in the 1990s and
                 served under President Barack Obama.
@@ -750,58 +790,56 @@ const HowIsMandA = () => {
               Blinken also advised Biden on national security when he was vice
               president.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Avril Haines – <i>Director of National Intelligence</i>
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Previously the deputy director of the Central Intelligence Agency,
               she worked closely with Biden from 2007-08 in her role as deputy
               chief counsel for the Senate Democrats.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Jake Sullivan – <i>National Security Adviser</i>
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               The National Security Adviser to Biden when he was Vice-President
               and served as deputy chief of staff to Hillary Clinton when she
               was secretary of state.
             </p>
-            <p className="text-xl mb-5">
-              Katherine Tai – US-Trade representative
-            </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">Katherine Tai – US-Trade representative</p>
+            <p className=" mb-5">
               Previously a senior member of the Office of the General Counsel
               for the U.S. trade representative during the Obama administration,
               responsible for China trade enforcement issues.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Lloyd Austin – <i>Secretary of Defence</i>
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Retired U.S. Army four-star general who served in the military for
               41 years. From 2013 until 2016, he was head of U.S. Central
               Command.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Eric Lander –{" "}
               <i>Director, Office of Science & Technology Policy</i>
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Leads one of the world's top biomedical research institutes and
               was one of the principal leaders of the Human Genome Project. He
               also advised the Obama administration on science and technology
               issues.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               William Burns – <i>CIA Director</i>
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Current president of the Carnegie Endowment for International
               Peace, a think tank. He had a 33-year career in the foreign
               service, including serving as ambassador to Russia and earlier to
               Jordan.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Gary Gensler – <i>Chair, Security and Exchange Commission</i>
             </p>
             <p>
@@ -810,7 +848,7 @@ const HowIsMandA = () => {
               crash. Previously, he worked at Goldman Sachs before working in
               former President Clinton's Treasury Department.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               This team have had previous experience with President Biden in his
               role as former Vice President, or with the Democratic Party in
               general and they are likely to support Biden’s efforts to reengage
@@ -820,7 +858,7 @@ const HowIsMandA = () => {
               Biden develops his macro-outlook and engagement strategy with
               China.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Despite this, the Chinese establishment have interpreted these
               selections as “a return to the establishment” and expect that
               diplomacy and national security policies will return to a more
@@ -835,7 +873,7 @@ const HowIsMandA = () => {
               so it may be the case that this model will be easier to implement
               especially if Biden adopts a more conciliatory tone with China.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Areas to watch with a Biden administration as it relates to China
               include; Trumps trade deal, forced technology transfers, COVID-19
               origin investigation, regional security in South-East Asia,
@@ -868,7 +906,7 @@ const HowIsMandA = () => {
           </section>
           <section>
             <h3 className="pb-5 mt-9 text-4xl">Sino-EU M&A</h3>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Sino-EU relations presents a more complex picture because unlike
               the US the EU is a political and economic bloc made of 27 member
               nations all with their own perspectives, incentives, agendas and
@@ -878,7 +916,7 @@ const HowIsMandA = () => {
               acquisitions. Some major acquisitions of European firms include;
               Volvo cars, and Kuka, a German maker of industrial robots.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               In regards to its Dual Circulation Development Model, part of
               China’s aim is to transcend the “middle income trap” and the best
               strategy to achieve this aim is via growth through acquisition.
@@ -889,7 +927,7 @@ const HowIsMandA = () => {
               supported investment funds e.g., Sino-CEEF Fund, cheaper
               financing, loan guarantees, tax rebates etc.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Two problems arise when considering Sino-EU M&A, the first is in
               relation to EU rules laying out the limits and controls of state
               subsidies. These are very clear when it comes to intra-EU M&A,
@@ -899,43 +937,20 @@ const HowIsMandA = () => {
               state subsidy support to bolster successful acquisition targets
               for State Owned Enterprises (SOE).
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               There is limited information on the actual number of foreign
               subsidies being granted. This is mainly due to a lack of
               transparency and low compliance9 with the obligation to notify
               subsidies under the Agreement on Subsidies and Countervailing
               Measures (SCM Agreement10).
             </p>
-            <div className="mb-5">
-              <div className="w-[300px] border-t-2 border-t-slate-900 mb-3" />
-              <p>
-                <sup>9</sup>A recent background note prepared by the WTO
-                Secretariat (G/SCM/W/546/Rev.10) notes that between 1995 and
-                2017 the number of members that have failed to make a
-                notification rose sharply. As on April 2019, 77 WTO members had
-                not yet submitted subsidy notifications for 2017, 62 members
-                have still not submitted subsidy notifications for 2015. See
-                also:
-                <a
-                  className="border-b-2 border-blue-900 text-blue-900 break-words"
-                  href="https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm"
-                >
-                  https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm
-                </a>
-              </p>
-              <p>
-                <sup>10</sup>WTO Agreement on Subsidies and Countervailing
-                Measures Apr. 15, 1994, Marrakesh Agreement Establishing the
-                World Trade Organization, Annex 1A, 1869 U.N.T.S. 14. [Not
-                reproduced in I.L.M.].
-              </p>
-            </div>
-            <p className="text-xl mb-5">
+
+            <p className=" mb-5">
               Some reports by the Organisation for Economic Co-operation and
               Development (OECD) indicate however that government interventions
               appear widespread in certain sectors11.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Margrethe Vestager, European Commissioner for Competition is
               responding by creating regulation pertaining to the use of state
               subsidies for non-EU nations. This began with the commission
@@ -943,7 +958,7 @@ const HowIsMandA = () => {
               dealing with the distortive effects caused by foreign subsidies in
               the Single Market.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Secondly, the Sino-EU relationship suffers from the same
               investment asymmetry that mirrors every other nation and economic
               bloc in the world. The EU economy is open to foreign investment12,
@@ -980,7 +995,7 @@ const HowIsMandA = () => {
             <h3 className="pb-5 mt-9 text-4xl">
               China-EU Comprehensive Agreement on Investment (CAI)
             </h3>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               On 30<sup>th</sup> December 2020, after 7 years and 35 rounds of
               negotiations, China and the European Union have finalised the
               Comprehensive Agreement on Investment (CAI). The China-EU CAI will
@@ -988,49 +1003,29 @@ const HowIsMandA = () => {
               China and 26 of the 27 EU member states (all countries except
               Ireland).
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Li Yongjie 李詠箑, Director of the Department of Treaty and Law of
               the Ministry of Commerce, stated at a press conference on the
               evening of the 30th:
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               “the China-EU Investment Agreement is a comprehensive agreement
               that goes beyond a traditional bilateral investment agreement. The
               outcome of negotiations covers market access commitments, fair
               competition rules, sustainable development issues and dispute
               settlement
             </p>
-            <div className="mb-5">
-              <div className="w-[300px] border-t-2 border-t-slate-900 mb-3" />
-              <p>
-                <sup>11</sup>The OECD estimated that in the aluminium sector
-                total government support for firms studied reached between USD
-                20-70 billion over the 2013-17 period (depending on how
-                financial support is estimated). See:
-                <a
-                  href="https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF"
-                  target="blank"
-                  className="border-b-2 border-blue-900 text-blue-900 break-words"
-                >
-                  https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF
-                </a>
-              </p>
-              <p>
-                <sup>12</sup>European Commission, 2020. WHITE PAPER on levelling
-                the playing field as regards foreign subsidies. COM(2020) 253
-                final
-              </p>
-            </div>
-            <p className="text-xl mb-5">
+
+            <p className=" mb-5">
               commitments that apply to both sides. Both sides have made
               commitments to openness while retaining necessary regulatory
               powers.”
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               “欧洲投资协定是一个全面的协定，超越了传统的双边投资协定的范畴，谈判的成果涵盖了市场准入承诺，公平竞争规则，可持续发展议题以及争端解决承诺适用于双方的，双方在作出开放承诺的同时，也都保留了必要的监管权。”
               - 商务部条法司司长李詠箑”
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Xi Jinping emphasised that China is committed to building a new
               development pattern, which will provide Europe and the world with
               more market opportunities and create greater space for
@@ -1038,7 +1033,7 @@ const HowIsMandA = () => {
               free trade and multilateralism and provide Chinese investors with
               an open, fair and non-discriminatory business environment.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Chinese media claims the successful negotiations of CAI are
               undoubtedly a major victory for China. The China-EU investment
               agreement came at an interesting time. It in fact was agreed three
@@ -1052,72 +1047,72 @@ const HowIsMandA = () => {
               subsidies, this deal at least allows much greater access to
               Chinese markets.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Following the signing of the Regional Comprehensive Economic
               Partnership (RCEP), this investment agreement also signals deeper
               economic cooperation and integration between Europe and the
               Asia-Pacific region.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               For Chinese investors, the EU market is already open and largely
               committed for services sectors under the General Agreement on
               Trade in Services (GATS). Sectors of strategic importance or
               sensitivity, such as energy, agriculture, fisheries, audio-visual,
               public services, etc. are all preserved in CAI.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               Key Chinese Sectors opening to European Investment include;
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Manufacturing</span>: China has
-              made comprehensive commitments to match EU openness in
-              manufacturing sectors, with only very limited exclusions (in
-              particular, in sectors with significant overcapacity). Roughly
-              half of EU FDI is in the manufacturing sector (e.g., transport and
-              telecommunication equipment, chemicals, health equipment etc.)
+            <p className=" mb-5">
+              <span className="font-bold">Manufacturing</span>: China has made
+              comprehensive commitments to match EU openness in manufacturing
+              sectors, with only very limited exclusions (in particular, in
+              sectors with significant overcapacity). Roughly half of EU FDI is
+              in the manufacturing sector (e.g., transport and telecommunication
+              equipment, chemicals, health equipment etc.)
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Automotive sector</span>: China has
+            <p className=" mb-5">
+              <span className="font-bold">Automotive sector</span>: China has
               agreed to remove and phase out joint venture requirements. China
               will commit market access for new energy vehicles.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Financial services</span>: Joint
+            <p className=" mb-5">
+              <span className="font-bold">Financial services</span>: Joint
               venture requirements and foreign equity caps have been removed for
               banking, trading in securities and insurance (including
               reinsurance), as well as asset management.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Health (private hospitals)</span>:
+            <p className=" mb-5">
+              <span className="font-bold">Health (private hospitals)</span>:
               China will lift joint venture requirements for private hospitals
               in key Chinese cities, such as Beijing, Shanghai, Tianjin,
               Guangzhou and Shenzhen.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">R&D (biological resources)</span>:
-              The R&D sector has not historically been open to foreign
-              investment. China has agreed not to introduce new restrictions and
-              ensured any future lifting of restrictions in this area will be
-              applied to the EU.
+            <p className=" mb-5">
+              <span className="font-bold">R&D (biological resources)</span>: The
+              R&D sector has not historically been open to foreign investment.
+              China has agreed not to introduce new restrictions and ensured any
+              future lifting of restrictions in this area will be applied to the
+              EU.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">
+            <p className=" mb-5">
+              <span className="font-bold">
                 Telecommunication/Cloud services:
               </span>
               : China has agreed to lift the investment ban for cloud services,
               the sector will be open to EU investors subject to a 50% equity
               cap.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Computer services</span>: China has
+            <p className=" mb-5">
+              <span className="font-bold">Computer services</span>: China has
               agreed to bind market access for computer services. China will
               include a ‘technology neutrality' clause, which would ensure that
               equity caps imposed for value-added telecom services will not be
               applied to other services (e.g., financial, logistics, medical
               services) if offered online.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">
+            <p className=" mb-5">
+              <span className="font-bold">
                 International maritime transport
               </span>
               : China will allow investment in the relevant land-based auxiliary
@@ -1125,70 +1120,68 @@ const HowIsMandA = () => {
               container depots and stations, maritime agencies, etc without
               restrictions.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">
-                Air transport-related services
-              </span>
-              : China will open up in the key areas of computer reservation
+            <p className=" mb-5">
+              <span className="font-bold">Air transport-related services</span>:
+              China will open up in the key areas of computer reservation
               systems, ground handling and selling and marketing services. China
               has also removed its minimum capital requirement for rental and
               leasing of aircraft without crew, going beyond GATS.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Business services</span>: China
-              will eliminate joint venture requirements in real estate services,
+            <p className=" mb-5">
+              <span className="font-bold">Business services</span>: China will
+              eliminate joint venture requirements in real estate services,
               rental and leasing services, repair and maintenance for transport,
               advertising, market research, management consulting and
               translation services, etc.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Environmental services</span>:
-              China will remove joint venture requirements in environmental
-              services such as sewage, noise abatement, solid waste disposal,
-              cleaning of exhaust gases, nature and landscape protection,
-              sanitations and other environmental services.
+            <p className=" mb-5">
+              <span className="font-bold">Environmental services</span>: China
+              will remove joint venture requirements in environmental services
+              such as sewage, noise abatement, solid waste disposal, cleaning of
+              exhaust gases, nature and landscape protection, sanitations and
+              other environmental services.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Construction services</span>: China
+            <p className=" mb-5">
+              <span className="font-bold">Construction services</span>: China
               will eliminate the project limitations currently reserved in their
               GATS commitments.
             </p>
-            <p className="text-xl mb-5">
-              <span className="text-sky-500">Employees of EU investors</span>:
+            <p className=" mb-5">
+              <span className="font-bold">Employees of EU investors</span>:
               Managers and specialists of EU companies will be allowed to work
               up to three years in Chinese subsidiaries, without restrictions
               such as labour market tests or quotas. Representatives of EU
               investors will be allowed to visit freely prior to making an
               investment.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               There are 5 key areas for EU-China cooperation in 2021:
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               1. 协调抗疫行动 To coordinate on anti-epidemic actions: Ensuring
               that vaccines are fairly distributed as a global public good,
               especially for the benefit of developing countries.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               2. 共促经济复苏 To promote economic recovery: Strengthening policy
               communication and coordination, persisting in building an open
               world economy, and bringing the global industrial chain and supply
               chain back on track as soon as possible.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               3. 对接发展战 To establish a development strategy: Increasing
               policy coordination, strengthen the joint construction of the
               “Belt and Road” initiative and the EU’s Eurasian connectivity
               strategy, and explore cooperation in the digital field.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               4. 加快绿色发展 The fourth is to accelerate green development.
               Make good use of the China-EU high-level dialogue mechanism on
               environment and climate to support each other's holding of
               international conferences on biodiversity, climate change and
               nature conservation.
             </p>
-            <p className="text-xl mb-5">
+            <p className=" mb-5">
               5. 推动多边合作 The fifth is to promote multilateral cooperation.
               Strengthen coordination and cooperation within the frameworks of
               the United Nations, the G20, the World Trade Organization, and the
@@ -1223,7 +1216,7 @@ const HowIsMandA = () => {
             </div>
             <section>
               <h3 className="pb-5 mt-9 text-4xl">Sino-UK M&A</h3>
-              <p className="text-xl mb-5">
+              <p className=" mb-5">
                 The UK starts off 2021 having completed and agreed what was
                 probably the most important political and economic agreement in
                 a generation, that being BREXIT. It now sails into unchartered
@@ -1235,7 +1228,7 @@ const HowIsMandA = () => {
                 affairs, this will be predicated on his vision, abilities and
                 resources at his disposal.
               </p>
-              <p className="text-xl mb-5">
+              <p className=" mb-5">
                 As it relates to China, the UK has an ability to speak with a
                 more defined and independent voice following BREXIT, with Prime
                 Minister Johnson signalling to business his intentions which at
@@ -1246,7 +1239,7 @@ const HowIsMandA = () => {
                 looking towards China seeking a boost to UK exports, although
                 officially no such ambition is expressed.
               </p>
-              <p className="text-xl mb-5">
+              <p className=" mb-5">
                 What can be observed for certain is the fractious nature of the
                 cabinet in regards to the UK’s stance on China. This was
                 apparent during last year’s major U-turn on Chinese 5G provider
@@ -1258,7 +1251,7 @@ const HowIsMandA = () => {
                 mobile providers to remove all the Chinese firm's 5G kit from
                 their networks by 2027.
               </p>
-              <p className="text-xl mb-5">
+              <p className=" mb-5">
                 January also saw an interesting developed in parliament when
                 Lord Alton proposed a “genocide amendment” to a Trade Bill going
                 through parliament. This would have allowed future trade deals
@@ -1266,14 +1259,14 @@ const HowIsMandA = () => {
                 corresponding nation does not violate human rights of its own
                 people.
               </p>
-              <p className="text-xl mb-5">
+              <p className=" mb-5">
                 The amendment was proposed as an attempt to break the present
                 gridlock which exists with international courts. Often these
                 courts are unable to make rulings on genocide because nation
                 states such as China do not recognise the relevant courts, or
                 veto any reference to such matters.
               </p>
-              <p className="text-xl mb-5">
+              <p className=" mb-5">
                 This proposal would have allowed the UK high court be able to
                 make legal judgements on genocide a preliminary determination,
                 that the government would then have to consider. There was major
@@ -1307,7 +1300,7 @@ const HowIsMandA = () => {
               <h3 className="pb-5 mt-9 text-4xl">
                 National Security & Investment Bill
               </h3>
-              <p className="text-xl pb-5">
+              <p className=" pb-5">
                 The UK has always been a good place for business which is why
                 there has been such interest from foreign companies to stake
                 their claim to the UK consumer, and furthermore to have a base
@@ -1319,7 +1312,7 @@ const HowIsMandA = () => {
                 competition between states, and the emergence of more powerful
                 non-state actors<sup>13</sup>.
               </p>
-              <p className="text-xl pb-5">
+              <p className=" pb-5">
                 In response, the UK has moved to introduce new legislation which
                 attempts to protect national security, whilst at the same time
                 keeping the UK open and attractive for business investment to
@@ -1334,7 +1327,7 @@ const HowIsMandA = () => {
                 formulae, designs, plans, drawings and specifications, software
                 <sup>14</sup>.
               </p>
-              <p className="text-xl pb-5">
+              <p className=" pb-5">
                 Although not mentioning China explicitly the UK government does
                 recognise that the UK, and UK businesses, face continued and
                 broad-ranging hostile activity from those who seek to compromise
@@ -1345,7 +1338,7 @@ const HowIsMandA = () => {
                 determined overseas actors<sup>15</sup>.
               </p>
 
-              <p className="text-xl pb-5">
+              <p className=" pb-5">
                 With China’s dual circulatory model focusing on increasing
                 domestic consumption and upgrading its domestic industrial
                 chain, these measures may, as a second order effect, impact
@@ -1381,42 +1374,12 @@ const HowIsMandA = () => {
                   </li>
                 </ul>
               </div>
-              <p className="mt-[200px] text-xl pt-5 before:absolute before:h-[1px] before:w-[230px] before:top-0 before:left-0 relative before:bg-black ">
-                <p>
-                  <sup className="mr-2">13</sup>Overview of the National
-                  Security and Investment (NSI) Bill factsheet. 11 November
-                  2020.{" "}
-                  <a
-                    className="break-words"
-                    href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet"
-                  >
-                    https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
-                  </a>
-                </p>
-
-                <p>
-                  <sup className="mr-2">14</sup>National Security and Investment
-                  Bill, 2020.
-                </p>
-
-                <p>
-                  <sup className="mr-2">15</sup>Overview of the National
-                  Security and Investment (NSI) Bill factsheet. 11 November
-                  2020.{" "}
-                  <a
-                    className="break-words"
-                    href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet"
-                  >
-                    https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
-                  </a>
-                </p>
-              </p>
             </section>
             <section>
               <h3 className="pb-10 mt-12 text-4xl text-[#3e4d77]">
                 Further Research Questions
               </h3>
-              <p className="text-xl pb-5">
+              <p className=" pb-5">
                 Below is a list of questions and themes we have investigated and
                 think you would like the answers to.
               </p>
@@ -1465,12 +1428,148 @@ const HowIsMandA = () => {
                 </li>
               </ol>
             </section>
-            <section>
+            <div className=" text-lg">
+              <div className=" md:mt-[50px] max-w-[250px] border-t-2 border-t-slate-900 mb-3" />
+              <div className="h-6" />
+              <p className="mt-1">
+                <sup>1</sup>Chernow, R. 2005. Alexander Hamilton. Penguin Group.
+                New York
+              </p>
+
+              <p className="mt-1">
+                <sup>2</sup>Zimmerman, Evan, The Foreign Investment Risk Review
+                Modernisation Act: How CFIUS Became a Tech Office (April 9,
+                2019). Berkeley Technology Law Journal, Volume 34, Issue 4,
+                Available at SSRN:
+                <a
+                  className="break-words"
+                  href="https://ssrn.com/abstract=3368723"
+                >
+                  https://ssrn.com/abstract=3368723
+                </a>
+              </p>
+
+              <p className="mt-1">
+                {" "}
+                <sup>3</sup>
+                Ibid.
+              </p>
+
+              <p className="mt-1">
+                <sup>4</sup>Jackson,J,K. (2020) The Committee on Foreign
+                Investment in the United States (CFIUS). Congressional Research
+                Service.
+                <a
+                  className="break-words"
+                  href="https://crsreports.congress.gov/"
+                >
+                  https://crsreports.congress.gov/
+                </a>
+                [RL33388]
+              </p>
+
+              <p className="mt-1">
+                <sup>5</sup>Altucher, J (2006). Mergers That Go Forward in
+                Reverse. Financial Times. 1+. Access World News.
+              </p>
+
+              <p className="mt-1">
+                <sup>6</sup> Muddy Waters Research
+                <a
+                  target="blank"
+                  className="mx-2 border-b-2 border-blue-900 text-blue-900 break-words"
+                  href="https://www.muddywatersresearch.com/"
+                >
+                  https://www.muddywatersresearch.com/
+                </a>
+              </p>
+
+              <p className="mt-1">
+                <sup>7</sup>President’s Working Group on Financial Markets:
+                Report on Protecting United States Investors from Significant
+                Risks from Chinese Companies, July 24, 2020
+              </p>
+
+              <p className="mt-1">
+                <sup>8</sup> Ibid
+              </p>
+
+              <p className="mt-1">
+                <sup>9</sup>A recent background note prepared by the WTO
+                Secretariat (G/SCM/W/546/Rev.10) notes that between 1995 and
+                2017 the number of members that have failed to make a
+                notification rose sharply. As on April 2019, 77 WTO members had
+                not yet submitted subsidy notifications for 2017, 62 members
+                have still not submitted subsidy notifications for 2015. See
+                also:
+                <a
+                  className="border-b-2 border-blue-900 text-blue-900 break-words"
+                  href="https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm"
+                >
+                  https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm
+                </a>
+              </p>
+
+              <p className="mt-1">
+                <sup>10</sup>WTO Agreement on Subsidies and Countervailing
+                Measures Apr. 15, 1994, Marrakesh Agreement Establishing the
+                World Trade Organization, Annex 1A, 1869 U.N.T.S. 14. [Not
+                reproduced in I.L.M.].
+              </p>
+
+              <p className="mt-1">
+                <sup>11</sup>The OECD estimated that in the aluminium sector
+                total government support for firms studied reached between USD
+                20-70 billion over the 2013-17 period (depending on how
+                financial support is estimated). See:
+                <a
+                  href="https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF"
+                  target="blank"
+                  className="border-b-2 border-blue-900 text-blue-900 break-words"
+                >
+                  https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF
+                </a>
+              </p>
+
+              <p className="mt-1">
+                <sup>12</sup>European Commission, 2020. WHITE PAPER on levelling
+                the playing field as regards foreign subsidies. COM(2020) 253
+                final
+              </p>
+
+              <p className="mt-1">
+                <sup className="mr-2">13</sup>Overview of the National Security
+                and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
+                <a
+                  className="break-words"
+                  href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet"
+                >
+                  https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
+                </a>
+              </p>
+
+              <p className="mt-1">
+                <sup className="mr-2">14</sup>National Security and Investment
+                Bill, 2020.
+              </p>
+
+              <p className="mt-1">
+                <sup className="mr-2">15</sup>Overview of the National Security
+                and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
+                <a
+                  className="break-words"
+                  href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet"
+                >
+                  https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
+                </a>
+              </p>
+            </div>
+            {/* <section>
               <div className="">
                 <div>
                   <div className="flex gap-10 max-md:gap-0 max-md:flex-col">
                     <div
-                      className="flex-1 mt-28 relative w-full
+                      className="flex-1 mt-18 relative w-full
               "
                     >
                       <img src={Bgimg} className="w-[100%] " />
@@ -1501,13 +1600,13 @@ const HowIsMandA = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="flex-1 max-md:mt-6 mt-28 w-full">
-                      <h3 className="pb-10  max-md:mt-0 mt-20">
+                    <div className="flex-1 max-md:mt-6 mt-18 w-full">
+                      <h3 className="pb-10  max-md:mt-0 mt-10">
                         <div className="font-bold mt-4">Contact</div>
-                        <div className="flex-1 max-md:mt-16 mt-28">
+                        <div className="flex-1 max-md:mt-16 mt-18">
                           <img src={Klisman} className="w-[300px] -mt-7" />
                         </div>
-                        <div className="font-bold mt-20">Klisman Murati </div>
+                        <div className="font-bold mt-10">Klisman Murati </div>
                         <p className="pb-5">Director, Pareto Economics</p>
 
                         <p className="pb-5">
@@ -1534,7 +1633,7 @@ const HowIsMandA = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
           </section>
         </div>
       </div>

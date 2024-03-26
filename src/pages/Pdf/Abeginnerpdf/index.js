@@ -51,11 +51,11 @@ const Abeginner = () => {
           fintech
         </h1>
         <div className="h-6" />
-        <div className="flex items-center justify-between">
+        <div className="md:flex block items-center justify-between">
           <div>
             <p>March 2021</p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center md:mt-0 mt-4">
             <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
             <div className="social flex gap-1 pl-2">
               <a
@@ -1430,57 +1430,57 @@ const Abeginner = () => {
         </p>
         <div className="h-6" />
 
-        <div className="h-6" />
-        <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-3"></p>
-        <a
-          className="underline decoration-2 break-words"
-          href="https://pareto-economics.com/"
-          target="_blank"
-        >
-          ( https://pareto-economics.com/ )
-        </a>
-        <div className="h-6" />
-
-        <p>
-          <sup className="mr-2">2</sup>
+        <div className="text-lg mt-[100px]  ">
+          <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-3 md:mt-16"></p>
+          <div className="h-6" />
+          <sup className="mr-2">1</sup>
           <a
             className="underline decoration-2 break-words"
-            href="
+            href="https://pareto-economics.com/"
+            target="_blank"
+          >
+            ( https://pareto-economics.com/ )
+          </a>
+
+          <p className="mt-1">
+            <sup className="mr-2">2</sup>
+            <a
+              className="underline decoration-2 break-words"
+              href="
              https://www.icij.org/investigations/panama-papers/"
-            target="_blank"
-          >
-            https://www.icij.org/investigations/panama-papers/
-          </a>
-        </p>
-        <div className="h-6" />
-        <p>
-          {" "}
-          <sup className="mr-2">3</sup>
-          <a
-            className="underline decoration-2 break-words"
-            href="https://ec.europa.eu/newsroom/fisma/item-detail.cfm?item_id=29693&newsletter_id=166&utm_source=fisma_newsletter&utm_medium=email&utm_campaign=Finance%20&utm_content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en"
-            target="_blank"
-          >
-            https://ec.europa.eu/newsroom/fisma/itemdetail.cfm?item_id=29693&newsletter_id=166&utm_source=fisma_newsletter&utm_medium=email&utm_campaign=Finance%20&utm_
-            content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en
-          </a>
-        </p>
-        <div className="h-6" />
-        <p>
-          <sup className="mr-2">4</sup>
-          <a
-            className="underline decoration-2 break-words"
-            href="
+              target="_blank"
+            >
+              https://www.icij.org/investigations/panama-papers/
+            </a>
+          </p>
+
+          <p className="mt-1">
+            {" "}
+            <sup className="mr-2">3</sup>
+            <a
+              className="underline decoration-2 break-words"
+              href="https://ec.europa.eu/newsroom/fisma/item-detail.cfm?item_id=29693&newsletter_id=166&utm_source=fisma_newsletter&utm_medium=email&utm_campaign=Finance%20&utm_content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en"
+              target="_blank"
+            >
+              https://ec.europa.eu/newsroom/fisma/itemdetail.cfm?item_id=29693&newsletter_id=166&utm_source=fisma_newsletter&utm_medium=email&utm_campaign=Finance%20&utm_
+              content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en
+            </a>
+          </p>
+
+          <p className="mt-1">
+            <sup className="mr-2">4</sup>
+            <a
+              className="underline decoration-2 break-words"
+              href="
              https://www.occrp.org/en/troikalaundromat/"
-            target="_blank"
-          >
-            https://www.occrp.org/en/troikalaundromat/
-          </a>
-        </p>
+              target="_blank"
+            >
+              https://www.occrp.org/en/troikalaundromat/
+            </a>
+          </p>
+        </div>
         <div className="h-6" />
-
         <div className="h-6" />
-
         <div className="h-6" />
         <h3 className="mb-5">Contact</h3>
         <div className="flex max-md:flex-col gap-10 md:gap-6 items-center justify-around w-full">
@@ -1534,13 +1534,12 @@ const Abeginner = () => {
           </div>
         </div>
         <div className="h-6" />
-
         <div className="h-6" />
         <p className="text-center">
           Copyright ©Pareto Economics and FINTRAIL. All rights reserved.
         </p>
         <div className="h-6" />
-        <div className="max-w-[800px] mx-auto w-full max-md:flex-col gap-10 bg-gradient-to-r from-[#8c52ff] to-[#5CE1E6] flex items-center justify-around py-24 px-14 mt-10 max-md:[&>img]:max-w-[60%]">
+        {/* <div className="max-w-[800px] mx-auto w-full max-md:flex-col gap-10 bg-gradient-to-r from-[#8c52ff] to-[#5CE1E6] flex items-center justify-around py-24 px-14 mt-10 max-md:[&>img]:max-w-[60%]">
           <img
             src="/images/pdf/Pareto.png"
             alt="Pareto Economics"
@@ -1551,7 +1550,7 @@ const Abeginner = () => {
             alt="Pareto Economics"
             className="w-full h-auto max-w-[300px]"
           />
-        </div>
+        </div> */}
       </div>
       <div className="container mx-auto px-5">
         <Footer
