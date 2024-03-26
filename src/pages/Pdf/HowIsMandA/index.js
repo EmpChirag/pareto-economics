@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../../Layouts/Header";
 import Footer from "../../../Layouts/Footer";
 import Fig1 from "../../../assets/images/fig1.png";
@@ -8,6 +8,7 @@ import Klisman from "../../../assets/images/klisman.png";
 import Pareto from "../../../assets/images/Pareto.png";
 
 const HowIsMandA = () => {
+  const [showCopiedMessage, setShowCopiedMessage] = useState(false);
   const handleSharePageLink = (shareTo) => {
     if (window?.location?.href && shareTo) {
       switch (shareTo) {
@@ -36,7 +37,17 @@ const HowIsMandA = () => {
           window.open(`mailto:?body=${window.location.href}`, "_blank");
           break;
         case "COPY":
-          navigator.clipboard.writeText(window.location.href);
+          navigator.clipboard
+            .writeText(window.location.href)
+            .then(() => {
+              setShowCopiedMessage(true);
+              setTimeout(() => {
+                setShowCopiedMessage(false);
+              }, 2000); // Hide the message after 5 seconds
+            })
+            .catch((error) => {
+              console.error("Error copying text: ", error);
+            });
           break;
         default:
           return;
@@ -65,7 +76,7 @@ const HowIsMandA = () => {
             </div>
             <div className="flex items-center md:mt-0 mt-4">
               <img src="images/icons/share.svg" className="w-[20px] mr-2" />
-              <div className="social flex gap-1 pl-2">
+              <div className="social flex gap-1 pl-2 relative">
                 <a
                   className="cursor-pointer"
                   onClick={() => handleSharePageLink("FACEBOOK")}
@@ -127,7 +138,7 @@ const HowIsMandA = () => {
                   />
                 </a>
                 <a
-                  className="cursor-pointer"
+                  className="cursor-pointer copytext"
                   onClick={() => handleSharePageLink("COPY")}
                 >
                   <img
@@ -138,6 +149,11 @@ const HowIsMandA = () => {
                     className="h-[30px] w-[30px]"
                   />
                 </a>
+                {showCopiedMessage && (
+                  <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
+                    Link copied successfully!
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -507,7 +523,7 @@ const HowIsMandA = () => {
               concerns national security, dating back to the Tariff Act of 1789,
               which was enacted as a response to Alexander Hamilton’s thinking
               regarding “infant industries”. This act was largely military and
-              strategic in nature<sup>1</sup>.
+              strategic in nature<sup>1</sup> .
             </p>
 
             <div className="h-6" />
@@ -515,7 +531,7 @@ const HowIsMandA = () => {
             <p className=" pb-5">
               At the turn of the century, the Trading with the Enemy Act of 1917
               was used to nationalise assets during World War I and to block all
-              foreign investment during World War II<sup>2</sup>.
+              foreign investment during World War II<sup>2</sup> .
             </p>
 
             <p className=" pb-5">
@@ -692,7 +708,7 @@ const HowIsMandA = () => {
               PWG also recommends enhanced issuer disclosures, enhanced fund
               disclosures, greater due diligence of indexes and index providers,
               and the issuance of guidance with respect to fiduciary obligations
-              for investment advisors considering investment in NCJs<sup>8</sup>
+              for investment advisors considering investment in NCJs<sup>8</sup>{" "}
               .
             </p>
 
@@ -1310,7 +1326,7 @@ const HowIsMandA = () => {
                 government recognises, we are also seeing long-term shifts in
                 the balance of global economic and military power, increasing
                 competition between states, and the emergence of more powerful
-                non-state actors<sup>13</sup>.
+                non-state actors<sup>13</sup> .
               </p>
               <p className=" pb-5">
                 In response, the UK has moved to introduce new legislation which
@@ -1325,7 +1341,7 @@ const HowIsMandA = () => {
                 examples of “qualifying assets” which will aim to be protected
                 include: trade secrets, databases, source code, algorithms,
                 formulae, designs, plans, drawings and specifications, software
-                <sup>14</sup>.
+                <sup>14</sup> .
               </p>
               <p className=" pb-5">
                 Although not mentioning China explicitly the UK government does
@@ -1335,7 +1351,7 @@ const HowIsMandA = () => {
                 left unchecked can leave the UK vulnerable to disruption, unfair
                 leverage, and espionage. It is crucial that the government is
                 able to fully combat these threats coming from ever more
-                determined overseas actors<sup>15</sup>.
+                determined overseas actors<sup>15</sup> .
               </p>
 
               <p className=" pb-5">
@@ -1431,13 +1447,13 @@ const HowIsMandA = () => {
             <div className=" text-lg">
               <div className=" md:mt-[50px] max-w-[250px] border-t-2 border-t-slate-900 mb-3" />
               <div className="h-6" />
-              <p className="mt-1">
-                <sup>1</sup>Chernow, R. 2005. Alexander Hamilton. Penguin Group.
-                New York
+              <p className="mt-[6px]">
+                <sup>1</sup> Chernow, R. 2005. Alexander Hamilton. Penguin
+                Group. New York
               </p>
 
-              <p className="mt-1">
-                <sup>2</sup>Zimmerman, Evan, The Foreign Investment Risk Review
+              <p className="mt-[6px]">
+                <sup>2</sup> Zimmerman, Evan, The Foreign Investment Risk Review
                 Modernisation Act: How CFIUS Became a Tech Office (April 9,
                 2019). Berkeley Technology Law Journal, Volume 34, Issue 4,
                 Available at SSRN:
@@ -1449,14 +1465,13 @@ const HowIsMandA = () => {
                 </a>
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 {" "}
-                <sup>3</sup>
-                Ibid.
+                <sup>3</sup> Ibid.
               </p>
 
-              <p className="mt-1">
-                <sup>4</sup>Jackson,J,K. (2020) The Committee on Foreign
+              <p className="mt-[6px]">
+                <sup>4</sup> Jackson,J,K. (2020) The Committee on Foreign
                 Investment in the United States (CFIUS). Congressional Research
                 Service.
                 <a
@@ -1468,34 +1483,34 @@ const HowIsMandA = () => {
                 [RL33388]
               </p>
 
-              <p className="mt-1">
-                <sup>5</sup>Altucher, J (2006). Mergers That Go Forward in
+              <p className="mt-[6px]">
+                <sup>5</sup> Altucher, J (2006). Mergers That Go Forward in
                 Reverse. Financial Times. 1+. Access World News.
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup>6</sup> Muddy Waters Research
                 <a
                   target="blank"
-                  className="mx-2 border-b-2 border-blue-900 text-blue-900 break-words"
+                  className="mx-2 break-words"
                   href="https://www.muddywatersresearch.com/"
                 >
                   https://www.muddywatersresearch.com/
                 </a>
               </p>
 
-              <p className="mt-1">
-                <sup>7</sup>President’s Working Group on Financial Markets:
+              <p className="mt-[6px]">
+                <sup>7</sup> President’s Working Group on Financial Markets:
                 Report on Protecting United States Investors from Significant
                 Risks from Chinese Companies, July 24, 2020
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup>8</sup> Ibid
               </p>
 
-              <p className="mt-1">
-                <sup>9</sup>A recent background note prepared by the WTO
+              <p className="mt-[6px]">
+                <sup>9</sup> A recent background note prepared by the WTO
                 Secretariat (G/SCM/W/546/Rev.10) notes that between 1995 and
                 2017 the number of members that have failed to make a
                 notification rose sharply. As on April 2019, 77 WTO members had
@@ -1503,42 +1518,42 @@ const HowIsMandA = () => {
                 have still not submitted subsidy notifications for 2015. See
                 also:
                 <a
-                  className="border-b-2 border-blue-900 text-blue-900 break-words"
+                  className="break-words"
                   href="https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm"
                 >
                   https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm
                 </a>
               </p>
 
-              <p className="mt-1">
-                <sup>10</sup>WTO Agreement on Subsidies and Countervailing
+              <p className="mt-[6px]">
+                <sup>10</sup> WTO Agreement on Subsidies and Countervailing
                 Measures Apr. 15, 1994, Marrakesh Agreement Establishing the
                 World Trade Organization, Annex 1A, 1869 U.N.T.S. 14. [Not
                 reproduced in I.L.M.].
               </p>
 
-              <p className="mt-1">
-                <sup>11</sup>The OECD estimated that in the aluminium sector
+              <p className="mt-[6px]">
+                <sup>11</sup> The OECD estimated that in the aluminium sector
                 total government support for firms studied reached between USD
                 20-70 billion over the 2013-17 period (depending on how
                 financial support is estimated). See:
                 <a
                   href="https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF"
                   target="blank"
-                  className="border-b-2 border-blue-900 text-blue-900 break-words"
+                  className="break-words"
                 >
                   https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF
                 </a>
               </p>
 
-              <p className="mt-1">
-                <sup>12</sup>European Commission, 2020. WHITE PAPER on levelling
-                the playing field as regards foreign subsidies. COM(2020) 253
-                final
+              <p className="mt-[6px]">
+                <sup>12</sup> European Commission, 2020. WHITE PAPER on
+                levelling the playing field as regards foreign subsidies.
+                COM(2020) 253 final
               </p>
 
-              <p className="mt-1">
-                <sup className="mr-2">13</sup>Overview of the National Security
+              <p className="mt-[6px]">
+                <sup className="mr-2">13</sup> Overview of the National Security
                 and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
                 <a
                   className="break-words"
@@ -1548,13 +1563,13 @@ const HowIsMandA = () => {
                 </a>
               </p>
 
-              <p className="mt-1">
-                <sup className="mr-2">14</sup>National Security and Investment
+              <p className="mt-[6px]">
+                <sup className="mr-2">14</sup> National Security and Investment
                 Bill, 2020.
               </p>
 
-              <p className="mt-1">
-                <sup className="mr-2">15</sup>Overview of the National Security
+              <p className="mt-[6px]">
+                <sup className="mr-2">15</sup> Overview of the National Security
                 and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
                 <a
                   className="break-words"

@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../../../Layouts/Header';
 import Footer from '../../../Layouts/Footer';
 
 const USATop = () => {
+  const [showCopiedMessage, setShowCopiedMessage] = useState(false);
   const handleSharePageLink = (shareTo) => {
     if (window?.location?.href && shareTo) {
       switch (shareTo) {
@@ -31,7 +32,17 @@ const USATop = () => {
           window.open(`mailto:?body=${window.location.href}`, "_blank");
           break;
         case "COPY":
-          navigator.clipboard.writeText(window.location.href);
+          navigator.clipboard
+            .writeText(window.location.href)
+            .then(() => {
+              setShowCopiedMessage(true);
+              setTimeout(() => {
+                setShowCopiedMessage(false);
+              }, 2000); // Hide the message after 5 seconds
+            })
+            .catch((error) => {
+              console.error("Error copying text: ", error);
+            });
           break;
         default:
           return;
@@ -56,7 +67,7 @@ const USATop = () => {
             </div>
             <div className="flex items-center md:mt-0 mt-4">
               <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
-              <div className="social flex gap-1 pl-2">
+              <div className="social flex gap-1 pl-2 relative">
                 <a
                   className="cursor-pointer"
                   onClick={() => handleSharePageLink("FACEBOOK")}
@@ -118,7 +129,7 @@ const USATop = () => {
                   />
                 </a>
                 <a
-                  className="cursor-pointer"
+                  className="cursor-pointer copytext"
                   onClick={() => handleSharePageLink("COPY")}
                 >
                   <img
@@ -129,6 +140,11 @@ const USATop = () => {
                     className="h-[30px] w-[30px]"
                   />
                 </a>
+                {showCopiedMessage && (
+                  <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
+                    Link copied successfully!
+                  </div>
+                )}
               </div>
             </div>
           </div>

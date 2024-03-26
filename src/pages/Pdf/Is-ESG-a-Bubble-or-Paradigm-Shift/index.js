@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../../Layouts/Header";
 import Footer from "../../../Layouts/Footer";
 
 
 const IsBubble = () => {
+  const [showCopiedMessage, setShowCopiedMessage] = useState(false);
   const handleSharePageLink = (shareTo) => {
     if (window?.location?.href && shareTo) {
       switch (shareTo) {
@@ -32,7 +33,17 @@ const IsBubble = () => {
           window.open(`mailto:?body=${window.location.href}`, "_blank");
           break;
         case "COPY":
-          navigator.clipboard.writeText(window.location.href);
+          navigator.clipboard
+            .writeText(window.location.href)
+            .then(() => {
+              setShowCopiedMessage(true);
+              setTimeout(() => {
+                setShowCopiedMessage(false);
+              }, 2000); // Hide the message after 5 seconds
+            })
+            .catch((error) => {
+              console.error("Error copying text: ", error);
+            });
           break;
         default:
           return;
@@ -55,7 +66,7 @@ const IsBubble = () => {
             </div>
             <div className="flex items-center md:mt-0 mt-4">
               <img src="images/icons/share.svg" className="w-[20px] mr-3" />
-              <div className="social flex gap-1 pl-2">
+              <div className="social flex gap-1 pl-2 relative">
                 <a
                   className="cursor-pointer"
                   onClick={() => handleSharePageLink("FACEBOOK")}
@@ -117,17 +128,22 @@ const IsBubble = () => {
                   />
                 </a>
                 <a
-                  className="cursor-pointer"
-                  onClick={() => handleSharePageLink("COPY")}
-                >
-                  <img
-                    src="/images/icons/copy.svg"
-                    alt="youtube"
-                    height="30"
-                    width="30"
-                    className="h-[30px] w-[30px]"
-                  />
-                </a>
+                className="cursor-pointer copytext"
+                onClick={() => handleSharePageLink("COPY")}
+              >
+                <img
+                  src="/images/icons/copy.svg"
+                  alt="youtube"
+                  height="30"
+                  width="30"
+                  className="h-[30px] w-[30px]"
+                />
+              </a>
+              {showCopiedMessage && (
+                <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
+                  Link copied successfully!
+                </div>
+              )}
               </div>
             </div>
           </div>
@@ -357,7 +373,7 @@ const IsBubble = () => {
               apprehensive but curious investor. So, when first diving in to the
               market of metric providers, one may be surprised to see the sheer
               number of metrics on offer. On last count there exists more than
-              70 firms offering ESG data<sup>2</sup>.
+              70 firms offering ESG data<sup>2</sup> .
             </p>
             <p className=" pb-5">
               Even within the narrowed scope of ESG data providers, a highly
@@ -387,7 +403,7 @@ const IsBubble = () => {
               respectively in the top-third and the bottom 5% in their universe
               which gives investors a hard time to really know how E, S or
               Gfriendly a firm really is and to adjust their investment decision
-              accordingly<sup>4</sup>
+              accordingly<sup>4</sup>{" "}
             </p>
             <p className=" pb-5">
               In relation to this study, it was surprising to find that no one
@@ -420,7 +436,7 @@ const IsBubble = () => {
               expensive (57%) and even bubble-like (18%). Since the Global
               Financial Crisis (GFC) in 2008, stock markets have been rising at
               an annualized growth rate of 15%
-              <sup>6</sup>
+              <sup>6</sup>{" "}
             </p>
             <p className=" pb-5">
               Covid-19 induced massive selloffs which reached its peak on March
@@ -594,7 +610,7 @@ const IsBubble = () => {
             <p className=" pt-5">
               to $30.9 trillion in 2018 with Europe having the biggest share
               followed by the USA, Japan, Canada, Australia & New Zealand
-              <sup>11</sup>. Maybe this AuM increase can be justified in light
+              <sup>11</sup> . Maybe this AuM increase can be justified in light
               of expected reduced emissions and a greener future in general.
               However, Figure 4 shows that this increase in AuM is not as
               justified as investors think.
@@ -675,7 +691,7 @@ const IsBubble = () => {
               valuation. Earlier on we mentioned how monetary policies, ease of
               investing and emerging markets drove the market to unprecedented
               highs. With sustainable European AuM making up 46% of local AuM
-              and the USA at 39% of local AuM in 2018<sup>13</sup>, it is hard
+              and the USA at 39% of local AuM in 2018<sup>13</sup> , it is hard
               to ignore the role of ESG in the current bull run.
             </p>
             <p className=" pb-5">
@@ -847,47 +863,45 @@ const IsBubble = () => {
               <p className="mt-[100px]  ">
                 <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-3 md:mt-16"></p>
                 <div className="h-6" />
-                <sup className="mr-3">1</sup>
-                The Story Behind Talent & ESG, 2020, BRUIN FINANCIAL, ESG
-                Initiative Surve
+                <sup className="mr-3">1</sup> The Story Behind Talent & ESG,
+                2020, BRUIN FINANCIAL, ESG Initiative Surve
               </p>
 
-              <p className="mt-1">
-                <sup className="mr-3">2</sup>
-                According to Research Affiliates.
+              <p className="mt-[6px]">
+                <sup className="mr-3">2</sup> According to Research Affiliates.
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">3</sup> PwC Asset & Wealth Management,
                 Luxembourg
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">4</sup> Research Affiliates’ Li and
                 Polychronopoulos (2020)
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">5</sup> Bank of America Global Fund
                 Manager Survey
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">6</sup> Yahoo Finance, time of writing 11
                 <sup>th</sup> of December 2020
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">7</sup> Yahoo Finance, time of writing 11
                 <sup>th</sup> of December 2020
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">8</sup> Bank of America Global Fund
                 Manager Survey
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">9</sup> Yardeni Research, 2020
               </p>
 
@@ -895,21 +909,21 @@ const IsBubble = () => {
                 <sup className="mr-3">10</sup> Ned Davis Research, 2019
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">11</sup> Bank of America Global Fund
                 Manager Survey
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">12</sup> Refinitiv’s Wu & Borovkova, 2020
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">13</sup> Global Sustainable Investment
                 Alliance report, 2019
               </p>
 
-              <p className="mt-1">
+              <p className="mt-[6px]">
                 <sup className="mr-3">14</sup> Research Affiliates’ Kalesnik
               </p>
             </div>

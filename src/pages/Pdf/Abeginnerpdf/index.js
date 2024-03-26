@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../../Layouts/Header";
 import Footer from "../../../Layouts/Footer";
 
 const Abeginner = () => {
+  const [showCopiedMessage, setShowCopiedMessage] = useState(false);
   const handleSharePageLink = (shareTo) => {
     if (window?.location?.href && shareTo) {
       switch (shareTo) {
@@ -31,7 +32,17 @@ const Abeginner = () => {
           window.open(`mailto:?body=${window.location.href}`, "_blank");
           break;
         case "COPY":
-          navigator.clipboard.writeText(window.location.href);
+          navigator.clipboard
+            .writeText(window.location.href)
+            .then(() => {
+              setShowCopiedMessage(true);
+              setTimeout(() => {
+                setShowCopiedMessage(false);
+              }, 2000); // Hide the message after 5 seconds
+            })
+            .catch((error) => {
+              console.error("Error copying text: ", error);
+            });
           break;
         default:
           return;
@@ -57,7 +68,7 @@ const Abeginner = () => {
           </div>
           <div className="flex items-center md:mt-0 mt-4">
             <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
-            <div className="social flex gap-1 pl-2">
+            <div className="social flex gap-1 pl-2 relative">
               <a
                 className="cursor-pointer"
                 onClick={() => handleSharePageLink("FACEBOOK")}
@@ -119,7 +130,7 @@ const Abeginner = () => {
                 />
               </a>
               <a
-                className="cursor-pointer"
+                className="cursor-pointer copytext"
                 onClick={() => handleSharePageLink("COPY")}
               >
                 <img
@@ -130,6 +141,11 @@ const Abeginner = () => {
                   className="h-[30px] w-[30px]"
                 />
               </a>
+              {showCopiedMessage && (
+                <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
+                  Link copied successfully!
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -1433,7 +1449,7 @@ const Abeginner = () => {
         <div className="text-lg mt-[100px]  ">
           <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-3 md:mt-16"></p>
           <div className="h-6" />
-          <sup className="mr-2">1</sup>
+          <sup className="mr-2">1</sup>{" "}
           <a
             className="underline decoration-2 break-words"
             href="https://pareto-economics.com/"
@@ -1441,9 +1457,8 @@ const Abeginner = () => {
           >
             ( https://pareto-economics.com/ )
           </a>
-
-          <p className="mt-1">
-            <sup className="mr-2">2</sup>
+          <p className="mt-[6px]">
+            <sup className="mr-2">2</sup>{" "}
             <a
               className="underline decoration-2 break-words"
               href="
@@ -1453,10 +1468,9 @@ const Abeginner = () => {
               https://www.icij.org/investigations/panama-papers/
             </a>
           </p>
-
-          <p className="mt-1">
+          <p className="mt-[6px]">
             {" "}
-            <sup className="mr-2">3</sup>
+            <sup className="mr-2">3</sup>{" "}
             <a
               className="underline decoration-2 break-words"
               href="https://ec.europa.eu/newsroom/fisma/item-detail.cfm?item_id=29693&newsletter_id=166&utm_source=fisma_newsletter&utm_medium=email&utm_campaign=Finance%20&utm_content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en"
@@ -1466,9 +1480,8 @@ const Abeginner = () => {
               content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en
             </a>
           </p>
-
-          <p className="mt-1">
-            <sup className="mr-2">4</sup>
+          <p className="mt-[6px]">
+            <sup className="mr-2">4</sup>{" "}
             <a
               className="underline decoration-2 break-words"
               href="

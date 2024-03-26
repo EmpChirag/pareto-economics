@@ -3,6 +3,7 @@ import { news } from "../../Json/news";
 import moment from "moment";
 
 const Articles = ({ option, setSearchText }) => {
+  console.log(option,'option');
   const [filteredData, setFilteredData] = useState(news);
   const [text, setText] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -40,7 +41,9 @@ const Articles = ({ option, setSearchText }) => {
           <div className="flex items-center flex-wrap gap-4">
             <button
               className={`uppercase leading-[1] border ${
-                option.isActive ? "bg-black text-white" : "border-black"
+                selectedCategory === "articles"
+                  ? "bg-black text-white"
+                  : "border-black"
               } duration-300 border-black px-2 md:px-4 py-2`}
               onClick={() => {
                 handleFilter("articles");
@@ -50,7 +53,7 @@ const Articles = ({ option, setSearchText }) => {
             </button>
             <button
               className={`uppercase leading-[1] border ${
-                selectedCategory.isActive
+                selectedCategory === "podcast"
                   ? "bg-black text-white"
                   : "border-black"
               } duration-300 border-black px-2 md:px-4 py-2`}
@@ -63,7 +66,9 @@ const Articles = ({ option, setSearchText }) => {
 
             <button
               className={`uppercase leading-[1] border ${
-                option.isActive ? "bg-black text-white" : "border-black"
+                selectedCategory === "tvradio"
+                  ? "bg-black text-white"
+                  : "border-black"
               } duration-300 border-black px-2 md:px-4 py-2`}
               onClick={() => {
                 handleFilter("tvradio");
@@ -99,7 +104,7 @@ const Articles = ({ option, setSearchText }) => {
           </div>
         </div>
       </div>
-      <div className="flex max-md:flex-col flex-wrap gap-4 md:gap-8 lg:gap-12 max-md:mt-10">
+      <div className="mt-20 flex max-md:flex-col flex-wrap gap-4 md:gap-8 lg:gap-12 max-md:mt-10">
         {filteredData
           .sort((a, b) => {
             return (
@@ -129,7 +134,9 @@ const Articles = ({ option, setSearchText }) => {
                     )}
                   </div>
                   <div className="flex-1">
-                    <div className="uppercase text-lg">{item.category}</div>
+                    <div className="uppercase text-lg">
+                      {item.smalltitle ? item.smalltitle : item.category}
+                    </div>
                     <a
                       href={item.link}
                       rel="noreferrer"

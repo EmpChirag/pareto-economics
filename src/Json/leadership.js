@@ -238,7 +238,7 @@ export const leadership = [
   {
     "image": "/images/insights/bubble.jpg",
     "title": "Is ESG a Bubble or Paradigm Shift? ",
-    "link": "/is-ecg-a-bubble-or-paradigm",
+    "link": "/is-esg-a-bubble-or-paradigm",
     "date":"Decmber 2020",
     "category":"insights"
   },

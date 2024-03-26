@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../../../Layouts/Footer";
 import Header from "../../../Layouts/Header";
 
 const ParetoEconomicsRanking = () => {
+  const [showCopiedMessage, setShowCopiedMessage] = useState(false);
   const handleSharePageLink = (shareTo) => {
     if (window?.location?.href && shareTo) {
       switch (shareTo) {
@@ -31,7 +32,17 @@ const ParetoEconomicsRanking = () => {
           window.open(`mailto:?body=${window.location.href}`, "_blank");
           break;
         case "COPY":
-          navigator.clipboard.writeText(window.location.href);
+          navigator.clipboard
+            .writeText(window.location.href)
+            .then(() => {
+              setShowCopiedMessage(true);
+              setTimeout(() => {
+                setShowCopiedMessage(false);
+              }, 2000); // Hide the message after 5 seconds
+            })
+            .catch((error) => {
+              console.error("Error copying text: ", error);
+            });
           break;
         default:
           return;
@@ -50,11 +61,11 @@ const ParetoEconomicsRanking = () => {
         </h1>
         <div className="md:flex block  items-center justify-between">
           <div>
-            January 26<sup>th</sup>, 2023
+            January 26<sup>th</sup> , 2023
           </div>
           <div className="flex items-center md:mt-0 mt-4">
             <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
-            <div className="social flex gap-1 pl-2">
+            <div className="social flex gap-1 pl-2 relative">
               <a
                 className="cursor-pointer"
                 onClick={() => handleSharePageLink("FACEBOOK")}
@@ -116,7 +127,7 @@ const ParetoEconomicsRanking = () => {
                 />
               </a>
               <a
-                className="cursor-pointer"
+                className="cursor-pointer copytext"
                 onClick={() => handleSharePageLink("COPY")}
               >
                 <img
@@ -127,6 +138,11 @@ const ParetoEconomicsRanking = () => {
                   className="h-[30px] w-[30px]"
                 />
               </a>
+              {showCopiedMessage && (
+                <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
+                  Link copied successfully!
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -141,7 +157,7 @@ const ParetoEconomicsRanking = () => {
           <div className="h-6" />
           <p>
             <strong>
-              London, UK. January 26<sup>th</sup>, 2023
+              London, UK. January 26<sup>th</sup> , 2023
             </strong>{" "}
             – The Global Power Index Summit is the flagship event hosted by
             Pareto Economics that brings together experts in finance,

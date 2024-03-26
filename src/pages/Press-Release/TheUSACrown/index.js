@@ -1,43 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../../../Layouts/Footer";
 import Header from "../../../Layouts/Header";
 
 const TheUSACrown = () => {
-   const handleSharePageLink = (shareTo) => {
-     if (window?.location?.href && shareTo) {
-       switch (shareTo) {
-         case "FACEBOOK":
-           window.open(
-             `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`,
-             "_blank"
-           );
-           break;
-         case "WHATSAPP":
-           window.open(`https://wa.me/?text=${window.location.href}`, "_blank");
-           break;
-         case "TWITTER":
-           window.open(
-             `https://twitter.com/intent/tweet?url=${window.location.href}`,
-             "_blank"
-           );
-           break;
-         case "LINKEDIN":
-           window.open(
-             `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
-             "_blank"
-           );
-           break;
-         case "EMAIL":
-           window.open(`mailto:?body=${window.location.href}`, "_blank");
-           break;
-         case "COPY":
-           navigator.clipboard.writeText(window.location.href);
-           break;
-         default:
-           return;
-       }
-     }
-   };
+  const [showCopiedMessage, setShowCopiedMessage] = useState(false);
+  const handleSharePageLink = (shareTo) => {
+    if (window?.location?.href && shareTo) {
+      switch (shareTo) {
+        case "FACEBOOK":
+          window.open(
+            `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "WHATSAPP":
+          window.open(`https://wa.me/?text=${window.location.href}`, "_blank");
+          break;
+        case "TWITTER":
+          window.open(
+            `https://twitter.com/intent/tweet?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "LINKEDIN":
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
+            "_blank"
+          );
+          break;
+        case "EMAIL":
+          window.open(`mailto:?body=${window.location.href}`, "_blank");
+          break;
+        case "COPY":
+          navigator.clipboard
+            .writeText(window.location.href)
+            .then(() => {
+              setShowCopiedMessage(true);
+              setTimeout(() => {
+                setShowCopiedMessage(false);
+              }, 2000); // Hide the message after 5 seconds
+            })
+            .catch((error) => {
+              console.error("Error copying text: ", error);
+            });
+          break;
+        default:
+          return;
+      }
+    }
+  };
   return (
     <>
       <div className="container mx-auto px-5">
@@ -54,7 +65,7 @@ const TheUSACrown = () => {
           </div>
           <div className="flex items-center md:mt-0 mt-4">
             <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
-            <div className="social flex gap-1 pl-2">
+            <div className="social flex gap-1 pl-2 relative">
               <a
                 className="cursor-pointer"
                 onClick={() => handleSharePageLink("FACEBOOK")}
@@ -116,7 +127,7 @@ const TheUSACrown = () => {
                 />
               </a>
               <a
-                className="cursor-pointer"
+                className="cursor-pointer copytext"
                 onClick={() => handleSharePageLink("COPY")}
               >
                 <img
@@ -127,6 +138,11 @@ const TheUSACrown = () => {
                   className="h-[30px] w-[30px]"
                 />
               </a>
+              {showCopiedMessage && (
+                <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
+                  Link copied successfully!
+                </div>
+              )}
             </div>
           </div>
         </div>

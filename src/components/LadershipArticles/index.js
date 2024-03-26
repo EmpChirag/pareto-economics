@@ -41,7 +41,7 @@ const LadershipArticles = ({ option, setSearchText }) => {
           <div className="flex items-center flex-wrap gap-4">
             <button
               className={`uppercase leading-[1] border ${
-                selectedCategory.isActive
+                selectedCategory === "podcast"
                   ? "bg-black text-white"
                   : "border-black"
               } duration-300 border-black px-2 md:px-4 py-2`}
@@ -53,7 +53,9 @@ const LadershipArticles = ({ option, setSearchText }) => {
             </button>
             <button
               className={`uppercase leading-[1] border ${
-                option.isActive ? "bg-black text-white" : "border-black"
+                selectedCategory === "keynotes"
+                  ? "bg-black text-white"
+                  : "border-black"
               } duration-300 border-black px-2 md:px-4 py-2`}
               onClick={() => {
                 handleFilter("keynotes");
@@ -63,7 +65,9 @@ const LadershipArticles = ({ option, setSearchText }) => {
             </button>
             <button
               className={`uppercase leading-[1] border ${
-                option.isActive ? "bg-black text-white" : "border-black"
+                selectedCategory === "insights"
+                  ? "bg-black text-white"
+                  : "border-black"
               } duration-300 border-black px-2 md:px-4 py-2`}
               onClick={() => {
                 handleFilter("insights");
@@ -73,7 +77,9 @@ const LadershipArticles = ({ option, setSearchText }) => {
             </button>
             <button
               className={`uppercase leading-[1] border ${
-                option.isActive ? "bg-black text-white" : "border-black"
+                selectedCategory === "press"
+                  ? "bg-black text-white"
+                  : "border-black"
               } duration-300 border-black px-2 md:px-4 py-2`}
               onClick={() => {
                 handleFilter("press");
@@ -110,50 +116,55 @@ const LadershipArticles = ({ option, setSearchText }) => {
         </div>
       </div>
       <div className="mt-20 flex max-md:flex-col flex-wrap gap-4 md:gap-8 lg:gap-12 max-md:mt-10">
-        {filteredData.sort((a, b) => {
-            return new Date(moment(b.date, 'MMMM YYYY').format('YYYY-MM-DD')) - new Date(moment(a.date, 'MMMM YYYY').format('YYYY-MM-DD'));
-          }).map((item, index) => {
-          return (
-            <div className="md:w-[47%] lg:w-[30%]" key={index}>
-              <div className="flex items-center justify-between gap-5">
-                {item.category !== "press" && (
-                  <div className="flex-1 max-w-[120px]">
-                    {item.image ? (
-                      <img
-                        src={item.image}
-                        alt={item.title}
-                        width={150}
-                        className=""
-                      />
-                    ) : (
-                      <img
-                        src="/images/podcasts/podcast.png"
-                        alt={item.title}
-                        width={150}
-                        className=""
-                      />
+        {filteredData
+          .sort((a, b) => {
+            return (
+              new Date(moment(b.date, "MMMM YYYY").format("YYYY-MM-DD")) -
+              new Date(moment(a.date, "MMMM YYYY").format("YYYY-MM-DD"))
+            );
+          })
+          .map((item, index) => {
+            return (
+              <div className="md:w-[47%] lg:w-[30%]" key={index}>
+                <div className="flex items-center justify-between gap-5">
+                  {item.category !== "press" && (
+                    <div className="flex-1 max-w-[120px]">
+                      {item.image ? (
+                        <img
+                          src={item.image}
+                          alt={item.title}
+                          width={150}
+                          className=""
+                        />
+                      ) : (
+                        <img
+                          src="/images/podcasts/podcast.png"
+                          alt={item.title}
+                          width={150}
+                          className=""
+                        />
+                      )}
+                    </div>
+                  )}
+                  <div className="flex-1">
+                    <div className="uppercase text-lg">{item.category}</div>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href={item.link}
+                      className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
+                    >
+                      {item.title}
+                    </a>
+
+                    {item.date && (
+                      <div className="date text-sm uppercase">{item.date}</div>
                     )}
                   </div>
-                )}
-                <div className="flex-1">
-                  <div className="uppercase text-lg">{item.category}</div>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={item.link}
-                    className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
-                  >
-                    {item.title}
-                  </a>
-
-                  {item.date && (
-                    <div className="date text-sm uppercase">{item.date}</div>
-                  )}
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
       </div>
     </section>
   );
