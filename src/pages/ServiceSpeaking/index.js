@@ -5,6 +5,7 @@ import Footer from "../../Layouts/Footer";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { postEventRequest } from "../../api/eventApi";
+import moment from "moment";
 
 const ServiceSpeaking = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -94,7 +95,7 @@ const ServiceSpeaking = () => {
             <div></div>
             <a
               href="/pdf/klisman-murati-speakers-pack-2024.pdf"
-              target='_blank'
+              target="_blank"
               className="btn w-content max-w-[330px] max-md:px-3 inline-block mt-10"
             >
               Download Speakers Pack
@@ -374,7 +375,7 @@ const ServiceSpeaking = () => {
                    focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("firstName", {
-                      required: "The first name is required."
+                      required: "The first name is required.",
                     })}
                   />
                 </div>
@@ -401,7 +402,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("lastName", {
-                      required: "The last name is required."
+                      required: "The last name is required.",
                     })}
                   />
                 </div>
@@ -428,7 +429,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("companyName", {
-                      required: "The company/organisation is required."
+                      required: "The company/organisation is required.",
                     })}
                   />
                 </div>
@@ -458,8 +459,8 @@ const ServiceSpeaking = () => {
                       required: "The business email is required.",
                       pattern: {
                         value: /\S+@\S+\.\S+/,
-                        message: "Please enter valid email."
-                      }
+                        message: "Please enter valid email.",
+                      },
                     })}
                   />
                 </div>
@@ -489,8 +490,8 @@ const ServiceSpeaking = () => {
                       required: "The phone number is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid phone number."
-                      }
+                        message: "Please enter valid phone number.",
+                      },
                     })}
                   />
                 </div>
@@ -517,7 +518,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("eventLocation", {
-                      required: "The event location is required."
+                      required: "The event location is required.",
                     })}
                   />
                 </div>
@@ -543,8 +544,13 @@ const ServiceSpeaking = () => {
                     id="jobtitle"
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
+                    min={moment().format("YYYY-MM-DD")}
                     {...register("eventDate", {
-                      required: "The event date is required."
+                      required: "The event date is required.",
+                      min: {
+                        value: moment().format("YYYY-MM-DD"),
+                        message: "Please enter valid date.",
+                      },
                     })}
                   />
                 </div>
@@ -574,8 +580,8 @@ const ServiceSpeaking = () => {
                       required: "The speaker budget is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid amount."
-                      }
+                        message: "Please enter valid amount.",
+                      },
                     })}
                   />
                 </div>
@@ -612,7 +618,8 @@ const ServiceSpeaking = () => {
                 <p>
                   Please see our
                   <Link
-                    to="/privacy-security-statement" target="_blank"
+                    to="/privacy-security-statement"
+                    target="_blank"
                     className="underline hover:no-underline"
                   >
                     <i className="border-black mx-2">Privacy Policy</i>
