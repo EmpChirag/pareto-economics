@@ -3,7 +3,8 @@
     "image": "/images/insights/guide.jpg",
     "title": "A beginner’s guide to geopolitical risk, and how it’s impacting fintech",
     "link": "/a-beginners-guide",
-    "content": ""
+    "content": "",
+    "date": "March 2021"
   },
   {
     "image": "/images/insights/bubble.jpg",
@@ -15,12 +16,14 @@
     "image": "/images/insights/china.jpg",
     "title": "How Is M&A Impacted By China’s “Dual Circulation” Development Strategy?",
     "link": "/how-is-ma-impacted",
-    "content": ""
+    "content": "",
+    "date":"January 2021"
   },
   {
     "image": "/images/insights/passive-investing.jpg",
     "title": "Is Passive Investing Killing ESG?",
     "link": "/is-passive-investing-killing-esg",
-    "content": ""
+    "content": "",
+    "date":"June 2021"
   }
 ]
