@@ -141,77 +141,78 @@ export const leadership = [
     "title": "How To Understand The Changing World Order - Pareto Economics CEO Klisman Murati",
     "link": "https://youtu.be/aCFzDh63U1k?si=WTTjH-knEKurG5LZ",
     "date": "February 2024",
-    "category": "keynotes"
+    "category":"keynotes"
+    
   },
   {
     "image": "/images/keynotes/countrypower.jpg",
     "title": "How can Country Power Shape Trade and Investment?",
     "link": "https://youtu.be/s2UIWhYmwt0?si=ZdHKLoSYilCUTHbG",
     "date": "July 2023",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/globalpower.jpg",
     "title": "2023 Global Power Summit - Klisman Murati Keynote",
     "link": "https://youtu.be/fUw6wyuU2Xk?si=6k9VVkfpQHGAOt18",
     "date": "February 2023",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/gpk.jpg",
     "title": "Global Power Index Summit 2022 Keynote by Klisman Murati",
     "link": "https://youtu.be/4b2MggrfgY8?si=M820-87UKxCBAMn3",
     "date": "March 2022",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/geopolitics.jpg",
     "title": "How Is Geopolitics Going To Impact Trade In 2020? | KEYNOTE | KLISMAN MURATI",
     "link": "https://youtu.be/KuBU8iILm6o?si=BcbpUGtG5jmQ8Y_f",
     "date": "July 2020",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/isis.jpg",
     "title": "How ISIS masters social media [Part 1] - Keynote | Klisman Murati",
     "link": "https://youtu.be/4tly3NQiTzw?si=9y9Il42JD5ZH3vg6",
     "date": "Nov 2019",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/isis2.jpg",
     "title": "How ISIS masters social media [Part 2] - Keynote | Klisman Murati",
     "link": "https://youtu.be/2Dmf7Yd-wck?si=_TBM2dzQuQBW7J20",
     "date": "Nov 2019",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/isis3.jpg",
     "title": "How ISIS masters social media [Part 3] - Keynote | Klisman Murati",
     "link": "https://youtu.be/fjGYTFBHZ5k?si=9WPWN6ybMKCEGJRm",
     "date": "Nov 2019",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/space.jpg",
     "title": "The Threat to Sovereignty in a New Age: Outer Space and Cyber | Klisman Murati",
     "link": "https://youtu.be/_Gbq5elnMeI?si=2G7gL-uDiM-8wryy",
     "date": "May 2020",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/gpi.jpg",
     "title": "Global Power Index SUMMIT 2022 | Pareto Economics",
     "link": "https://youtu.be/XC48SZvZT8o?si=ifO9upjqLG4l723Q",
     "date": "February 2022",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/drives.jpg",
     "title": "What Drives Trade and Economic Development?",
     "link": "https://youtu.be/9qPafJe4t2E?si=fwet9y0LfwEfyyG0",
     "date": "July 2023",
-    "category": "keynotes"
+    "category":"keynotes"
   },
   {
     "image": "/images/keynotes/analysis.jpg",
@@ -219,7 +220,6 @@ export const leadership = [
     "link": "https://youtu.be/-5JC6VEbIbo?si=nwL_A7eyg1JKI6st",
     "date": "February 2024",
     "category":"keynotes"
-
   },
   {
     "image": "/images/keynotes/finland.jpg",
