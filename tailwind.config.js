@@ -17,7 +17,9 @@ module.exports = {
         "4xl": ["1.875rem", "2.25rem"]
       },
       screens: {
-        "2xl": "1480px",
+       
+        "2xl": "1480px",  
+        
         "max-2xl": { max: "1439px" },
         "max-xl": { max: "1279px" },
         "max-1150": { max: "1149px" },
@@ -42,7 +44,7 @@ module.exports = {
         h1: {
           fontSize: "85px",
           lineHeight: "80px",
-          fontWeight: 'normal'
+          fontWeight: "normal"
         },
         h2: {
           fontSize: "50px",
