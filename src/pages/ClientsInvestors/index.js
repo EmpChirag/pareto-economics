@@ -53,7 +53,7 @@ const ClientsInvestors = () => {
         </div>
       </section>
 
-      <section className="mt-10 py-10 border-b  border-black">
+      <section className="mt-10 pb-10 border-b  border-black">
         <div className="flex flex-1 max-md:block">
           <h2 className=" flex-1 lg:max-w-[650px] mb-5">Who We Serve</h2>
 

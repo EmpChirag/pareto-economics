@@ -65,7 +65,7 @@ const IsBubble = () => {
               <p>December 2020</p>
             </div>
             <div className="flex items-center md:mt-0 mt-4">
-              <img src="images/icons/share.svg" className="w-[20px] mr-3" />:{" "}
+              <img src="images/icons/share.svg" className="w-[20px] mr-1" />:{" "}
               <div className="social flex gap-1 pl-2 relative">
                 <a
                   className="cursor-pointer"
@@ -863,68 +863,68 @@ const IsBubble = () => {
               <p className="mt-[100px]  ">
                 <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-3 md:mt-16"></p>
                 <div className="h-6" />
-                <sup className="mr-3">1</sup> The Story Behind Talent & ESG,
+                <sup className="mr-2 mt-3">1</sup> The Story Behind Talent & ESG,
                 2020, BRUIN FINANCIAL, ESG Initiative Surve
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">2</sup> According to Research Affiliates.
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">2</sup> According to Research Affiliates.
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">3</sup> PwC Asset & Wealth Management,
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">3</sup> PwC Asset & Wealth Management,
                 Luxembourg
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">4</sup> Research Affiliates’ Li and
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">4</sup> Research Affiliates’ Li and
                 Polychronopoulos (2020)
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">5</sup> Bank of America Global Fund
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">5</sup> Bank of America Global Fund
                 Manager Survey
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">6</sup> Yahoo Finance, time of writing 11
-                <sup>th</sup> of December 2020
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">6</sup> <p>Yahoo Finance, time of writing 11
+                <sup className="mt-3">th</sup> of December 2020</p>
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">7</sup> Yahoo Finance, time of writing 11
-                <sup>th</sup> of December 2020
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">7</sup> <p>Yahoo Finance, time of writing 11
+                <sup className="mt-3">th</sup> of December 2020</p>
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">8</sup> Bank of America Global Fund
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">8</sup> Bank of America Global Fund
                 Manager Survey
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">9</sup> Yardeni Research, 2020
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">9</sup> Yardeni Research, 2020
               </p>
 
-              <p>
-                <sup className="mr-3">10</sup> Ned Davis Research, 2019
+               <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">10</sup> Ned Davis Research, 2019
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">11</sup> Bank of America Global Fund
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">11</sup> Bank of America Global Fund
                 Manager Survey
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">12</sup> Refinitiv’s Wu & Borovkova, 2020
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">12</sup> Refinitiv’s Wu & Borovkova, 2020
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">13</sup> Global Sustainable Investment
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">13</sup> Global Sustainable Investment
                 Alliance report, 2019
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-3">14</sup> Research Affiliates’ Kalesnik
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">14</sup> Research Affiliates’ Kalesnik
               </p>
             </div>
             {/* <div className="flex gap-10 max-md:gap-0 max-md:flex-col">

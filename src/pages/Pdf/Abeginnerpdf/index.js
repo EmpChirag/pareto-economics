@@ -1450,16 +1450,16 @@ const Abeginner = () => {
           <div className="h-6" />
           <sup className="mr-2">1</sup>{" "}
           <a
-            className="underline decoration-2 break-words"
+            className="underline decoration-2 break-all"
             href="https://pareto-economics.com/"
             target="_blank"
           >
             ( https://pareto-economics.com/ )
           </a>
-          <p className="mt-[6px]">
-            <sup className="mr-2">2</sup>{" "}
+          <p className="mt-[6px] flex">
+            <sup className="mr-2 mt-3">2</sup>{" "}
             <a
-              className="underline decoration-2 break-words"
+              className="underline decoration-2 break-all"
               href="
              https://www.icij.org/investigations/panama-papers/"
               target="_blank"
@@ -1480,7 +1480,7 @@ const Abeginner = () => {
           <p className="mt-[6px] flex">
             <sup className="mr-2 mt-3">4</sup>{" "}
             <a
-              className="underline decoration-2 break-words"
+              className="underline decoration-2 break-all"
               href="
              https://www.occrp.org/en/troikalaundromat/"
               target="_blank"
@@ -1503,7 +1503,7 @@ const Abeginner = () => {
             <p className="text-center">Klisman Murati</p>
             <p className="text-center">Director, Pareto Economics</p>
             <a
-              className="underline decoration-2 break-words"
+              className="underline decoration-2 break-all"
               href="https://klisman.m@pareto-economics.com"
               target="_blank"
             >
@@ -1519,7 +1519,7 @@ const Abeginner = () => {
             <p className="text-center">Jessica Cath</p>
             <p className="text-center">Director, Pareto Economics</p>
             <a
-              className="underline decoration-2 break-words"
+              className="underline decoration-2 break-all"
               href="https://jessica.cath@fintrail.co.uk"
               target="_blank"
             >
@@ -1535,7 +1535,7 @@ const Abeginner = () => {
             <p className="text-center">Mikey Morton</p>
             <p className="text-center">Consultant, FINTRAIL</p>
             <a
-              className="underline decoration-2 break-words"
+              className="underline decoration-2 break-all"
               href="https://michael.morton@fintrail.co.uk"
               target="_blank"
             >

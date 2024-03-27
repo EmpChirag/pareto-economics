@@ -158,7 +158,7 @@ const HowIsMandA = () => {
             </div>
           </div>
 
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5 mt-9 ">Executive Summary</h3>
             <p className=" pb-5">
               This whitepaper is an essential read for the institutional
@@ -203,7 +203,7 @@ const HowIsMandA = () => {
               you.{" "}
             </p>
           </div>
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5">The Chinese Perspective</h3>
             <p className=" pb-5">
               Much of the literature, forecasts, opinions and strategy regarding
@@ -312,7 +312,7 @@ const HowIsMandA = () => {
               </ul>
             </div>
           </div>
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5 mt-9 ">China’s 14th Five-Year Plan</h3>
             <p className=" pb-5">
               In response to increasing external economic shocks, China’s 14th
@@ -378,10 +378,8 @@ const HowIsMandA = () => {
               </ul>
             </div>
           </div>
-          <div className='mt-12'>
-            <h3 className="pb-5 mt-9 ">
-              China’s Outbound Foreign Investment
-            </h3>
+          <div className="mt-12">
+            <h3 className="pb-5 mt-9 ">China’s Outbound Foreign Investment</h3>
             <p className=" pb-5">
               In 2020, the volume of China’s M&A transactions has declined for
               the fifth consecutive year. This has been due to several factors
@@ -452,7 +450,7 @@ const HowIsMandA = () => {
               </ul>
             </div>
           </div>
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5 mt-9 ">Sino-US Relations</h3>
             <p className=" pb-5">
               Ever since President Nixon & Henry Kissinger landed in Beijing
@@ -496,7 +494,7 @@ const HowIsMandA = () => {
               changes benefiting China, or more specifically the CCP.
             </p>
           </div>
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5">
               Foreign Investment Risk Review Modernisation Act (FIRRMA)
             </h3>
@@ -619,7 +617,7 @@ const HowIsMandA = () => {
               </ul>
             </div>
           </div>
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5 mt-9 ">
               Reverse Mergers and Delisting Chinese Companies from US Exchanges
             </h3>
@@ -743,7 +741,7 @@ const HowIsMandA = () => {
               </ul>
             </div>
           </div>
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5 mt-9 ">Biden’s China Policy</h3>
             <p className=" mb-5">
               Before Biden officially took office, he committed to maintaining
@@ -911,7 +909,7 @@ const HowIsMandA = () => {
               </ul>
             </div>
           </div>
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5 mt-9 ">Sino-EU M&A</h3>
             <p className=" mb-5">
               Sino-EU relations presents a more complex picture because unlike
@@ -998,7 +996,7 @@ const HowIsMandA = () => {
               </ul>
             </div>
           </div>
-          <div className='mt-12'>
+          <div className="mt-12">
             <h3 className="pb-5 mt-9 ">
               China-EU Comprehensive Agreement on Investment (CAI)
             </h3>
@@ -1221,7 +1219,7 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-            <div className='mt-12'>
+            <div className="mt-12">
               <h3 className="pb-5 mt-9 ">Sino-UK M&A</h3>
               <p className=" mb-5">
                 The UK starts off 2021 having completed and agreed what was
@@ -1303,7 +1301,7 @@ const HowIsMandA = () => {
                 </ul>
               </div>
             </div>
-            <div className='mt-12'>
+            <div className="mt-12">
               <h3 className="pb-5 mt-9 ">
                 National Security & Investment Bill
               </h3>
@@ -1382,7 +1380,7 @@ const HowIsMandA = () => {
                 </ul>
               </div>
             </div>
-            <div className='mt-12'>
+            <div className="mt-12">
               <h3 className="pb-10 mt-12  text-[#3e4d77]">
                 Further Research Questions
               </h3>
@@ -1438,137 +1436,146 @@ const HowIsMandA = () => {
             <div className=" text-lg">
               <div className=" md:mt-[50px] max-w-[250px] border-t-2 border-t-slate-900 mb-3" />
               <div className="h-6" />
-              <p className="mt-[6px]">
-                <sup>1</sup> Chernow, R. 2005. Alexander Hamilton. Penguin
-                Group. New York
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">1</sup> Chernow, R. 2005. Alexander
+                Hamilton. Penguin Group. New York
               </p>
 
-              <p className="mt-[6px]">
-                <sup>2</sup> Zimmerman, Evan, The Foreign Investment Risk Review
-                Modernisation Act: How CFIUS Became a Tech Office (April 9,
-                2019). Berkeley Technology Law Journal, Volume 34, Issue 4,
-                Available at SSRN:
-                <a
-                  className="break-words"
-                  href="https://ssrn.com/abstract=3368723"
-                >
-                  https://ssrn.com/abstract=3368723
-                </a>
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">2</sup>
+                <p>
+                  {" "}
+                  Zimmerman, Evan, The Foreign Investment Risk Review
+                  Modernisation Act: How CFIUS Became a Tech Office (April 9,
+                  2019). Berkeley Technology Law Journal, Volume 34, Issue 4,
+                  Available at SSRN:
+                  <a className="underline decoration-2 break-all"
+                   
+                    href="https://ssrn.com/abstract=3368723"
+                  >
+                    https://ssrn.com/abstract=3368723
+                  </a>
+                </p>
               </p>
 
-              <p className="mt-[6px]">
+              <p className="mt-[6px] flex">
                 {" "}
-                <sup>3</sup> Ibid.
+                <sup className="mr-2 mt-3">3</sup> Ibid.
               </p>
 
-              <p className="mt-[6px]">
-                <sup>4</sup> Jackson,J,K. (2020) The Committee on Foreign
-                Investment in the United States (CFIUS). Congressional Research
-                Service.
-                <a
-                  className="break-words"
-                  href="https://crsreports.congress.gov/"
-                >
-                  https://crsreports.congress.gov/
-                </a>
-                [RL33388]
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">4</sup>
+                <p>
+                  {" "}
+                  Jackson,J,K. (2020) The Committee on Foreign Investment in the
+                  United States (CFIUS). Congressional Research Service.
+                  <a className="underline decoration-2 break-all"
+                   
+                    href="https://crsreports.congress.gov/"
+                  >
+                    https://crsreports.congress.gov/
+                  </a>
+                  [RL33388]
+                </p>
+              </p>
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">5</sup> Altucher, J (2006). Mergers
+                That Go Forward in Reverse. Financial Times. 1+. Access World
+                News.
               </p>
 
-              <p className="mt-[6px]">
-                <sup>5</sup> Altucher, J (2006). Mergers That Go Forward in
-                Reverse. Financial Times. 1+. Access World News.
-              </p>
-
-              <p className="mt-[6px]">
-                <sup>6</sup> Muddy Waters Research
-                <a
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">6</sup> Muddy Waters Research
+                <a className="underline decoration-2 break-all"
                   target="blank"
-                  className="mx-2 break-words"
+                 
                   href="https://www.muddywatersresearch.com/"
                 >
                   https://www.muddywatersresearch.com/
                 </a>
               </p>
 
-              <p className="mt-[6px]">
-                <sup>7</sup> President’s Working Group on Financial Markets:
-                Report on Protecting United States Investors from Significant
-                Risks from Chinese Companies, July 24, 2020
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">7</sup> President’s Working Group on
+                Financial Markets: Report on Protecting United States Investors
+                from Significant Risks from Chinese Companies, July 24, 2020
               </p>
 
-              <p className="mt-[6px]">
-                <sup>8</sup> Ibid
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">8</sup> Ibid
               </p>
 
-              <p className="mt-[6px]">
-                <sup>9</sup> A recent background note prepared by the WTO
-                Secretariat (G/SCM/W/546/Rev.10) notes that between 1995 and
-                2017 the number of members that have failed to make a
-                notification rose sharply. As on April 2019, 77 WTO members had
-                not yet submitted subsidy notifications for 2017, 62 members
-                have still not submitted subsidy notifications for 2015. See
-                also:
-                <a
-                  className="break-words"
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">9</sup> <p>A recent background note
+                prepared by the WTO Secretariat (G/SCM/W/546/Rev.10) notes that
+                between 1995 and 2017 the number of members that have failed to
+                make a notification rose sharply. As on April 2019, 77 WTO
+                members had not yet submitted subsidy notifications for 2017, 62
+                members have still not submitted subsidy notifications for 2015.
+                See also:
+                <a className="underline decoration-2 break-all"
+                 
                   href="https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm"
                 >
                   https://www.wto.org/english/news_e/news19_e/scm_30apr19_e.htm
                 </a>
               </p>
-
-              <p className="mt-[6px]">
-                <sup>10</sup> WTO Agreement on Subsidies and Countervailing
-                Measures Apr. 15, 1994, Marrakesh Agreement Establishing the
-                World Trade Organization, Annex 1A, 1869 U.N.T.S. 14. [Not
-                reproduced in I.L.M.].
+</p>
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">10</sup> WTO Agreement on Subsidies
+                and Countervailing Measures Apr. 15, 1994, Marrakesh Agreement
+                Establishing the World Trade Organization, Annex 1A, 1869
+                U.N.T.S. 14. [Not reproduced in I.L.M.].
               </p>
 
-              <p className="mt-[6px]">
-                <sup>11</sup> The OECD estimated that in the aluminium sector
-                total government support for firms studied reached between USD
-                20-70 billion over the 2013-17 period (depending on how
-                financial support is estimated). See:
-                <a
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">11</sup><p> The OECD estimated that in
+                the aluminium sector total government support for firms studied
+                reached between USD 20-70 billion over the 2013-17 period
+                (depending on how financial support is estimated). See:
+                <a className="underline decoration-2 break-all"
                   href="https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF"
                   target="blank"
-                  className="break-words"
+                 
                 >
                   https://www.oecdilibrary.org/docserver/c82911aben.pdf?expires=1587470829&id=id&accname=guest&checksum=CA92281E81EB5ECE7D5F87CED76198CF
                 </a>
+                </p>
+                </p>
+
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">12</sup> European Commission, 2020.
+                WHITE PAPER on levelling the playing field as regards foreign
+                subsidies. COM(2020) 253 final
               </p>
 
-              <p className="mt-[6px]">
-                <sup>12</sup> European Commission, 2020. WHITE PAPER on
-                levelling the playing field as regards foreign subsidies.
-                COM(2020) 253 final
-              </p>
-
-              <p className="mt-[6px]">
-                <sup className="mr-2">13</sup> Overview of the National Security
-                and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
-                <a
-                  className="break-words"
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">13</sup><p> Overview of the National
+                Security and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
+                <a className="underline decoration-2 break-all"
+                 
                   href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet"
                 >
                   https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
                 </a>
               </p>
-
-              <p className="mt-[6px]">
-                <sup className="mr-2">14</sup> National Security and Investment
-                Bill, 2020.
+</p>
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">14</sup> National Security and
+                Investment Bill, 2020.
               </p>
 
-              <p className="mt-[6px]">
-                <sup className="mr-2">15</sup> Overview of the National Security
-                and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
-                <a
-                  className="break-words"
+              <p className="mt-[6px] flex">
+                <sup className="mr-2 mt-3">15</sup><p> Overview of the National
+                Security and Investment (NSI) Bill factsheet. 11 November 2020.{" "}
+                <a className="underline decoration-2 break-all"
+                 
                   href="https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet"
                 >
                   https://www.gov.uk/government/publications/national-security-and-investment-bill-2020-factsheets/overview-of-the-national-security-and-investment-nsi-bill-factsheet
                 </a>
-              </p>
+                </p>
+                </p>
             </div>
             {/* <div className='mt-12'>
               <div className="">
@@ -1617,7 +1624,7 @@ const HowIsMandA = () => {
 
                         <p className="pb-5">
                           <a
-                            className="underline decoration-2 break-words"
+                            className="underline decoration-2 break-all"
                             href="https://klisman.m@pareto-economics.com"
                             target="_blank"
                           >
@@ -1627,7 +1634,7 @@ const HowIsMandA = () => {
 
                         <p className="pb-5">
                           <a
-                            className="underline decoration-2 break-words"
+                            className="underline decoration-2 break-all"
                             href="https://pareto-economics.com/"
                             target="_blank"
                           >

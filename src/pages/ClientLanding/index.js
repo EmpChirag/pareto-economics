@@ -91,7 +91,7 @@ const ClientLanding = () => {
             <div className="flex-[1.2] xl:flex-1 justify-end">
               <h4 className="font-body text-2xl font-bold mb-5">Governments</h4>
 
-              <div className="flex max-md:flex-col justify-end md:items-center">
+              <div className="flex max-md:flex-col justify-end md:items-center gap-5">
                 <p className=" max-w-[350px]">
                   We support governments to build and transform economies.
                 </p>
