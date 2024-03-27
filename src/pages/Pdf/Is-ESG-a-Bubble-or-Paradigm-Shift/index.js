@@ -211,7 +211,7 @@ const IsBubble = () => {
               <p className=" pb-5">
                 <span className="font-bold"> Figure 1.</span> ESG Transmission
                 Framework
-                <img src="./images/pdf/financialeconomy.PNG" className="" />
+                <img src="./images/pdf/financialeconomy.png" className="" />
               </p>
             </div>
             <div className="h-6" />
@@ -420,7 +420,7 @@ const IsBubble = () => {
               <p className="">
                 <span className="font-bold"> Figure 2.</span> PwC survey
                 question on choice of ESG data provider
-                <img src="./images/pdf/Wealth Management.PNG" />
+                <img src="./images/pdf/Wealth Management.png" />
               </p>
             </div>
 
@@ -500,7 +500,7 @@ const IsBubble = () => {
                 adjusted P/E ratio and growth/value ratio 1990 to date
               </p>
               <div className="h-6" />
-              <img src="./images/pdf/cyclicallygrowth.PNG" />
+              <img src="./images/pdf/cyclicallygrowth.png" />
             </div>
             <div className="bg-black border border-black mt-9">
               <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
@@ -621,12 +621,12 @@ const IsBubble = () => {
                 <span className="font-bold"> Figure 4.</span> Total CO
                 <sub>2</sub>
                 emissions 2012-2018 rescaled
-                <img src="./images/pdf/emissions.PNG" />
+                <img src="./images/pdf/emissions.png" />
               </p>
             </div>
             <div className="h-6" />
             <div className="max-w-[1200px] mx-auto pt-12">
-              <img src="./images/pdf/Sustainable.PNG" />
+              <img src="./images/pdf/Sustainable.png" />
             </div>
             <div className="h-6" />
             <p className=" pt-10">
@@ -731,7 +731,7 @@ const IsBubble = () => {
               <p className="">
                 <span className="font-bold"> Figure 5.</span> The 4
                 psychological phases of asset bubbles
-                <img src="./images/pdf/psychological.PNG" />
+                <img src="./images/pdf/psychological.png" />
               </p>
             </div>
             <h3 className="pb-10 mt-12 text-4xl text-[#3e4d77]">

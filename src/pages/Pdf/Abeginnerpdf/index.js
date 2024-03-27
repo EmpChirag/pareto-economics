@@ -552,7 +552,6 @@ const Abeginner = () => {
         <p className="border-b border-b-slate-900"></p>
         <div className="h-6" />
         <div className="h-6" />
-        
         <div>
           <h3>The Fintech Landscape and Geopolitical Weak Spots</h3>
           <div className="h-6" />
@@ -1468,20 +1467,18 @@ const Abeginner = () => {
               https://www.icij.org/investigations/panama-papers/
             </a>
           </p>
-          <p className="mt-[6px]">
-            {" "}
-            <sup className="mr-2">3</sup>{" "}
+          <p className="mt-[6px] flex">
+            <sup className="mr-2 mt-3">3</sup>
             <a
-              className="underline decoration-2 break-words"
+              className="underline decoration-2 break-all"
               href="https://ec.europa.eu/newsroom/fisma/item-detail.cfm?item_id=29693&newsletter_id=166&utm_source=fisma_newsletter&utm_medium=email&utm_campaign=Finance%20&utm_content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en"
               target="_blank"
             >
-              https://ec.europa.eu/newsroom/fisma/itemdetail.cfm?item_id=29693&newsletter_id=166&utm_source=fisma_newsletter&utm_medium=email&utm_campaign=Finance%20&utm_
-              content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en
+              https://ec.europa.eu/newsroom/fisma/item-detail.cfm?item_id=29693&newsletter_id=166&utm_source=fisma_newsletter&utm_medium=email&utm_campaign=Finance%20&_content=In%20the%20spotlight%20How%20the%20EU%20is%20combatting%20terrorist%20financing&lang=en
             </a>
           </p>
-          <p className="mt-[6px]">
-            <sup className="mr-2">4</sup>{" "}
+          <p className="mt-[6px] flex">
+            <sup className="mr-2 mt-3">4</sup>{" "}
             <a
               className="underline decoration-2 break-words"
               href="
