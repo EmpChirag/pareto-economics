@@ -6,7 +6,17 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { postEventRequest } from "../../api/eventApi";
 import moment from "moment";
+// slider
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+// import "swiper/css/navigation";
+
+// import "./styles.css";
+
+// import required modules
+import { Navigation } from "swiper/modules";
 const ServiceSpeaking = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [requestStatus, setRequestStatus] = useState(null);
@@ -151,6 +161,17 @@ const ServiceSpeaking = () => {
             />
           </div>
         </div>
+
+        {/* slider start */}
+
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>Slide 2</SwiperSlide>
+          <SwiperSlide>Slide 3</SwiperSlide>
+          
+        </Swiper>
+
+        {/* slider end */}
         <div className="flex max-lg:flex-col-reverse gap-10 mb-20 max-lg:mb-10">
           <div className="video-responsive">
             <iframe
@@ -180,7 +201,7 @@ const ServiceSpeaking = () => {
               Global Power Summit 2022
             </h3>
             <p className=" w-[500px] max-md:w-full">
-              London 2023 | Murati opens up the first Global Power Summit at the
+              London 2022 | Murati opens up the first Global Power Summit at the
               London School of Economics. Watch his keynote now.
             </p>
           </div>
@@ -375,7 +396,7 @@ const ServiceSpeaking = () => {
                    focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("firstName", {
-                      required: "The first name is required.",
+                      required: "The first name is required."
                     })}
                   />
                 </div>
@@ -402,7 +423,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("lastName", {
-                      required: "The last name is required.",
+                      required: "The last name is required."
                     })}
                   />
                 </div>
@@ -429,7 +450,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("companyName", {
-                      required: "The company/organisation is required.",
+                      required: "The company/organisation is required."
                     })}
                   />
                 </div>
@@ -459,8 +480,8 @@ const ServiceSpeaking = () => {
                       required: "The business email is required.",
                       pattern: {
                         value: /\S+@\S+\.\S+/,
-                        message: "Please enter valid email.",
-                      },
+                        message: "Please enter valid email."
+                      }
                     })}
                   />
                 </div>
@@ -490,8 +511,8 @@ const ServiceSpeaking = () => {
                       required: "The phone number is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid phone number.",
-                      },
+                        message: "Please enter valid phone number."
+                      }
                     })}
                   />
                 </div>
@@ -518,7 +539,7 @@ const ServiceSpeaking = () => {
                     className="block px-0  w-full text-xl max-sm:text-base  bg-transparent border-0 border-b  appearance-none  border-black  focus:outline-none focus:ring-0 focus:border-gray-300 peer"
                     placeholder=" "
                     {...register("eventLocation", {
-                      required: "The event location is required.",
+                      required: "The event location is required."
                     })}
                   />
                 </div>
@@ -549,8 +570,8 @@ const ServiceSpeaking = () => {
                       required: "The event date is required.",
                       min: {
                         value: moment().format("YYYY-MM-DD"),
-                        message: "Please enter valid date.",
-                      },
+                        message: "Please enter valid date."
+                      }
                     })}
                   />
                 </div>
@@ -580,8 +601,8 @@ const ServiceSpeaking = () => {
                       required: "The speaker budget is required.",
                       pattern: {
                         value: /^\d+$/,
-                        message: "Please enter valid amount.",
-                      },
+                        message: "Please enter valid amount."
+                      }
                     })}
                   />
                 </div>

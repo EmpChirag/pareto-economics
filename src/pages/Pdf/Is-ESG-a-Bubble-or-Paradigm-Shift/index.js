@@ -57,7 +57,7 @@ const IsBubble = () => {
       <div className=" max-lg:block flex items-center justify-center ">
         <div className="mt-10 max-w-[1180px]">
           <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[40px] leading-[1.2]">
-            Is ESG a Bubble or Paradigm Shift?
+            Is ESG a Bubble or Paradigm Shift ?
           </h1>
           <div className="h-6" />
           <div className=" md:flex block  items-center justify-between">

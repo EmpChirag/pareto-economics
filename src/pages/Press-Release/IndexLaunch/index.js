@@ -55,7 +55,7 @@ const IndexLaunch = () => {
         <Header />
       </div>
       <div className="max-w-[1180px] mx-auto px-5">
-        <h1 className="text-[24px] md:text-[40px] leading-[1.2] mb-10  mt-10">
+        <h1 className="text-[24px] md:text-[40px] leading-[1.2] mb-10  mt-10 break-all">
           Pareto Economics launches the “Global Power Index 2022 ranking” with
           an exclusive in person event for business, finance and policy leaders
           at the London School of Economics
@@ -63,7 +63,7 @@ const IndexLaunch = () => {
         <div className="md:flex block  items-center justify-between">
           <div>
             <p>
-              January 18<sup>th</sup>{" "}, 2022
+              January 18<sup>th</sup> , 2022
             </p>
           </div>
           <div className="flex items-center md:mt-0 mt-4">
@@ -161,7 +161,7 @@ const IndexLaunch = () => {
           <div className="h-6" />
           <p>
             <strong>
-              LONDON, UK. January 18<sup>th</sup>{" "}, 2022-{" "}
+              LONDON, UK. January 18<sup>th</sup> , 2022-{" "}
             </strong>
             The London based world affairs research consultancy Pareto Economics
             is challenging the status quo and calling out doomsday sellers on
@@ -205,19 +205,19 @@ const IndexLaunch = () => {
           <p>
             The launch will take place on the{" "}
             <strong>
-              24<sup>th</sup>{" "} February at 3pm
+              24<sup>th</sup> February at 3pm
             </strong>{" "}
             at the LSE followed by a welcoming drinks reception where guests
             will have the opportunity to network and learn more about how the
             GPI can be useful to their organisation.
           </p>
           <div className="h-6" />
-          <p>
+          {/* <p>
             For more information about the event and to book your seat please
             visit:
-          </p>
-          <div className="h-6" />
-          <figure className="wp-block-embed is-type-wp-embed is-provider-embed wp-block-embed-embed">
+          </p> */}
+          
+          {/* <figure className="wp-block-embed is-type-wp-embed is-provider-embed wp-block-embed-embed">
             <div className="wp-block-embed__wrapper">
               <blockquote
                 className="wp-embedded-content"
@@ -238,8 +238,8 @@ const IndexLaunch = () => {
                 height="338"
               ></iframe>
             </div>
-          </figure>
-          <div className="h-6" />
+          </figure> */}
+        
         </div>
       </div>
       <div className="container mx-auto px-5">

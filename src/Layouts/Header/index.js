@@ -39,7 +39,7 @@ const Header = ({ invert }) => {
     const animH1 = gsap.utils.toArray("h1");
     animH1.forEach((box) => {
       const splith1 = new SplitType(box, {
-        types: "words, chars,lines"
+        types: "words, chars"
       });
       gsap.from(splith1.chars, {
         display: "none",
@@ -50,7 +50,7 @@ const Header = ({ invert }) => {
     setTimeout(() => {
       animH2.forEach((box) => {
         const splith2 = new SplitType(box, {
-          types: "words, chars,lines"
+          types: "words, chars"
         });
         gsap.from(splith2.chars, {
           display: "none",

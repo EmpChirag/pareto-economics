@@ -89,18 +89,21 @@ const ModernSlavery = () => {
               <h3 className='md:pb-5 pb-2 md:mt-9 mt-4 text-4xl'>Last reviewed and updated on March 5, 2024</h3>
               <h3 className=' md:pb-5 pb-2 md:mt-9 mt-4 text-4xl'>References:</h3>
               <p className='text-xl '>
-                1. Modern Slavery Act 2015, UK Parliament: [Link to the
-                legislation]
+                1. Modern Slavery Act 2015, UK Parliament
+                {/* [Link to the legislation] */}
               </p>
               <p className='text-xl '>
-                2. Guidance on the Modern Slavery Act 2015, UK Government: [Link
-                to the guidance]
+                2. Guidance on the Modern Slavery Act 2015, UK Government
+                {/* [Link to the guidance] */}
               </p>
-              <p className='text-xl '>3. Ethical Trading Initiative Base Code: [Link to the code]</p>
+              <p className='text-xl '>3. Ethical Trading Initiative Base Code
+                {/* [Link to the code] */}
+              </p>
               <p className='text-xl '>
                 4. International Labour Organization's Protocol to Prevent,
                 Suppress and Punish Trafficking in Persons, Especially Women and
-                Children: [Link to the protocol]
+                Children
+                {/* [Link to the protocol] */}
               </p>
             </div>
           </section>

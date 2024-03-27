@@ -55,7 +55,7 @@ export const news = [
     image: "/images/radio/heat.jpg",
     smalltitle: "TV/Radio | CGTN",
     title: "The Heat: Global Economy",
-    link: "https://www.youtube.com/watch?v=na7AWWod8gc&t=97s",
+    link: "https://www.youtube.com/watch?v=0UoTvttWLuU&t=436s",
     date: "August 2022",
     category: "tvradio"
   },

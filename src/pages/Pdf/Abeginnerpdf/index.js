@@ -59,7 +59,7 @@ const Abeginner = () => {
       <div className="max-w-[1180px] px-5 mt-10 mx-auto">
         <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[40px] leading-[1.2]">
           A beginner’s guide to geopolitical risk, and how It’s impacting
-          fintech
+          fintech ?
         </h1>
         <div className="h-6" />
         <div className="md:flex block items-center justify-between">
