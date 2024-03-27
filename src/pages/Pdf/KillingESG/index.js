@@ -222,7 +222,7 @@ const KillingESG = () => {
               are playing a larger role in the direction and character of
               companies.
             </p>
-            <p className="pb-5 mt-10">
+            <p className="pb-5 ">
               Whether rightly or wrongly, listed companies are compelled to
               develop stances and opinions on social issues. Additionally, and
               on a deeper level, consumer are expecting companies to reflect in

@@ -552,7 +552,7 @@ const Abeginner = () => {
         <p className="border-b border-b-slate-900"></p>
         <div className="h-6" />
         <div className="h-6" />
-        <div className="h-6" />
+        
         <div>
           <h3>The Fintech Landscape and Geopolitical Weak Spots</h3>
           <div className="h-6" />

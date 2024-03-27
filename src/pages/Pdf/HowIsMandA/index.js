@@ -195,7 +195,7 @@ const HowIsMandA = () => {
               relationships, especially given the unique timing we are faced
               with today.
             </p>
-            <p className=" pb-5">
+            <p className=" ">
               We then conclude with 10 further research questions which we feel
               are the natural next steps for any M&A practitioner to be asking.
               If you so wish to engage us with these or other questions, we
@@ -487,7 +487,7 @@ const HowIsMandA = () => {
               secretive and belligerent behaviour in the fields of business,
               diplomacy, trade, research and technology.
             </p>
-            <p className=" pb-5">
+            <p className="">
               However, from the Chinese perspective, it is clear to Beijing what
               benefits the US would enjoy if China were to behave in the way the
               US and the wider West wants, specifically in respect to trade,
@@ -497,7 +497,7 @@ const HowIsMandA = () => {
             </p>
           </div>
           <div className='mt-12'>
-            <h3 className="pb-5 mt-9 ">
+            <h3 className="pb-5">
               Foreign Investment Risk Review Modernisation Act (FIRRMA)
             </h3>
             <p className=" pb-5">
