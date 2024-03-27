@@ -117,7 +117,7 @@ const ClientsCorporations = () => {
               </h3>
               <p className="py-7">
                 Our message of challenging status quo thinking resonates with
-                industry leaders from varies sectors who believe a new approach
+                industry leaders from various sectors who believe a new approach
                 is need to meet the challenges of a new world, including:
               </p>
 
