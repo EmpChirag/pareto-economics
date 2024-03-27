@@ -68,7 +68,7 @@ const KillingESG = () => {
               <p>June 2020</p>
             </div>
             <div className="flex items-center md:mt-0 mt-4">
-              <img src="images/icons/share.svg" className="w-[20px] mr-2" />
+              <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
               <div className="social flex gap-1 pl-2 relative">
                 <a
                   className="cursor-pointer"

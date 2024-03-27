@@ -65,7 +65,7 @@ const HowIsMandA = () => {
       <div className=" max-lg:block flex items-center justify-center ">
         <div className=" max-w-[1180px]">
           <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[40px] leading-[1.2]">
-            How Is M&A Impacted By China’S “Dual Circulation”
+            How Is M&A Impacted By China’s “Dual Circulation”
           </h1>
 
           <div className="h-6" />
@@ -75,7 +75,7 @@ const HowIsMandA = () => {
               <p>January 2021 </p>
             </div>
             <div className="flex items-center md:mt-0 mt-4">
-              <img src="images/icons/share.svg" className="w-[20px] mr-2" />
+              <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
               <div className="social flex gap-1 pl-2 relative">
                 <a
                   className="cursor-pointer"

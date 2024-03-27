@@ -1,15 +1,22 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
-import MegaMenu from '../../components/MegaMenu';
-import SearchBox from '../../components/SearchBox';
+import { Link } from "react-router-dom";
+import MegaMenu from "../../components/MegaMenu";
+import SearchBox from "../../components/SearchBox";
 import { searchResult } from "../../static/serach";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import SplitType from "split-type";
+import { ScrollTrigger } from 'gsap/all';
+
+gsap.registerPlugin(ScrollTrigger);
+
 const Header = ({ invert }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 
   const handleMenu = () => {
     setSearchOpen(false);
-    const body = document.querySelector('body');
+    const body = document.querySelector("body");
     if (!menuOpen === true) {
       body.classList.add("overflow-hidden");
     } else {
@@ -24,10 +31,37 @@ const Header = ({ invert }) => {
       body.classList.add("overflow-hidden");
     } else {
       body.classList.remove("overflow-hidden");
-
     }
     setSearchOpen(!searchOpen);
   };
+
+  useGSAP(() => {
+    
+    const animText = gsap.utils.toArray("h1");
+    animText.forEach((box) => {
+      const splith1 = new SplitType(box, {
+        types: "words, chars,lines"
+      });
+      gsap.from(splith1.chars, {
+        display: "none",
+        stagger: 0.05
+      });
+    });
+    const animH2 = gsap.utils.toArray("h2");
+    animH2.forEach((box) => {
+      const splith2 = new SplitType(box, {
+        types: "words, chars,lines"
+      });
+      gsap.from(splith2.chars, {
+        display: "none",
+        stagger: 0.05,
+        scrollTrigger: {
+          trigger: box,
+          start: "top center"
+        }
+      });
+    });
+  },[]);
   return (
     <>
       <header>

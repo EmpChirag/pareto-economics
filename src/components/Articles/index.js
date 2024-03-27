@@ -139,6 +139,7 @@ const Articles = ({ option, setSearchText }) => {
                     </div>
                     <a
                       href={item.link}
+                      target='_blank'
                       rel="noreferrer"
                       className="text-2xl md:text-3xl my-2 font-title line-clamp-2"
                     >

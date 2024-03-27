@@ -140,7 +140,7 @@ export const news = [
     category: "tvradio"
   },
   {
-    image: "",
+    image: "/images/radio/how-will-sanctions-impact-russia.jpg",
     smalltitle: "TV/Radio | CGTN",
     title: "How will sanctions impact Russia?",
     link: "https://youtu.be/zyrskgfvLtg?si=rN7AzHvrpNg45OhU",
@@ -148,7 +148,7 @@ export const news = [
     category: "tvradio"
   },
   {
-    image: "",
+    image: "/images/radio/can-qatar-help.jpg",
     smalltitle: "TV/Radio | CGTN",
     title: "Can Qatar help with Europe's Energy Crisis?",
     link: "https://youtu.be/Na8-qANEQWI?si=X7w93zROcXVgkoLU",

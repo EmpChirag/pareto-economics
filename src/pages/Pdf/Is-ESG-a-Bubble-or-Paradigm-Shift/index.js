@@ -65,7 +65,7 @@ const IsBubble = () => {
               <p>December 2020</p>
             </div>
             <div className="flex items-center md:mt-0 mt-4">
-              <img src="images/icons/share.svg" className="w-[20px] mr-3" />
+              <img src="images/icons/share.svg" className="w-[20px] mr-3" />:{" "}
               <div className="social flex gap-1 pl-2 relative">
                 <a
                   className="cursor-pointer"
@@ -128,22 +128,22 @@ const IsBubble = () => {
                   />
                 </a>
                 <a
-                className="cursor-pointer copytext"
-                onClick={() => handleSharePageLink("COPY")}
-              >
-                <img
-                  src="/images/icons/copy.svg"
-                  alt="youtube"
-                  height="30"
-                  width="30"
-                  className="h-[30px] w-[30px]"
-                />
-              </a>
-              {showCopiedMessage && (
-                <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
-                  Link copied successfully!
-                </div>
-              )}
+                  className="cursor-pointer copytext"
+                  onClick={() => handleSharePageLink("COPY")}
+                >
+                  <img
+                    src="/images/icons/copy.svg"
+                    alt="youtube"
+                    height="30"
+                    width="30"
+                    className="h-[30px] w-[30px]"
+                  />
+                </a>
+                {showCopiedMessage && (
+                  <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
+                    Link copied successfully!
+                  </div>
+                )}
               </div>
             </div>
           </div>
