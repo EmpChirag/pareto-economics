@@ -295,7 +295,6 @@ export const leadership = [
     title:
       "The United States maintains position as the most powerful country in the world, followed by China and then France according to the latest Global Power Index by Pareto Economics",
     link: "/usa-top-the-global-power-index-in-2023",
-    // "content": "The most comprehensive power index ranks a record 194 counties and unveils stark changes in the balance of power in 2023.   London, UK. March 1st, 2023 – Pareto Economics has released its highly anticipated 2023 Global Power Index, the most comprehensive ranking of the world’s most powerful countries.   This annual ranking measures a …",
     date: "March 2023",
     category: "press"
   },
@@ -303,15 +302,19 @@ export const leadership = [
     title:
       "Pareto Economics to unveil ranking of the most powerful countries in 2023 at their annual Global Power Index Summit in London",
     link: "/pareto-economics-to-unveil-ranking-of-the-most-powerful-countries-in-2023",
-    // "content": "The Global Power Index ranks 194 countries in 2023 up from 113 in 2022, giving the most comprehensive picture of power to date.   London, UK. January 26th, 2023 – The Global Power Index Summit is the flagship event hosted by Pareto Economics that brings together experts in finance, policymaking and business from around the …",
     date: "January 2023",
+    category: "press"
+  },
+  {
+    title: "Pareto Economics Launches Global Power Dashboard",
+    link: "/pareto-economics-launches-global-power-dashboard",
+    date: "March 2024",
     category: "press"
   },
   {
     title:
       "The USA is crowned most powerful country in the world, beating both Russia and China in the 2022 Global Power Index by Pareto Economics.",
     link: "/the-usa-is-crowned-most-powerful-country-in-the-world",
-    // "content": "The worlds first investment focused world affairs index ranks a record 113 countries across 7 regions giving investors and policy makers a radical new picture of the future. 24th February 2022 DOWNLOAD PRESS RELEASE LONDON, Unite Kingdom – Pareto Economics, the global world affairs research consultancy today announced at their annual Summit the latest rankings …",
     date: "February 2022",
     category: "press"
   },
@@ -319,7 +322,6 @@ export const leadership = [
     title:
       "Pareto Economics launches the “Global Power Index 2022 ranking” with an exclusive in person event for business, finance and policy leaders at the London School of Economics",
     link: "/global-power-index-2022-launch-press-release",
-    // "content": "Pioneering index provides new insights into countries true power potential and how investors and policy makers can take full advantage of unseen opportunities. LONDON, UK. January 18th, 2022- The London based world affairs research consultancy Pareto Economics is challenging the status quo and calling out doomsday sellers on their agreed sense of uncertainty. Armed with …",
     date: "January 2022",
     category: "press"
   },
@@ -327,7 +329,6 @@ export const leadership = [
     title:
       "Pangaea Wire Group Announces Company Name Change to Pareto Economics",
     link: "/pangaea-wire-group-announces-company-name-change-to-pareto-economics",
-    // "content": "New corporate name reflects the firms focus on providing empirical insights into the factors impacting foreign direct investment and changing global power dynamics. LONDON, UK. September. 24th, 2021 – Pangaea Wire Group the London based research house and world affairs consultancy has announced today that the company will begin operating under a new name and …",
     date: "September 2021",
     category: "press"
   }

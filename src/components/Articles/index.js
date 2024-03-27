@@ -116,7 +116,7 @@ const Articles = ({ option, setSearchText }) => {
             return (
               <div className="md:w-[47%] lg:w-[30%]" key={index}>
                 <div className="flex items-center justify-between gap-5">
-                  <div className="flex-1 max-w-[120px]">
+                  <div className="flex-1 max-w-[100px] sm:max-w-[120px]">
                     {item.image ? (
                       <img
                         src={item.image}

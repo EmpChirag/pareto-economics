@@ -55,7 +55,7 @@ const TheUSACrown = () => {
         <Header />
       </div>
       <div className="max-w-[1180px] mx-auto px-5">
-        <h1 className="text-[24px] md:text-[40px] leading-[1.2] mb-10  mt-10">
+        <h1 className="text-[24px] md:text-[60px] leading-[1.2] mb-10  mt-10">
           The USA is crowned most powerful country in the world, beating both
           Russia and China in the 2022 Global Power Index by Pareto Economics.
         </h1>

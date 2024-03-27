@@ -94,7 +94,7 @@ const Sitemap = () => {
             </a>
           </li>
         </ul>
-        <h3 className="mt-10">Articles</h3>
+        <h3 className="mt-10">Press Releases</h3>
         <ul className="list-disc pl-5 grid gap-3 md:grid-cols-3 mt-5">
           <li>
             <a href="/global-power-index-2022-launch-press-release">

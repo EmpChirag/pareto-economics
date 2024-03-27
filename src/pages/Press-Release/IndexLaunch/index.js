@@ -55,7 +55,7 @@ const IndexLaunch = () => {
         <Header />
       </div>
       <div className="max-w-[1180px] mx-auto px-5">
-        <h1 className="text-[24px] md:text-[40px] leading-[1.2] mb-10  mt-10 break-all">
+        <h1 className="text-[24px] md:text-[60px] leading-[1.2] mb-10  mt-10 break-all">
           Pareto Economics launches the “Global Power Index 2022 ranking” with
           an exclusive in person event for business, finance and policy leaders
           at the London School of Economics

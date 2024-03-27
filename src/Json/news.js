@@ -44,15 +44,15 @@ export const news = [
     category: "tvradio"
   },
   {
-    image: "/images/radio/heat.jpg",
+    image: "/images/radio/what-uk.jpg",
     smalltitle: "TV/Radio | CGTN",
     title: "What UK Can Expect as Chancellor Announces Recession",
-    link: "https://www.youtube.com/watch?v=na7AWWod8gc&t=97s",
+    link: "https://youtu.be/ha4mduqANg4?si=StsNzdwo4QtPJg7j",
     date: "November 2022",
     category: "tvradio"
   },
   {
-    image: "/images/radio/heat.jpg",
+    image: "/images/radio/the-heat.jpg",
     smalltitle: "TV/Radio | CGTN",
     title: "The Heat: Global Economy",
     link: "https://www.youtube.com/watch?v=0UoTvttWLuU&t=436s",
@@ -60,18 +60,18 @@ export const news = [
     category: "tvradio"
   },
   {
-    image: "/images/radio/heat.jpg",
+    image: "/images/radio/eco-challenge.jpg",
     smalltitle: "TV/Radio | CGTN",
     title: "Economic Challenges in Europe",
-    link: "https://www.youtube.com/watch?v=na7AWWod8gc&t=97s",
+    link: "https://youtu.be/-_xFdoCt9Us?si=FnC7qE-cw4wMiVWI",
     date: "August 2022",
     category: "tvradio"
   },
   {
-    image: "/images/radio/heat.jpg",
+    image: "/images/radio/uk-debt.jpg",
     smalltitle: "TV/Radio | WION",
     title: "UK debt and what to do about it",
-    link: "https://www.youtube.com/watch?v=na7AWWod8gc&t=97s",
+    link: "https://youtu.be/Jb3u0IcC6mo?si=L_JIg_nU9K5SpDGz",
     date: "October 2022",
     category: "tvradio"
   },
@@ -465,7 +465,7 @@ export const news = [
   //   category: "articles"
   // },
   {
-    image: "/images/articles/global-power-index-super-index-9.webp",
+    image: "/images/articles/global-power-index-super-index-22.webp",
     title: "EU FDI screening moves beyond China",
     link: "https://www.fdiintelligence.com/article/80676",
     content:
@@ -511,7 +511,7 @@ export const news = [
     category: "articles"
   },
   {
-    image: "/images/articles/pe_logos-22.webp",
+    image: "/images/articles/pareto-economics-banner-images-26.webp",
     title:
       "Chinese policymakers faced with 'moral dilemma' to avoid property crisis contagion",
     link: "https://www.investmentweek.co.uk/news-analysis/4040698/chinese-policymakers-faced-moral-dilemma-avoid-property-crisis-contagion",
@@ -521,7 +521,7 @@ export const news = [
     category: "articles"
   },
   {
-    image: "/images/articles/pe_logos-22.webp",
+    image: "/images/articles/pareto-economics-banner-images-26.webp",
     title: "Stormy waters: Investors 'watching China-Taiwan tensions closely'",
     link: "https://www.investmentweek.co.uk/news-analysis/4039057/stormy-waters-investors-watching-china-taiwan-tensions-closely",
     content:
@@ -530,7 +530,7 @@ export const news = [
     category: "articles"
   },
   {
-    image: "/images/articles/pe_logos-22.webp",
+    image: "/images/articles/pareto-economics-banner-images-26.webp",
     title:
       "Crypto clampdown: China ban will not hamper 'biggest political idea for 150 years'",
     link: "https://www.investmentweek.co.uk/news/4037987/crypto-clampdown-china-ban-hamper-biggest-political-idea-150",
@@ -540,7 +540,7 @@ export const news = [
     category: "articles"
   },
   {
-    image: "/images/articles/pe_logos-22.webp",
+    image: "/images/articles/pareto-economics-banner-images-26.webp",
     title:
       "IW Long Reads: Avoiding bursting point - Is ESG investing in bubble territory?",
     link: "https://www.investmentweek.co.uk/analysis/4026131/iw-long-reads-avoiding-bursting-point-esg-investing-bubble-territory",

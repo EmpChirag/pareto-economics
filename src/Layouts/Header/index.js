@@ -42,8 +42,9 @@ const Header = ({ invert }) => {
         types: "words, chars"
       });
       gsap.from(splith1.chars, {
+        delay:0.5,
         display: "none",
-        stagger: 0.05
+        stagger: 0.03
       });
     });
     const animH2 = gsap.utils.toArray("h2");
@@ -54,7 +55,7 @@ const Header = ({ invert }) => {
         });
         gsap.from(splith2.chars, {
           display: "none",
-          stagger: 0.05,
+          stagger: 0.03,
           scrollTrigger: {
             trigger: box,
             start: "top center"

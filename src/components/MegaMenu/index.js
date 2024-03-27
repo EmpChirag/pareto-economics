@@ -158,11 +158,10 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
                 />
                 <a
                   target="_blank"
-                  href="/a-beginners-guide"
+                  href="https://youtu.be/aCFzDh63U1k"
                   className="text-lg mt-4 block font-body"
                 >
-                  A beginner’s guide to geopolitical risk, and how it’s
-                  impacting fintech
+                  How To Understand The Changing World Order
                 </a>
               </div>
             </div>

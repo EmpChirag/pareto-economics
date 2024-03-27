@@ -64,7 +64,7 @@ const HowIsMandA = () => {
       <div className="h-6" />
       <div className=" max-lg:block flex items-center justify-center ">
         <div className=" max-w-[1180px]">
-          <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[40px] leading-[1.2]">
+          <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[60px] leading-[1.2]">
             How Is M&A Impacted By China’s “Dual Circulation” ?
           </h1>
 

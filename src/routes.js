@@ -1,4 +1,5 @@
 import React, { lazy } from "react";
+const GlobalPowerDashboard = lazy(()=> import( './pages/Press-Release/GlobalPowerDashboard'));
 const USATop = lazy(()=> import('./pages/Press-Release/USATop'));
 const IndexLaunch = lazy(()=> import('./pages/Press-Release/IndexLaunch'));
 const PangaeaWireGroup = lazy(()=> import('./pages/Press-Release/PangaeaWireGroup'));
@@ -193,6 +194,11 @@ const routes = [
   {
     path: "/the-usa-is-crowned-most-powerful-country-in-the-world",
     component: <TheUSACrown />,
+    exact: true
+  },
+  {
+    path: "/pareto-economics-launches-global-power-dashboard",
+    component: <GlobalPowerDashboard />,
     exact: true
   }
 ];

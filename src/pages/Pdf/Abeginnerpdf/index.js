@@ -57,7 +57,7 @@ const Abeginner = () => {
         <Header />
       </div>
       <div className="max-w-[1180px] px-5 mt-10 mx-auto">
-        <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[40px] leading-[1.2]">
+        <h1 className="pb-10 max-md:pb-1 text-[24px] md:text-[60px] leading-[1.2]">
           A beginner’s guide to geopolitical risk, and how It’s impacting
           fintech ?
         </h1>
@@ -153,10 +153,6 @@ const Abeginner = () => {
         <div className="flex max-md:block">
           <div className="w-full md:pr-20">
             <div className="h-6" />
-            <p className="font-medium">
-              This White Paper is based on research and analysis undertaken by
-              Pareto Economics and FINTRAIL.
-            </p>
             <h3 className="pb-6 md:pb-10 mt-5 md:mt-9 ">Executive Summary </h3>
 
             <p className="">

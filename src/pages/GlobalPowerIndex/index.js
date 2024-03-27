@@ -41,7 +41,7 @@ const GlobalPowerIndex = () => {
         <section className="mt-10 pb-10 border-white border-b ">
           <div className="flex max-md:flex-col gap-5 md:items-center justify-between ">
             <h1 className="max-w-[500px]">Global Power Index</h1>
-            <h2 className="max-w-[430px]">
+            <h2 className="w-[430px] text-left">
               Software enabled Macro forecasting
             </h2>
           </div>
@@ -81,6 +81,7 @@ const GlobalPowerIndex = () => {
             </p>
             <a
               href="https://globalpowerindex.com/"
+              target="_blank"
               className="btn leading-[48px] h-[50px] text-black mt-5 btn-invert"
             >
               Access Dashboard
@@ -167,6 +168,7 @@ const GlobalPowerIndex = () => {
             <h2 className="lg:max-w-[650px] pb-4">Analytics + Analysis</h2>
             <a
               href="https://globalpowerindex.com/"
+              target="_blank"
               className="btn leading-[48px] h-[50px] text-black mt-5 md:mt-10 btn-invert"
             >
               Access Insights
@@ -189,7 +191,7 @@ const GlobalPowerIndex = () => {
             <div className="max-w-[700px] font-title">
               <h3 className="flex items-start">
                 <img
-                  src='/images/GlobalPowerIndex/quote.svg'
+                  src="/images/GlobalPowerIndex/quote.svg"
                   alt="quote"
                   className="w-[20px] md:w-[30px] rotate-[180deg]"
                 />
@@ -197,7 +199,11 @@ const GlobalPowerIndex = () => {
                 is key. I was therefore interested to see that this is also the
                 starting point of Pareto Economics’ approach to understanding
                 global issues, and it underpins its Global Power Index.
-                <img src='/images/GlobalPowerIndex/quote.svg' alt="quote" className="w-[20px] md:w-[30px]" />
+                <img
+                  src="/images/GlobalPowerIndex/quote.svg"
+                  alt="quote"
+                  className="w-[20px] md:w-[30px]"
+                />
               </h3>
 
               <p className="mt-5 md:mt-10">

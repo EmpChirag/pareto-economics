@@ -55,7 +55,7 @@ const PangaeaWireGroup = () => {
         <Header />
       </div>
       <div className="max-w-[1180px] mx-auto px-5">
-        <h1 className="text-[24px] md:text-[40px] leading-[1.2] mb-10  mt-10">
+        <h1 className="text-[24px] md:text-[60px] leading-[1.2] mb-10  mt-10">
           Pangaea Wire Group Announces Company Name Change to Pareto Economics
         </h1>
         <div className="md:flex block  items-center justify-between">

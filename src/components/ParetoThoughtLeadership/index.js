@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const ParetoThoughtLeadership = () => {
   return (
@@ -29,22 +30,22 @@ const ParetoThoughtLeadership = () => {
         />
       </div>
       <div className="mt-10 flex max-md:flex-col gap-10 lg:px-10">
-        <div className="">
-          <div className="uppercase text-lg">Insights</div>
-          <a
-            href="/how-is-ma-impacted"
+        <div className="flex-1">
+          <div className="uppercase text-lg">Press</div>
+          <Link
+            to="/pareto-economics-launches-global-power-dashboard"
             target="_blank"
             className="font-title text-2xl md:text-3xl my-4 md:my-5 inline-block"
           >
-            How is M&A impacted by China’s ‘Dual Circulation’ Development
-            Strategy?
-          </a>
+            Pareto Economics Launches Global Power Dashboard
+          </Link>
           <p>
-            “We focus on three key bilateral relationships, including; US-China,
-            EU- China and UK-China”
+            “Pareto Economics, today launches the Global Power Dashboard, a
+            cutting-edge enterprise SaaS product made for capital allocators,
+            corporate leaders and policy makers.”
           </p>
         </div>
-        <div className="">
+        <div className="flex-1">
           <div className="uppercase text-lg">PODCAST</div>
           <a
             href="https://podcasts.apple.com/gb/podcast/what-really-drives-political-action-in-the-real-world/id1394658598?i=1000518351187"
@@ -59,7 +60,7 @@ const ParetoThoughtLeadership = () => {
             understand your world.
           </p>
         </div>
-        <div className="">
+        <div className="flex-1">
           <div className="uppercase text-lg">Insights</div>
           <a
             href="/a-beginners-guide"

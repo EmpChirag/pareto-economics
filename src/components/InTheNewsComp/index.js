@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const InTheNewsComp = () => {
   return (
-    <section>
-      <h2 className="temp-font-remove">In The News</h2>
+    <section className='border-t border-black pt-[50px] md:pt-24'>
+      <h2 className="">In The News</h2>
       <div className="my-6 font-title md:my-16 max-w-[700px] text-2xl md:ml-10">
         Pareto Economics regularly lends its voice to global media outlets whose
         audience seek to navigate the complexities of today's world,
