@@ -862,18 +862,21 @@ const IsBubble = () => {
             <div className="text-lg">
               <p className="mt-[100px]  ">
                 <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-3 md:mt-16"></p>
-                <div className="h-6" />
-                <sup className="mr-2 mt-3">1</sup> The Story Behind Talent & ESG,
-                2020, BRUIN FINANCIAL, ESG Initiative Surve
+                <p className="flex">
+                  <div className="h-6" />
+                  <sup className="mr-2 mt-3">1</sup> The Story Behind Talent &
+                  ESG, 2020, BRUIN FINANCIAL, ESG Initiative Surve
+                </p>
               </p>
 
               <p className="mt-[6px] flex">
-                <sup className="mr-2 mt-3">2</sup> According to Research Affiliates.
+                <sup className="mr-2 mt-3">2</sup> According to Research
+                Affiliates.
               </p>
 
               <p className="mt-[6px] flex">
-                <sup className="mr-2 mt-3">3</sup> PwC Asset & Wealth Management,
-                Luxembourg
+                <sup className="mr-2 mt-3">3</sup> PwC Asset & Wealth
+                Management, Luxembourg
               </p>
 
               <p className="mt-[6px] flex">
@@ -887,13 +890,19 @@ const IsBubble = () => {
               </p>
 
               <p className="mt-[6px] flex">
-                <sup className="mr-2 mt-3">6</sup> <p>Yahoo Finance, time of writing 11
-                <sup className="mt-3">th</sup> of December 2020</p>
+                <sup className="mr-2 mt-3">6</sup>{" "}
+                <p>
+                  Yahoo Finance, time of writing 11
+                  <sup className="mt-3">th</sup> of December 2020
+                </p>
               </p>
 
               <p className="mt-[6px] flex">
-                <sup className="mr-2 mt-3">7</sup> <p>Yahoo Finance, time of writing 11
-                <sup className="mt-3">th</sup> of December 2020</p>
+                <sup className="mr-2 mt-3">7</sup>{" "}
+                <p>
+                  Yahoo Finance, time of writing 11
+                  <sup className="mt-3">th</sup> of December 2020
+                </p>
               </p>
 
               <p className="mt-[6px] flex">
@@ -905,7 +914,7 @@ const IsBubble = () => {
                 <sup className="mr-2 mt-3">9</sup> Yardeni Research, 2020
               </p>
 
-               <p className="mt-[6px] flex">
+              <p className="mt-[6px] flex">
                 <sup className="mr-2 mt-3">10</sup> Ned Davis Research, 2019
               </p>
 
@@ -915,16 +924,18 @@ const IsBubble = () => {
               </p>
 
               <p className="mt-[6px] flex">
-                <sup className="mr-2 mt-3">12</sup> Refinitiv’s Wu & Borovkova, 2020
+                <sup className="mr-2 mt-3">12</sup> Refinitiv’s Wu & Borovkova,
+                2020
               </p>
 
               <p className="mt-[6px] flex">
-                <sup className="mr-2 mt-3">13</sup> Global Sustainable Investment
-                Alliance report, 2019
+                <sup className="mr-2 mt-3">13</sup> Global Sustainable
+                Investment Alliance report, 2019
               </p>
 
               <p className="mt-[6px] flex">
-                <sup className="mr-2 mt-3">14</sup> Research Affiliates’ Kalesnik
+                <sup className="mr-2 mt-3">14</sup> Research Affiliates’
+                Kalesnik
               </p>
             </div>
             {/* <div className="flex gap-10 max-md:gap-0 max-md:flex-col">
