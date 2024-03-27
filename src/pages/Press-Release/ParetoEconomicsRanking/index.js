@@ -225,23 +225,6 @@ const ParetoEconomicsRanking = () => {
             business audience at this year’s summit”.
           </p>
           <div className="h-6" />
-          <p>
-            To register for the Global Power Index Summit 2023, visit the event
-            website at
-          </p>
-          <div className="h-6" />
-          <p>
-            <a href="https://pareto-economics.com/summit-2023/">
-              https://pareto-economics.com/summit-2023/
-            </a>
-          </p>
-          <div className="h-6" />
-          <strong>Notes:</strong>
-          <p>
-            The Global Power Index rankings for 2022 can be found{" "}
-            <a href="https://pareto-economics.com/global-power-index/">here</a>
-          </p>
-          <div className="h-6" />
         </div>
       </div>
       <div className="container mx-auto px-5">

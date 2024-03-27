@@ -246,15 +246,7 @@ const USATop = () => {
             confident and long-term strategic business and investing decisions.
           </p>
           <div className="h-6"></div>
-          <p>
-            To access the full 194 country ranking for 2023 as well as the
-            report, visit the webpage at:
-          </p>
-          <p>
-            <a href="https://pareto-economics.com/global-power-index/">
-              https://pareto-economics.com/global-power-index/
-            </a>
-          </p>
+  
           <div className="h-6"></div>
         </div>
       </div>

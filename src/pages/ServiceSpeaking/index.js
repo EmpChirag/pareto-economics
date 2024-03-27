@@ -11,9 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-// import "swiper/css/navigation";
-
-// import "./styles.css";
+import "swiper/css/navigation";
 
 // import required modules
 import { Navigation } from "swiper/modules";
@@ -164,58 +162,83 @@ const ServiceSpeaking = () => {
 
         {/* slider start */}
 
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          
+        <Swiper
+          loop={true}
+          navigation={true}
+          modules={[Navigation]}
+          className="mySwiper max-w-[950px]"
+        >
+          <SwiperSlide>
+            <div className="md:px-28 px-12">
+              <div className="video-responsive">
+                <iframe
+                  src={`https://www.youtube.com/embed/EZQQsj4KkOY?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title="Embedded youtube"
+                  className="max-h-[500px]"
+                />
+              </div>
+              <div className="w-full flex-1 max-lg:mb-10">
+                <div className="h-6" />
+                <h3 className="w-full  pb-5">Global Power Summit 2024</h3>
+                <p className="w-full">
+                  London 2024 | Watch Murati, as he gives his keynote for
+                  Pareto’s 3rd annual flagship summit to an audience of senior
+                  business, investment and government leaders
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="  mb-20 max-lg:mb-10 md:px-28  px-12">
+              <div className="video-responsive">
+                <iframe
+                  src={`https://www.youtube.com/embed/fUw6wyuU2Xk?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title="Embedded youtube"
+                  className="max-h-[500px]"
+                />
+              </div>
+              <div className="w-full  ">
+                <div className="h-6" />
+                <h3 className=" w-full pb-5">Global Power Summit 2023</h3>
+                <p className="w-full">
+                  London 2023 | Join Murati, as he gives his keynote for
+                  Pareto’s flagship summit to an audience of senior business and
+                  government leaders
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="md:px-28 px-12">
+              <div className="video-responsive">
+                <iframe
+                  src={`https://www.youtube.com/embed/4b2MggrfgY8?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title="Embedded youtube"
+                  className="max-h-[500px]"
+                />
+              </div>
+              <div className="w-full  max-lg:mb-10">
+                <div className="h-6" />
+                <h3 className="w-full pb-5">Global Power Summit 2022</h3>
+                <p className="w-full">
+                  London 2022 | Murati opens up the first Global Power Summit at
+                  the London School of Economics. Watch his keynote now.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
 
         {/* slider end */}
-        <div className="flex max-lg:flex-col-reverse gap-10 mb-20 max-lg:mb-10">
-          <div className="video-responsive">
-            <iframe
-              src={`https://www.youtube.com/embed/fUw6wyuU2Xk?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="Embedded youtube"
-              className="min-h-[300px]"
-            />
-          </div>
-          <div className="w-full flex-1 ">
-            {" "}
-            <h3 className="w-[400px] max-sm:w-full pb-5">
-              Global Power Summit 2023
-            </h3>
-            <p className="w-[500px] max-md:w-full">
-              London 2024 | Join Murati, as he gives his keynote for Pareto’s
-              flagship summit to an audience of senior business and government
-              leaders
-            </p>
-          </div>
-        </div>
-        <div className="flex max-lg:block gap-10">
-          <div className="w-full flex-1 max-lg:mb-10">
-            <h3 className="w-[400px] max-sm:w-full pb-5">
-              Global Power Summit 2022
-            </h3>
-            <p className=" w-[500px] max-md:w-full">
-              London 2022 | Murati opens up the first Global Power Summit at the
-              London School of Economics. Watch his keynote now.
-            </p>
-          </div>
-          <div className="video-responsive">
-            <iframe
-              src={`https://www.youtube.com/embed/4b2MggrfgY8?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560`}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="Embedded youtube"
-              className="min-h-[300px]"
-            />
-          </div>
-        </div>
       </section>
       <section className="">
         <div className="flex justify-between mt-8 gap-10 max-md:block">
