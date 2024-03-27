@@ -36,9 +36,8 @@ const Header = ({ invert }) => {
   };
 
   useGSAP(() => {
-    
-    const animText = gsap.utils.toArray("h1");
-    animText.forEach((box) => {
+    const animH1 = gsap.utils.toArray("h1");
+    animH1.forEach((box) => {
       const splith1 = new SplitType(box, {
         types: "words, chars,lines"
       });
@@ -47,7 +46,7 @@ const Header = ({ invert }) => {
         stagger: 0.05
       });
     });
-    const animH2 = gsap.utils.toArray("h2");
+    const animH2 = document.querySelectorAll("h2");
     animH2.forEach((box) => {
       const splith2 = new SplitType(box, {
         types: "words, chars,lines"
@@ -61,7 +60,7 @@ const Header = ({ invert }) => {
         }
       });
     });
-  },[]);
+  });
   return (
     <>
       <header>

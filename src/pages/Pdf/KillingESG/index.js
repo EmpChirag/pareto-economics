@@ -150,50 +150,7 @@ const KillingESG = () => {
               </div>
             </div>
           </div>
-          <div className="h-6" />
           <div className="">
-            <div className="font-bold mt-4">Principal Authors</div>
-            Klisman Murati
-            <div className="font-bold mt-4"> Series</div>
-            Global Investors Series | Societal Change
-            <div className="font-bold mt-4">Published by</div>
-            Pareto Economics https://pareto-economics.com
-            <div className="font-bold mt-4">Date</div>
-            June 2021
-            <div className="font-bold mt-4"> Contact</div>
-            info@pareto-economics.com
-            <div className="font-bold mt-4">
-              {" "}
-              How to reference this White Paper
-            </div>
-            Murati, K (2021) Is Passive Investing Killing ESG? | Pareto
-            Economics
-            <div className="md:max-w-[50%] mt-28">
-              <p className=" pb-5">
-                All rights are reserved. No part of this publication may be
-                reproduced, stored in a retrieval system, mechanical,
-                photocopying, recoding or otherwise, without the prior
-                permission of Pareto Economics. While every attempt has been
-                made to ensure that the information contained in this
-                publication has been obtained from reliable sources, Pareto
-                Economics nor any of its authors are responsible for any errors
-                or omissions, or for the results obtained from the use of this
-                information.
-              </p>
-              <p className=" pb-5">
-                In no event will Pareto Economics, or its partners, employees or
-                agents, be liable to the reader or anyone else for any decision
-                made or action taken in reliance on the information on this
-                article or for any consequential, special or similar damages,
-                even if advised of the possibility of such damages.
-              </p>
-            </div>
-            <div className="pb-10 mt-9">
-              <span className="font-bold">Keywords:</span> Passive Investing,
-              ESG, Active Investing, Shareholder Activism, Impact Investing,
-              Social Anthropology, Behavioural Psychology, The Business
-              Triangle, M&A, Innovation, Adam Smith, Agency Problems
-            </div>
             <h3 className="pb-10 mt-9">Societal Change in Action</h3>
             <p className="pb-5">
               Social Anthropology probably isn’t the first subject you think of

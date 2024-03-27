@@ -158,7 +158,7 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
                 />
                 <a
                   target="_blank"
-                  href="/pdf/A-beginners-guide-to-geopolitical-risk-and-how-its-impacting-fintech.pdf"
+                  href="/a-beginners-guide"
                   className="text-lg mt-4 block font-body"
                 >
                   A beginner’s guide to geopolitical risk, and how it’s
@@ -185,10 +185,10 @@ const MegaMenu = ({ menu, handleMenu, handleSearch }) => {
                 />
                 <a
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=na7AWWod8gc&t=97s"
+                  href="https://youtu.be/0UoTvttWLuU?si=co8kCBNTBTTSC7Mc&t=436 "
                   className="text-lg mt-4 block font-body"
                 >
-                  Truss warned of 'mass bankruptcies'
+                  The Heat: Global economy
                 </a>
               </div>
             </div>

@@ -158,17 +158,8 @@ const HowIsMandA = () => {
             </div>
           </div>
 
-          <section className="grid grid-cols-2">
-            <p className=" pb-5">
-              <b>
-                Murati, K & Tomkins, E. (2021) WHAT DOES CHINA’S NEW “DUAL
-                CIRCULATION” DEVELOPMENT MODEL MEAN FOR M&A? Pareto Economics
-              </b>
-            </p>
-          </section>
-
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">Executive Summary</h3>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">Executive Summary</h3>
             <p className=" pb-5">
               This whitepaper is an essential read for the institutional
               investor, cross border business operator and foreign investment
@@ -211,9 +202,9 @@ const HowIsMandA = () => {
               would be more than happy to lend our thinking and experience to
               you.{" "}
             </p>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">The Chinese Perspective</h3>
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5">The Chinese Perspective</h3>
             <p className=" pb-5">
               Much of the literature, forecasts, opinions and strategy regarding
               China and M&A comes from a western perspective for a western
@@ -320,9 +311,9 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">China’s 14th Five-Year Plan</h3>
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">China’s 14th Five-Year Plan</h3>
             <p className=" pb-5">
               In response to increasing external economic shocks, China’s 14th
               Five-Year Plan, formulated at the 19th Party Congress in October,
@@ -386,9 +377,9 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">
               China’s Outbound Foreign Investment
             </h3>
             <p className=" pb-5">
@@ -460,9 +451,9 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">Sino-US Relations</h3>
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">Sino-US Relations</h3>
             <p className=" pb-5">
               Ever since President Nixon & Henry Kissinger landed in Beijing
               marking the beginning of the US’s policy of engagement in 1972
@@ -480,7 +471,7 @@ const HowIsMandA = () => {
               have been a dangerous alignment of two strong powers.
             </p>
             <div className="border-b-8 border-t-8 border-sky-600 mb-5">
-              <p className="text-4xl font-bold my-3">
+              <p className=" font-bold my-3">
                 <i>
                   One constant theme has characterised the US-China relationship
                   ever since and that is the consistent hands-on approach by the
@@ -504,9 +495,9 @@ const HowIsMandA = () => {
               elections. What is unclear to the Chinese is how the US sees these
               changes benefiting China, or more specifically the CCP.
             </p>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">
               Foreign Investment Risk Review Modernisation Act (FIRRMA)
             </h3>
             <p className=" pb-5">
@@ -627,9 +618,9 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">
               Reverse Mergers and Delisting Chinese Companies from US Exchanges
             </h3>
             <p className=" pb-5">
@@ -751,9 +742,9 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">Biden’s China Policy</h3>
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">Biden’s China Policy</h3>
             <p className=" mb-5">
               Before Biden officially took office, he committed to maintaining
               Trump’s hard-line stance on China; although, it is widely expected
@@ -919,9 +910,9 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">Sino-EU M&A</h3>
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">Sino-EU M&A</h3>
             <p className=" mb-5">
               Sino-EU relations presents a more complex picture because unlike
               the US the EU is a political and economic bloc made of 27 member
@@ -1006,9 +997,9 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-          </section>
-          <section>
-            <h3 className="pb-5 mt-9 text-4xl">
+          </div>
+          <div className='mt-12'>
+            <h3 className="pb-5 mt-9 ">
               China-EU Comprehensive Agreement on Investment (CAI)
             </h3>
             <p className=" mb-5">
@@ -1230,8 +1221,8 @@ const HowIsMandA = () => {
                 </li>
               </ul>
             </div>
-            <section>
-              <h3 className="pb-5 mt-9 text-4xl">Sino-UK M&A</h3>
+            <div className='mt-12'>
+              <h3 className="pb-5 mt-9 ">Sino-UK M&A</h3>
               <p className=" mb-5">
                 The UK starts off 2021 having completed and agreed what was
                 probably the most important political and economic agreement in
@@ -1311,9 +1302,9 @@ const HowIsMandA = () => {
                   </li>
                 </ul>
               </div>
-            </section>
-            <section>
-              <h3 className="pb-5 mt-9 text-4xl">
+            </div>
+            <div className='mt-12'>
+              <h3 className="pb-5 mt-9 ">
                 National Security & Investment Bill
               </h3>
               <p className=" pb-5">
@@ -1364,7 +1355,7 @@ const HowIsMandA = () => {
               </p>
               <div className="h-6" />
               <div className="bg-black border border-black ">
-                <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
+                <h3 className="pb-10 mt-9  text-white mx-5 font-bold">
                   KEY TAKE AWAYS
                 </h3>
                 <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
@@ -1390,9 +1381,9 @@ const HowIsMandA = () => {
                   </li>
                 </ul>
               </div>
-            </section>
-            <section>
-              <h3 className="pb-10 mt-12 text-4xl text-[#3e4d77]">
+            </div>
+            <div className='mt-12'>
+              <h3 className="pb-10 mt-12  text-[#3e4d77]">
                 Further Research Questions
               </h3>
               <p className=" pb-5">
@@ -1443,7 +1434,7 @@ const HowIsMandA = () => {
                   new hostile investing environment?
                 </li>
               </ol>
-            </section>
+            </div>
             <div className=" text-lg">
               <div className=" md:mt-[50px] max-w-[250px] border-t-2 border-t-slate-900 mb-3" />
               <div className="h-6" />
@@ -1579,7 +1570,7 @@ const HowIsMandA = () => {
                 </a>
               </p>
             </div>
-            {/* <section>
+            {/* <div className='mt-12'>
               <div className="">
                 <div>
                   <div className="flex gap-10 max-md:gap-0 max-md:flex-col">
@@ -1648,8 +1639,8 @@ const HowIsMandA = () => {
                   </div>
                 </div>
               </div>
-            </section> */}
-          </section>
+            </div> */}
+          </div>
         </div>
       </div>
       <Footer />

@@ -19,7 +19,7 @@ const AboutUs = () => {
           How Will the World be Changed and Challenged in the next 100 years?
         </h2>
         <div className="border-b border-slate-900  py-5 md:py-10">
-          <p className="text-xl max-w-[700px] py-3">
+          <div className="text-xl max-w-[700px] py-3">
             Never before has there been a greater demand for unwavering
             long-term vision and decisive action.
             <div className="h-6"></div>
@@ -33,7 +33,7 @@ const AboutUs = () => {
             This combination would not come from the established offering. It
             would take a different kind of company to build it. That’s why we
             founded Pareto Economics.
-          </p>
+          </div>
         </div>
       </section>
       <div>
@@ -179,7 +179,7 @@ const AboutUs = () => {
               </div>
 
               <div className="flex pt-5">
-                <p className="max-w-[486px]">
+                <div className="domo max-w-[486px]">
                   With Pareto, governments are reforming their foreign direct
                   investment strategy, in doing so, changing the trajectory of
                   their country.
@@ -193,7 +193,7 @@ const AboutUs = () => {
                   We’re committed to forging a future where the status quo of
                   short-term thinking fueled by uncertainty is replaced with
                   confident leadership based on informed decision making..
-                </p>
+                </div>
               </div>
             </div>
           </div>
