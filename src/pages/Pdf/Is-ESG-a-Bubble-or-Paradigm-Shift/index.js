@@ -860,8 +860,8 @@ const IsBubble = () => {
               </li>
             </ul>
             <div className="text-lg">
-              <p className="mt-[100px]  ">
-                <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-3 md:mt-16"></p>
+              <p className=" md:mt-[100px] mt-[50px] ">
+                <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-9 md:mt-16"></p>
                 <p className="flex">
                   <div className="h-6" />
                   <sup className="mr-2 mt-3">1</sup> The Story Behind Talent &

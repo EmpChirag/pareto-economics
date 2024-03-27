@@ -1445,7 +1445,7 @@ const Abeginner = () => {
         </p>
         <div className="h-6" />
 
-        <div className="text-lg mt-[100px]  ">
+        <div className="text-lg md:mt-[100px] mt-[30px] ">
           <p className=" max-w-[250px] border-b-2 border-b-slate-900 mb-3 md:mt-16"></p>
           <div className="h-6" />
           <sup className="mr-2">1</sup>{" "}
