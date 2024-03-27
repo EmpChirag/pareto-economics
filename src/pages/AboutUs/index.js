@@ -3,8 +3,39 @@ import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
+import gsap from "gsap";
+import SplitType from "split-type";
+import { useGSAP } from "@gsap/react";
 
 const AboutUs = () => {
+  useGSAP(() => {
+    // setTimeout(() => {
+    //   const animH1 = gsap.utils.toArray("h1");
+    //   animH1.forEach((box) => {
+    //     const splith1 = new SplitType(box, {
+    //       types: "words, chars,lines"
+    //     });
+    //     gsap.from(splith1.chars, {
+    //       display: "none",
+    //       stagger: 0.05
+    //     });
+    //   });
+    //   const animH2 = document.querySelectorAll("h2");
+    //   animH2.forEach((box) => {
+    //     const splith2 = new SplitType(box, {
+    //       types: "words, chars,lines"
+    //     });
+    //     gsap.from(splith2.chars, {
+    //       display: "none",
+    //       stagger: 0.05,
+    //       scrollTrigger: {
+    //         trigger: box,
+    //         start: "top center"
+    //       }
+    //     });
+    //   });
+    // }, 2000);
+  });
   return (
     <div className="container mx-auto">
       <Header />

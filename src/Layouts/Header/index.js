@@ -46,20 +46,22 @@ const Header = ({ invert }) => {
         stagger: 0.05
       });
     });
-    const animH2 = document.querySelectorAll("h2");
-    animH2.forEach((box) => {
-      const splith2 = new SplitType(box, {
-        types: "words, chars,lines"
-      });
-      gsap.from(splith2.chars, {
-        display: "none",
-        stagger: 0.05,
-        scrollTrigger: {
-          trigger: box,
-          start: "top center"
-        }
-      });
-    });
+    const animH2 = gsap.utils.toArray("h2");
+    setTimeout(() => {
+      animH2.forEach((box) => {
+        const splith2 = new SplitType(box, {
+          types: "words, chars,lines"
+        });
+        gsap.from(splith2.chars, {
+          display: "none",
+          stagger: 0.05,
+          scrollTrigger: {
+            trigger: box,
+            start: "top center"
+          }
+        });
+      })
+    }, 2000);
   });
   return (
     <>
