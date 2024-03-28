@@ -41,9 +41,9 @@ const GlobalPowerIndex = () => {
         <section className="mt-10 pb-10 border-white border-b ">
           <div className="flex max-md:flex-col gap-5 md:items-center justify-between ">
             <h1 className="max-w-[500px]">Global Power Index</h1>
-            <h2 className="w-[430px] text-left">
+            <h4 className="w-[430px] text-left text-5xl">
               Software enabled Macro forecasting
-            </h2>
+            </h4>
           </div>
           <div className="w-full mt-10">
             <img

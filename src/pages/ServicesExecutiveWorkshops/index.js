@@ -16,15 +16,18 @@ const ServicesExecutiveWorkshops = () => {
 
       <section className="mt-10 pb-10 border-black border-b">
         <div className="flex max-md:flex-col justify-between mt-8">
-          <h2 className=" max-w-[700px]">
+<div className="w-full">
+          <h2 className=" ">
             We Provide Customised Content for Your Needs and Challenges
           </h2>
-
+          </div>
+<div className="w-full">
           <h3 className="w-full mt-5 md:mt-[200px]">
             Pareto is brought in to shed light and shape thinking of senior
             leadership through interactive and engaging workshop/training
             programs.
-          </h3>
+            </h3>
+            </div>
         </div>
       </section>
 
