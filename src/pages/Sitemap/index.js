@@ -8,7 +8,7 @@ const Sitemap = () => {
       <Header />
       <h1 className="md:mt-10 mt-5">Sitemap</h1>
       <div className="mt-10 ">
-        <ul className="list-disc pl-5 grid gap-3 md:grid-cols-3 mt-5">
+        <ul className="list-disc pl-5 grid gap-4 md:grid-cols-3 mt-5">
           <li>
             <a href="/about-us">About Us</a>
           </li>
@@ -29,7 +29,7 @@ const Sitemap = () => {
           </li>
         </ul>
         <h3 className="mt-10">Services</h3>
-        <ul className="list-disc pl-5 grid gap-3 md:grid-cols-3 mt-5">
+        <ul className="list-disc pl-5 grid gap-4 md:grid-cols-3 mt-5">
           <li>
             <a href="/services">Services</a>
           </li>
@@ -46,7 +46,7 @@ const Sitemap = () => {
           </li>
         </ul>
         <h3 className="mt-10">Clients</h3>
-        <ul className="list-disc pl-5 grid gap-3 md:grid-cols-3 mt-5">
+        <ul className="list-disc pl-5 grid gap-4 md:grid-cols-3 mt-5">
           <li>
             <a href="/clients">Clients</a>
           </li>
@@ -61,7 +61,7 @@ const Sitemap = () => {
           </li>
         </ul>
         <h3 className="mt-10">Legal</h3>
-        <ul className="list-disc pl-5 grid gap-3 md:grid-cols-3 mt-5">
+        <ul className="list-disc pl-5 grid gap-4 md:grid-cols-3 mt-5">
           <li>
             <a href="/modern-slavery-statement">Modern Slavery Statement</a>
           </li>
@@ -76,7 +76,7 @@ const Sitemap = () => {
           </li>
         </ul>
         <h3 className="mt-10">Insights</h3>
-        <ul className="list-disc pl-5 grid gap-3 md:grid-cols-3 mt-5">
+        <ul className="list-disc pl-5 grid gap-4 md:grid-cols-3 mt-5">
           <li>
             <a href="/a-beginners-guide">A Beginner's Guide</a>
           </li>
@@ -95,7 +95,7 @@ const Sitemap = () => {
           </li>
         </ul>
         <h3 className="mt-10">Press Releases</h3>
-        <ul className="list-disc pl-5 grid gap-3 md:grid-cols-3 mt-5">
+        <ul className="list-disc pl-5 grid gap-4 md:grid-cols-3 mt-5">
           <li>
             <a href="/global-power-index-2022-launch-press-release">
               Global Power Index 2022 Launch Press Release
@@ -121,6 +121,11 @@ const Sitemap = () => {
           <li>
             <a href="/the-usa-is-crowned-most-powerful-country-in-the-world">
               The Usa Is Crowned Most Powerful Country In The World
+            </a>
+          </li>
+          <li>
+            <a href="/pareto-economics-launches-global-power-dashboard">
+              Pareto Economics Launches Global Power Dashboard
             </a>
           </li>
         </ul>
