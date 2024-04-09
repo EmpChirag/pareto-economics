@@ -6,6 +6,7 @@ import Footer from "../../Layouts/Footer";
 import gsap from "gsap";
 import SplitType from "split-type";
 import { useGSAP } from "@gsap/react";
+import { Helmet } from "react-helmet";
 
 const AboutUs = () => {
   useGSAP(() => {
@@ -38,6 +39,11 @@ const AboutUs = () => {
   });
   return (
     <div className="container mx-auto">
+    <Helmet>
+                
+                <title>AboutUs | Pareto Economics</title>
+                <link rel="canonical" href="https://pareto-economics.com/about-us" />
+            </Helmet>
       <Header />
       <HeroSection
         className="hero-home"

@@ -4,6 +4,7 @@ import Footer from "../../Layouts/Footer";
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import SplitType from 'split-type';
+import { Helmet } from "react-helmet";
 
 const GlobalPowerIndex = () => {
   //  useGSAP(() => {
@@ -37,6 +38,11 @@ const GlobalPowerIndex = () => {
   return (
     <div className="bg-[#1B2029] text-white ">
       <div className="container mx-auto">
+      <Helmet>
+        <title>Global Power Index | Pareto Economics</title>
+        <meta name="description" content="Helmet application" />
+        <link rel="canonical" href="https://pareto-economics.com/global-power-index" />
+    </Helmet>
         <Header invert />
         <section className="mt-10 pb-10 border-white border-b ">
           <div className="flex max-md:flex-col gap-5 md:items-center justify-between ">

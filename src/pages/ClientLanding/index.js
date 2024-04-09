@@ -2,10 +2,19 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer";
+import { Helmet } from "react-helmet";
 
 const ClientLanding = () => {
   return (
     <div className="container mx-auto">
+      <Helmet>
+                
+                <title>Client Landing | Pareto Economics</title>
+                <meta
+      name="description"
+      content="Client Landing by Pareto Economics"
+    />
+            </Helmet>
       <Header />
       <section>
         <div className="max-md:flex-col flex justify-between">
