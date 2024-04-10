@@ -173,8 +173,8 @@ const PangaeaWireGroup = () => {
             <p>
               For more information about the name change or to learn more about
               Pareto Economics, please visit:{" "}
-              <a href="https://pareto-economics.com/">
-                https://pareto-economics.com/
+              <a href="https://www.pareto-economics.com/">
+                https://www.pareto-economics.com/
               </a>
             </p>
           </div>

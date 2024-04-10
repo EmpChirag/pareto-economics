@@ -223,7 +223,7 @@ const IndexLaunch = () => {
                 className="wp-embedded-content"
                 data-secret="FC5JUbJ37t"
               >
-                <a href="https://pareto-economics.com/global-power-index-2022-launch/">
+                <a href="https://www.pareto-economics.com/global-power-index-2022-launch/">
                   2022 LAUNCH EVENT
                 </a>
               </blockquote>
@@ -232,7 +232,7 @@ const IndexLaunch = () => {
                 sandbox="allow-scripts"
                 security="restricted"
                 title="“2022 LAUNCH EVENT” — "
-                src="https://pareto-economics.com/global-power-index-2022-launch/embed/#?secret=FC5JUbJ37t"
+                src="https://www.pareto-economics.com/global-power-index-2022-launch/embed/#?secret=FC5JUbJ37t"
                 data-secret="FC5JUbJ37t"
                 width="600"
                 height="338"

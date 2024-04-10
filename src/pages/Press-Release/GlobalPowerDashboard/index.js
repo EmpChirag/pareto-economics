@@ -57,7 +57,7 @@ const GlobalPowerDashboard = () => {
       <Helmet>
         <title>Global Power Dashboard | Pareto Economics</title>
         <meta name="description" content="Pareto Economics offers the Global Power Index (GPI), a comprehensive tool designed to provide invaluable insights into the intricate dynamics of global power. " />
-        <link rel="canonical" href="https://pareto-economics.com/pareto-economics-launches-global-power-dashboard" />
+        <link rel="canonical" href="https://www.pareto-economics.com/pareto-economics-launches-global-power-dashboard" />
     </Helmet>
         <Header />
       </div>
@@ -250,7 +250,7 @@ const GlobalPowerDashboard = () => {
               chris.q@pareto-economics.com
             </a>{" "}
             <div className="h-6" />
-            <a href="https://pareto-economics.com">pareto-economics.com</a>
+            <a href="https://www.pareto-economics.com">pareto-economics.com</a>
           </p>
         </div>
       </div>

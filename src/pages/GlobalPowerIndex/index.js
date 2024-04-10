@@ -40,8 +40,8 @@ const GlobalPowerIndex = () => {
       <div className="container mx-auto">
       <Helmet>
         <title>Global Power Index | Pareto Economics</title>
-        <meta name="description" content="Helmet application" />
-        <link rel="canonical" href="https://pareto-economics.com/global-power-index" />
+        <meta name="description" content="Pareto Economics offers the Global Power Index (GPI), a comprehensive tool designed to provide invaluable insights into the intricate dynamics of global power. " />
+        <link rel="canonical" href="https://www.pareto-economics.com/global-power-index" />
     </Helmet>
         <Header invert />
         <section className="mt-10 pb-10 border-white border-b ">

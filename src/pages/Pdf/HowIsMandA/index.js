@@ -1635,10 +1635,10 @@ const HowIsMandA = () => {
                         <p className="pb-5">
                           <a
                             className="underline decoration-2 break-all"
-                            href="https://pareto-economics.com/"
+                            href="https://www.pareto-economics.com/"
                             target="_blank"
                           >
-                            https://pareto-economics.com/
+                            https://www.pareto-economics.com/
                           </a>
                         </p>
                       </h3>

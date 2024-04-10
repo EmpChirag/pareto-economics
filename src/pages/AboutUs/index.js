@@ -41,8 +41,8 @@ const AboutUs = () => {
     <div className="container mx-auto">
     <Helmet>
                 
-                <title>AboutUs | Pareto Economics</title>
-                <link rel="canonical" href="https://pareto-economics.com/about-us" />
+                <title>About Us | Pareto Economics</title>
+                <link rel="canonical" href="https://www.pareto-economics.com/about-us" />
             </Helmet>
       <Header />
       <HeroSection

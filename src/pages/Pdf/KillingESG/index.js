@@ -497,8 +497,8 @@ const KillingESG = () => {
                   </p>
 
                   <p className="pb-5">
-                    <a href="https://pareto-economics.com/" target="_blank">
-                      https://pareto-economics.com/
+                    <a href="https://www.pareto-economics.com/" target="_blank">
+                      https://www.pareto-economics.com/
                     </a>
                   </p>
                 </h3>

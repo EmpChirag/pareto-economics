@@ -1447,10 +1447,10 @@ const Abeginner = () => {
           <sup className="mr-2">1</sup>{" "}
           <a
             className="underline decoration-2 break-all"
-            href="https://pareto-economics.com/"
+            href="https://www.pareto-economics.com/"
             target="_blank"
           >
-            ( https://pareto-economics.com/ )
+            ( https://www.pareto-economics.com/ )
           </a>
           <p className="mt-[6px] flex">
             <sup className="mr-2 mt-3">2</sup>{" "}
