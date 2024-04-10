@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Footer from "../../../Layouts/Footer";
 import Header from "../../../Layouts/Header";
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const GlobalPowerDashboard = () => {
   const [showCopiedMessage, setShowCopiedMessage] = useState(false);
@@ -53,6 +54,11 @@ const GlobalPowerDashboard = () => {
   return (
     <>
       <div className="container mx-auto px-5">
+      <Helmet>
+        <title>Global Power Dashboard | Pareto Economics</title>
+        <meta name="description" content="Pareto Economics offers the Global Power Index (GPI), a comprehensive tool designed to provide invaluable insights into the intricate dynamics of global power. " />
+        <link rel="canonical" href="https://pareto-economics.com/pareto-economics-launches-global-power-dashboard" />
+    </Helmet>
         <Header />
       </div>
       <div className="max-w-[1180px] mx-auto px-5">
