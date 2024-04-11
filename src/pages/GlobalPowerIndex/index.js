@@ -39,9 +39,54 @@ const GlobalPowerIndex = () => {
     <div className="bg-[#1B2029] text-white ">
       <div className="container mx-auto">
       <Helmet>
-        <title>Global Power Index | Pareto Economics</title>
+      <title>Global Power Index | Pareto Economics</title>
         <meta name="description" content="Pareto Economics offers the Global Power Index (GPI), a comprehensive tool designed to provide invaluable insights into the intricate dynamics of global power. " />
         <link rel="canonical" href="https://www.pareto-economics.com/global-power-index" />
+		    <meta name="robots" content="follow, index, all" />
+        <meta
+          name="keywords"
+          content="Global Power Index, Power Index, Global Power Index (GPI) "
+        />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:site_name" content="Pareto Economics" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Global Power Index | Pareto Economics"
+        />
+        <meta
+          property="og:description"
+          content="Pareto Economics offers the Global Power Index (GPI), a comprehensive tool designed to provide invaluable insights into the intricate dynamics of global power."
+        />
+        <meta property="og:url" content="https://www.pareto-economics.com/global-power-index" />
+        <meta
+          property="og:image"
+          content="https://www.pareto-economics.com/images/GlobalPowerIndex/globalimg.png"
+        />
+        <meta
+          property="og:image:secure_url"
+          content="https://www.pareto-economics.com/images/GlobalPowerIndex/globalimg.png"
+        />
+        <meta property="og:image:width" content="1480" />
+        <meta property="og:image:height" content="492" />
+        <meta
+          property="article:publisher"
+          content="https://www.linkedin.com/company/paretoeconomics/"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ParetoEconomics" />
+        <meta
+          name="twitter:title"
+          content="Global Power Index | Pareto Economics"
+        />
+        <meta
+          name="twitter:description"
+          content="Pareto Economics offers the Global Power Index (GPI), a comprehensive tool designed to provide invaluable insights into the intricate dynamics of global power."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.pareto-economics.com/images/GlobalPowerIndex/globalimg.png"
+        />
     </Helmet>
         <Header invert />
         <section className="mt-10 pb-10 border-white border-b ">
@@ -88,7 +133,7 @@ const GlobalPowerIndex = () => {
             <a
               href="https://globalpowerindex.com/"
               target="_blank"
-              className="btn leading-[48px] h-[50px] text-black mt-5 btn-invert"
+              className="btn leading-[48px] h-[50px] text-black mt-5 btn-invert" rel="noreferrer"
             >
               Access Dashboard
             </a>
@@ -102,7 +147,7 @@ const GlobalPowerIndex = () => {
                 <img
                   src="/images/GlobalPowerIndex/map.png"
                   className="w-full"
-                  alt="map"
+                  alt="Global power index 2024"
                 />
               </div>
             </div>
@@ -163,6 +208,7 @@ const GlobalPowerIndex = () => {
                 <img
                   src="/images/GlobalPowerIndex/red_dot.png"
                   className="w-full lg:max-w-[650px]"
+                  alt="GPI Framework"
                 />
               </div>
             </div>
@@ -175,7 +221,7 @@ const GlobalPowerIndex = () => {
             <a
               href="https://globalpowerindex.com/"
               target="_blank"
-              className="btn leading-[48px] h-[50px] text-black mt-5 md:mt-10 btn-invert"
+              className="btn leading-[48px] h-[50px] text-black mt-5 md:mt-10 btn-invert" rel="noreferrer"
             >
               Access Insights
             </a>

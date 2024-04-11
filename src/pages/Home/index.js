@@ -27,7 +27,7 @@ speaking engagements, in-depth research and executive workshop services with acc
             content="app development company, mobile app development company in Clapham, mobile app development company in Battersea, mobile app development company in Shoreditch, mobile app development company in London "
           />
           <meta property="og:locale" content="en_GB" />
-          <meta property="og:site_name" content="Pareto Econimics" />
+          <meta property="og:site_name" content="Pareto Economics" />
           <meta property="og:type" content="article" />
           <meta
             property="og:title"
@@ -73,7 +73,7 @@ speaking engagements, in-depth research and executive workshop services with acc
         <HeroSection
           className="hero-home"
           title="Thinking That Moves Markets"
-          image="/images/home/home-hero.png"
+          image="/images/home/home-hero.png" alt="Pareto Economics"
         />
         <CommonSection>
           <div className="border-b border-b-slate-900 md:pb-24 pb-[50px] ">

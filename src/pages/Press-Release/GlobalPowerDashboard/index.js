@@ -55,9 +55,54 @@ const GlobalPowerDashboard = () => {
     <>
       <div className="container mx-auto px-5">
       <Helmet>
-        <title>Global Power Dashboard | Pareto Economics</title>
-        <meta name="description" content="Pareto Economics offers the Global Power Index (GPI), a comprehensive tool designed to provide invaluable insights into the intricate dynamics of global power. " />
+      <title>Global Power Dashboard 2024 | Pareto Economics</title>
+        <meta name="description" content="Pareto Economics, today launches the Global Power Dashboard, a cutting-edge enterprise SaaS product made for capital allocators, corporate leaders and policy makers. " />
         <link rel="canonical" href="https://www.pareto-economics.com/pareto-economics-launches-global-power-dashboard" />
+		    <meta name="robots" content="follow, index, all" />
+        <meta
+          name="keywords"
+          content="Global Power Dashboard, Global Power Dashboard 2024"
+        />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:site_name" content="Pareto Economics" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Global Power Dashboard 2024 | Pareto Economics"
+        />
+        <meta
+          property="og:description"
+          content="Pareto Economics, today launches the Global Power Dashboard, a cutting-edge enterprise SaaS product made for capital allocators, corporate leaders and policy makers."
+        />
+        <meta property="og:url" content="https://www.pareto-economics.com/pareto-economics-launches-global-power-dashboard" />
+        <meta
+          property="og:image"
+          content="https://www.pareto-economics.com/images/GlobalPowerIndex/globalimg.png"
+        />
+        <meta
+          property="og:image:secure_url"
+          content="https://www.pareto-economics.com/images/GlobalPowerIndex/globalimg.png"
+        />
+        <meta property="og:image:width" content="1480" />
+        <meta property="og:image:height" content="492" />
+        <meta
+          property="article:publisher"
+          content="https://www.linkedin.com/company/paretoeconomics/"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ParetoEconomics" />
+        <meta
+          name="twitter:title"
+          content="Global Power Dashboard 2024 | Pareto Economics"
+        />
+        <meta
+          name="twitter:description"
+          content="Pareto Economics, today launches the Global Power Dashboard, a cutting-edge enterprise SaaS product made for capital allocators, corporate leaders and policy makers."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.pareto-economics.com/images/GlobalPowerIndex/globalimg.png"
+        />
     </Helmet>
         <Header />
       </div>
@@ -72,33 +117,33 @@ const GlobalPowerDashboard = () => {
             </p>
           </div>
           <div className="flex items-center md:mt-0 mt-4">
-            <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
+            <img src="images/icons/share.svg" className="w-[20px] mr-2" alt="share icon" />:{" "}
             <div className="social flex gap-1 pl-2 relative">
-              <a
+              <span
                 className="cursor-pointer"
                 onClick={() => handleSharePageLink("FACEBOOK")}
               >
                 <img
                   src="/images/icons/facebook.svg"
-                  alt="youtube"
+                  alt="Facebook"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"
                 />
-              </a>
-              <a
+              </span>
+              <span
                 className="cursor-pointer"
                 onClick={() => handleSharePageLink("WHATSAPP")}
               >
                 <img
                   src="/images/icons/whatsapp.svg"
-                  alt="youtube"
+                  alt="Whatsapp"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"
                 />
-              </a>
-              <a
+              </span>
+              <span
                 className="cursor-pointer"
                 onClick={() => handleSharePageLink("TWITTER")}
               >
@@ -109,8 +154,8 @@ const GlobalPowerDashboard = () => {
                   width="30"
                   className="h-[30px] w-[30px]"
                 />
-              </a>
-              <a
+              </span>
+              <span
                 className="cursor-pointer"
                 onClick={() => handleSharePageLink("LINKEDIN")}
               >
@@ -121,31 +166,31 @@ const GlobalPowerDashboard = () => {
                   width="30"
                   className="h-[30px] w-[30px]"
                 />
-              </a>
-              <a
+              </span>
+              <span
                 className="cursor-pointer"
                 onClick={() => handleSharePageLink("EMAIL")}
               >
                 <img
                   src="/images/icons/email.svg"
-                  alt="youtube"
+                  alt="Email"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"
                 />
-              </a>
-              <a
+              </span>
+              <span
                 className="cursor-pointer copytext"
                 onClick={() => handleSharePageLink("COPY")}
               >
                 <img
                   src="/images/icons/copy.svg"
-                  alt="youtube"
+                  alt="copy"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"
                 />
-              </a>
+              </span>
               {showCopiedMessage && (
                 <div className="absolute right-0 top-[110%] text-sm w-1/2 rounded-lg p-2 bg-black shadow-lg text-white">
                   Link copied successfully!
