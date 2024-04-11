@@ -77,7 +77,7 @@ speaking engagements, in-depth research and executive workshop services with acc
         />
         <CommonSection>
           <div className="border-b border-b-slate-900 md:pb-24 pb-[50px] ">
-            <h1 className="lg:max-w-[650px]">
+            <h1 className="lg:max-w-[650px] lg:text-[35px] lg:leading-[39px]">
               We harness the power of data analytics to map the future of global
               development
             </h1>
