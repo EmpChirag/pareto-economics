@@ -42,6 +42,7 @@ const AboutUs = () => {
     <Helmet>
                 
                 <title>About Us | Pareto Economics</title>
+                
                 <link rel="canonical" href="https://www.pareto-economics.com/about-us" />
             </Helmet>
       <Header />

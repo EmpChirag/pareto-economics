@@ -77,10 +77,10 @@ speaking engagements, in-depth research and executive workshop services with acc
         />
         <CommonSection>
           <div className="border-b border-b-slate-900 md:pb-24 pb-[50px] ">
-            <h1 className="lg:max-w-[650px] lg:text-[35px] lg:leading-[39px]">
+            <h2 className="lg:max-w-[650px]">
               We harness the power of data analytics to map the future of global
               development
-            </h1>
+            </h2>
             <div className="max-w-[750px] float-right text-xl mt-10">
               Pareto Economics is a London based research consultancy focused on
               shaping the business, investing and policy making strategies of
