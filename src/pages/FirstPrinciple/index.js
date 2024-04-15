@@ -3,15 +3,22 @@ import Header from '../../Layouts/Header'
 import Footer from '../../Layouts/Footer'
 import HeroSection from '../../components/HeroSection'
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const FirstPrinciple = () => {
   return (
     <div className="container mx-auto">
+       <Helmet>
+          <title>First Principles Thinking in Business | Pareto Economics</title>
+          <meta name='description' content='Discover how first principles thinking can transform your business strategy and drive innovation. First principles thinking is a fundamental approach that breaks down complex problems into their most basic components.' />
+          <link rel="canonical" href="https://www.pareto-economics.com/first-principles" />
+          <meta name="robots" content="follow, index, all" />
+       </Helmet>
       <Header />
       <HeroSection
         className="hero-home"
         title="We Apply First Principles Thinking to World Affairs"
-        image="/images/FirstPrinciple/first-principles.png"
+        image="/images/FirstPrinciple/first-principles.png" alt="First Principles Thinking in Business"
         h1width="max-w-[800px]"
       />
 

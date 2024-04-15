@@ -2,10 +2,17 @@ import React from "react"
 import Header from '../../Layouts/Header'
 import Footer from '../../Layouts/Footer'
 import HeroSection from '../../components/HeroSection'
+import { Helmet } from "react-helmet";
 
 const ServicesResearch = () => {
   return (
     <div className="container mx-auto">
+        <Helmet>
+          <title>Research Services in London, UK | Pareto Economics</title>
+          <meta name='description' content='Looking for top-notch research services in London, UK? Our experts deliver insights that propel success. Call us on +44 (0) 20 8154 3425 for more information or to discuss your specific research needs.  ' />
+          <link rel="canonical" href="https://www.pareto-economics.com/services-research" />
+          <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
 
       <HeroSection

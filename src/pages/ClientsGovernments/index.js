@@ -2,10 +2,17 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import Footer from '../../Layouts/Footer';
+import { Helmet } from "react-helmet";
 
 const ClientsGovernments = () => {
   return (
     <div className="container mx-auto">
+      <Helmet>
+          <title>Governments Clint | Pareto Economics</title>
+          <meta name='description' content='We leverage our expertise in data analytics and evidence-based research to help clients develop actionable policies. Governments can take advantage of our multifaceted country data to implement politics that are grounded in rigorous research and evaluation, ensuring that scarce resources are allocated to initiatives with proven effectiveness and impact.' />
+          <link rel="canonical" href="https://www.pareto-economics.com/clients-governments" />
+          <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
       <HeroSection
         className="hero-home"

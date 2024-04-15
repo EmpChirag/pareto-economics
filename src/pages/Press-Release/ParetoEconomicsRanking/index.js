@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../../../Layouts/Footer";
 import Header from "../../../Layouts/Header";
+import { Helmet } from "react-helmet";
 
 const ParetoEconomicsRanking = () => {
   const [showCopiedMessage, setShowCopiedMessage] = useState(false);
@@ -52,6 +53,10 @@ const ParetoEconomicsRanking = () => {
   return (
     <>
       <div className="container mx-auto px-5">
+      <Helmet>
+        <title>Pareto Economics</title>
+        <meta name='description' content='Pareto Economics' />
+      </Helmet>
         <Header />
       </div>
       <div className="max-w-[1180px] mx-auto px-5">

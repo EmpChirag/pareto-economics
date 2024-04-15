@@ -15,6 +15,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Navigation } from "swiper/modules";
+import { Helmet } from "react-helmet";
 const ServiceSpeaking = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [requestStatus, setRequestStatus] = useState(null);
@@ -61,6 +62,12 @@ const ServiceSpeaking = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+          <title>Speaking Services by Klisman Murati | Pareto Economics</title>
+          <meta name='description' content='Klisman Murati, the CEO of Pareto Economics, is a sought-after speaker on the international circuit. His expertise lies in shaping the insights of global leaders in industry and policy-making. Get best Speaking Services by Klisman Murati.' />
+          <link rel="canonical" href="https://www.pareto-economics.com/services-speaking" />
+          <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
       <HeroSection
         className="hero-service"
