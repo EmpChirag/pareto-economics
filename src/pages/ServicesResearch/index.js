@@ -12,7 +12,7 @@ const ServicesResearch = () => {
           <meta name='description' content='Looking for top-notch research services in London, UK? Our experts deliver insights that propel success. Call us on +44 (0) 20 8154 3425 for more information or to discuss your specific research needs.  ' />
           <link rel="canonical" href="https://www.pareto-economics.com/services-research" />
           <meta name="robots" content="follow, index, all" />
-      </Helmet>
+       </Helmet>
       <Header />
 
       <HeroSection

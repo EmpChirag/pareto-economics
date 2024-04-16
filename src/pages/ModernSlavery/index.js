@@ -1,10 +1,17 @@
 import React from 'react';
 import Footer from '../../Layouts/Footer';
 import Header from '../../Layouts/Header';
+import { Helmet } from 'react-helmet';
 
 const ModernSlavery = () => {
       return (
         <div className="container mx-auto">
+          <Helmet>
+          <title>Modern Slavery and Human Trafficking Statement | Pareto Economics</title>
+          <meta name='description' content='Pareto Economics Ltd is committed to combating modern slavery and human trafficking in all its forms.' />
+          <link rel="canonical" href="https://www.pareto-economics.com/modern-slavery-statement" />
+          <meta name="robots" content="follow, index, all" />
+       </Helmet>
           <Header />
           <section className='mt-10'>
             <div>

@@ -41,13 +41,14 @@ const AboutUs = () => {
     <div className="container mx-auto">
     <Helmet>
                 
-                <title>About Us | Pareto Economics</title>
-                
-                <link rel="canonical" href="https://www.pareto-economics.com/about-us" />
+          <title>Research Consultancy in London, UK | Pareto Economics</title>
+          <meta name='description' content='Pareto Economics Ltd is a research consultancy in London, UK. We provide a combination of enterprise SAAS products as well as research and consulting services to clients across various sectors.' />
+          <link rel="canonical" href="https://www.pareto-economics.com/about-us" />
+          <meta name="robots" content="follow, index, all" />
             </Helmet>
       <Header />
       <HeroSection
-        className="hero-home"
+        className="hero-home"   
         title="Our Core"
         image="/images/aboutus/our-core.png"
       />

@@ -54,8 +54,10 @@ const ParetoEconomicsRanking = () => {
     <>
       <div className="container mx-auto px-5">
       <Helmet>
-        <title>Pareto Economics</title>
-        <meta name='description' content='Pareto Economics' />
+        <title>Global Power Index 2022 Ranking | Pareto Economics</title>
+        <meta name='description' content='Pareto Economics launches the “Global Power Index 2022 ranking” with an exclusive in person event for business, finance and policy leaders at the London School of Economics. Read more here...' />
+        <link rel="canonical" href="https://www.pareto-economics.com/global-power-index-2022-launch-press-release" />
+        <meta name="robots" content="follow, index, all" />
       </Helmet>
         <Header />
       </div>
@@ -69,7 +71,7 @@ const ParetoEconomicsRanking = () => {
             January 26<sup>th</sup> , 2023
           </div>
           <div className="flex items-center md:mt-0 mt-4">
-            <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
+            <img src="images/icons/share.svg" className="w-[20px] mr-2" alt="Global Power Index 2022 Ranking" />:{" "}
             <div className="social flex gap-1 pl-2 relative">
               <a
                 className="cursor-pointer"
@@ -77,7 +79,7 @@ const ParetoEconomicsRanking = () => {
               >
                 <img
                   src="/images/icons/facebook.svg"
-                  alt="youtube"
+                  alt="Facebook Icon"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"
