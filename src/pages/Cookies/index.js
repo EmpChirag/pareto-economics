@@ -1,10 +1,20 @@
 import React from 'react'
 import Footer from '../../Layouts/Footer';
 import Header from '../../Layouts/Header';
+import { Helmet } from 'react-helmet';
 
 const Cookies = () => {
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Cookie Statement | Pareto Economics</title>
+        <meta
+          name="description"
+          content="This Cookie Statement is intended to provide you with transparent information about how we use cookies and similar tracking technologies on our website in compliance with applicable UK and EU laws, including the GDPR."
+        />
+        <link rel="canonical" href="https://www.pareto-economics.com/cookies" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
       <section className="mt-10">
         <div>

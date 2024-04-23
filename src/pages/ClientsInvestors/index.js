@@ -3,10 +3,21 @@ import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import Footer from "../../Layouts/Footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const ClientsInvestors = () => {
   return (
     <div className="container mx-auto">
+      <Helmet>
+
+        <title>Client Investors | Pareto Economics</title>
+        <meta
+          name="description"
+          content="Pareto has developed a suite of services catered to the needs of each investor, with various engagement levels to suit each situation and circumstance."
+        />
+        <link rel="canonical" href="https://www.pareto-economics.com/clients-investors" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
       <HeroSection
         className="hero-home"

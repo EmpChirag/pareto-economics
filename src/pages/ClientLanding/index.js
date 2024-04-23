@@ -8,13 +8,15 @@ const ClientLanding = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-                
-                <title>Client Landing | Pareto Economics</title>
-                <meta
-      name="description"
-      content="Client Landing by Pareto Economics"
-    />
-            </Helmet>
+
+        <title>Client Landing | Pareto Economics</title>
+        <meta
+          name="description"
+          content="Pareto segments its clients into three broad categories like Corporations, Investors and Governments. "
+        />
+        <link rel="canonical" href="https://www.pareto-economics.com/clients" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
       <section>
         <div className="max-md:flex-col flex justify-between">
@@ -32,7 +34,7 @@ const ClientLanding = () => {
             <div className="flex-1">
               <img
                 className="md:max-w-[75%] h-auto"
-                src="/images/clients-corporations.png"
+                src="/images/clients-corporations.png" alt="Pateto Clients"
               />
               <br />
             </div>

@@ -3,15 +3,22 @@ import Header from "../../Layouts/Header";
 import HeroSection from "../../components/HeroSection";
 import Footer from "../../Layouts/Footer";
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const ClientsCorporations = () => {
   return (
     <div className="container mx-auto pb-[200px]">
+      <Helmet>
+        <title>Pareto Economics: Guiding Principles for Client-Centric Corporations</title>
+        <meta name='description' content='Pareto has developed a suite of services catered to the needs of our clients, with various engagement levels to suit each situation and circumstance.' />
+        <link rel="canonical" href="https://www.pareto-economics.com/clients-corporations" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
       <HeroSection
         className="hero-home"
         title="We Partner with Global Stakeholders to Guide Business Strategy"
-        image="/images/ClientsCorporations/clients_corporations.png"
+        image="/images/ClientsCorporations/clients_corporations.png" alt=" Client-Centric Corporations"
         h1width="max-w-[950px]"
       />
       <section className="mt-10 pb-10 border-b   border-black">

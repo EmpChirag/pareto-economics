@@ -6,6 +6,7 @@ import Fig2 from "../../../assets/images/fig2.png";
 import Bgimg from "../../../assets/images/3.png";
 import Klisman from "../../../assets/images/klisman.png";
 import Pareto from "../../../assets/images/Pareto.png";
+import { Helmet } from "react-helmet";
 
 const HowIsMandA = () => {
   const [showCopiedMessage, setShowCopiedMessage] = useState(false);
@@ -59,6 +60,15 @@ const HowIsMandA = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>How is M&A Impacted By China | Pareto Economics</title>
+        <meta
+          name="description"
+          content="Pareto Economics provides a critical analysis of M&A activities amidst China's evolving policies. Learn about how these shifts impact global economic dynamics and investment opportunities."
+        />
+        <link rel="canonical" href="https://www.pareto-economics.com/how-is-ma-impacted" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
       <div className="h-6" />
       <div className="h-6" />
@@ -75,7 +85,7 @@ const HowIsMandA = () => {
               <p>January 2021 </p>
             </div>
             <div className="flex items-center md:mt-0 mt-4">
-              <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
+              <img src="images/icons/share.svg" alt="China’s Outbound Foreign Investment" className="w-[20px] mr-2" />:{" "}
               <div className="social flex gap-1 pl-2 relative">
                 <a
                   className="cursor-pointer"
@@ -83,7 +93,7 @@ const HowIsMandA = () => {
                 >
                   <img
                     src="/images/icons/facebook.svg"
-                    alt="youtube"
+                    alt="Facebook Icon"
                     height="30"
                     width="30"
                     className="h-[30px] w-[30px]"
@@ -95,7 +105,7 @@ const HowIsMandA = () => {
                 >
                   <img
                     src="/images/icons/whatsapp.svg"
-                    alt="youtube"
+                    alt="Whatsapp Icon"
                     height="30"
                     width="30"
                     className="h-[30px] w-[30px]"
@@ -131,7 +141,7 @@ const HowIsMandA = () => {
                 >
                   <img
                     src="/images/icons/email.svg"
-                    alt="youtube"
+                    alt="Email Icon"
                     height="30"
                     width="30"
                     className="h-[30px] w-[30px]"
@@ -143,7 +153,7 @@ const HowIsMandA = () => {
                 >
                   <img
                     src="/images/icons/copy.svg"
-                    alt="youtube"
+                    alt="Copy URL Icon"
                     height="30"
                     width="30"
                     className="h-[30px] w-[30px]"

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../../../Layouts/Header";
 import Footer from "../../../Layouts/Footer";
+import { Helmet } from "react-helmet";
 
 const Abeginner = () => {
   const [showCopiedMessage, setShowCopiedMessage] = useState(false);
@@ -54,6 +55,13 @@ const Abeginner = () => {
     <>
       {" "}
       <div className="container mx-auto px-5">
+      <Helmet>
+                
+                <title>A beginner’s guide to geopolitical risk, and how It’s impacting fintech ?</title>
+                <meta name='description' content='Our beginners guide will help you explore the relationship between global politics and financial technology. Understand how geopolitical concerns affect fintech stability and innovation, and discover how to navigate this continually shifting environment.' />
+                <link rel="canonical" href="https://www.pareto-economics.com/a-beginners-guide" />
+                <meta name="robots" content="follow, index, all" />
+                  </Helmet>
         <Header />
       </div>
       <div className="max-w-[1180px] px-5 mt-10 mx-auto">
@@ -67,7 +75,7 @@ const Abeginner = () => {
             <p>March 2021</p>
           </div>
           <div className="flex items-center md:mt-0 mt-4">
-            <img src="images/icons/share.svg" className="w-[20px] mr-2" />:{" "}
+            <img src="images/icons/share.svg" alt="A beginner’s guide to geopolitical risk" className="w-[20px] mr-2" />:{" "}
             <div className="social flex gap-1 pl-2 relative">
               <a
                 className="cursor-pointer"
@@ -75,7 +83,7 @@ const Abeginner = () => {
               >
                 <img
                   src="/images/icons/facebook.svg"
-                  alt="youtube"
+                  alt="Facebook Icon"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"
@@ -87,7 +95,7 @@ const Abeginner = () => {
               >
                 <img
                   src="/images/icons/whatsapp.svg"
-                  alt="youtube"
+                  alt="Whatsapp Icon"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"
@@ -123,7 +131,7 @@ const Abeginner = () => {
               >
                 <img
                   src="/images/icons/email.svg"
-                  alt="youtube"
+                  alt="Email Icon"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"
@@ -135,7 +143,7 @@ const Abeginner = () => {
               >
                 <img
                   src="/images/icons/copy.svg"
-                  alt="youtube"
+                  alt="Copy Icon"
                   height="30"
                   width="30"
                   className="h-[30px] w-[30px]"

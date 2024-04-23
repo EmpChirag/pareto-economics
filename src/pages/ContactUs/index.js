@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { postContactRequest } from "../../api/contactApi";
+import { Helmet } from "react-helmet";
 
 const ContactUs = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -75,6 +76,16 @@ const ContactUs = () => {
 
   return (
     <div>
+      <Helmet>
+
+        <title>Contact us for the Economic Consulting Firm in London | Pareto Economics</title>
+        <meta
+          name="description"
+          content="Pareto Economics is London's premier economic consulting firm. We specialize on actionable plans that align with your company's aims. Get in touch immediately to gain a competitive advantage."
+        />
+        <link rel="canonical" href="https://www.pareto-economics.com/contact-us" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <div className="grid max-sm:grid-cols-2 grid-cols-4 gap-4">
         <div className="flex justify-center">
           <Link to="/">
@@ -262,11 +273,10 @@ const ContactUs = () => {
                       <li>
                         <button
                           type="button"
-                          className={`text-sm border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 ${
-                            topic &&
+                          className={`text-sm border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 ${topic &&
                             topic.toLowerCase() === "index dashboard" &&
                             "bg-white text-black"
-                          }`}
+                            }`}
                           onClick={() => handleChangeTopic("Index Dashboard")}
                         >
                           INDEX DASHBOARD
@@ -275,11 +285,10 @@ const ContactUs = () => {
                       <li>
                         <button
                           type="button"
-                          className={`text-sm border my-2 mx-2 border-white  w-40 max-sm:w-32 h-12 px-3 ${
-                            topic &&
+                          className={`text-sm border my-2 mx-2 border-white  w-40 max-sm:w-32 h-12 px-3 ${topic &&
                             topic.toLowerCase() === "services" &&
                             "bg-white text-black"
-                          }`}
+                            }`}
                           onClick={() => handleChangeTopic("Services")}
                         >
                           SERVICES
@@ -288,11 +297,10 @@ const ContactUs = () => {
                       <li>
                         <button
                           type="button"
-                          className={`text-sm border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 ${
-                            topic &&
+                          className={`text-sm border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 ${topic &&
                             topic.toLowerCase() === "events" &&
                             "bg-white text-black"
-                          }`}
+                            }`}
                           onClick={() => handleChangeTopic("Events")}
                         >
                           EVENTS
@@ -303,11 +311,10 @@ const ContactUs = () => {
                       <li>
                         <button
                           type="button"
-                          className={`text-sm border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 ${
-                            topic &&
+                          className={`text-sm border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 ${topic &&
                             topic.toLowerCase() === "media request" &&
                             "bg-white text-black"
-                          }`}
+                            }`}
                           onClick={() => handleChangeTopic("Media Request")}
                         >
                           MEDIA REQUEST
@@ -316,11 +323,10 @@ const ContactUs = () => {
                       <li>
                         <button
                           type="button"
-                          className={`text-sm border my-2 mx-2 border-white  w-40 max-sm:w-32 h-12 px-3 ${
-                            topic &&
+                          className={`text-sm border my-2 mx-2 border-white  w-40 max-sm:w-32 h-12 px-3 ${topic &&
                             topic.toLowerCase() === "careers" &&
                             "bg-white text-black"
-                          }`}
+                            }`}
                           onClick={() => handleChangeTopic("Careers")}
                         >
                           CAREERS
@@ -329,11 +335,10 @@ const ContactUs = () => {
                       <li>
                         <button
                           type="button"
-                          className={`text-sm border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 ${
-                            topic &&
+                          className={`text-sm border my-2 mx-2 border-white w-40 max-sm:w-32 h-12 px-3 ${topic &&
                             topic.toLowerCase() === "other" &&
                             "bg-white text-black"
-                          }`}
+                            }`}
                           onClick={() => handleChangeTopic("Other")}
                         >
                           OTHER
@@ -422,7 +427,7 @@ const ContactUs = () => {
                   <Link
                     to="/privacy-security-statement" target="_blank"
                     className="underline hover:!no-underline ">
-                      <i className="mx-2">Privacy Policy</i>
+                    <i className="mx-2">Privacy Policy</i>
 
                   </Link>
                   regarding how we will
