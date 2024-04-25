@@ -1,7 +1,13 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom';
 
 const ErrorPage = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate('/');
+  }, []);
+
   return (
     <div className="flex h-screen items-center justify-center">
       <div className="text-center">
