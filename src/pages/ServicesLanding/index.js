@@ -8,10 +8,10 @@ const ServicesLanding = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-          <title>Landing Services in London, UK | Pareto Economics</title>
-          <meta name='description' content='Pareto Economics is providing landing services in London, UK. For more information, feel free to contact us at info@pareto-economics.com or call us at +44 (0) 20 8154 3425.' />
-          <link rel="canonical" href="https://www.pareto-economics.com/services-research" />
-          <meta name="robots" content="follow, index, all" />
+        <title>Landing Services in London, UK | Pareto Economics</title>
+        <meta name='description' content='Pareto Economics is offers three broad client services in London, UK like Speaking Engagements, Research and Executive Workshops. For more information, feel free to contact us at info@pareto-economics.com or call us at +44 (0) 20 8154 3425.' />
+        <link rel="canonical" href="https://www.pareto-economics.com/services" />
+        <meta name="robots" content="follow, index, all" />
       </Helmet>
       <Header />
       <section className="mt-10">

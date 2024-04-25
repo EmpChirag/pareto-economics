@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../../../Layouts/Footer";
 import Header from "../../../Layouts/Header";
+import { Helmet } from "react-helmet";
 
 const TheUSACrown = () => {
   const [showCopiedMessage, setShowCopiedMessage] = useState(false);
@@ -52,6 +53,15 @@ const TheUSACrown = () => {
   return (
     <>
       <div className="container mx-auto px-5">
+      <Helmet>
+        <title>Most Powerful Country in the World 2022 | Pareto Economics</title>
+        <meta
+          name="description"
+          content="Here is the top 3 most powerful countries in the world (Pareto Economics News) like United States, China and Russia. Read more details.... "
+        />
+        <link rel="canonical" href="https://www.pareto-economics.com/the-usa-is-crowned-most-powerful-country-in-the-world" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
         <Header />
       </div>
       <div className="max-w-[1180px] mx-auto px-5">

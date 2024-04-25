@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Header from '../../../Layouts/Header';
 import Footer from '../../../Layouts/Footer';
+import { Helmet } from 'react-helmet';
 
 const USATop = () => {
   const [showCopiedMessage, setShowCopiedMessage] = useState(false);
@@ -52,6 +53,15 @@ const USATop = () => {
   return (
     <>
       <div className="container mx-auto px-5">
+      <Helmet>
+        <title>World’s Most Powerful Countries in 2023 | Pareto Economics</title>
+        <meta
+          name="description"
+          content="Find out which nations will be at the top global power in 2023. Pareto Economics provides exclusive insights into the world's most important countries."
+        />
+        <link rel="canonical" href="https://www.pareto-economics.com/usa-top-the-global-power-index-in-2023" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
         <Header />
       </div>
       <div className="max-w-[1180px] mx-auto px-5">

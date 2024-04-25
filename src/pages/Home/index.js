@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <div className="container mx-auto">
         <Helmet>
-          <title>Market Research Consulting Services | Pareto Economics</title>
+          <title>Market Research Consulting Services in London | Pareto Economics</title>
           <meta name="description" content="Pareto Economics is a leading market research consulting services provider company in London, UK. We offer 
 speaking engagements, in-depth research and executive workshop services with accurate reports. " />
           <link rel="canonical" href="https://www.pareto-economics.com/" />
@@ -31,7 +31,7 @@ speaking engagements, in-depth research and executive workshop services with acc
           <meta property="og:type" content="article" />
           <meta
             property="og:title"
-            content="Market Research Consulting Services | Pareto Economics"
+            content="Market Research Consulting Services in London | Pareto Economics"
           />
           <meta
             property="og:description"
@@ -57,7 +57,7 @@ speaking engagements, in-depth research and executive workshop services with acc
           <meta name="twitter:site" content="@ParetoEconomics" />
           <meta
             name="twitter:title"
-            content="Market Research Consulting Services | Pareto Economics"
+            content="Market Research Consulting Services in London | Pareto Economics"
           />
           <meta
             name="twitter:description"
@@ -73,7 +73,7 @@ speaking engagements, in-depth research and executive workshop services with acc
         <HeroSection
           className="hero-home"
           title="Thinking That Moves Markets"
-          image="/images/home/home-hero.png" alt="Pareto Economics"
+          image="/images/home/home-hero.png" alt="Market Research Consulting Services in London"
         />
         <CommonSection>
           <div className="border-b border-b-slate-900 md:pb-24 pb-[50px] ">

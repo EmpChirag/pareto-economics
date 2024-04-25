@@ -12,10 +12,10 @@ const InTheNews = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>Latest News for Economics | Pareto Economics</title>
+        <title>Latest News, Articles and Podcast for Economics | Pareto Economics</title>
         <meta
           name="description"
-          content="Pareto Economics is London's premier economic consulting firm. We specialize on actionable plans that align with your company's aims. Get in touch immediately to gain a competitive advantage."
+          content=""
         />
         <link rel="canonical" href="https://www.pareto-economics.com/in-the-news" />
         <meta name="robots" content="follow, index, all" />

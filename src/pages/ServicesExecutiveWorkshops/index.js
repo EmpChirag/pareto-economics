@@ -2,15 +2,25 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import Footer from "../../Layouts/Footer";
 import HeroSection from "../../components/HeroSection";
+import { Helmet } from "react-helmet";
 
 const ServicesExecutiveWorkshops = () => {
   return (
     <div className="container mx-auto pb-[200px]">
+      <Helmet>
+        <title>Executive Workshops by Pareto Economics in London</title>
+        <meta
+          name="description"
+          content="Join Pareto Economics in London for executive workshops aimed at improving your strategic thinking and leadership skills. Increase your business knowledge today!"
+        />
+        <link rel="canonical" href="https://www.pareto-economics.com/services-executive-workshops" />
+        <meta name="robots" content="follow, index, all" />
+      </Helmet>
       <Header />
       <HeroSection
         className="hero-home"
         title="Dive Deeper with Executive Workshops"
-        image="/images/ServicesExecutiveWorkshops/services-executive-workshops.png"
+        image="/images/ServicesExecutiveWorkshops/services-executive-workshops.png" alt="xecutive Workshops in London"
         h1width="max-w-[850px]"
       />
 
