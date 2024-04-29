@@ -93,6 +93,11 @@ const Sitemap = () => {
               Is Passive Investing Killing ESG
             </a>
           </li>
+          <li>
+            <a href="/how-much-money-is-needed-to-finance-a-sustainable-business">
+              How much money is needed?
+            </a>
+          </li>
         </ul>
         <h3 className="mt-10">Press Releases</h3>
         <ul className="list-disc pl-5 grid gap-4 md:grid-cols-3 mt-5">
