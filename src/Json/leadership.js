@@ -292,6 +292,14 @@ export const leadership = [
     category: "insights"
   },
   {
+    image: "/images/insights/money.jpg",
+    title:
+      "How much money is needed to finance a sustainable future? The World Bank says $70bn, and it has a plan",
+    link: "/how-much-money-is-needed-to-finance-a-sustainable-business",
+    date: "April 2024",
+    category: "insights"
+  },
+  {
     title:
       "The United States maintains position as the most powerful country in the world, followed by China and then France according to the latest Global Power Index by Pareto Economics",
     link: "/usa-top-the-global-power-index-in-2023",
