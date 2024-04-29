@@ -1,4 +1,5 @@
 import React, { lazy } from "react";
+import HowmuchMoney from './pages/Pdf/howmuchMoney';
 const GlobalPowerDashboard = lazy(()=> import( './pages/Press-Release/GlobalPowerDashboard'));
 const USATop = lazy(()=> import('./pages/Press-Release/USATop'));
 const IndexLaunch = lazy(()=> import('./pages/Press-Release/IndexLaunch'));
@@ -169,6 +170,11 @@ const routes = [
   {
     path: "/is-passive-investing-killing-esg",
     component: <KillingESG />,
+    exact: true
+  },
+  {
+    path: "/how-much-money-is-needed-to-finance-a-sustainable-business",
+    component: <HowmuchMoney />,
     exact: true
   },
   {
