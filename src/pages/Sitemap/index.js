@@ -98,6 +98,16 @@ const Sitemap = () => {
               How much money is needed?
             </a>
           </li>
+          <li>
+            <a href="/scenario-planning-a-second-trump-presidential-term">
+              Scenario planning a second Trump Presidential Term
+            </a>
+          </li>
+          <li>
+            <a href="/the-rise-of-china-why-china-is-winning-in-emerging-market">
+              The rise of China + : Why China is Winning in Emerging Markets
+            </a>
+          </li>
         </ul>
         <h3 className="mt-10">Press Releases</h3>
         <ul className="list-disc pl-5 grid gap-4 md:grid-cols-3 mt-5">

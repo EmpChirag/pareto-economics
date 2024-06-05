@@ -300,6 +300,22 @@ export const leadership = [
     category: "insights"
   },
   {
+    image: "/images/insights/scenario-planning.png",
+    title:
+      "Scenario planning a second Trump Presidential Term: A Deep Dive into Fiscal, Geopolitical, and Trade Dynamics",
+    link: "/scenario-planning-a-second-trump-presidential-term",
+    date: "May 2024",
+    category: "insights"
+  },
+  {
+    image: "/images/insights/china-final.png",
+    title:
+      "The rise of China + : Why China is Winning in Emerging Markets",
+    link: "/the-rise-of-china-why-china-is-winning-in-emerging-market",
+    date: "June 2024",
+    category: "insights"
+  },
+  {
     title:
       "The United States maintains position as the most powerful country in the world, followed by China and then France according to the latest Global Power Index by Pareto Economics",
     link: "/usa-top-the-global-power-index-in-2023",

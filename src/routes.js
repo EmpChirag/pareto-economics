@@ -13,6 +13,8 @@ const IsBubble = lazy(() =>
 );
 const KillingESG = lazy(() => import("./pages/Pdf/KillingESG"));
 const HowIsMandA = lazy(() => import("./pages/Pdf/HowIsMandA"));
+const TrumpBiden = lazy(() => import("./pages/Pdf/TrumpBiden"));
+const ChinaFinal = lazy(() => import("./pages/Pdf/ChinaFinal"));
 const ErrorPage = lazy(() => import("./pages/ErrorPage"));
 
 const ModernSlavery = lazy(() => import("./pages/ModernSlavery"));
@@ -205,6 +207,16 @@ const routes = [
   {
     path: "/pareto-economics-launches-global-power-dashboard",
     component: <GlobalPowerDashboard />,
+    exact: true
+  },
+  {
+    path: "/scenario-planning-a-second-trump-presidential-term",
+    component: <TrumpBiden />,
+    exact: true
+  },
+  {
+    path: "/the-rise-of-china-why-china-is-winning-in-emerging-market",
+    component: <ChinaFinal />,
     exact: true
   }
 ];
