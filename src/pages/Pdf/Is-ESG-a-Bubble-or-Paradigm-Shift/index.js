@@ -185,7 +185,7 @@ const IsBubble = () => {
               subsequent whitepapers
             </p>
 
-            <h3 className="pb-10 mt-9 text-4xl">Two Tiered ESG</h3>
+            <h3 className="pb-5 md:pb-10 mt-9 text-4xl">Two Tiered ESG</h3>
             <p className=" pb-5">
               A lot of the time, ESG activity is lumped in altogether as one
               homogenous goliath. This approach is unspecific and unhelpful as
@@ -279,7 +279,7 @@ const IsBubble = () => {
               investing.
             </p>
             <div className="bg-black border border-black ">
-              <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
+              <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-white mx-5 font-bold">
                 KEY TAKE AWAYS
               </h3>
               <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
@@ -300,7 +300,7 @@ const IsBubble = () => {
                 </li>
               </ul>
             </div>
-            <h3 className="pb-10 mt-9 text-4xl text-[#3e4c72]">
+            <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-[#3e4c72]">
               The Problems with ESG Metrics
             </h3>
             <p className=" pb-5">
@@ -344,7 +344,7 @@ const IsBubble = () => {
               moving forward.
             </p>
             <div className="bg-black border border-black">
-              <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
+              <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-white mx-5 font-bold">
                 KEY TAKE AWAYS
               </h3>
               <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
@@ -364,7 +364,7 @@ const IsBubble = () => {
                 </li>
               </ul>
             </div>
-            <h3 className="pb-10 mt-9 text-4xl text-[#3e4c72]">
+            <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-[#3e4c72]">
               The Who’s Who of ESG Metrics
             </h3>
             <p className=" pb-5">
@@ -424,7 +424,7 @@ const IsBubble = () => {
               </p>
             </div>
 
-            <h3 className="pb-10 mt-9 text-4xl text-[#3e4d77]">
+            <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-[#3e4d77]">
               Bull Markets and its Impact on Risk
             </h3>
             <p className=" pb-5">
@@ -503,7 +503,7 @@ const IsBubble = () => {
               <img src="./images/pdf/cyclicallygrowth.png" />
             </div>
             <div className="bg-black border border-black mt-9">
-              <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
+              <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-white mx-5 font-bold">
                 KEY TAKE AWAYS
               </h3>
               <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
@@ -523,7 +523,7 @@ const IsBubble = () => {
                 </li>
               </ul>
             </div>
-            <h3 className="pb-10 mt-9 text-4xl text-[#3e4d77]">Cash Is King</h3>
+            <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-[#3e4d77]">Cash Is King</h3>
             <p className=" pb-5">
               The main drivers of relatively high valuations are the
               unconventional monetary policy and the subsequent dry powder, ease
@@ -564,7 +564,7 @@ const IsBubble = () => {
               these new cash rich market participants.
             </p>
             <div className="bg-black border border-black mt-9">
-              <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
+              <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-white mx-5 font-bold">
                 KEY TAKE AWAYS
               </h3>
               <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
@@ -658,7 +658,7 @@ const IsBubble = () => {
               investor perception{" "}
             </p>
             <div className="bg-black border border-black mt-9">
-              <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
+              <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-white mx-5 font-bold">
                 KEY TAKE AWAYS
               </h3>
               <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
@@ -803,7 +803,7 @@ const IsBubble = () => {
             </p>
 
             <div className="bg-black border border-black mt-9">
-              <h3 className="pb-10 mt-9 text-4xl text-white mx-5 font-bold">
+              <h3 className="pb-5 md:pb-10 mt-9 text-4xl text-white mx-5 font-bold">
                 KEY TAKE AWAYS
               </h3>
               <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
@@ -951,7 +951,7 @@ const IsBubble = () => {
 
                 <div className="absolute top-0 p-8 text-black font-semibold">
                   {" "}
-                  <h3 className="pb-10 mt-9">
+                  <h3 className="pb-5 md:pb-10 mt-9">
                     <div className="font-bold mt-4">
                       GLOBAL INVESTORS SERIES{" "}
                     </div>

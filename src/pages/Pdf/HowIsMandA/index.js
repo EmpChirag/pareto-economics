@@ -1363,7 +1363,7 @@ const HowIsMandA = () => {
               </p>
               <div className="h-6" />
               <div className="bg-black border border-black ">
-                <h3 className="pb-10 mt-9  text-white mx-5 font-bold">
+                <h3 className="pb-5 md:pb-10 mt-9  text-white mx-5 font-bold">
                   KEY TAKE AWAYS
                 </h3>
                 <ul className="list-disc px-5 text-white mx-5 pb-10 text-2xl">
@@ -1603,7 +1603,7 @@ const HowIsMandA = () => {
 
                       <div className="absolute top-0 p-8 text-white">
                         {" "}
-                        <h3 className="pb-10 mt-9">
+                        <h3 className="pb-5 md:pb-10 mt-9">
                           <div className="font-bold mt-4">
                             GLOBAL INVESTORS SERIES{" "}
                           </div>

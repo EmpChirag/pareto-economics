@@ -165,7 +165,7 @@ const ChinaFinal = () => {
               the international stage has not been fully characterised. This is
               what we attempt to do in this piece. z
             </p>
-            <h3 className="pb-10 mt-9">China’s Debut to the Ton</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">China’s Debut to the Ton</h3>
             <p className="pb-5">
               Amidst the tumultuous aftermath of 9/11, the world witnessed an
               event on December 11, 2001, that would silently alter the course
@@ -206,7 +206,7 @@ const ChinaFinal = () => {
               This new and dynamic assembly of emerging market potential is what
               we call CHINA +.
             </p>
-            <h3 className="pb-10 mt-9">Trade Is Reorienting Towards China</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Trade Is Reorienting Towards China</h3>
             <p className="pb-5">
               In the late 20th century, the United States stood tall as the
               undisputed leader of global trade. Its economic prowess and
@@ -278,7 +278,7 @@ const ChinaFinal = () => {
               exemplified by its exponential growth in trade since joining the
               WTO in 2001.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               China Vs. United States Economic Structure
             </h3>
             <p className="pb-5">
@@ -349,7 +349,7 @@ const ChinaFinal = () => {
               financing via the Belt & Road Initiative and the Asia
               Infrastructure investment Bank to make it happen.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               Securing influence through Global Governance
             </h3>
             <p className="pb-5">
@@ -385,7 +385,7 @@ const ChinaFinal = () => {
               increase in funding from China for key UN agencies & an increase
               of Chinese nationals in senior UN roles:
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               Funding for departments, programs, and initiatives
             </h3>
             <p className="pb-5">
@@ -430,7 +430,7 @@ const ChinaFinal = () => {
               This discrepancy suggests there is room for China to contribute
               more to UN assessed contributions in the future.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               Staffing of Executive-Level Personnel Positions
             </h3>
             <p className="pb-5">
@@ -440,7 +440,7 @@ const ChinaFinal = () => {
               interests through the UN, as these positions have organisational
               control to direct and execute their agency’s agenda.
             </p>
-            <h3 className="pb-10 mt-9">International Standards Organisation</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">International Standards Organisation</h3>
             <img
               src="images/pdf/chart3.png"
               alt="International Standards Organisation"
@@ -465,7 +465,7 @@ const ChinaFinal = () => {
               This decline might indicate a diminishing focus on maintaining its
               dominant role in international standards.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               International Telecommunications Union
             </h3>
             <p className="pb-5">
@@ -492,7 +492,7 @@ const ChinaFinal = () => {
               during critical periods, aligning with its broader goals of
               shaping global telecommunications standards.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               UN Industrial Development Organization (UNIDO)
             </h3>
             <p className="pb-5">
@@ -512,7 +512,7 @@ const ChinaFinal = () => {
               being the second largest funding country of the UNIDO behind only
               Japan.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               Under-priced Emerging Market Potential
             </h3>
             <p className="pb-5">
@@ -534,7 +534,7 @@ const ChinaFinal = () => {
               geopolitical and economic landscape of the emerging markets. Let
               us focus on BRICS.
             </p>
-            <h3 className="pb-10 mt-9">BRICS</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">BRICS</h3>
             <p className="pb-5">
               Many don’t know BRICS was a concept founded by the then Goldman
               Sachs Economist Jim O’Neil in a paper produced in 2001. Despite it
@@ -586,7 +586,7 @@ const ChinaFinal = () => {
               cushioning China against external shocks, giving the leadership
               more flexibility to manage its exchange rate etc.
             </p>
-            <h3 className="pb-10 mt-9">Conclusion</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Conclusion</h3>
             <p className="pb-5">
               Over the past two decades, China has gained significant influence
               on the global stage, steadily advancing towards its goal of

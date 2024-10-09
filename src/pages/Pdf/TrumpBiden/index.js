@@ -159,7 +159,7 @@ const TrumpBiden = () => {
               diplomacy, regional stability, and the pursuit of international
               cooperation.
             </p>
-            <h3 className="pb-10 mt-9">What does the neighbourhood think? </h3>
+            <h3 className="pb-5 md:pb-10 mt-9">What does the neighbourhood think? </h3>
             <p className="pb-5">
               While Trump's first term witnessed unexpected diplomatic
               successes, a second term would confront a changed global
@@ -298,7 +298,7 @@ const TrumpBiden = () => {
               issues will be overlooked, allowing for improved relations with
               the United States.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               Contrasting the fiscal priorities of Trump & Biden
             </h3>
             <p className="pb-5">
@@ -420,7 +420,7 @@ const TrumpBiden = () => {
               Trump presidency but could in subsequent years take a neutral
               stance.
             </p>
-            <h3 className="pb-10 mt-9">Green financing curtailed</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Green financing curtailed</h3>
             <p className="pb-5">
               During his first term, President Trump showed little interest in
               green financing, instead favouring investments in non-renewable
@@ -443,7 +443,7 @@ const TrumpBiden = () => {
               international organisations using US taxpayer money to fund energy
               transitions and carbon reduction initiatives in emerging markets.
             </p>
-            <h3 className="pb-10 mt-9">Foreign Policy</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Foreign Policy</h3>
             <p className="pb-5">
               Foreign policy has not been as important since the end of the
               second world war. 2024 has delivered flashpoints and headwinds in
@@ -543,7 +543,7 @@ const TrumpBiden = () => {
               economic growth, particularly in export-dependent countries and
               industries.
             </p>
-            <h3 className="pb-10 mt-9">Trade Policy</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Trade Policy</h3>
             <p className="pb-5">
               Irrespective of the presidential election outcome, the United
               States is poised to maintain its protectionist stance, which has
@@ -605,7 +605,7 @@ const TrumpBiden = () => {
               favoured nation (MFN) rates for most economies, except for China
               and India.
             </p>
-            <h3 className="pb-10 mt-9">Conclusion</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Conclusion</h3>
             <p className="pb-5">
               As we anticipate the potential return of Trump, understanding and
               preparing for these multidimensional impacts is essential. By

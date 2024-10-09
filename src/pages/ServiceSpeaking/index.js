@@ -99,11 +99,11 @@ const ServiceSpeaking = () => {
                 transformative technology and societal change.
                 <br />
                 <br />
-                Contact Pierre Bisaillon for enquires:
+                Contact Chris Quinn for enquires:
                 <br />
                 <br />{" "}
-                <a href="mailto:pierreb@projectspeaker.com">
-                  pierreb@projectspeaker.com
+                <a href="mailto:chris.q@pareto-economics.com">
+                  chris.q@pareto-economics.com
                 </a>
               </div>
             </div>

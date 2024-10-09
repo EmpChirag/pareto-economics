@@ -151,7 +151,7 @@ const KillingESG = () => {
             </div>
           </div>
           <div className="">
-            <h3 className="pb-10 mt-9">Societal Change in Action</h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Societal Change in Action</h3>
             <p className="pb-5">
               Social Anthropology probably isn’t the first subject you think of
               when seeking to better understand the changing investment
@@ -200,7 +200,7 @@ const KillingESG = () => {
               understanding ofsocietal change and consequently the affects it
               has on the investment landscape.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               Shareholder Activism in the Age of ESG Policy
             </h3>
             <p className="pb-5">
@@ -271,7 +271,7 @@ const KillingESG = () => {
               active shareholder voices coupled with clear government policy can
               and should direct the activities of a company.
             </p>
-            <h3 className="pb-10 mt-9">
+            <h3 className="pb-5 md:pb-10 mt-9">
               How is passive investing impacting ESG policy implementation?
             </h3>
             <p className="pb-5">
@@ -363,7 +363,7 @@ const KillingESG = () => {
               there is still a lot that must be done for ESG to be incorporated
               into the business and investment architecture.
             </p>
-            <h3 className="pb-10 mt-9">Further Research Questions </h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Further Research Questions </h3>
             <p className="pb-5">
               Below is a list of questions and themes we have investigated and
               think you would like the answers to.
@@ -406,7 +406,7 @@ const KillingESG = () => {
                 debate?
               </li>
             </ul>
-            <h3 className="pb-10 mt-9">Research delivery </h3>
+            <h3 className="pb-5 md:pb-10 mt-9">Research delivery </h3>
             <p className="pb-5">
               Our team is happy to discuss your needs for further insights into
               the topics above, or any other questions you are asking. Below are
@@ -456,7 +456,7 @@ const KillingESG = () => {
                 <img src="/images/pdf/1.png" className="w-[1000px] -mt-7" />
               </div>
               <div className="flex-1 md:mt-28">
-                <h3 className="pb-10 mt-9">
+                <h3 className="pb-5 md:pb-10 mt-9">
                   <div className="font-bold mt-4">GLOBAL INVESTORS SERIES </div>
                 </h3>
                 <p className="pb-5">
