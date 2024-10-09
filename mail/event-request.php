@@ -39,7 +39,7 @@ try {
 
         //Recipients
         $mail->setFrom($_ENV['MAIL_FROM'], $_ENV['MAIL_FROM_NAME']);
-        $mail->addAddress('pierreb@projectspeaker.com');     //Add a recipient
+        $mail->addAddress('chris.q@pareto-economics.com');     //Add a recipient
         $mail->addAddress('klisman.m@pareto-economics.com');     //Add a recipient
 
         //Content
